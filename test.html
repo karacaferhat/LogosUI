@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script src="scripts/jquery.js"></script>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+<style>
+.d1{
+    width:50%;
+}
+
+</style>
+
+<script>
+    function Go(){
+        var mdata = {
+            Email: "f11@example.com",
+            Password: "Fsm1944*",
+            City: "string",
+            DateOfBirth: "2021-02-14T18:53:09.216Z",
+            Instrument: "keman"
+
+        };
+     $.ajax({
+         type: "POST",
+         url:  "https://localhost:5001/api/v1/identity/register",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify(mdata),
+         dataType: "json",
+         success: function (data) {
+
+             alert("success");// write success in " "
+         },
+         error: function (request) {
+            if(request.status !=200){
+                alert(request.responseJSON.errors[0]);
+            }
+        }
+         
+         });
+
+    }
+     
+ </script>
+
+    </head>
+
+<body>
+   
+
+    <!-- Notice that we're not including the SDK here; it should be in Native Libraries -->
+   
+<button onclick="Go();"> deneme</button>
+</body>
+
+
+
+
+</html>

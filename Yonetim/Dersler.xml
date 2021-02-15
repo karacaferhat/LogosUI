@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<dersler>
+    <ders>
+        <code>r1</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>r1.png</preview_image>
+        <preview_image_thumb>r1_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 1</title>
+        <short_description>Temel Ritim Egzersizi</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım.İlk dörtlükte tek kick varken (1. metronom vuruşu), 2. dörtlükte 1 ve 2. metronom vuruşunun üzerine gelen birer kick vardır. Bununla beraber bütün metronom vuruşlarının üzerine hi hat gelmelidir. 3. metronom vuruşlarına da trampet gelmektedir. Çalışma yapılırken çalıştığımız metronomun dışına çıkmamaya dikkat ediniz.</long_description>
+        <pdf>r1.pdf</pdf>     
+        <back_track>r1.wav</back_track>  
+        <video_link>https://vimeo.com/504691095</video_link>
+        <video_id>504691095</video_id>     
+    </ders> 
+    <ders>
+        <code>r2</code>
+        <academy>davul</academy>        
+        <price_profile>U</price_profile>       
+        <preview_image>r2.png</preview_image>
+        <preview_image_thumb>r2_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 2</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım.İlk dörtlükteki kick vuruşları 1.ve 4. metronom vuruşlarına denk gelmektedir. 2. dörtlükte 1.metronom vuruşunun üzerine gelen bir kick vardır. Bununla beraber bütün metronom vuruşlarının üzerine hi hat gelmektedir. 3. metronom vuruşlarına da trampet gelmektedir. Çalışma yapılırken çalıştığımız metronomun dışına çıkmamaya dikkat ediniz. Bu ritmin hissiyatında ilk trampet vuruşundan sonra gelen 2 kick vuruşunu doğru yere vurmak önemlidir.</long_description>
+        <pdf>r2.pdf</pdf>     
+        <back_track>r2.wav</back_track>  
+        <video_link>https://vimeo.com/503386930</video_link>    
+        <video_id>503386930</video_id>     
+    </ders>        
+     <ders>
+        <code>r3</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r3.png</preview_image>
+        <preview_image_thumb>r3_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 3</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım.İlk dörtlükteki kick vuruşları 1.ve 4. metronom vuruşlarına denk gelmektedir. 2. dörtlükte 2.metronom vuruşunun üzerine gelen bir kick vardır. Bununla beraber bütün metronom vuruşlarının üzerine hi hat gelmektedir. 3. metronom vuruşlarına da trampet gelmektedir. Çalışma yapılırken çalıştığımız metronomun dışına çıkmamaya dikkat ediniz. Bu ritmin hissiyatında ilk trampet vuruşundan sonra gelen iki kick vuruşunun arasındaki boş hi hat vuruşunun doğru yere gelmesi önemlidir.</long_description>
+        <pdf>r3.pdf</pdf>     
+        <back_track>r3.wav</back_track>  
+        <video_link>https://vimeo.com/503395647</video_link>    
+        <video_id>503395647</video_id>   
+    </ders>             
+    <ders>
+        <code>r4</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r4.png</preview_image>
+        <preview_image_thumb>r4_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 4</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
+        <pdf>r4.pdf</pdf>     
+        <back_track>r4.wav</back_track>  
+        <video_link>https://vimeo.com/503396319</video_link>    
+        <video_id>503396319</video_id>   
+    </ders>
+    <ders>
+        <code>r5</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r5.png</preview_image>
+        <preview_image_thumb>r5_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 5</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
+        <pdf>r5.pdf</pdf>     
+        <back_track>r4.wav</back_track>  
+        <video_link>https://vimeo.com/503415328</video_link>    
+        <video_id>503415328</video_id>   
+    </ders>    
+    <ders>
+        <code>r6</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r6.png</preview_image>
+        <preview_image_thumb>r6_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 6</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
+        <pdf>r6.pdf</pdf>     
+        <back_track>r6.wav</back_track>  
+        <video_link>https://vimeo.com/503416095</video_link>
+        <video_id>503416095</video_id>       
+    </ders>    
+    <ders>
+        <code>r7</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r7.png</preview_image>
+        <preview_image_thumb>r7_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 7</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
+        <pdf>r7.pdf</pdf>     
+        <back_track>r7.wav</back_track>  
+        <video_link>https://vimeo.com/503416802</video_link>    
+        <video_id>503416802</video_id>   
+    </ders>    
+    <ders>
+        <code>r8</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r8.png</preview_image>
+        <preview_image_thumb>r8_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 8</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
+        <pdf>r8.pdf</pdf>     
+        <back_track>r8.wav</back_track>  
+        <video_link>https://vimeo.com/503396319</video_link>    
+        <video_id>503396319</video_id>   
+    </ders>
+       <ders>
+        <code>cp1</code>
+        <academy>piyano</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>cp1.png</preview_image>
+        <preview_image_thumb>cp1_thumb.png</preview_image_thumb>
+        <title>Re-Si ARASI CALISMA</title>
+        <short_description>Re-Si ARASI CALISMA</short_description>
+        <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş) ve noktalı ikilik (3 vuruş) notaların sürelerini sayarak çalalım. BİLGİ: Bir notanın sağ tarafına gelen nokta o notayı değerinin yarısı kadar arttırır</long_description>
+        <pdf>cp1.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/503853719</video_link>    
+        <video_id>503853719</video_id>   
+    </ders>
+     <ders>
+        <code>cp2</code>
+        <academy>piyano</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>cp2.png</preview_image>
+        <preview_image_thumb>cp2_thumb.png</preview_image_thumb>
+        <title>Si-Re ARASI CALISMA</title>
+        <short_description>Si-Re ARASI CALISMA</short_description>
+        <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım.</long_description>
+        <pdf>cp2.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/503854111</video_link>    
+        <video_id>503854111</video_id>   
+    </ders>
+     <ders>
+        <code>cp3</code>
+        <academy>piyano</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>cp3.png</preview_image>
+        <preview_image_thumb>cp3_thumb.png</preview_image_thumb>
+        <title>Sol-Mi ARASI CALISMA</title>
+        <short_description>Sol-Mi ARASI CALISMA</short_description>
+        <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım.</long_description>
+        <pdf>cp3.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/503854683</video_link>    
+        <video_id>503854683</video_id>   
+    </ders>
+    <ders>
+        <code>cp4</code>
+        <academy>piyano</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>cp4.png</preview_image>
+        <preview_image_thumb>cp4_thumb.png</preview_image_thumb>
+        <title>Sol-Mi ARASI CALISMA</title>
+        <short_description>Sol-Mi ARASI CALISMA</short_description>
+        <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım.</long_description>
+        <pdf>cp4.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/503855356</video_link>    
+        <video_id>503855356</video_id>   
+    </ders>                                                
+</dersler>
+</root>

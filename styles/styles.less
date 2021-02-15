@@ -1,0 +1,456 @@
+@import "mixin.less";
+@import "font.less";
+@import "reset.css";
+.fonts(@fontCount, @fontName, @fontURL, @fontPath);
+
+body{.bg-image('bg.jpg');background-repeat: repeat}
+
+.scrollBar {}
+.scrollBar::-webkit-scrollbar { width: 8px;}
+.scrollBar::-webkit-scrollbar-track { background: none; border: 1px solid @grey;margin-right:5px !important; }
+.scrollBar::-webkit-scrollbar-thumb { background: #c3c3c3;}
+.scrollBar::-webkit-scrollbar-thumb:hover {}
+
+.scrollBar::-webkit-resizer{margin-right:10px;}
+
+.title{.captureIT(25px,25px);border-bottom:2px solid @red;color:@red;.pr(30px);.dib;.pb(5px);.mb(25px);}
+
+.tabsBtn { .dib; .mb(15px);border-bottom:2px solid @black;width:100%;
+    a {.captureIT(25px,28px);.dib;.fll; color: @black;.p(10px 30px);background-color:@grey;
+        &:first-child {.ml(0px); }
+    }
+
+    .selected { color: @white;background-color:@red;}
+}
+
+.tabsArea { 
+    & > div {.dn; }
+}
+
+.mobileHeader{.dn;}
+
+
+header{.mb(20px);
+    .headerTop{
+        .logoArea{.fll;
+            a{
+                img{}
+            }
+        }
+
+        .searchArea{.flr;width:30%;.pt(2%);
+            input{width:100%;border:none;background-color:@white;.sourceBold(20px,40px);.p(0 15px);.mb(10px);
+                &::placeholder{font-size:15px}
+            }
+            button{width:100%;background-color:@red;color:@white;.captureIT(30px,50px);text-align:center;border:none;cursor:pointer;transition:0.3s;box-shadow: inset 0px 4px 18px 1px rgba(0,0,0,0.75);
+                &:hover{color:@black}
+            }
+        }
+    }
+
+    .headerBottom{background-color: @white;.p(10px 0px);box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);
+        .menu{
+            ul{display: flex;
+                li{width:15%;.mr(45px);
+                    a{.captureIT(19px,19px);color:@black;.db;.pl(35px);.relative;
+                        &.gitar{
+                            &:before{content: "";.absolute;.bg-image('gitar-icon.png');width:25px;height:25px;left:0px;top:5px;}
+                        }
+                        &.piyano{
+                            &:before{content: "";.absolute;.bg-image('piyano-icon.png');width:25px;height:25px;left:0px;top:5px;}
+                        }
+                        &.flüt{
+                            &:before{content: "";.absolute;.bg-image('flüt-icon.png');width:25px;height:25px;left:0px;top:5px;}
+                        }
+                        &.davul{
+                            &:before{content: "";.absolute;.bg-image('davul-icon.png');width:25px;height:25px;left:0px;top:5px;}
+                        }
+                        &.vocal{
+                            &:before{content: "";.absolute;.bg-image('vocal-icon.png');width:25px;height:25px;left:0px;top:5px;}
+                        }                                                                                                
+                        &.select{color:@black}
+                        &:hover{color:@black;}
+                    }
+                }
+            }
+        }
+
+        .loginArea{.flr;
+            ul{display:flex;background-color:@red;.p(10px 10px);.captureIT(19px,19px);color:@white;box-shadow: inset 0px 4px 18px 1px rgba(0,0,0,0.75);
+                li{.m(0px 10px);
+                    a{.captureIT(19px,19px);color:@white;transition:0.3s;
+                        &:hover{color:@black;transition:0.3s}
+                    }
+                }
+            }
+        }
+    }
+    
+
+}
+
+
+
+footer{background-color:@white;.mt(25px);box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);.p(15px 0px);
+    .footer{
+        .footerMenu{
+            ul{
+                li{.mb(10px);
+                    a{.sourceBlack(15px,15px);color:@black;}
+                }
+            }
+        }
+
+        .footerRight{.flr;
+            .socialMedia{border-bottom:2px solid @black;.pb(10px);.flr;.mb(30px);
+                a{.ml(20px);color:@black;font-size:35px;
+                    &:hover{color:#464444}
+                }
+            }
+            .storeLinks{
+                a{.ml(10px);}
+            }
+        }
+    }
+}
+
+.contentArea{
+    .contentTop{.mb(20px);
+        .videoArea{background-color:@white;.p(15px);}
+
+        .latestPost{background-color:@white;.p(15px);
+            ul{height:400px;overflow-y: scroll;.pr(10px);
+                li{background-color:@grey;.mb(3px);
+                    a{.p(10px);.db;transition:0.3s;
+                        span{.sourceLight(12px,12px);color:@black;.db;
+                            &:last-child{font-size:14px;color:@red}
+                        }
+                        &:hover{background-color:#fff4f4;transition:0.3s}
+                    }
+                    &:nth-child(2n+0){background-color:#c3c3c3}
+
+                }
+            }
+        }
+    }
+
+    .contentBottom{background-color:@grey;box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);.pb(40px);
+        .latestVideos{.p(20px 15px);
+            >div{
+                >div{.mb(25px);
+                    a{background-color:@white;.dib;.p(10px);transition:0.3s;.relative;
+                        &:hover{transition:0.3s;
+                            .left{transition:0.3s;
+                                span{.db;.absolute;width:100%;height:100%;left:0px;transition:0.3s;background-color:@black;.p(10px);top:0px;.captureIT(30px,30px);color:@white}
+                            }
+                        }
+                        h3{.sourceBlack(16px,16px);color:@black;.mb(5px);}
+                        .left{width:40%;.fll;
+                            img{width:100%;}
+                            span{.dn;}
+                        }
+                        .right{width:60%;.flr;.pl(10px);
+                            span{.db;.sourceLight(14px,14px);color:@black;.mb(5px);}
+                        }
+                        
+                    }
+                }
+            }
+
+        }
+
+        .reklamArea{text-align:center;.p(30px 0px);background-color:@white;.mb(20px);
+            h3{.dib;.captureIT(35px,35px);color:@red}
+        }
+
+        .academyArea{
+
+            .more{.captureIT(25px,25px);color:@black;text-align:center;.db;.pb(20px);}
+        }
+        
+    }
+}
+
+.subContent{background-color:@grey;
+    .top{background-color:@white;.p(15px);
+        .videoArea{background-color:@grey;.p(15px);box-shadow: 2px 14px 16px -8px rgba(0,0,0,0.75);}
+        .lastAdd{.p(0px 15px 15px 15px);
+            h2{}
+            ul{height:300px;
+                li{background-color:@grey;.mb(5px);
+                    a{.dib;
+                        .left{width:50%;.fll;.p(5px 5px 3px 5px);
+                            img{width:100%;}
+                        }
+                        .right{width:50%;.flr;.pl(10px);.pt(5px);
+                            span{.db;.sourceBold(15px,15px);color:@black;.mb(5px);
+                                &:last-child{.sourceLight(13px,13px)}
+                            }
+                                
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom{.p(15px);box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);
+        >div{
+            >div{.mb(25px);
+                a{background-color:@white;.dib;.p(10px);transition:0.3s;.relative;
+                    &:hover{transition:0.3s;background-color:@grey;box-shadow: -1px 2px 10px 0px rgba(0,0,0,0.75);}
+                    .left{width:50%;.fll;.p(5px 5px 3px 5px);
+                        img{width:100%;}
+                    }
+                    .right{width:50%;.flr;.pl(10px);.pt(5px);
+                        span{.db;.sourceBold(15px,15px);color:@black;.mb(5px);
+                            &:last-child{.sourceLight(13px,13px)}
+                        }
+                            
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+.lessonContent{background-color:@white;.p(20px 20px);box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);
+    .videoArea{.p(15px);background-color:@grey;box-shadow: 2px 14px 16px -8px rgba(0,0,0,0.75);}
+
+    .lessonLinks{.mt(40px);
+    
+        .tikla {.relative; background-color: @red; color: @white; .captureIT(25px,25px);.p(15px 25px 15px 10px); width: 40%; .db; box-shadow: inset 0px 4px 18px 1px rgba(0,0,0,0.75);.mb(10px);
+            &:after { content: ''; .bg-image('arrow-white.svg'); width: 35px; height: 35px; .absolute; right: 5px; top: 10px; .rotate(90);.transition(~"transform", 0.4s, ease-in-out); }
+        }
+
+        .active { background-color: @black; .relative; box-shadow: inset 0px -3px 25px 1px rgba(225,28,46,1);
+            &:after { .rotate(-90); }
+        }
+
+        .ac {  .dn;.mb(15px);
+
+        }
+    
+    }
+
+
+
+}
+
+.signUpLoginArea{background-color:@white;.p(20px 20px);min-height:600px;box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);
+
+    .formArea{text-align:center;
+
+        h2{.fll;.captureIT(22px,22px);border-bottom:2px solid @red;color:@red;.pr(30px);.dib;.pb(5px);.mb(25px);}
+
+        input{background-color:@grey;border:1px solid transparent;.sourceBlack(17px,17px);transition:0.3s;.p(25px 10px) !important;box-shadow:none;border-radius:0;
+            &:hover{border-color:@black;transition:0.3s;}
+            &:focus{border:1px solid @black;}
+            &::placeholder{color:#495057}
+
+        }
+        select{width:100%;background-color:@grey;.p(14px 10px);.sourceBlack(17px,17px);border:none;color:#495057;border:1px solid transparent;
+            &:hover{border-color:@black;transition:0.3s;}
+            &:focus{border:1px solid @black;}
+            &::placeholder{color:#495057}
+        }
+
+        button{width:50%;background-color:@red;color:@white;.captureIT(18px,40px);border:none;cursor:pointer;box-shadow: inset 0px 4px 18px 1px rgba(0,0,0,0.75);
+            &:hover{color:@black}
+        }
+
+    }
+
+
+}
+
+@media (max-width:1199px) {
+
+}
+
+
+@media (max-width: 992px) {
+
+    header{
+        .headerBottom{
+            .menu{
+                ul {
+                    li{width:14%;}
+                }
+            }
+            .loginArea{.mt(10px);}
+        }
+    }
+
+    .contentArea{
+        .contentTop{
+            .videoArea{.mb(20px);}
+        }
+}
+
+    .subContent{
+        .top{
+            .videoArea{.mb(30px);}
+            .lastAdd{
+                ul{height:auto;
+                }
+            }
+        }
+    }
+
+    .lessonContent{
+        .lessonLinks{
+            .tikla{width:100%;}
+        }
+    }
+
+
+    footer{
+        .footer{
+            .footerRight{float:none;
+                .socialMedia{float:none;border-bottom:none;border-top:2px solid @black;.pt(15px);text-align:center;.mb(10px) !important;}
+                .storeLinks{text-align:center}
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .container{max-width:100% !important;}
+
+    header{.dn;}
+
+    .mobileHeader { width: 100%; display: block !important; height: 100%; .pb(10px); background-color:@grey;box-shadow: inset 0px -11px 12px -5px rgba(0,0,0,0.75);
+
+        .logo { text-align: center; .dib;.mt(15px);
+            img { width: 50%; }
+        }
+
+        .menuBtn { width: 28px; height: 15px; .absolute; top: 40px; right: 20px; z-index: 201;
+            &.active {
+                span { width: 25px; height: 3px; .db;.absolute; left: 3px; background-color: @red;
+                    &.s1 { top: 6px; .rotate(135deg); }
+                    &.s2 { top: 6px; .rotate(45deg); }
+                    &.s3 { .dn; }
+                }
+            }
+            span { width: 25px; height: 3px; .db;.absolute; left: 3px; background-color: @red; .transition(~"transform", 0.4s, ease-in-out);cursor:pointer;
+                &.s1 { top: 0px; }
+                &.s2 { top: 6px; }
+                &.s3 { top: 12px; }
+            }
+        }
+
+        .mobileMenu { width: 100%; height: 100%; .absolute; top: -100%; left: 0; .opacity(0,0); visibility: hidden; z-index: 200; background-color: rgba(23, 24, 26, 0.9); .transition(~"top,opacity,visibility", 0.4s, ease-in-out);
+            &.active { top: 0; .opacity(1,1); visibility: visible; }
+            ul { margin: 80px 20px 0 0; text-align: right; height: calc(100% - 300px); overflow: hidden; overflow-y: auto;
+                li {
+                    a { .captureIT(25px,25px); color: white; .mb(10px);.dib; }
+                }
+            }
+
+            .loginArea{width:70%;background-color:@red;.m(0 15% 20px 15%);text-align:center;
+                a{color:@white;.p(15px 5px);.captureIT(22px,22px);.dib}
+            }
+
+            .mobileSearch{.absolute;z-index:9999;width:80%;.m(0 10% );
+                input{color:@black;width:80%;.fll;.sourceBold(22px,22px);border:none;.p(5px);box-shadow: inset 2px 2px 28px -5px rgba(0,0,0,0.75);}
+                button{width:18%;.flr;border:none;.captureIT(22px,22px);background-color:@red;color:@white;.p(9px 0px);}
+            }
+
+            .menuFooter {.absolute; width: 100%; bottom: 30px;
+
+                a { font-family: sourceBold; .db; text-align: center; color: @white }
+
+
+
+                .mobileSocialMedia { justify-content: center; display: flex; .mt(35px);
+                    a { font-size: 35px; color: @white; .ml(20px); }
+                }
+            }
+        }
+    }
+
+    footer{
+        .footer{
+            .footerMenu{text-align:center}
+        }
+    }
+
+    
+.contentArea{.mt(20px);}
+
+.subContent{.mt(20px);
+    .top{
+        .videoArea{}
+    }
+}
+
+.lessonContent{.mt(20px);
+
+}
+
+.signUpLoginArea{.mt(20px);
+    >div{
+        >div{border-bottom:3px solid @grey;.pb(15px);.mb(15px);}
+    }
+}
+
+
+
+
+
+}
+
+@media (max-width: 567px) {
+
+    .contentArea{
+        .contentTop{
+            .videoArea{
+                iframe{height:250px;}
+            }
+        }
+    }
+
+    .subContent{
+        .top{
+            .videoArea{
+                iframe{height:250px;}
+            }
+        }
+    }
+
+    .lessonContent{
+        .videoArea{
+            iframe{height:300px;}
+        }
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+
+    
+    .academyArea{
+
+        iframe{height:300px !important; }
+    }
+
+
+.tabsBtn{
+    a{.p(10px 12px)}
+}
+
+}
+
+
+
+
+
+   
