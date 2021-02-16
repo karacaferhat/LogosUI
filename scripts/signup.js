@@ -1,25 +1,55 @@
+﻿
+var baseUrl = "https://fsnetwebapi.azurewebsites.net";
+var registerUrl = baseUrl + "/api/v1/identity/register";
+var loginUrl = baseUrl + "/api/v1/identity/login";
 
 
-function Login(){
-   // var mdata = {"email": "f6@example.com","password": "Fsm1944*","city": "string","dateOfBirth": "2021-02-14T18:53:09.216Z","instrument": "string"};
-   var mdata={"name": "morpheus","job": "leader"}
+function Register() {
+    
+    var pas1 = $('#registerPas').val();
+    var pas2 = $('#registerPas2').val();
+    if (pas1 != pas2) {
+        alert('Onay şifresi aynı olmalı');
+        return;
+    }
+
+    var registerDoBDay = $('#registerDoBDay').val();
+    var registerDoBMonth = $('#registerDoBMonth').val();
+    var registerDoBYear = $('#registerDoBYear').val();
+
+    var Name = $('#registerName').val();
+    var Sirname = $('#registerSirname').val();
+    var registerCity = $('#registerCity').val();
+    var registerInstrument = $('#registerInstrument').val();
+    var Email = $('#registerEmail').val();
+
+
+    var mydata = {
+        Email: Email,
+        Password: pas1,
+        City: registerCity,
+        DateOfBirth: "2021-02-14T18:53:09.216Z",
+        Instrument: registerInstrument
+
+    };
     $.ajax({
         type: "POST",
-        url: "https://localhost:5001/api/v1/identity/register/",
-        data: JSON.stringify(mdata),// now data come in this function
-
+        url: registerUrl,
         contentType: "application/json; charset=utf-8",
-        crossDomain: true,
+        data: JSON.stringify(mydata),
         dataType: "json",
-        success: function (data, status, jqXHR) {
+        success: function (data) {
 
-            alert("success");// write success in " "
+            alert("success " + data);// write success in " "
         },
-
-        error: function (jqXHR, status) {
-            // error handler
-            console.log(jqXHR);
-            alert('fail' + status.code);
+        error: function (request) {
+            if (request.status != 200) {
+                
+                $('#msg').html(request.responseJSON.errors[0]); 
+                $('#myModal').modal('show');
+            }
         }
-     });
+
+    });
+
 }
