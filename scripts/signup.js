@@ -39,17 +39,20 @@ function Register() {
         data: JSON.stringify(mydata),
         dataType: "json",
         success: function (data) {
-
-            alert("success " + data);// write success in " "
+            ShowMessage(data);
         },
         error: function (request) {
             if (request.status != 200) {
-                
-                $('#msg').html(request.responseJSON.errors[0]); 
-                $('#myModal').modal('show');
+                ShowMessage(request.responseJSON.errors[0]);
+
             }
         }
 
     });
+    function ShowMessage(mes) {
+
+        $('#msg').html(mes);
+        $('#myModal').modal('show');
+    }
 
 }
