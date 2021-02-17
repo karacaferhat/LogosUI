@@ -5,7 +5,7 @@ var loginUrl = baseUrl + "/api/v1/identity/login";
 
 
 function Register() {
-    
+
     var pas1 = $('#registerPas').val();
     var pas2 = $('#registerPas2').val();
     if (pas1 != pas2) {
@@ -38,21 +38,94 @@ function Register() {
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify(mydata),
         dataType: "json",
-        success: function (data) {
-            ShowMessage(data);
-        },
-        error: function (request) {
-            if (request.status != 200) {
-                ShowMessage(request.responseJSON.errors[0]);
+        success: function(data) {
+            document.cookie = data.token;
+            document.cookie = "token = " + data.token;
+            document.cookie = "token = " + data.refreshToken;
+            ShowMessage(data.refreshToken);
 
-            }
+        },
+        error: function(request) {
+       
+                ShowArrayMessage(request.responseJSON.errors);
         }
 
     });
-    function ShowMessage(mes) {
+
+}
+
+function Login() {
+    
+        var pas1 = $('#loginPas').val();
+        var Email = $('#loginEmail').val();
+    
+
+        var mydata = {
+            Email: Email,
+            Password: pas1
+        };
+        $.ajax({
+            type: "POST",
+            url: loginUrl,
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(mydata),
+            dataType: "json",
+            success: function (data) {
+                setCookie("token", data.token);
+                setCookie("refreshToken", data.refreshToken);
+              
+                ShowMessage(getCookie("refreshToken"));
+
+            },
+            error: function (request) {
+            
+                ShowArrayMessage(request.responseJSON.errors);
+
+  
+            }
+
+        });
+
+    
+
+}
+
+function ShowArrayMessage(errs) {
+    var str = buildErrorMessage(errs);
+    ShowMessage(str);
+}
+
+function buildErrorMessage(ers)
+{
+    var str;
+    for (var i = 0; i < ers.length; i++) {
+        str = str + ers[i] + '</br>';
+    }
+    return str;
+}
+
+function ShowMessage(mes) {
 
         $('#msg').html(mes);
         $('#myModal').modal('show');
-    }
+}
 
+function setCookie(cname,value) {
+    document.cookie = cname + " = " + value;
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
 }

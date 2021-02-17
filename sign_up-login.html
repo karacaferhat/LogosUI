@@ -22,16 +22,7 @@
     <script src="scripts/signup.js"></script>
 
 
-    <script type='text/javascript'>
-        $(document).ready(function () {
-            //option A
-            $("form").submit(function (e) {
-              
-                e.preventDefault(e);
-            });
-        });
-    </script>
-
+   
 
 </head>
 
@@ -136,7 +127,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
                     <div class="formArea">
                         <h2>ÜYE OL</h2>
-                        <form method="">
+                        <form method="" onsubmit="Register();">
                             <div class="form-group">
                                 <input id="registerEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
                                        oninput="this.setCustomValidity('')" required>
@@ -289,14 +280,14 @@
                             <div class="form-group">
                                 <select id="registerInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
                             </div>
-                            <button onclick="Register();">ÜYE OL</button>
+                            <button>ÜYE OL</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="formArea">
                         <h2>GİRİS YAP</h2>
-                        <form method="">
+                        <form method=" " onsubmit="Login();">
                             <div class="form-group">
                                 <input id="loginEmail" type="text" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
                                        oninput="this.setCustomValidity('')" required>
@@ -305,7 +296,7 @@
                                 <input id="loginPas" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
                                        oninput="this.setCustomValidity('')" required>
                             </div>
-                            <button onclick="Login();">GİRİS YAP</button>
+                            <button ">GİRİS YAP</button>
                         </form>
                     </div>
                 </div>
