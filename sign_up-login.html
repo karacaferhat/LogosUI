@@ -127,7 +127,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
                     <div class="formArea">
                         <h2>ÜYE OL</h2>
-                        <form method="" onsubmit="Register();">
+                        <form method="" onsubmit="event.preventDefault(); Register();">
                             <div class="form-group">
                                 <input id="registerEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
                                        oninput="this.setCustomValidity('')" required>
@@ -287,7 +287,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="formArea">
                         <h2>GİRİS YAP</h2>
-                        <form method=" " onsubmit="Login();">
+                        <form method=" " onsubmit="event.preventDefault(); Login();">
                             <div class="form-group">
                                 <input id="loginEmail" type="text" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
                                        oninput="this.setCustomValidity('')" required>

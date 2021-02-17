@@ -97,7 +97,7 @@ function ShowArrayMessage(errs) {
 
 function buildErrorMessage(ers)
 {
-    var str;
+    var str="";
     for (var i = 0; i < ers.length; i++) {
         str = str + ers[i] + '</br>';
     }
