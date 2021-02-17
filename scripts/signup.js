@@ -16,21 +16,26 @@ function Register() {
     var registerDoBDay = $('#registerDoBDay').val();
     var registerDoBMonth = $('#registerDoBMonth').val();
     var registerDoBYear = $('#registerDoBYear').val();
+    var dob = new Date(Date.UTC(registerDoBYear, registerDoBMonth-1, registerDoBDay, 0, 0, 0, 0));
+    
 
-    var Name = $('#registerName').val();
-    var Sirname = $('#registerSirname').val();
+
+    var name = $('#registerName').val();
+    var surname = $('#registerSirname').val();
     var registerCity = $('#registerCity').val();
     var registerInstrument = $('#registerInstrument').val();
-    var Email = $('#registerEmail').val();
+    var email = $('#registerEmail').val();
 
+    //"2021-02-14T18:53:09.216Z"
 
     var mydata = {
-        Email: Email,
+        Email: email,
         Password: pas1,
         City: registerCity,
-        DateOfBirth: "2021-02-14T18:53:09.216Z",
-        Instrument: registerInstrument
-
+        DateOfBirth: dob,
+        Instrument: registerInstrument,
+        Name:name,
+        SurName:surname
     };
     $.ajax({
         type: "POST",
@@ -42,6 +47,16 @@ function Register() {
             document.cookie = data.token;
             document.cookie = "token = " + data.token;
             document.cookie = "token = " + data.refreshToken;
+            $('#registerEmail').val("");
+            $('#registerPas').val("");
+            $('#registerPas2').val("");
+            $('#registerName').val("");
+            $('#registerSirname').val("");
+            $('#registerDoBMonth').val("");
+            $('#registerDoBYear').val("");
+            $('#registerCity').val("");
+            $('#registerInstrument').val("");
+
             ShowMessage(data.refreshToken);
 
         },
