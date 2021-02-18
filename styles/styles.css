@@ -299,6 +299,16 @@ header .headerBottom .menu ul li a {
   padding-left: 35px;
   position: relative;
 }
+header .headerBottom .menu ul li span {
+    font-family: 'captureIT';
+    font-size: 19px;
+    line-height: 19px;
+    -webkit-font-smoothing: antialiased;
+    color: #000000;
+    display: block;
+    padding-left: 35px;
+    position: relative;
+}
 header .headerBottom .menu ul li a.gitar:before {
   content: "";
   position: absolute;
@@ -308,6 +318,16 @@ header .headerBottom .menu ul li a.gitar:before {
   height: 25px;
   left: 0px;
   top: 5px;
+}
+header .headerBottom .menu ul li span.gitar:before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/gitar-icon.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    left: 0px;
+    top: 5px;
 }
 header .headerBottom .menu ul li a.piyano:before {
   content: "";
@@ -1170,4 +1190,17 @@ footer .footer .footerRight .storeLinks a {
 	left: 1%;
 	width: 98%;
 	height: 100%;
+}
+
+.userPanel {
+     display: flex;
+  background-color: #b88741;
+  padding: 10px 10px;
+  font-family: 'captureIT';
+  font-size: 19px;
+  line-height: 19px;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  box-shadow: inset 0px 4px 18px 1px rgba(0, 0, 0, 0.75);
+
 }

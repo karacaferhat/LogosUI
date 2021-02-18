@@ -117,6 +117,7 @@ function initAkademi(akademi){
       showAllLessons(akademi);
 
 }
+
 function showAllLessons(akademi){
     var lessonsDoc=loadLessons(); 
     $(lessonsDoc).find("ders").each(function(index){
@@ -151,6 +152,7 @@ function findLesson(lesson_code) {
 
    
 }
+
 function findLessonByDoc(lessonsDoc,lesson_code) {   
     var foundlesson;
     $(lessonsDoc).find("ders").each(function(index){
@@ -165,6 +167,7 @@ function findLessonByDoc(lessonsDoc,lesson_code) {
 
    
 }
+
 function getLessonInfo(node){
 
     var code= $(node).find("code").text();

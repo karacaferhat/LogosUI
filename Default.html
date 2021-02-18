@@ -1,0 +1,930 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Logos Sanat</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/slider.css" />
+    <link rel="stylesheet" href="styles/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/function.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/popper.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/slick.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/jquery.fancybox.min.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="container headerTop clearfix">
+            <div class="logoArea">
+                <a href="index.html"><img src="images/logossanat-logo.png" alt="Logos Sanat Logo"></a>
+            </div>
+            <div class="searchArea">
+                <input type="text" placeholder="Aramak istediğiniz kelimeyi giriniz.">
+                <button>ARA</button>
+            </div>
+
+        </div>
+
+        <div class="headerBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-12">
+                        <div class="menu">
+                            <ul>
+                                <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
+                                <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
+                                <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
+                                <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-8">
+                        <div class="loginArea">
+                            <ul><li><a onclick="openSignup();">GİRİS YAP</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="mobileHeader">
+
+        <a href="index.html" class="logo">
+            <img src="images/logossanat-logo-mobil.png" alt="Logo Sanat Logo" />
+        </a>
+
+        <div class="menuBtn">
+            <span class="s1"></span>
+            <span class="s2"></span>
+            <span class="s3"></span>
+        </div>
+
+
+
+        <div class="mobileMenu">
+            <ul>
+                <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
+                <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
+                <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
+                <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
+            </ul>
+
+            <div class="loginArea">
+                <a onclick="openSignup();">GİRİS YAP</a>
+            </div>
+            <div class="mobileSearch">
+                <form action="">
+                    <input type="text" />
+                    <button>ARA</button>
+                </form>
+            </div>
+
+            <div class="menuFooter">
+                <div class="mobileSocialMedia">
+                    <a href="" target="_blank" title="Logos Sanat Youtube Sayfası"><i class="fab fa-youtube"></i></a>
+                    <a href="" target="_blank" title="Logos Sanat Instagram Sayfası"><i class="fab fa-instagram"></i></a>
+                    <a href="" target="_blank" title="Logos Sanat Facebook Sayfası"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" target="_blank" title="Logos Sanat  Twitter Sayfası"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div id="contentContainer" class="container">
+        <div class="contentArea">
+            <div class="contentTop">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8">
+                        <h2 class="title">GÜNÜN VİDEOSU</h2>
+                        <div class="videoArea">
+                            <div id="video"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <h2 class="title">SON GÖNDERİLER</h2>
+                        <div class="latestPost">
+                            <ul id="LastAddedList" class="scrollBar">
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span>Phil66's Thread</span>
+                                        <span>Gabrial Leoperdi</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentBottom">
+                <div class="latestVideos">
+                    <span class="title">Master Class</span>
+                    <div class="row">
+                        <div id="master1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 9</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master2" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 5</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master3" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 1</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master4" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 6</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master5" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 3</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master6" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 4</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master7" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 8</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master8" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil">
+                                    <span>ZORLUK DERECESİ: 7</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">GİTAR AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="gtr_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="gtr_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="gtr_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="gtr_crs_vid_4" class="carousel-item " data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="gtr_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="gtr_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="gtr_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="gtr_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a href="gitar-akademi.html" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">DAVUL AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="dvl_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="dvl_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="dvl_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="dvl_crs_vid_4" class="carousel-item crouselvideocontainer" data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="dvl_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="dvl_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="dvl_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="dvl_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a href="davul_akademi.html" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">PİYANO AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="pyn_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="pyn_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="pyn_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="pyn_crs_vid_4" class="carousel-item crouselvideocontainer" data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="pyn_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="pyn_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="pyn_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="pyn_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a href="piyano_akademi.html" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">KEMAN AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="kmn_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="kmn_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="kmn_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="kmn_crs_vid_4" class="carousel-item crouselvideocontainer" data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="kmn_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="kmn_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="kmn_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="kmn_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a href="keman_akademi.html" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="footerMenu">
+                        <ul>
+                            <li><a href="gitar-akademi.html">Gitar Akademi</a></li>
+                            <li><a href="keman-akademi.html">Keman Akademi</a></li>
+                            <li><a href="davul-akademi.html">Davul Akademi</a></li>
+                            <li><a href="piyano-akademi.html">Piyano Akademi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="footerMenu">
+                        <ul>
+                            <li><a href="">Üye Ol</a></li>
+                            <li><a href="">Logos Kütüphane</a></li>
+                            <li><a href="">Kullanım Koşulları</a></li>
+                            <li><a href="">Gizlilik İlkesi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="footerRight">
+                        <div class="socialMedia">
+                            <a href="https://www.youtube.com/channel/UCx6SjbfxBs0rXBYkJ77NFdw"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/logos_sanat/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/Logos-Sanat-647856372041468"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/Logossanat"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="storeLinks">
+                            <a href=""><img src="images/apple-store.png"></a>
+                            <a href=""><img src="images/google-play.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<template id="akademiTemplate">
+    <div class="subContent">
+        <div class="top">
+            <h2 class="title">Keman Akademi İntro</h2>
+            <div class="row">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="videoArea">
+
+                        <div id="video" width="100%" height="360"></div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="lastAdd">
+                        <h2 class="title">Son Eklenenler</h2>
+                        <ul class="scroll">
+                        <li id="LastAdd1" class="clearfix">
+                            <a href="lesson.html">
+                                <div class="left">
+                                    <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                                </div>
+                                <div class="right">
+                                    <span>Jazz Blues Solo</span>
+                                    <span>by Stephane Lucarelli</span>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li id="LastAdd2" class="clearfix">
+                            <a href="lesson.html">
+                                <div class="left">
+                                    <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                                </div>
+                                <div class="right">
+                                    <span>Jazz Blues Solo</span>
+                                    <span>by Stephane Lucarelli</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li id="LastAdd3" class="clearfix">
+                            <a href="lesson.html">
+                                <div class="left">
+                                    <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                                </div>
+                                <div class="right">
+                                    <span>Jazz Blues Solo</span>
+                                    <span>by Stephane Lucarelli</span>
+                                </div>
+                            </a>
+                        </li>
+                        <ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <h3 class="title">DERSLER</h3>
+            <div class="row">
+                <div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson2" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson3" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson4" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson5" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson6" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson7" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="lesson8" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <a href="lesson.html">
+                        <div class="left">
+                            <img src="https://www.guitarmasterclass.net/lm2clip/3152/b/1kK52R.jpg">
+                        </div>
+                        <div class="right">
+                            <span>Jazz Blues Solo</span>
+                            <span>by Stephane Lucarelli</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<template id="singupTemplate">
+    <div class="signUpLoginArea">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
+                <div class="formArea">
+                    <h2>ÜYE OL</h2>
+                    <form method="" onsubmit="event.preventDefault(); Register();">
+                        <div class="form-group">
+                            <input id="registerEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                   oninput="this.setCustomValidity('')" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group  col-xl-6">
+                                <input id="registerPas" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-group col-xl-6">
+                                <input id="registerPas2" type="password" class="form-control" placeholder="Yeniden Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input id="registerName" type="text" class="form-control" placeholder="Adınız" oninvalid="this.setCustomValidity('Adınız boş olamaz')"
+                                   oninput="this.setCustomValidity('')" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="registerSirname" type="text" class="form-control" placeholder="Soyadınız" oninvalid="this.setCustomValidity('Soyadınız boş olamaz')"
+                                   oninput="this.setCustomValidity('')" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-xl-4">
+                                <select id="registerDoBDay"><option value="">*Gün</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+                            </div>
+                            <div class="form-group col-xl-4">
+                                <select id="registerDoBMonth"><option value="">*Ay</option><option value="1">Ocak</option><option value="2">Şubat</option><option value="3">Mart</option><option value="4">Nisan</option><option value="5">Mayıs</option><option value="6">Haziran</option><option value="7">Temmuz</option><option value="8">Ağustos</option><option value="9">Eylül</option><option value="10">Ekim</option><option value="11">Kasım</option><option value="12">Aralık</option></select>
+                            </div>
+                            <div class="form-group col-xl-4">
+                                <select id="registerDoBYear">
+                                    <option value="">*Yıl</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1975">1975</option>
+                                    <option value="1974">1974</option>
+                                    <option value="1973">1973</option>
+                                    <option value="1972">1972</option>
+                                    <option value="1971">1971</option>
+                                    <option value="1970">1970</option>
+                                    <option value="1969">1969</option>
+                                    <option value="1968">1968</option>
+                                    <option value="1967">1967</option>
+                                    <option value="1966">1966</option>
+                                    <option value="1965">1965</option>
+                                    <option value="1964">1964</option>
+                                    <option value="1963">1963</option>
+                                    <option value="1962">1962</option>
+                                    <option value="1961">1961</option>
+                                    <option value="1960">1960</option>
+                                    <option value="1959">1959</option>
+                                    <option value="1958">1958</option>
+                                    <option value="1957">1957</option>
+                                    <option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                    <option value="1954">1954</option>
+                                    <option value="1953">1953</option>
+                                    <option value="1952">1952</option>
+                                    <option value="1951">1951</option>
+                                    <option value="1950">1950</option>
+                                    <option value="1949">1949</option>
+                                    <option value="1948">1948</option>
+                                    <option value="1947">1947</option>
+                                    <option value="1946">1946</option>
+                                    <option value="1945">1945</option>
+                                    <option value="1944">1944</option>
+                                    <option value="1943">1943</option>
+                                    <option value="1942">1942</option>
+                                    <option value="1941">1941</option>
+                                    <option value="1940">1940</option>
+                                    <option value="1939">1939</option>
+                                    <option value="1938">1938</option>
+                                    <option value="1937">1937</option>
+                                    <option value="1936">1936</option>
+                                    <option value="1935">1935</option>
+                                    <option value="1934">1934</option>
+                                    <option value="1933">1933</option>
+                                    <option value="1932">1932</option>
+                                    <option value="1931">1931</option>
+                                    <option value="1930">1930</option>
+                                    <option value="1929">1929</option>
+                                    <option value="1928">1928</option>
+                                    <option value="1927">1927</option>
+                                    <option value="1926">1926</option>
+                                    <option value="1925">1925</option>
+                                    <option value="1924">1924</option>
+                                    <option value="1923">1923</option>
+                                    <option value="1922">1922</option>
+                                    <option value="1921">1921</option>
+                                    <option value="1920">1920</option>
+                                    <option value="1919">1919</option>
+                                    <option value="1918">1918</option>
+                                    <option value="1917">1917</option>
+                                    <option value="1916">1916</option>
+                                    <option value="1915">1915</option>
+                                    <option value="1914">1914</option>
+                                    <option value="1913">1913</option>
+                                    <option value="1912">1912</option>
+                                    <option value="1911">1911</option>
+                                    <option value="1910">1910</option>
+                                    <option value="1909">1909</option>
+                                    <option value="1908">1908</option>
+                                    <option value="1907">1907</option>
+                                    <option value="1906">1906</option>
+                                    <option value="1905">1905</option>
+                                    <option value="1904">1904</option>
+                                    <option value="1903">1903</option>
+                                    <option value="1902">1902</option>
+                                    <option value="1901">1901</option>
+                                    <option value="1900">1900</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="registerCity"><option value="">Yaşadığınız Şehir</option><option value="1">İstanbul</option><option value="2">Ankara</option><option value="3">İzmir</option><option value="4">Adana</option><option value="5">Trabzon</option></select>
+                        </div>
+                        <div class="form-group">
+                            <select id="registerInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
+                        </div>
+                        <button>ÜYE OL</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="formArea">
+                    <h2>GİRİS YAP</h2>
+                    <form method=" " onsubmit="event.preventDefault(); Login();">
+                        <div class="form-group">
+                            <input id="loginEmail" type="text" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                   oninput="this.setCustomValidity('')" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="loginPas" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                   oninput="this.setCustomValidity('')" required>
+                        </div>
+                        <button ">GİRİS YAP</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</template>
+<div id="userPanel" style="display: none">
+    <div class="userPanel">
+        <i class="fas fa-user"></i>&nbsp;<span>Ferhat Karaca</span><span onclick="Logout();">&nbsp;/&nbsp; Çıkış</span>
+    </div>
+</div>
+
+<script>
+    checkLoggedIn(),
+    initIndex();
+</script>
+
+
+</body>
+</html>

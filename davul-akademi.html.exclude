@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -24,7 +24,6 @@
 
 
 </head>
-
 
 <body>
 <header>
@@ -114,11 +113,7 @@
 
         </div>
 
-
-
-
-
-        <div class="container">
+<div class="container">
                 <div class="subContent">
                     <div class="top">
                         <h2 class="title">Davul Akademi İntro</h2>
@@ -270,9 +265,7 @@
             
         </div>
 
-
-
-        <footer>
+<footer>
             <div class="container">
                 <div class="footer">
                     <div class="row">
@@ -314,16 +307,10 @@
                 </div>
             </div>
         </footer>
-    
-
-
-
 
 <script language="JavaScript">
     initAkademi('Davul');
-
-        
-  </script>
+</script>
 
 </body>
 </html>

@@ -92,8 +92,12 @@
             </ul>
 
             <div class="loginArea">
-                <a href="sign_up-login.html">ÜYE OL</a>
-                <a href="sign_up-login.html">GİRİS YAP </a>
+              
+                   <a href="sign_up-login.html">ÜYE OL</a>
+                     <a href="sign_up-login.html">GİRİS YAP </a>
+            
+                
+               
             </div>
             <div class="mobileSearch">
                 <form action="">
@@ -386,5 +390,10 @@
             </div>
         </div>
     </div>
+<div id="userPanel" style="display: none">
+    <div class="userPanel">
+        <i class="fas fa-user"></i>&nbsp;<span>Ferhat Karaca</span>
+    </div>
+</div>
 </body>
 </html>
