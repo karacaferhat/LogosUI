@@ -433,6 +433,14 @@ footer .footer .footerMenu ul li a {
   -webkit-font-smoothing: antialiased;
   color: #000000;
 }
+    footer .footer .footerMenu ul li {
+        font-family: 'sourceBlack';
+        font-size: 15px;
+        line-height: 15px;
+        -webkit-font-smoothing: antialiased;
+        color: #000000;
+        cursor: pointer;
+    }
 footer .footer .footerRight {
   float: right;
 }
@@ -1204,4 +1212,30 @@ footer .footer .footerRight .storeLinks a {
   color: #ffffff;
   box-shadow: inset 0px 4px 18px 1px rgba(0, 0, 0, 0.75);
 
+}
+.kullanimSartlari {
+    background-color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: normal;
+}
+.kullanimSartlariHeader {
+    font-weight: bold;
+}
+.gizlilik {
+    background-color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: normal;
+}
+.gizlilikHeader {
+    font-weight: bold;
 }

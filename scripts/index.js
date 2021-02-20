@@ -185,6 +185,15 @@ function openTab(akademi) {
     $('#contentContainer').html(clone);
     initAkademi(akademi);
 }
+function openContentTab(id) {
+
+    var template = document.getElementById(id);
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+    
+}
+
 function openSignup(){
 
     var template = document.getElementById("singupTemplate");
