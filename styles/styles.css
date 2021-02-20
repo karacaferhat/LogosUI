@@ -285,10 +285,11 @@ header .headerBottom {
 header .headerBottom .menu ul {
   display: flex;
 }
-header .headerBottom .menu ul li {
-  width: 15%;
-  margin-right: 45px;
-}
+    header .headerBottom .menu ul li {
+        width: 15%;
+        margin-right: 45px;
+        cursor: pointer;
+    }
 header .headerBottom .menu ul li a {
   font-family: 'captureIT';
   font-size: 19px;

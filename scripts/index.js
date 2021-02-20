@@ -207,7 +207,7 @@ function Register() {
     var pas1 = $('#registerPas').val();
     var pas2 = $('#registerPas2').val();
     if (pas1 != pas2) {
-        alert('Onay şifresi aynı olmalı');
+        ShowMessage('Onay şifresi aynı olmalı');
         return;
     }
 

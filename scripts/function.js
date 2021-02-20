@@ -111,13 +111,18 @@ function setIntroVideo(doc){
 }
 
 function initAkademi(akademi){        
-      var academyDoc =loadAkademi(akademi);     
+    var academyDoc = loadAkademi(akademi);
+
+      setAkademiTitle(academyDoc);
       setIntroVideo(academyDoc);           
       showLastAddedLessons(academyDoc);
       showAllLessons(akademi);
 
 }
-
+function setAkademiTitle(doc) {
+    var intro = doc.getElementsByTagName("title")[0];
+    $('#akademiTitle').html(intro.textContent);
+}
 function showAllLessons(akademi){
     var lessonsDoc=loadLessons(); 
     $(lessonsDoc).find("ders").each(function(index){
