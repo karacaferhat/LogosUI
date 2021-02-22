@@ -294,7 +294,7 @@ function Login() {
         dataType: "json",
         success: function (data) {
             saveLoginInfo(data);
-            window.location = 'Default.html';
+            window.location = 'index.html';
         },
         error: function (request) {
 
