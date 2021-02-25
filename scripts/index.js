@@ -203,6 +203,8 @@ function openSignup(){
 
     var email = getCookie("email");
     $('#loginEmail').val(email);
+
+    
    
 }
 
@@ -266,9 +268,8 @@ function Register() {
         data: JSON.stringify(mydata),
         dataType: "json",
         success: function (data) {
-            document.cookie = data.token;
-            document.cookie = "token = " + data.token;
-            document.cookie = "token = " + data.refreshToken;
+            deleteAllCookies();
+
             $('#registerEmail').val("");
             $('#registerPas').val("");
             $('#registerPas2').val("");
@@ -280,6 +281,7 @@ function Register() {
             $('#registerInstrument').val("");
 
             saveLoginInfo(data);
+            window.location = 'index.html';
 
         },
         error: function (request) {
@@ -308,6 +310,7 @@ function Login() {
         data: JSON.stringify(mydata),
         dataType: "json",
         success: function (data) {
+            deleteAllCookies();
             saveLoginInfo(data);
             window.location = 'index.html';
         },
@@ -364,47 +367,92 @@ function getCookie(cname) {
 }
 
 function checkLoggedIn() {
+   //check cookie exists
     var tkn = getCookie("token");
     var refTkn = getCookie("refreshToken");
-    if (refTkn == null || tkn == null) {
-        return false;
+
+    if (tkn == "" || refTkn == "") {
+        openSignup();
     } else {
 
-        var mydata = {
-            token: tkn,
-            refreshToken: refTkn,
-            name: '',
-            surname:''
-        };
-        $.ajax({
-            type: "POST",
-            url: refreshUrl,
-            contentType: "application/json; charset=utf-8",
-            data: JSON.stringify(mydata),
-            dataType: "json",
-            success: function (data) {
-                saveLoginInfo(data);
-                return true;
-            },
-            error: function (request) {
-                console.log(request.responseJSON.errors);
-                if (request.responseJSON.errors == "Token aktif") {
-                    mydata.name = getCookie("name");
-                    mydata.surname = getCookie("surname");
-                    saveLoginInfo(mydata);
-                    return true;
-                }
-                return false;
-            }
+        var data = getUserInfoFromCookie();
+        showUserInfoPanel(data);
+    };
 
-        });
-      
-    }
+    
+  
+
+
 
 
 }
 
+//function CheckToken(tkn, refTkn) {
 
+//    var _valid = false;
+//    var _tkn = "";
+//    var _refTkn = "";
+//    var _userInfo;
+
+
+//    var mydata = {
+//        token: tkn,
+//        refreshToken: refTkn,
+//        name: '',
+//        surname: ''
+//    };
+//    $.ajax({
+//        type: "POST",
+//        url: refreshUrl,
+//        contentType: "application/json; charset=utf-8",
+//        data: JSON.stringify(mydata),
+//        dataType: "json",
+//        success: function (data) {
+            
+//            var tokenCheckResult = {
+//                token: data.token,
+//                refreshToken: data.refreshToken,
+//                valid: true,
+//                userInfo: data.userInfo
+//            };
+
+//            return tokenCheckResult;
+//        },
+//        error: function (request) {
+//            console.log(request.responseJSON.errors);
+//            if (request.responseJSON.errors == "Token aktif") {
+//                _tkn = tkn;
+//                _refTkn = refTkn;
+//                _valid = true;
+//            }
+//            _valid = false;
+//        }
+
+//    });
+
+    
+//}
+
+function getUserInfoFromCookie() {
+
+    var _userInfo = {
+        name: getCookie("name"),
+        surname: getCookie("surname"),
+        email: getCookie("email"),
+        instrument: getCookie("instrument"),
+        dateOfBirth: getCookie("instrument"),
+        city: getCookie("city"),
+        profile: getCookie("profile")
+    };
+
+    var result = {
+        token: getCookie("token"),
+        refreshToken: getCookie("refreshToken"),
+        userInfo: _userInfo
+    };
+
+    return result;
+}
 
 function saveLoginInfo(data) {
     setCookie("token", data.token);
@@ -416,6 +464,7 @@ function saveLoginInfo(data) {
     setCookie("instrument", data.userInfo.instrument);
     setCookie("dateOfBirth", data.userInfo.dateOfBirth);
     setCookie("city", data.userInfo.city);
+    setCookie("profile", data.userInfo.profile);
 
     showUserInfoPanel(data);
 }
@@ -476,4 +525,14 @@ function showkullanim() {
     var str = $("#kullanimSartlari").html();
     $('#msg').html(str);
     $('#myModal').modal('show');
+}
+function deleteAllCookies() {
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
 }
