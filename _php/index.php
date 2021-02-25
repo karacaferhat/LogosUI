@@ -17,74 +17,74 @@
                             <ul class="scrollBar">
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>  
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>  
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <span>Phil66's Thread</span>
-                                        <span>Gabrial Leoperdi</span>
+                                        <span></span>
+                                        <span></span>
                                     </a>
                                 </li>                                                                                                                                            
                             </ul>

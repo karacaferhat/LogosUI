@@ -200,6 +200,9 @@ function openSignup(){
     var clone = template.content.cloneNode(true);
     $('#contentContainer').empty();
     $('#contentContainer').html(clone);
+
+    var email = getCookie("email");
+    $('#loginEmail').val(email);
    
 }
 
@@ -219,6 +222,18 @@ function Register() {
         ShowMessage('Onay şifresi aynı olmalı');
         return;
     }
+
+    var onay1Cb = document.getElementById("customCheck1");
+    var onay2Cb = document.getElementById("customCheck2");
+
+    var onay1 = onay1Cb.checked;
+    var onay2 = onay2Cb.checked;
+    if (onay1 == false || onay2 == false) {
+
+        ShowMessage('Lütfen üye olmak için kullanım şartları ve gizlilik ilkelerini onaylayınız');
+        return;
+    }
+
 
     var registerDoBDay = $('#registerDoBDay').val();
     var registerDoBMonth = $('#registerDoBMonth').val();
@@ -357,7 +372,9 @@ function checkLoggedIn() {
 
         var mydata = {
             token: tkn,
-            refreshToken: refTkn
+            refreshToken: refTkn,
+            name: '',
+            surname:''
         };
         $.ajax({
             type: "POST",
@@ -372,6 +389,8 @@ function checkLoggedIn() {
             error: function (request) {
                 console.log(request.responseJSON.errors);
                 if (request.responseJSON.errors == "Token aktif") {
+                    mydata.name = getCookie("name");
+                    mydata.surname = getCookie("surname");
                     saveLoginInfo(mydata);
                     return true;
                 }
@@ -390,12 +409,49 @@ function checkLoggedIn() {
 function saveLoginInfo(data) {
     setCookie("token", data.token);
     setCookie("refreshToken", data.refreshToken);
+
+    setCookie("email", data.userInfo.eMail);
+    setCookie("name", data.userInfo.name);
+    setCookie("surname", data.userInfo.surname);
+    setCookie("instrument", data.userInfo.instrument);
+    setCookie("dateOfBirth", data.userInfo.dateOfBirth);
+    setCookie("city", data.userInfo.city);
+
     showUserInfoPanel(data);
 }
 
+function openUserInfoForm() {
+
+    var template = document.getElementById("UserInfoFormTemplate");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+
+    var email = getCookie("email");
+    var name=getCookie("name");
+    var surname=getCookie("surname");
+    var instrument=getCookie("instrument");
+    var dob = getCookie("dateOfBirth");
+    var city = getCookie("city");
+
+    $('#userInfoEmail').val(email);
+    $('#userInfoName').val(name);
+    $('#userInfoSurname').val(surname);
+    $('#userInfoInstrument').val(instrument);
+
+    $('#userInfoCity').val(city);
+
+    $('.form-group option[value=city]').attr('selected', 'selected');
+
+   // $('#userInfoEmail').html(dob);
+
+
+}
 function showUserInfoPanel(data) {
     var str = $("#userPanel").html();
     $(".loginArea").html(str);
+    $('#name').html(data.userInfo.name);
+    $('#surname').html(data.userInfo.surname);
 
 }
 
@@ -404,9 +460,20 @@ function Logout()
     setCookie("token", "");
     setCookie("refreshToken", "");
     hideUserInfoPanel();
-    document.location = "Default.html";
+    document.location = "index.html";
 }
 function hideUserInfoPanel(data) {
     $(".loginArea").html('<ul><li> <a onclick="openSignup();">GİRİS YAP</a></li></ul>');
 
+}
+
+function showgizlilik() {
+    var str = $("#gizlilik").html();
+    $('#msg').html(str);
+    $('#myModal').modal('show');
+}
+function showkullanim() {
+    var str = $("#kullanimSartlari").html();
+    $('#msg').html(str);
+    $('#myModal').modal('show');
 }
