@@ -214,6 +214,8 @@ var baseUrl = "https://fsnetwebapi.azurewebsites.net";
 var registerUrl = baseUrl + "/api/v1/identity/register";
 var loginUrl = baseUrl + "/api/v1/identity/login";
 var refreshUrl = baseUrl + "/api/v1/identity/refresh";
+var updateUserInfoUrl = baseUrl + "/api/v1/identity/UpateUserInfo";
+var resetUrl = baseUrl + "/api/v1/identity/reset";
 
 
 function Register() {
@@ -372,7 +374,7 @@ function checkLoggedIn() {
     var refTkn = getCookie("refreshToken");
 
     if (tkn == "" || refTkn == "") {
-        openSignup();
+       // openSignup();
     } else {
 
         var data = getUserInfoFromCookie();
@@ -482,6 +484,15 @@ function openUserInfoForm() {
     var instrument=getCookie("instrument");
     var dob = getCookie("dateOfBirth");
     var city = getCookie("city");
+   
+    
+    var date = new Date(dob);
+    var monthvalue = date.getMonth() + 1;
+    var dayvalue = date.getDate();
+    var yearvalue = date.getFullYear();
+
+    
+    
 
     $('#userInfoEmail').val(email);
     $('#userInfoName').val(name);
@@ -490,7 +501,18 @@ function openUserInfoForm() {
 
     $('#userInfoCity').val(city);
 
+    $('#userInfoDoBYear').val(yearvalue);
+    $('#userInfoDoBMonth').val(monthvalue);
+    $('#userInfoDoBDay').val(dayvalue);
+
+    $('.form-group option[value=yearvalue]').attr('selected', 'selected');
+    $('.form-group option[value=monthvalue]').attr('selected', 'selected');
+    $('.form-group option[value=dayvalue]').attr('selected', 'selected');
+
+
     $('.form-group option[value=city]').attr('selected', 'selected');
+
+
 
    // $('#userInfoEmail').html(dob);
 
@@ -535,4 +557,122 @@ function deleteAllCookies() {
         var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
         document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
     }
+}
+
+function updateUserInfo() {
+
+    var registerDoBDay = $('#userInfoDoBDay').val();
+    var registerDoBMonth = $('#userInfoDoBMonth').val();
+    var registerDoBYear = $('#userInfoDoBYear').val();
+    var dob = new Date(Date.UTC(registerDoBYear, registerDoBMonth - 1, registerDoBDay, 0, 0, 0, 0));
+
+
+
+    var name = $('#userInfoName').val();
+    var surname = $('#userInfoSurname').val();
+    var registerCity = $('#userInfoCity').val();
+    var registerInstrument = $('#userInfoInstrument').val();
+    var email = $('#userInfoEmail').val();
+   
+
+    var mydata = {
+        email: email,
+        name: name,
+        surname: surname,
+        city: registerCity,
+        instrument: registerInstrument,
+        dateOfBirth: dob
+    };
+
+    $.ajax({
+        type: "POST",
+        url: updateUserInfoUrl,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(mydata),
+        dataType: "json",
+        success: function (data) {
+
+            setCookie("name", data.userInfo.name);
+            setCookie("surname", data.userInfo.surname);
+            setCookie("instrument", data.userInfo.instrument);
+            setCookie("dateOfBirth", data.userInfo.dateOfBirth);
+            setCookie("city", data.userInfo.city);
+
+            showUserInfoPanel(data);
+            window.location = 'index.html';
+        },
+        error: function (request) {
+
+            ShowArrayMessage(request.responseJSON.errors);
+
+
+        }
+
+    });
+}
+
+function openResetPasForm() {
+
+    var template = document.getElementById("resetPasFormTemplate");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+}
+
+function resetPas() {
+    var _email = $('#resetPasEmail').val();
+
+    var data = {
+        email:_email
+    }
+    $.ajax({
+        type: "POST",
+        url: resetUrl,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(mydata),
+        dataType: "json",
+        success: function (data) {
+            ShowMessage("Yeni şifreniz eposta adresine iletilmiştir.")
+        },
+        error: function (request) {
+
+            ShowArrayMessage(request.responseJSON.errors);
+
+
+        }
+
+    });
+}
+
+function openChangePasForm() {
+
+    var template = document.getElementById("changePasFormTemplate");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+}
+
+function changePas() {
+    var _email = $('#changePasEmail').val();
+
+    var data = {
+        email: _email
+    }
+    $.ajax({
+        type: "POST",
+        url: resetUrl,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(mydata),
+        dataType: "json",
+        success: function (data) {
+            ShowMessage("Yeni şifreniz "+_email+" adresine iletilmiştir.")
+        },
+        error: function (request) {
+
+            ShowArrayMessage(request.responseJSON.errors);
+
+
+        }
+
+    });
 }
