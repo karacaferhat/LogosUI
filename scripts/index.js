@@ -214,9 +214,9 @@ var baseUrl = "https://fsnetwebapi.azurewebsites.net";
 var registerUrl = baseUrl + "/api/v1/identity/register";
 var loginUrl = baseUrl + "/api/v1/identity/login";
 var refreshUrl = baseUrl + "/api/v1/identity/refresh";
-var updateUserInfoUrl = baseUrl + "/api/v1/identity/UpateUserInfo";
+var updateUserInfoUrl = baseUrl + "/api/v1/identity/updateUserInfo";
 var resetUrl = baseUrl + "/api/v1/identity/reset";
-
+var changeUrl = baseUrl + "/api/v1/identity/change";
 
 function Register() {
 
@@ -622,17 +622,19 @@ function openResetPasForm() {
 function resetPas() {
     var _email = $('#resetPasEmail').val();
 
-    var data = {
+    var _data = {
         email:_email
     }
     $.ajax({
         type: "POST",
         url: resetUrl,
         contentType: "application/json; charset=utf-8",
-        data: JSON.stringify(mydata),
+        data: JSON.stringify(_data),
         dataType: "json",
         success: function (data) {
-            ShowMessage("Yeni şifreniz eposta adresine iletilmiştir.")
+            ShowMessage("Yeni şifreniz eposta adresine iletilmiştir.");
+            Logout();
+            openSignup();
         },
         error: function (request) {
 
@@ -652,20 +654,36 @@ function openChangePasForm() {
     $('#contentContainer').html(clone);
 }
 
-function changePas() {
-    var _email = $('#changePasEmail').val();
+function UpdPsw() {
 
-    var data = {
-        email: _email
+    var _email = $('#changePasEmail').val();
+    var pas1 = $('#changePas').val();
+    var pas2 = $('#changePas2').val();
+    var pas3 = $('#changePas3').val();
+
+    if (pas2 != pas3) {
+        ShowMessage('Yeni şifreniz tekrarı hatalı');
+        return;
     }
+
+
+    var _data = {
+        email: _email,
+        pas_old: pas1,
+        pas_new: pas2
+    }
+
     $.ajax({
         type: "POST",
-        url: resetUrl,
+        url: changeUrl,
         contentType: "application/json; charset=utf-8",
-        data: JSON.stringify(mydata),
+        data: JSON.stringify(_data),
         dataType: "json",
         success: function (data) {
-            ShowMessage("Yeni şifreniz "+_email+" adresine iletilmiştir.")
+            ShowMessage("Şifreniz değiştirilmiştir");
+            Logout();
+            openSignup();
+
         },
         error: function (request) {
 
@@ -675,4 +693,5 @@ function changePas() {
         }
 
     });
+
 }
