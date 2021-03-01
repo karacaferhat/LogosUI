@@ -90,7 +90,7 @@
             </div>
             <div class="mobileSearch">
                 <form action="">
-                    <input type="text" />
+                    
                     <button>PREMIUM UYELİK</button>
                 </form>
             </div>
@@ -554,6 +554,8 @@
                                 <li><a href="">Logos Kütüphane</a></li>
                                 <li onclick="openContentTab('kullanimSartlari');">Kullanım Koşulları</li>
                                 <li onclick="openContentTab('gizlilik');">Gizlilik İlkesi</li>
+                                <li onclick="openContentTab('aboutus');">Hakkımızda</li>
+                                <li onclick="openContentTab('contact');">İletişim</li>
                             </ul>
                         </div>
                     </div>
@@ -1588,12 +1590,55 @@
         </div>
 
     </template>
+
+<template id="aboutus">
+    <div class="gizlilik">
+        <p><h3 class="gizlilikHeader">Hakkımızda</h3></p>
+        <img class="aboutimage" src="images/meb.jpg"/>
+        <p>
+            2009 yılında İzmir Bornovada
+            faaliyete geçen kurumumuz Serhan
+            Doğrusözlü tarafından kurulmuştur.
+            İlk öğrenclierini gitar , piano ve
+            bateriden kabul eden okulumuzda
+            şuan yan flüt , çello, keman , şan ,
+            solfej ve daha bir çok enstrüman
+            dersleri verilmektedir. Milli eğitim
+            bakanlığı tarafından onaylı olan okulumuz T.C.M.E.B. Özel
+            Doğrusözlü müzik kursu olarak da bilinmektedir. Logos Sanat
+            öğrencilerine her yıl konser imkani sunmaktadır. Ayfer Feray
+            Açık Hava Tiyatrosu , Soyer Kültür Sanat Fabrikası , İsmet
+            İnönü Sanat Merkezi , Torbalı BKM sahneleri bu konserlerden
+            birkaçına ev sahipliği yapmıştır. Uzman eğitim kadrosuna sahip
+            Logos Sanat aynı zamanda London College of Music yetkili
+            eğitim ve sınav merkezidir. Bünyesinde bulunan profesyonel
+            kayıt stüdyosu ile yerel ve ulusal çapta bir çok müzisyenin ,
+            müzik öğretmenin , akademisyenin eser kayıtlarında rol
+            almıştır. Hala İzmir Bornovada faliyetlerine devam eden logos
+            sanat konservatuarlara , müzik liselerine , çeşitli yarışmalara
+            öğrenci hazırlamaktadır. Mesleki eğitim programlarıyla ve
+            ulusal , uluslararası müzik sertifikasyon programları ile bir çok
+            öğrenciye hizmet vermektedir.
+        </p>
+    </div>
+</template>
+
+<template id="contact">
+    <div class="gizlilik">
+        <p><h3 class="gizlilikHeader h2">İletişim</h3></p>
+        <h2 class="h3"><b>Adres</b></h2>
+        <p>Erzene, 73. Sk. no 5/a, 35110 </p>
+        <p>Bornova/İzmir</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12495.8811941774!2d27.222634!3d38.465247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4a89e66d6466198!2sLogossanat%20St%C3%BCdyo!5e0!3m2!1sen!2str!4v1614624747990!5m2!1sen!2str" width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+        </div>
+</template>
 <script src="scripts/function.js"></script>
     <script>
 
         checkLoggedIn(),
             initIndex();
-     
+
     </script>
 
 

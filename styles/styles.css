@@ -1261,3 +1261,7 @@ footer .footer .footerRight .storeLinks a {
     min-height: 600px;
     box-shadow: inset 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
 }
+.aboutimage {
+    float: left;
+    width: 20%;
+}
