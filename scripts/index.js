@@ -17,8 +17,11 @@ function showLastAddedListOnIndexPAge(pageXML,lessonXML){
 
     $(pageXML).find("son_yuklenen").each(function(index){
         var code=$(this).text();
-        var lesson=findLessonByDoc(lessonXML,code);
-        $("#LastAddedList").append('<li><a href="'+ lesson.url+'"><span>'+lesson.academy+'</span><span>'+lesson.short_description+'</span></a></li>');
+        var lesson = findLessonByDoc(lessonXML, code);
+        
+        var str = '<li><a onclick="showLesson(\'' + code +'\');" ><span>'+lesson.academy+'</span><span>'+lesson.short_description+'</span></a ></li> ';
+
+        $("#LastAddedList").append(str);
       
               
      }
@@ -41,7 +44,7 @@ function showSelectedListOnIndexPAge(pageXML,lessonXML){
         var container=document.getElementById(id);
         if (container !=null){
             var content="";
-            content='<a href="'+lesson.url+'"><h3>'+lesson.title+'</h3><div class="left"><img src="'+ lesson.preview_image_thumb+'"><span>'+lesson.academy+'</span></div><div class="right"><span>'+lesson.short_description+'</span><span>'+lesson.academy+'</span></div></a>';
+            content = '<a onclick="showLesson(\'' + code +'\');" ><h3>'+lesson.title+'</h3><div class="left"><img src="'+ lesson.preview_image_thumb+'"><span>'+lesson.academy+'</span></div><div class="right"><span>'+lesson.short_description+'</span><span>'+lesson.academy+'</span></div></a>';
             container.innerHTML=content;
         }        
         
@@ -693,5 +696,35 @@ function UpdPsw() {
         }
 
     });
+
+}
+
+
+
+function showLesson(code) {
+    var template = document.getElementById("lessonTemplate");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+
+    var les = findLesson(code);
+    var title = document.getElementById("LessonTitle");
+    var long_description = document.getElementById("Lessonlong_description");
+    var pdf = document.getElementById("Lessonpdf");
+    var back_track = document.getElementById("Lessonback_track");
+
+    var videoId = les.video_id;
+    title.innerHTML = les.title;
+    long_description.innerHTML = les.long_description;
+    pdf.data = les.pdf;
+    back_track.src = les.back_track;
+
+    var videoContainer = document.getElementById('LessonVideo');
+    var options = {
+        id: videoId
+    };
+    var player = new Vimeo.Player(videoContainer, options);
+
+
 
 }
