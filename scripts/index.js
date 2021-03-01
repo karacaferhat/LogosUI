@@ -741,3 +741,47 @@ function toggleOpen(sender) {
     $(sender).toggleClass('active').siblings('.ac').slideToggle();
     $(sender).parent().siblings().find('.tikla').removeClass('active').siblings('.ac').slideUp();
 }
+
+function openLib() {
+    var template = document.getElementById("lib");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+
+    var Connect = new XMLHttpRequest();
+    var xmlpath = "Yonetim/Kutuphane.xml";
+    Connect.open("GET", xmlpath, false);
+    Connect.setRequestHeader("Content-Type", "text/xml");
+    Connect.send(null);
+    var libdoc;
+     libdoc= Connect.responseXML;
+
+     var str="";
+     $(libdoc).find("kaynak").each(function(index) {
+         var ad = $(this).find('ad').text();
+         var link = $(this).find('link').text();
+         var aciklama = $(this).find('aciklama').text();
+
+         str = str + "<li>" + ad + "</li>";
+
+         $("#libTable").find('tbody')
+             .append($('<tr>')
+                 .append($('<th>').attr('scope', 'row').text(index+1))
+                 .append($('<td>').text(ad))
+                 .append($('<td>').html('<a href="' + link+'"><img class="lib_link" src="images/pdf.png"/></a>'))
+                 .append($('<td>').text(aciklama))
+            
+                 
+             );
+
+     });
+    //$('#libList').html(str);
+
+
+
+
+}
+
+function openHome() {
+    window.location='main_index.html';
+}

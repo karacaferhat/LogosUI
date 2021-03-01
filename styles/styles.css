@@ -1265,3 +1265,9 @@ footer .footer .footerRight .storeLinks a {
     float: left;
     width: 20%;
 }
+.lib_link {
+    width: 20%;
+}
+.homeFont {
+    font-size: xx-large;
+}
