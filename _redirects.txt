@@ -1,4 +1,4 @@
 ﻿[[redirects]]
   from = "/*"
-  to = "/login"
-  status = 302
+  to = "/main_index.html"
+  status = 301

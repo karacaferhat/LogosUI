@@ -1,22 +1,22 @@
-﻿$(document).ready(function(){
-	
-	$('.down').click(function(e){
-		var link = $(this).attr('href');
-			$('html, body') .animate({
-				scrollTop: $(link) .offset().top - 100
-			}, 1000);
-	});	
-    
+﻿$(document).ready(function () {
+
+    $('.down').click(function (e) {
+        var link = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(link).offset().top - 100
+        }, 1000);
+    });
+
     $('.tikla').on('click', function (e) {
         e.preventDefault();
-  
+
         $(this).toggleClass('active').siblings('.ac').slideToggle();
         $(this).parent().siblings().find('.tikla').removeClass('active').siblings('.ac').slideUp();
 
     });
 
-       /* mobile menu */
-       $(".menuBtn").click(function (e) {
+    /* mobile menu */
+    $(".menuBtn").click(function (e) {
         if ($(".menuBtn").hasClass("active")) {
             $(this).removeClass("active");
             $(".mobileMenu").removeClass("active");
@@ -72,7 +72,7 @@
     })
 
 
-	
+
 });
 
 function loadIndex(){

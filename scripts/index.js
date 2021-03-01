@@ -709,15 +709,21 @@ function showLesson(code) {
 
     var les = findLesson(code);
     var title = document.getElementById("LessonTitle");
-    var long_description = document.getElementById("Lessonlong_description");
-    var pdf = document.getElementById("Lessonpdf");
-    var back_track = document.getElementById("Lessonback_track");
+    var long_description = document.getElementById("LessonLongDescription");
+    var pdf = document.getElementById("LessonPdf");
+    var back_track = document.getElementById("LessonBackTrack");
 
     var videoId = les.video_id;
     title.innerHTML = les.title;
     long_description.innerHTML = les.long_description;
     pdf.data = les.pdf;
     back_track.src = les.back_track;
+
+
+
+
+
+
 
     var videoContainer = document.getElementById('LessonVideo');
     var options = {
@@ -727,4 +733,11 @@ function showLesson(code) {
 
 
 
+}
+
+function toggleOpen(sender) {
+    event.preventDefault();
+
+    $(sender).toggleClass('active').siblings('.ac').slideToggle();
+    $(sender).parent().siblings().find('.tikla').removeClass('active').siblings('.ac').slideUp();
 }
