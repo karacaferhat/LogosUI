@@ -4,10 +4,10 @@
     setIntroVideo(doc);
     showLastAddedListOnIndexPAge(doc,lessonsDoc);
     showSelectedListOnIndexPAge(doc,lessonsDoc);
-    showCrouselGuitar(doc,lessonsDoc);
-    showCrouselDavul(doc,lessonsDoc);
-    showCrouselPiyano(doc,lessonsDoc);
-    showCrouselKeman(doc,lessonsDoc);
+    //showCrouselGuitar(doc,lessonsDoc);
+    //showCrouselDavul(doc,lessonsDoc);
+    //showCrouselPiyano(doc,lessonsDoc);
+    //showCrouselKeman(doc,lessonsDoc);
 
 }
 
@@ -783,7 +783,7 @@ function openLib() {
 }
 
 function openHome() {
-    window.location='main_index.html';
+    window.location='index.html';
 }
 
 function showLive() {

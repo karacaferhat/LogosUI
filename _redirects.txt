@@ -1,4 +1,4 @@
 ﻿[[redirects]]
   from = "/*"
-  to = "/main_index.html"
+  to = "/index.html"
   status = 301

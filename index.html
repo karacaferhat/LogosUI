@@ -1,11 +1,1768 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
+    <meta charset="utf-8">
+    <title>Logos Sanat</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="white" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Hello World">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/slider.css" />
+    <link rel="stylesheet" href="styles/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/player.js"></script>
+
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/popper.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/slick.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/jquery.fancybox.min.js"></script>
+
+
 </head>
+
+
 <body>
-<h1></h1>
-    <img style="margin-left: 15%;text-align: center;margin-top: 15%;" src="images/uc.jpg" />
+    <header>
+        <div class="container headerTop clearfix">
+            <div class="logoArea">
+                <a href="index.html"><img src="images/logossanat-logo.png" alt="Logos Sanat Logo"></a>
+            </div>
+            <div class="searchArea">
+                <button onclick="showLive();">
+                    <i class="fas fa-video"></i>
+                    CANLI IZLE
+                </button>
+            </div>
+            <div class="searchArea">
+                <button onclick="selectSubscription();">PREMIUM</button>
+            </div>
+        </div>
+
+        <div class="headerBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-12">
+                        <div class="menu">
+                            <ul>
+                                <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
+                                <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
+                                <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
+                                <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
+                                <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-8">
+                        <div class="loginArea">
+                            <ul><li><a onclick="openSignup();">GİRİS YAP</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="mobileHeader">
+
+        <a href="index.html" class="logo">
+            <img src="images/logossanat-logo-mobil.png" alt="Logo Sanat Logo" />
+        </a>
+
+        <div class="menuBtn">
+            <span class="s1"></span>
+            <span class="s2"></span>
+            <span class="s3"></span>
+        </div>
+
+        <div class="mobileMenu">
+            <ul>
+                <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
+                <li><a onclick="openSignup();" class="davul">GIRIS</a></li>
+                <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
+                <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
+                <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
+                <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
+                <li><a onclick="selectSubscription();" class="davul">UYELIK AL</a></li>
+                <li><a onclick="showLive();" class="davul">CANLI YAYIN</a></li>
+
+            </ul>
+
+
+
+
+            <div class="menuFooter">
+                <div class="mobileSocialMedia">
+                    <a href="" target="_blank" title="Logos Sanat Youtube Sayfası"><i class="fab fa-youtube"></i></a>
+                    <a href="" target="_blank" title="Logos Sanat Instagram Sayfası"><i class="fab fa-instagram"></i></a>
+                    <a href="" target="_blank" title="Logos Sanat Facebook Sayfası"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" target="_blank" title="Logos Sanat  Twitter Sayfası"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div id="contentContainer" class="container">
+        <div class="contentArea">
+            <div class="contentTop">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8">
+                        <h2 class="title">GÜNÜN VİDEOSU</h2>
+                        <div class="videoArea">
+                            <div id="video"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <h2 class="title">SON GÖNDERİLER</h2>
+                        <div class="latestPost">
+                            <ul id="LastAddedList" class="scrollBar">
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentBottom">
+                <div class="latestVideos">
+                    <span class="title">Master Class</span>
+                    <div class="row">
+                        <div id="master1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 9</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master2" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 5</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master3" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 1</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master4" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 6</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master5" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 3</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master6" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 4</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master7" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 8</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="master8" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="">
+                                <h3>Rhythmic Funk</h3>
+                                <div class="left">
+                                    <img src="images/logossanat-logo-mobil.png">
+                                    <span>ZORLUK DERECESİ: 7</span>
+                                </div>
+                                <div class="right">
+                                    <span>by Dİego Budicin</span>
+                                    <span>2020 - 09 - 14</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Ana sayfa akademi -->
+                <!--<div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">GİTAR AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="gtr_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="gtr_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="gtr_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="gtr_crs_vid_4" class="carousel-item " data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="gtr_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="gtr_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="gtr_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="gtr_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a onclick="openTab('Gitar')" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">DAVUL AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="dvl_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="dvl_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="dvl_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="dvl_crs_vid_4" class="carousel-item crouselvideocontainer" data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="dvl_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="dvl_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="dvl_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="dvl_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a onclick="openTab('Davul')" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">PİYANO AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="pyn_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="pyn_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="pyn_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="pyn_crs_vid_4" class="carousel-item crouselvideocontainer" data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="pyn_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="pyn_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="pyn_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="pyn_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a onclick="openTab('Piyano')" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="academyArea">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <h2 class="title">KEMAN AKADEMİ</h2>
+                        <div class="carousel-inner">
+                            <div id="kmn_crs_vid_1" class="carousel-item active crouselvideocontainer" data-slide-number="0">
+
+                            </div>
+                            <div id="kmn_crs_vid_2" class="carousel-item crouselvideocontainer" data-slide-number="1">
+
+                            </div>
+                            <div id="kmn_crs_vid_3" class="carousel-item crouselvideocontainer" data-slide-number="2">
+
+                            </div>
+                            <div id="kmn_crs_vid_4" class="carousel-item crouselvideocontainer" data-slide-number="3">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row mx-0">
+                                    <div id="carousel-selector-0" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                                        <img id="kmn_crs_img_1" src="images/thumb-1.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-1" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                                        <img id="kmn_crs_img_2" src="images/thumb-2.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-2" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                                        <img id="kmn_crs_img_3" src="images/thumb-3.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-3" class="thumb col-3 col-xl-3 col-lg-3 col-md-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                                        <img id="kmn_crs_img_4" src="images/thumb-4.jpg" class="img-fluid">
+                                    </div>
+                                    <div id="carousel-selector-4" class="thumb col-12  px-1 py-2" style="text-align:center">
+                                        <a onclick="openTab('Keman')" class="more">DAHA FAZLASI İÇİN</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="footerMenu">
+                            <ul>
+                                <li><a onclick="openTab('Gitar');">Gitar Akademi</a></li>
+                                <li><a onclick="openTab('Keman');">Keman Akademi</a></li>
+                                <li><a onclick="openTab('Davul');">Davul Akademi</a></li>
+                                <li><a onclick="openTab('Piyano');">Piyano Akademi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="footerMenu">
+                            <ul>
+                                <li onclick="openLib();">Logos Kütüphane</li>
+                                <li onclick="openContentTab('kullanimSartlari');">Kullanım Koşulları</li>
+                                <li onclick="openContentTab('gizlilik');">Gizlilik İlkesi</li>
+                                <li onclick="openContentTab('aboutus');">Hakkımızda</li>
+                                <li onclick="openContentTab('contact');">İletişim</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="footerRight">
+                            <div class="socialMedia">
+                                <a href="https://www.youtube.com/channel/UCx6SjbfxBs0rXBYkJ77NFdw"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.instagram.com/logos_sanat/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/Logos-Sanat-647856372041468"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/Logossanat"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="storeLinks">
+                                <a href=""><img src="images/apple-store.png"></a>
+                                <a href=""><img src="images/google-play.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <template id="akademiTemplate">
+        <div class="subContent">
+            <div class="top">
+                <h2 id="akademiTitle" class="title">Keman Akademi İntro</h2>
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="videoArea">
+
+                            <div id="video" width="100%" height="360"></div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="lastAdd">
+                            <h2 class="title">Son Eklenenler</h2>
+                            <ul class="scroll">
+                                <li id="LastAdd1" class="clearfix">
+                                    <a href="">
+                                        <div class="left">
+                                            <img src="">
+                                        </div>
+                                        <div class="right">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li id="LastAdd2" class="clearfix">
+                                    <a href="">
+                                        <div class="left">
+                                            <img src="">
+                                        </div>
+                                        <div class="right">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li id="LastAdd3" class="clearfix">
+                                    <a href="">
+                                        <div class="left">
+                                            <img src="">
+                                        </div>
+                                        <div class="right">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <h3 class="title">DERSLER</h3>
+                <div class="row">
+                    <div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson2" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson3" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson4" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson5" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson6" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson7" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="lesson8" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <a href="">
+                            <div class="left">
+                                <img src="">
+                            </div>
+                            <div class="right">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="singupTemplate">
+        <div class="signUpLoginArea">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="formArea">
+                        <h2>GİRİS YAP</h2>
+                        <form onsubmit="event.preventDefault(); Login();">
+                            <div class="form-group">
+                                <input id="loginEmail" autocomplete="email" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="loginPas" autocomplete="current-password" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-group">
+                                <button onclick="openResetPasForm();">Hatırlamıyorum</button>
+                            </div>
+                            <div class="form-group">
+                                <button>GİRİS YAP</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
+                    <div class="formArea">
+                        <h2>ÜYE OL</h2>
+                        <form onsubmit="event.preventDefault(); Register();">
+                            <div class="form-group">
+                                <input id="registerEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group  col-xl-6">
+                                    <input id="registerPas" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                           oninput="this.setCustomValidity('')" required>
+                                </div>
+                                <div class="form-group col-xl-6">
+                                    <input id="registerPas2" type="password" class="form-control" placeholder="Yeniden Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                           oninput="this.setCustomValidity('')" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input id="registerName" type="text" class="form-control" placeholder="Adınız" oninvalid="this.setCustomValidity('Adınız boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="registerSirname" type="text" class="form-control" placeholder="Soyadınız" oninvalid="this.setCustomValidity('Soyadınız boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+
+
+
+
+
+                            <div class="form-row">
+                                <div class="form-group col-xl-4">
+                                    <select id="registerDoBDay"><option value="">*Gün</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+                                </div>
+                                <div class="form-group col-xl-4">
+                                    <select id="registerDoBMonth"><option value="">*Ay</option><option value="1">Ocak</option><option value="2">Şubat</option><option value="3">Mart</option><option value="4">Nisan</option><option value="5">Mayıs</option><option value="6">Haziran</option><option value="7">Temmuz</option><option value="8">Ağustos</option><option value="9">Eylül</option><option value="10">Ekim</option><option value="11">Kasım</option><option value="12">Aralık</option></select>
+                                </div>
+                                <div class="form-group col-xl-4">
+                                    <select id="registerDoBYear">
+                                        <option value="">*Yıl</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2000">2000</option>
+                                        <option value="1999">1999</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1989">1989</option>
+                                        <option value="1988">1988</option>
+                                        <option value="1987">1987</option>
+                                        <option value="1986">1986</option>
+                                        <option value="1985">1985</option>
+                                        <option value="1984">1984</option>
+                                        <option value="1983">1983</option>
+                                        <option value="1982">1982</option>
+                                        <option value="1981">1981</option>
+                                        <option value="1980">1980</option>
+                                        <option value="1979">1979</option>
+                                        <option value="1978">1978</option>
+                                        <option value="1977">1977</option>
+                                        <option value="1976">1976</option>
+                                        <option value="1975">1975</option>
+                                        <option value="1974">1974</option>
+                                        <option value="1973">1973</option>
+                                        <option value="1972">1972</option>
+                                        <option value="1971">1971</option>
+                                        <option value="1970">1970</option>
+                                        <option value="1969">1969</option>
+                                        <option value="1968">1968</option>
+                                        <option value="1967">1967</option>
+                                        <option value="1966">1966</option>
+                                        <option value="1965">1965</option>
+                                        <option value="1964">1964</option>
+                                        <option value="1963">1963</option>
+                                        <option value="1962">1962</option>
+                                        <option value="1961">1961</option>
+                                        <option value="1960">1960</option>
+                                        <option value="1959">1959</option>
+                                        <option value="1958">1958</option>
+                                        <option value="1957">1957</option>
+                                        <option value="1956">1956</option>
+                                        <option value="1955">1955</option>
+                                        <option value="1954">1954</option>
+                                        <option value="1953">1953</option>
+                                        <option value="1952">1952</option>
+                                        <option value="1951">1951</option>
+                                        <option value="1950">1950</option>
+                                        <option value="1949">1949</option>
+                                        <option value="1948">1948</option>
+                                        <option value="1947">1947</option>
+                                        <option value="1946">1946</option>
+                                        <option value="1945">1945</option>
+                                        <option value="1944">1944</option>
+                                        <option value="1943">1943</option>
+                                        <option value="1942">1942</option>
+                                        <option value="1941">1941</option>
+                                        <option value="1940">1940</option>
+                                        <option value="1939">1939</option>
+                                        <option value="1938">1938</option>
+                                        <option value="1937">1937</option>
+                                        <option value="1936">1936</option>
+                                        <option value="1935">1935</option>
+                                        <option value="1934">1934</option>
+                                        <option value="1933">1933</option>
+                                        <option value="1932">1932</option>
+                                        <option value="1931">1931</option>
+                                        <option value="1930">1930</option>
+                                        <option value="1929">1929</option>
+                                        <option value="1928">1928</option>
+                                        <option value="1927">1927</option>
+                                        <option value="1926">1926</option>
+                                        <option value="1925">1925</option>
+                                        <option value="1924">1924</option>
+                                        <option value="1923">1923</option>
+                                        <option value="1922">1922</option>
+                                        <option value="1921">1921</option>
+                                        <option value="1920">1920</option>
+                                        <option value="1919">1919</option>
+                                        <option value="1918">1918</option>
+                                        <option value="1917">1917</option>
+                                        <option value="1916">1916</option>
+                                        <option value="1915">1915</option>
+                                        <option value="1914">1914</option>
+                                        <option value="1913">1913</option>
+                                        <option value="1912">1912</option>
+                                        <option value="1911">1911</option>
+                                        <option value="1910">1910</option>
+                                        <option value="1909">1909</option>
+                                        <option value="1908">1908</option>
+                                        <option value="1907">1907</option>
+                                        <option value="1906">1906</option>
+                                        <option value="1905">1905</option>
+                                        <option value="1904">1904</option>
+                                        <option value="1903">1903</option>
+                                        <option value="1902">1902</option>
+                                        <option value="1901">1901</option>
+                                        <option value="1900">1900</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select id="registerCity">
+                                    <option value="">Yaşadığınız Şehir</option>
+                                    <option value="1">Adana</option>
+                                    <option value="2">Adıyaman</option>
+                                    <option value="3">Afyonkarahisar</option>
+                                    <option value="4">Ağrı</option>
+                                    <option value="5">Amasya</option>
+                                    <option value="6">Ankara</option>
+                                    <option value="7">Antalya</option>
+                                    <option value="8">Artvin</option>
+                                    <option value="9">Aydın</option>
+                                    <option value="10">Balıkesir</option>
+                                    <option value="11">Bilecik</option>
+                                    <option value="12">Bingöl</option>
+                                    <option value="13">Bitlis</option>
+                                    <option value="14">Bolu</option>
+                                    <option value="15">Burdur</option>
+                                    <option value="16">Bursa</option>
+                                    <option value="17">Çanakkale</option>
+                                    <option value="18">Çankırı</option>
+                                    <option value="19">Çorum</option>
+                                    <option value="20">Denizli</option>
+                                    <option value="21">Diyarbakır</option>
+                                    <option value="22">Edirne</option>
+                                    <option value="23">Elazığ</option>
+                                    <option value="24">Erzincan</option>
+                                    <option value="25">Erzurum</option>
+                                    <option value="26">Eskişehir</option>
+                                    <option value="27">Gaziantep</option>
+                                    <option value="28">Giresun</option>
+                                    <option value="29">Gümüşhane</option>
+                                    <option value="30">Hakkâri</option>
+                                    <option value="31">Hatay</option>
+                                    <option value="32">Isparta</option>
+                                    <option value="33">Mersin</option>
+                                    <option value="34">İstanbul</option>
+                                    <option value="35">İzmir</option>
+                                    <option value="36">Kars</option>
+                                    <option value="37">Kastamonu</option>
+                                    <option value="38">Kayseri</option>
+                                    <option value="39">Kırklareli</option>
+                                    <option value="40">Kırşehir</option>
+                                    <option value="41">Kocaeli</option>
+                                    <option value="42">Konya</option>
+                                    <option value="43">Kütahya</option>
+                                    <option value="44">Malatya</option>
+                                    <option value="45">Manisa</option>
+                                    <option value="46">Kahramanmaraş</option>
+                                    <option value="47">Mardin</option>
+                                    <option value="48">Muğla</option>
+                                    <option value="49">Muş</option>
+                                    <option value="50">Nevşehir</option>
+                                    <option value="51">Niğde</option>
+                                    <option value="52">Ordu</option>
+                                    <option value="53">Rize</option>
+                                    <option value="54">Sakarya</option>
+                                    <option value="55">Samsun</option>
+                                    <option value="56">Siirt</option>
+                                    <option value="57">Sinop</option>
+                                    <option value="58">Sivas</option>
+                                    <option value="59">Tekirdağ</option>
+                                    <option value="60">Tokat</option>
+                                    <option value="61">Trabzon</option>
+                                    <option value="62">Tunceli</option>
+                                    <option value="63">Şanlıurfa</option>
+                                    <option value="64">Uşak</option>
+                                    <option value="65">Van</option>
+                                    <option value="66">Yozgat</option>
+                                    <option value="67">Zonguldak</option>
+                                    <option value="68">Aksaray</option>
+                                    <option value="69">Bayburt</option>
+                                    <option value="70">Karaman</option>
+                                    <option value="71">Kırıkkale</option>
+                                    <option value="72">Batman</option>
+                                    <option value="73">Şırnak</option>
+                                    <option value="74">Bartın</option>
+                                    <option value="75">Ardahan</option>
+                                    <option value="76">Iğdır</option>
+                                    <option value="77">Yalova</option>
+                                    <option value="78">Karabük</option>
+                                    <option value="79">Kilis</option>
+                                    <option value="80">Osmaniye</option>
+                                    <option value="81">Düzce</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select id="registerInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox mycheckbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1"> <span class="KullanimLink" onclick="showgizlilik();">Gizlilik İlkesi</span> Okudum onaylıyorum.</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox mycheckbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2"> <span class="KullanimLink" onclick="showkullanim();">Kullanım Koşulları</span> Okudum onaylıyorum.</label>
+                                </div>
+                            </div>
+                            <button>ÜYE OL</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+    <div id="userPanel" style="display: none">
+        <!--<div class="userPanel">
+            <i class="fas fa-user"></i>&nbsp;<span id="name"></span>&nbsp;<span id="surname"></span><span onclick="Logout();">&nbsp;/&nbsp; Çıkış</span>
+        </div>-->
+        <div class="dropdown show userPanel">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user"></i>&nbsp;<span id="name"></span>&nbsp;<span id="surname"></span>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <span class="dropdown-item usermenuitem" onclick="openUserInfoForm();">Üyelik Bilgilerim</span>
+                <span class="dropdown-item usermenuitem" onclick="openChangePasForm();">Sifre Degistir</span>
+                <span class="dropdown-item usermenuitem" onclick="Logout();">CIKIS</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div id="msg" class="modal-body scrollMsg">
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="liveModal" tabindex="-1" role="dialog" aria-labelledby="Live" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content liveContainer">
+                <div class="modal-header">
+                    <h5 class="modal-title h5" id="liveTitle">Modal title</h5>
+                    <button type="button" onclick="hideLive();" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="liveModalBody" class="modal-body">
+                    <h5 id="liveZaman" class="h4"></h5>
+                    <div id="liveVideo" class="liveVideo"></div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="hideLive();" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template id="kullanimSartlari">
+        <div class="kullanimSartlari">
+            <p><h3 class="kullanimSartlariHeader">LOGOSSANAT SİTE KULLANIM ŞARTLARI</h3></p>
+            <br>
+
+            <p>Lütfen sitemizi kullanmadan evvel bu ‘site kullanım şartları’nı dikkatlice okuyunuz.</p>
+            <p>Bu alışveriş sitesini kullanan ve alışveriş yapan müşterilerimiz aşağıdaki şartları kabul etmiş varsayılmaktadır:</p>
+            Sitemizdeki web sayfaları ve ona bağlı tüm sayfalar (‘site’) www.logossanat.com adresindeki T.C. MEB ÖZEL DOĞRUSÖZLÜ EĞİTİM KURSU firmasının  malıdır ve onun tarafından işletilir. Sizler (‘Kullanıcı’) sitede sunulan tüm hizmetleri kullanırken aşağıdaki şartlara tabi olduğunuzu, sitedeki hizmetten yararlanmakla ve kullanmaya devam etmekle; Bağlı olduğunuz yasalara göre sözleşme imzalama hakkına, yetkisine ve hukuki ehliyetine sahip ve 18 yaşın üzerinde olduğunuzu, bu sözleşmeyi okuduğunuzu, anladığınızı ve sözleşmede yazan şartlarla bağlı olduğunuzu kabul etmiş sayılırsınız.
+            İşbu sözleşme taraflara sözleşme konusu site ile ilgili hak ve yükümlülükler yükler ve taraflar işbu sözleşmeyi kabul ettiklerinde bahsi geçen hak ve yükümlülükleri eksiksiz, doğru, zamanında, işbu sözleşmede talep edilen şartlar dâhilinde yerine getireceklerini beyan ederler.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">1. SORUMLULUKLAR</h4>
+            a.Firma, fiyatlar ve sunulan ürün ve hizmetler üzerinde değişiklik yapma hakkını her zaman saklı tutar.
+            b.Firma, üyenin sözleşme konusu hizmetlerden, teknik arızalar dışında yararlandırılacağını kabul ve taahhüt eder.
+            c.Kullanıcı, sitenin kullanımında tersine mühendislik yapmayacağını ya da bunların kaynak kodunu bulmak veya elde etmek amacına yönelik herhangi bir başka işlemde bulunmayacağını aksi halde ve 3. Kişiler nezdinde doğacak zararlardan sorumlu olacağını, hakkında hukuki ve cezai işlem yapılacağını peşinen kabul eder.
+            d.Kullanıcı, site içindeki faaliyetlerinde, sitenin herhangi bir bölümünde veya iletişimlerinde genel ahlaka ve adaba aykırı, kanuna aykırı, 3. Kişilerin haklarını zedeleyen, yanıltıcı, saldırgan, müstehcen, pornografik, kişilik haklarını zedeleyen, telif haklarına aykırı, yasa dışı faaliyetleri teşvik eden içerikler üretmeyeceğini, paylaşmayacağını kabul eder. Aksi halde oluşacak zarardan tamamen kendisi sorumludur ve bu durumda ‘Site’ yetkilileri, bu tür hesapları askıya alabilir, sona erdirebilir, yasal süreç başlatma hakkını saklı tutar. Bu sebeple yargı mercilerinden etkinlik veya kullanıcı hesapları ile ilgili bilgi talepleri gelirse paylaşma hakkını saklı tutar.
+            e.Sitenin üyelerinin birbirleri veya üçüncü şahıslarla olan ilişkileri kendi sorumluluğundadır.
+            <br>
+            <h4 class="kullanimSartlariHeader">2.  Fikri Mülkiyet Hakları</h4>
+
+            2.1. İşbu Site’de yer alan ünvan, işletme adı, marka, patent, logo, tasarım, bilgi ve yöntem gibi tescilli veya tescilsiz tüm fikri mülkiyet hakları site işleteni ve sahibi firmaya veya belirtilen ilgilisine ait olup, ulusal ve uluslararası hukukun koruması altındadır. İşbu Site’nin ziyaret edilmesi veya bu Site’deki hizmetlerden yararlanılması söz konusu fikri mülkiyet hakları konusunda hiçbir hak vermez.
+            2.2. Site’de yer alan bilgiler hiçbir şekilde çoğaltılamaz, yayınlanamaz, kopyalanamaz, sunulamaz ve/veya aktarılamaz. Site’nin bütünü veya bir kısmı diğer bir internet sitesinde izinsiz olarak kullanılamaz.
+            <br>
+            <h4 class="kullanimSartlariHeader"> 3. Gizli Bilgi</h4>
+            3.1. Firma, site üzerinden kullanıcıların ilettiği kişisel bilgileri 3. Kişilere açıklamayacaktır. Bu kişisel bilgiler; kişi adı-soyadı, adresi, telefon numarası, cep telefonu, e-posta adresi gibi Kullanıcı’yı tanımlamaya yönelik her türlü diğer bilgiyi içermekte olup, kısaca ‘Gizli Bilgiler’ olarak anılacaktır.
+
+            3.2. Kullanıcı, sadece tanıtım, reklam, kampanya, promosyon, duyuru vb. pazarlama faaliyetleri kapsamında kullanılması ile sınırlı olmak üzere, Site’nin sahibi olan firmanın kendisine ait iletişim, portföy durumu ve demografik bilgilerini iştirakleri ya da bağlı bulunduğu grup şirketleri ile paylaşmasına muvafakat ettiğini kabul ve beyan eder. Bu kişisel bilgiler firma bünyesinde müşteri profili belirlemek, müşteri profiline uygun promosyon ve kampanyalar sunmak ve istatistiksel çalışmalar yapmak amacıyla kullanılabilecektir.
+
+            3.3. Gizli Bilgiler, ancak resmi makamlarca usulü dairesinde bu bilgilerin talep edilmesi halinde ve yürürlükteki emredici mevzuat hükümleri gereğince resmi makamlara açıklama yapılmasının zorunlu olduğu durumlarda resmi makamlara açıklanabilecektir.
+
+            <br>
+            4. Garanti Vermeme: İŞBU SÖZLEŞME MADDESİ UYGULANABİLİR KANUNUN İZİN VERDİĞİ AZAMİ ÖLÇÜDE GEÇERLİ OLACAKTIR. FİRMA TARAFINDAN SUNULAN HİZMETLER "OLDUĞU GİBİ” VE "MÜMKÜN OLDUĞU” TEMELDE SUNULMAKTA VE PAZARLANABİLİRLİK, BELİRLİ BİR AMACA UYGUNLUK VEYA İHLAL ETMEME KONUSUNDA TÜM ZIMNİ GARANTİLER DE DÂHİL OLMAK ÜZERE HİZMETLER VEYA UYGULAMA İLE İLGİLİ OLARAK (BUNLARDA YER ALAN TÜM BİLGİLER DÂHİL) SARİH VEYA ZIMNİ, KANUNİ VEYA BAŞKA BİR NİTELİKTE HİÇBİR GARANTİDE BULUNMAMAKTADIR.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                5. Kayıt ve Güvenlik
+            </h4>
+            Kullanıcı, doğru, eksiksiz ve güncel kayıt bilgilerini vermek zorundadır. Aksi halde bu Sözleşme ihlal edilmiş sayılacak ve Kullanıcı bilgilendirilmeksizin hesap kapatılabilecektir.
+            Kullanıcı, site ve üçüncü taraf sitelerdeki şifre ve hesap güvenliğinden kendisi sorumludur. Aksi halde oluşacak veri kayıplarından ve güvenlik ihlallerinden veya donanım ve cihazların zarar görmesinden Firma sorumlu tutulamaz.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                6. Mücbir Sebep
+            </h4>
+            Tarafların kontrolünde olmayan; tabii afetler, yangın, patlamalar, iç savaşlar, savaşlar, ayaklanmalar, halk hareketleri, seferberlik ilanı, grev, lokavt ve salgın hastalıklar, altyapı ve internet arızaları, elektrik kesintisi gibi sebeplerden (aşağıda birlikte "Mücbir Sebep” olarak anılacaktır.) dolayı sözleşmeden doğan yükümlülükler taraflarca ifa edilemez hale gelirse, taraflar bundan sorumlu değildir. Bu sürede Taraflar’ın işbu Sözleşme’den doğan hak ve yükümlülükleri askıya alınır.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                7. Sözleşmenin Bütünlüğü ve Uygulanabilirlik
+            </h4>
+
+            İşbu sözleşme şartlarından biri, kısmen veya tamamen geçersiz hale gelirse, sözleşmenin geri kalanı geçerliliğini korumaya devam eder.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                8. Sözleşmede Yapılacak Değişiklikler
+            </h4>
+            Firma, dilediği zaman sitede sunulan hizmetleri ve işbu sözleşme şartlarını kısmen veya tamamen değiştirebilir. Değişiklikler sitede yayınlandığı tarihten itibaren geçerli olacaktır. Değişiklikleri takip etmek Kullanıcı’nın sorumluluğundadır. Kullanıcı, sunulan hizmetlerden yararlanmaya devam etmekle bu değişiklikleri de kabul etmiş sayılır.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                9. Tebligat
+            </h4>
+            İşbu Sözleşme ile ilgili taraflara gönderilecek olan tüm bildirimler, Firma’nın bilinen e.posta adresi ve kullanıcının üyelik formunda belirttiği e.posta adresi vasıtasıyla yapılacaktır. Kullanıcı, üye olurken belirttiği adresin geçerli tebligat adresi olduğunu, değişmesi durumunda 5 gün içinde yazılı olarak diğer tarafa bildireceğini, aksi halde bu adrese yapılacak tebligatların geçerli sayılacağını kabul eder.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                10. Delil Sözleşmesi
+            </h4>
+            Taraflar arasında işbu sözleşme ile ilgili işlemler için çıkabilecek her türlü uyuşmazlıklarda Taraflar’ın defter, kayıt ve belgeleri ile ve bilgisayar kayıtları ve faks kayıtları 6100 sayılı Hukuk Muhakemeleri Kanunu uyarınca delil olarak kabul edilecek olup, kullanıcı bu kayıtlara itiraz etmeyeceğini kabul eder.
+
+            <br>
+            <h4 class="kullanimSartlariHeader">
+                11. Uyuşmazlıkların Çözümü
+            </h4>
+            İşbu Sözleşme’nin uygulanmasından veya yorumlanmasından doğacak her türlü uyuşmazlığın çözümünde İzmir (Merkez) Adliyesi Mahkemeleri ve İcra Daireleri yetkilidir.
+        </div>
+    </template>
+
+    <template id="gizlilik">
+        <div class="gizlilik">
+            <p><h3 class="gizlilikHeader">GİZLİLİK VE GÜVENLİK POLİTİKASI</h3></p>
+
+            <p>Sitemizde verilen tüm servisler ve içerikler ,73. Sk. no 5/a Bornova İzmir adresinde kayıtlı T.C. MEB ÖZEL DOĞRUSÖZLÜ EĞİTİM KURSU. firmamıza aittir ve firmamız tarafından işletilir.</p>
+
+            <p>Firmamız, çeşitli amaçlarla kişisel veriler toplayabilir. Aşağıda, toplanan kişisel verilerin nasıl ve ne şekilde toplandığı, bu verilerin nasıl ve ne şekilde korunduğu belirtilmiştir.</p>
+
+            Üyelik veya Mağazamız üzerindeki çeşitli form ve anketlerin doldurulması suretiyle üyelerin kendileriyle ilgili bir takım kişisel bilgileri (isim-soy isim, firma bilgileri, telefon, adres veya e-posta adresleri gibi) Mağazamız tarafından işin doğası gereği toplanmaktadır.
+
+            <p>
+                Firmamız bazı dönemlerde müşterilerine ve üyelerine kampanya bilgileri, yeni ürünler hakkında bilgiler, promosyon teklifleri gönderebilir. Üyelerimiz bu gibi bilgileri alıp almama konusunda her türlü seçimi üye olurken yapabilir, sonrasında üye girişi yaptıktan sonra hesap bilgileri bölümünden bu seçimi değiştirilebilir ya da kendisine gelen bilgilendirme iletisindeki linkle bildirim yapabilir.
+
+                Mağazamız üzerinden veya eposta ile gerçekleştirilen onay sürecinde, üyelerimiz tarafından mağazamıza elektronik ortamdan iletilen kişisel bilgiler, Üyelerimiz ile yaptığımız "Kullanıcı Sözleşmesi" ile belirlenen amaçlar ve kapsam dışında üçüncü kişilere açıklanmayacaktır.
+
+                Sistemle ilgili sorunların tanımlanması ve verilen hizmet ile ilgili çıkabilecek sorunların veya uyuşmazlıkların hızla çözülmesi için, Firmamız, üyelerinin IP adresini kaydetmekte ve bunu kullanmaktadır. IP adresleri, kullanıcıları genel bir şekilde tanımlamak ve kapsamlı demografik bilgi toplamak amacıyla da kullanılabilir.
+
+                Firmamız, Üyelik Sözleşmesi ile belirlenen amaçlar ve kapsam dışında da, talep edilen bilgileri kendisi veya işbirliği içinde olduğu kişiler tarafından doğrudan pazarlama yapmak amacıyla kullanabilir. Kişisel bilgiler, gerektiğinde kullanıcıyla temas kurmak için de kullanılabilir. Firmamız tarafından talep edilen bilgiler veya kullanıcı tarafından sağlanan bilgiler veya Mağazamız üzerinden yapılan işlemlerle ilgili bilgiler; Firmamız ve işbirliği içinde olduğu kişiler tarafından, "Üyelik Sözleşmesi" ile belirlenen amaçlar ve kapsam dışında da, üyelerimizin kimliği ifşa edilmeden çeşitli istatistiksel değerlendirmeler, veri tabanı oluşturma ve pazar araştırmalarında kullanılabilir.
+
+                Firmamız, gizli bilgileri kesinlikle özel ve gizli tutmayı, bunu bir sır saklama yükümü olarak addetmeyi ve gizliliğin sağlanması ve sürdürülmesi, gizli bilginin tamamının veya herhangi bir kısmının kamu alanına girmesini veya yetkisiz kullanımını veya üçüncü bir kişiye ifşasını önlemek için gerekli tüm tedbirleri almayı ve gerekli özeni göstermeyi taahhüt etmektedir.
+            </p>
+
+            <br>
+            <h4 class="gizlilikHeader">KREDİ KARTI GÜVENLİĞİ</h4>
+
+            <p>
+                Firmamız, alışveriş sitelerimizden alışveriş yapan kredi kartı sahiplerinin güvenliğini ilk planda tutmaktadır. Kredi kartı bilgileriniz hiçbir şekilde sistemimizde saklanmamaktadır.
+
+                İşlemler sürecine girdiğinizde güvenli bir sitede olduğunuzu anlamak için dikkat etmeniz gereken iki şey vardır. Bunlardan biri tarayıcınızın en alt satırında bulunan bir anahtar ya da kilit simgesidir. Bu güvenli bir internet sayfasında olduğunuzu gösterir ve her türlü bilgileriniz şifrelenerek korunur. Bu bilgiler, ancak satış işlemleri sürecine bağlı olarak ve verdiğiniz talimat istikametinde kullanılır. Alışveriş sırasında kullanılan kredi kartı ile ilgili bilgiler alışveriş sitelerimizden bağımsız olarak 128 bit SSL (Secure Sockets Layer) protokolü ile şifrelenip sorgulanmak üzere ilgili bankaya ulaştırılır. Kartın kullanılabilirliği onaylandığı takdirde alışverişe devam edilir. Kartla ilgili hiçbir bilgi tarafımızdan görüntülenemediğinden ve kaydedilmediğinden, üçüncü şahısların herhangi bir koşulda bu bilgileri ele geçirmesi engellenmiş olur.
+                Online olarak kredi kartı ile verilen siparişlerin ödeme/fatura/teslimat adresi bilgilerinin güvenilirliği firmamiz tarafından Kredi Kartları Dolandırıcılığı'na karşı denetlenmektedir. Bu yüzden, alışveriş sitelerimizden ilk defa sipariş veren müşterilerin siparişlerinin tedarik ve teslimat aşamasına gelebilmesi için öncelikle finansal ve adres/telefon bilgilerinin doğruluğunun onaylanması gereklidir. Bu bilgilerin kontrolü için gerekirse kredi kartı sahibi müşteri ile veya ilgili banka ile irtibata geçilmektedir.
+                Üye olurken verdiğiniz tüm bilgilere sadece siz ulaşabilir ve siz değiştirebilirsiniz. Üye giriş bilgilerinizi güvenli koruduğunuz takdirde başkalarının sizinle ilgili bilgilere ulaşması ve bunları değiştirmesi mümkün değildir. Bu amaçla, üyelik işlemleri sırasında 128 bit SSL güvenlik alanı içinde hareket edilir. Bu sistem kırılması mümkün olmayan bir uluslararası bir şifreleme standardıdır.
+
+                Bilgi hattı veya müşteri hizmetleri servisi bulunan ve açık adres ve telefon bilgilerinin belirtildiği İnternet alışveriş siteleri günümüzde daha fazla tercih edilmektedir. Bu sayede aklınıza takılan bütün konular hakkında detaylı bilgi alabilir, online alışveriş hizmeti sağlayan firmanın güvenirliği konusunda daha sağlıklı bilgi edinebilirsiniz.
+
+                Not: İnternet alışveriş sitelerinde firmanın açık adresinin ve telefonun yer almasına dikkat edilmesini tavsiye ediyoruz. Alışveriş yapacaksanız alışverişinizi yapmadan ürünü aldığınız mağazanın bütün telefon / adres bilgilerini not edin. Eğer güvenmiyorsanız alışverişten önce telefon ederek teyit edin. Firmamıza ait tüm online alışveriş sitelerimizde firmamıza dair tüm bilgiler ve firma yeri belirtilmiştir.
+            </p>
+            <br>
+            <h4 class="gizlilikHeader">MAİL ORDER KREDİ KART BİLGİLERİ GÜVENLİĞİ</h4>
+
+            <p>Kredi kartı mail-order yöntemi ile bize göndereceğiniz kimlik ve kredi kart bilgileriniz firmamız tarafından gizlilik prensibine göre saklanacaktır. Bu bilgiler olası banka ile oluşubilecek kredi kartından para çekim itirazlarına karşı 60 gün süre ile bekletilip daha sonrasında imha edilmektedir. Sipariş ettiğiniz ürünlerin bedeli karşılığında bize göndereceğiniz tarafınızdan onaylı mail-order formu bedeli dışında herhangi bir bedelin kartınızdan çekilmesi halinde doğal olarak bankaya itiraz edebilir ve bu tutarın ödenmesini engelleyebileceğiniz için bir risk oluşturmamaktadır.></p>
+
+            <br>
+            <h4 class="gizlilikHeader">ÜÇÜNCÜ TARAF WEB SİTELERİ VE UYGULAMALAR</h4>
+            <p>
+
+                Mağazamız, web sitesi dâhilinde başka sitelere link verebilir. Firmamız, bu linkler vasıtasıyla erişilen sitelerin gizlilik uygulamaları ve içeriklerine yönelik herhangi bir sorumluluk taşımamaktadır. Firmamıza ait sitede yayınlanan reklamlar, reklamcılık yapan iş ortaklarımız aracılığı ile kullanıcılarımıza dağıtılır. İş bu sözleşmedeki Gizlilik Politikası Prensipleri, sadece Mağazamızın kullanımına ilişkindir, üçüncü taraf web sitelerini kapsamaz.
+
+                İSTİSNAİ HALLER
+                Aşağıda belirtilen sınırlı hallerde Firmamız, işbu "Gizlilik Politikası" hükümleri dışında kullanıcılara ait bilgileri üçüncü kişilere açıklayabilir. Bu durumlar sınırlı sayıda olmak üzere;
+                1.Kanun, Kanun Hükmünde Kararname, Yönetmelik v.b. yetkili hukuki otorite tarafından çıkarılan ve yürürlülükte olan hukuk kurallarının getirdiği zorunluluklara uymak;
+                2.Mağazamızın kullanıcılarla akdettiği "Üyelik Sözleşmesi"'nin ve diğer sözleşmelerin gereklerini yerine getirmek ve bunları uygulamaya koymak amacıyla;
+                3.Yetkili idari ve adli otorite tarafından usulüne göre yürütülen bir araştırma veya soruşturmanın yürütümü amacıyla kullanıcılarla ilgili bilgi talep edilmesi;
+                4.Kullanıcıların hakları veya güvenliklerini korumak için bilgi vermenin gerekli olduğu hallerdir.
+            </p>
+            <br>
+            <br>
+            <h4 class="gizlilikHeader">E-POSTA GÜVENLİĞİ</h4>
+            <p>
+                Mağazamızın Müşteri Hizmetleri’ne, herhangi bir siparişinizle ilgili olarak göndereceğiniz e-postalarda, asla kredi kartı numaranızı veya şifrelerinizi yazmayınız. E-postalarda yer alan bilgiler üçüncü şahıslar tarafından görülebilir. Firmamız e-postalarınızdan aktarılan bilgilerin güvenliğini hiçbir koşulda garanti edemez.
+
+                <br>
+                TARAYICI ÇEREZLERİ
+                Firmamız, mağazamızı ziyaret eden kullanıcılar ve kullanıcıların web sitesini kullanımı hakkındaki bilgileri teknik bir iletişim dosyası (Çerez-Cookie) kullanarak elde edebilir. Bahsi geçen teknik iletişim dosyaları, ana bellekte saklanmak üzere bir internet sitesinin kullanıcının tarayıcısına (browser) gönderdiği küçük metin dosyalarıdır. Teknik iletişim dosyası site hakkında durum ve tercihleri saklayarak İnternet'in kullanımını kolaylaştırır.
+
+                Teknik iletişim dosyası, siteyi kaç kişinin ziyaret ettiğini, bir kişinin siteyi hangi amaçla, kaç kez ziyaret ettiğini ve ne kadar sitede kaldıkları hakkında istatistiksel bilgileri elde etmeye ve kullanıcılar için özel tasarlanmış kullanıcı sayfalarından dinamik olarak reklam ve içerik üretilmesine yardımcı olur. Teknik iletişim dosyası, ana bellekte veya e-postanızdan veri veya başkaca herhangi bir kişisel bilgi almak için tasarlanmamıştır. Tarayıcıların pek çoğu başta teknik iletişim dosyasını kabul eder biçimde tasarlanmıştır ancak kullanıcılar dilerse teknik iletişim dosyasının gelmemesi veya teknik iletişim dosyasının gönderildiğinde uyarı verilmesini sağlayacak biçimde ayarları değiştirebilirler.
+
+                Firmamız, işbu "Gizlilik Politikası" hükümlerini dilediği zaman sitede yayınlamak veya kullanıcılara elektronik posta göndermek veya sitesinde yayınlamak suretiyle değiştirebilir. Gizlilik Politikası hükümleri değiştiği takdirde, yayınlandığı tarihte yürürlük kazanır.
+            </p>
+            Gizlilik politikamız ile ilgili her türlü soru ve önerileriniz için <b>info@logossanat.com</b> adresine email gönderebilirsiniz. Firmamız’a ait aşağıdaki iletişim bilgilerinden ulaşabilirsiniz.
+            <ul>
+                <li>Firma Ünvanı:</li>
+                <li> Adres:73. Sk. no 5/a Bornova / İzmir</li>
+                <li> Eposta:</li>
+                <li>Tel:</li>
+            </ul>
+
+        </div>
+    </template>
+
+    <template id="UserInfoFormTemplate">
+        <div class="signUpLoginArea">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
+                    <div class="formArea">
+                        <h2>Bilgilerim</h2>
+                        <form onsubmit="event.preventDefault(); Register();">
+                            <div class="form-group">
+                                <input id="userInfoEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="userInfoName" type="text" class="form-control" placeholder="Adınız" oninvalid="this.setCustomValidity('Adınız boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="userInfoSurname" type="text" class="form-control" placeholder="Soyadınız" oninvalid="this.setCustomValidity('Soyadınız boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="form-group col-xl-4">
+                                    <select id="userInfoDoBDay"><option value="">*Gün</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+                                </div>
+                                <div class="form-group col-xl-4">
+                                    <select id="userInfoDoBMonth"><option value="">*Ay</option><option value="1">Ocak</option><option value="2">Şubat</option><option value="3">Mart</option><option value="4">Nisan</option><option value="5">Mayıs</option><option value="6">Haziran</option><option value="7">Temmuz</option><option value="8">Ağustos</option><option value="9">Eylül</option><option value="10">Ekim</option><option value="11">Kasım</option><option value="12">Aralık</option></select>
+                                </div>
+                                <div class="form-group col-xl-4">
+                                    <select id="userInfoDoBYear">
+                                        <option value="">*Yıl</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2000">2000</option>
+                                        <option value="1999">1999</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1989">1989</option>
+                                        <option value="1988">1988</option>
+                                        <option value="1987">1987</option>
+                                        <option value="1986">1986</option>
+                                        <option value="1985">1985</option>
+                                        <option value="1984">1984</option>
+                                        <option value="1983">1983</option>
+                                        <option value="1982">1982</option>
+                                        <option value="1981">1981</option>
+                                        <option value="1980">1980</option>
+                                        <option value="1979">1979</option>
+                                        <option value="1978">1978</option>
+                                        <option value="1977">1977</option>
+                                        <option value="1976">1976</option>
+                                        <option value="1975">1975</option>
+                                        <option value="1974">1974</option>
+                                        <option value="1973">1973</option>
+                                        <option value="1972">1972</option>
+                                        <option value="1971">1971</option>
+                                        <option value="1970">1970</option>
+                                        <option value="1969">1969</option>
+                                        <option value="1968">1968</option>
+                                        <option value="1967">1967</option>
+                                        <option value="1966">1966</option>
+                                        <option value="1965">1965</option>
+                                        <option value="1964">1964</option>
+                                        <option value="1963">1963</option>
+                                        <option value="1962">1962</option>
+                                        <option value="1961">1961</option>
+                                        <option value="1960">1960</option>
+                                        <option value="1959">1959</option>
+                                        <option value="1958">1958</option>
+                                        <option value="1957">1957</option>
+                                        <option value="1956">1956</option>
+                                        <option value="1955">1955</option>
+                                        <option value="1954">1954</option>
+                                        <option value="1953">1953</option>
+                                        <option value="1952">1952</option>
+                                        <option value="1951">1951</option>
+                                        <option value="1950">1950</option>
+                                        <option value="1949">1949</option>
+                                        <option value="1948">1948</option>
+                                        <option value="1947">1947</option>
+                                        <option value="1946">1946</option>
+                                        <option value="1945">1945</option>
+                                        <option value="1944">1944</option>
+                                        <option value="1943">1943</option>
+                                        <option value="1942">1942</option>
+                                        <option value="1941">1941</option>
+                                        <option value="1940">1940</option>
+                                        <option value="1939">1939</option>
+                                        <option value="1938">1938</option>
+                                        <option value="1937">1937</option>
+                                        <option value="1936">1936</option>
+                                        <option value="1935">1935</option>
+                                        <option value="1934">1934</option>
+                                        <option value="1933">1933</option>
+                                        <option value="1932">1932</option>
+                                        <option value="1931">1931</option>
+                                        <option value="1930">1930</option>
+                                        <option value="1929">1929</option>
+                                        <option value="1928">1928</option>
+                                        <option value="1927">1927</option>
+                                        <option value="1926">1926</option>
+                                        <option value="1925">1925</option>
+                                        <option value="1924">1924</option>
+                                        <option value="1923">1923</option>
+                                        <option value="1922">1922</option>
+                                        <option value="1921">1921</option>
+                                        <option value="1920">1920</option>
+                                        <option value="1919">1919</option>
+                                        <option value="1918">1918</option>
+                                        <option value="1917">1917</option>
+                                        <option value="1916">1916</option>
+                                        <option value="1915">1915</option>
+                                        <option value="1914">1914</option>
+                                        <option value="1913">1913</option>
+                                        <option value="1912">1912</option>
+                                        <option value="1911">1911</option>
+                                        <option value="1910">1910</option>
+                                        <option value="1909">1909</option>
+                                        <option value="1908">1908</option>
+                                        <option value="1907">1907</option>
+                                        <option value="1906">1906</option>
+                                        <option value="1905">1905</option>
+                                        <option value="1904">1904</option>
+                                        <option value="1903">1903</option>
+                                        <option value="1902">1902</option>
+                                        <option value="1901">1901</option>
+                                        <option value="1900">1900</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select id="userInfoCity">
+                                    <option value="">Yaşadığınız Şehir</option>
+                                    <option value="1">Adana</option>
+                                    <option value="2">Adıyaman</option>
+                                    <option value="3">Afyonkarahisar</option>
+                                    <option value="4">Ağrı</option>
+                                    <option value="5">Amasya</option>
+                                    <option value="6">Ankara</option>
+                                    <option value="7">Antalya</option>
+                                    <option value="8">Artvin</option>
+                                    <option value="9">Aydın</option>
+                                    <option value="10">Balıkesir</option>
+                                    <option value="11">Bilecik</option>
+                                    <option value="12">Bingöl</option>
+                                    <option value="13">Bitlis</option>
+                                    <option value="14">Bolu</option>
+                                    <option value="15">Burdur</option>
+                                    <option value="16">Bursa</option>
+                                    <option value="17">Çanakkale</option>
+                                    <option value="18">Çankırı</option>
+                                    <option value="19">Çorum</option>
+                                    <option value="20">Denizli</option>
+                                    <option value="21">Diyarbakır</option>
+                                    <option value="22">Edirne</option>
+                                    <option value="23">Elazığ</option>
+                                    <option value="24">Erzincan</option>
+                                    <option value="25">Erzurum</option>
+                                    <option value="26">Eskişehir</option>
+                                    <option value="27">Gaziantep</option>
+                                    <option value="28">Giresun</option>
+                                    <option value="29">Gümüşhane</option>
+                                    <option value="30">Hakkâri</option>
+                                    <option value="31">Hatay</option>
+                                    <option value="32">Isparta</option>
+                                    <option value="33">Mersin</option>
+                                    <option value="34">İstanbul</option>
+                                    <option value="35">İzmir</option>
+                                    <option value="36">Kars</option>
+                                    <option value="37">Kastamonu</option>
+                                    <option value="38">Kayseri</option>
+                                    <option value="39">Kırklareli</option>
+                                    <option value="40">Kırşehir</option>
+                                    <option value="41">Kocaeli</option>
+                                    <option value="42">Konya</option>
+                                    <option value="43">Kütahya</option>
+                                    <option value="44">Malatya</option>
+                                    <option value="45">Manisa</option>
+                                    <option value="46">Kahramanmaraş</option>
+                                    <option value="47">Mardin</option>
+                                    <option value="48">Muğla</option>
+                                    <option value="49">Muş</option>
+                                    <option value="50">Nevşehir</option>
+                                    <option value="51">Niğde</option>
+                                    <option value="52">Ordu</option>
+                                    <option value="53">Rize</option>
+                                    <option value="54">Sakarya</option>
+                                    <option value="55">Samsun</option>
+                                    <option value="56">Siirt</option>
+                                    <option value="57">Sinop</option>
+                                    <option value="58">Sivas</option>
+                                    <option value="59">Tekirdağ</option>
+                                    <option value="60">Tokat</option>
+                                    <option value="61">Trabzon</option>
+                                    <option value="62">Tunceli</option>
+                                    <option value="63">Şanlıurfa</option>
+                                    <option value="64">Uşak</option>
+                                    <option value="65">Van</option>
+                                    <option value="66">Yozgat</option>
+                                    <option value="67">Zonguldak</option>
+                                    <option value="68">Aksaray</option>
+                                    <option value="69">Bayburt</option>
+                                    <option value="70">Karaman</option>
+                                    <option value="71">Kırıkkale</option>
+                                    <option value="72">Batman</option>
+                                    <option value="73">Şırnak</option>
+                                    <option value="74">Bartın</option>
+                                    <option value="75">Ardahan</option>
+                                    <option value="76">Iğdır</option>
+                                    <option value="77">Yalova</option>
+                                    <option value="78">Karabük</option>
+                                    <option value="79">Kilis</option>
+                                    <option value="80">Osmaniye</option>
+                                    <option value="81">Düzce</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select id="userInfoInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
+                            </div>
+
+                            <button onclick="updateUserInfo();">KAYDET</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+    <template id="resetPasFormTemplate">
+        <div class="signUpLoginArea">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
+                    <div class="formArea">
+                        <h2>SIFRE SIFIRLA</h2>
+                        <form onsubmit="event.preventDefault(); ">
+                            <div class="form-group">
+                                <input id="resetPasEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+
+
+                            <button onclick="resetPas();">Reset</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+    <template id="changePasFormTemplate">
+        <div class="signUpLoginArea">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6" style="border-right:1px solid #eaeaea;">
+                    <div class="formArea">
+                        <h2>SIFRE YENILE</h2>
+                        <form onsubmit="event.preventDefault(); ">
+                            <div class="form-group">
+                                <input id="changePasEmail" type="email" class="form-control" placeholder="E-Mail Adresiniz" oninvalid="this.setCustomValidity('Email boş olamaz')"
+                                       oninput="this.setCustomValidity('')" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group  col-xl-4">
+                                    <input id="changePas" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                           oninput="this.setCustomValidity('')" required>
+                                </div>
+                                <div class="form-group col-xl-4">
+                                    <input id="changePas2" type="password" class="form-control" placeholder="Yeni Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                           oninput="this.setCustomValidity('')" required>
+                                </div>
+                                <div class="form-group col-xl-4">
+                                    <input id="changePas3" type="password" class="form-control" placeholder="Yeniden Şifreniz Tekrar" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
+                                           oninput="this.setCustomValidity('')" required>
+                                </div>
+                            </div>
+
+                            <button onclick="UpdPsw();">Reset</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+    <template id="lessonTemplate">
+
+        <div class="lessonContent">
+            <div class="">
+                <div class="tabsBtn">
+                    <a id="LessonTitle" href="javascript:;" class="selected">BASIT RITIM EGZERSIZ -1</a>
+                </div>
+                <div class="">
+                    <div>
+
+
+
+                        <div id="LessonVideo" class="embed-responsive embed-responsive-16by9 videoArea">
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="lessonLinks">
+                <ul>
+                    <li>
+                        <a onclick="toggleOpen(this);" class="tikla">DERS ACIKLAMASI</a>
+                        <div class="ac">
+                            <span id="LessonLongDescription" class="lessonnote">
+
+
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a onclick="toggleOpen(this);" class="tikla">PDF</a>
+                        <div class="ac">
+
+                            <object id="LessonPdf" data="content/media/g1/g1.pdf" type="application/pdf" width="100%" height="500">
+                            </object>
+
+                        </div>
+                    </li>
+                    <li>
+                        <a onclick="toggleOpen(this);" class="tikla">BACK - TRACK</a>
+                        <div class="ac">
+                            <audio controls>
+                                <source id="LessonBackTrack" src="content/media/g1/g1.wav" type="audio/mpeg">
+
+                            </audio>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </template>
+
+    <template id="aboutus">
+        <div class="gizlilik">
+            <p><h3 class="gizlilikHeader">Hakkımızda</h3></p>
+            <img class="aboutimage" src="images/meb.jpg" />
+            <p>
+                2009 yılında İzmir Bornovada
+                faaliyete geçen kurumumuz Serhan
+                Doğrusözlü tarafından kurulmuştur.
+                İlk öğrenclierini gitar , piano ve
+                bateriden kabul eden okulumuzda
+                şuan yan flüt , çello, keman , şan ,
+                solfej ve daha bir çok enstrüman
+                dersleri verilmektedir. Milli eğitim
+                bakanlığı tarafından onaylı olan okulumuz T.C.M.E.B. Özel
+                Doğrusözlü müzik kursu olarak da bilinmektedir. Logos Sanat
+                öğrencilerine her yıl konser imkani sunmaktadır. Ayfer Feray
+                Açık Hava Tiyatrosu , Soyer Kültür Sanat Fabrikası , İsmet
+                İnönü Sanat Merkezi , Torbalı BKM sahneleri bu konserlerden
+                birkaçına ev sahipliği yapmıştır. Uzman eğitim kadrosuna sahip
+                Logos Sanat aynı zamanda London College of Music yetkili
+                eğitim ve sınav merkezidir. Bünyesinde bulunan profesyonel
+                kayıt stüdyosu ile yerel ve ulusal çapta bir çok müzisyenin ,
+                müzik öğretmenin , akademisyenin eser kayıtlarında rol
+                almıştır. Hala İzmir Bornovada faliyetlerine devam eden logos
+                sanat konservatuarlara , müzik liselerine , çeşitli yarışmalara
+                öğrenci hazırlamaktadır. Mesleki eğitim programlarıyla ve
+                ulusal , uluslararası müzik sertifikasyon programları ile bir çok
+                öğrenciye hizmet vermektedir.
+            </p>
+        </div>
+    </template>
+
+    <template id="contact">
+        <div class="gizlilik">
+            <p><h3 class="gizlilikHeader h2">İletişim</h3></p>
+            <h3 class="h3">E-mail</h3>
+            <p>info@logossanat.com</p>
+            <br />
+            <h2 class="h3"><b>Adres</b></h2>
+            <p>Erzene, 73. Sk. no 5/a, 35110 </p>
+            <p>Bornova/İzmir</p>
+            <br />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12495.8811941774!2d27.222634!3d38.465247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4a89e66d6466198!2sLogossanat%20St%C3%BCdyo!5e0!3m2!1sen!2str!4v1614624747990!5m2!1sen!2str" width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+    </template>
+
+    <template id="selectSubscription">
+        <div class="gizlilik">
+            <p><h3 class="h3">Üyelik Seçenekleri</h3></p>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header paymentHeader">
+                        <h4 class="my-0 font-weight-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Ücretsiz<small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Ücretsiz içeriklere erişebilirsiniz</li>
+                            <li>Genele yönelik canlı yayınları izleyebilirsiniz</li>
+                            <li>Logos Kütüphanedeki kısıtlı içerikleri görebilirsiniz</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header paymentHeader">
+                        <h4 class="my-0 font-weight-normal">Premium</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">5 TL <small class="text-muted">/ Ay</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Tüm derslere erişebilirsiniz</li>
+                            <li>Canlı yayınları izleyebilirsiniz</li>
+                            <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary paymentButton">SATIN AL</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header paymentHeader">
+                        <h4 class="my-0 font-weight-normal">VIP</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">29 TL <small class="text-muted">/ Ay</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Tüm derslere erişebilirsiniz</li>
+                            <li>Canlı yayınları izleyebilirsiniz</li>
+                            <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary paymentButton">SATIN AL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="lib">
+        <div class="gizlilik">
+            <p><h3 class="gizlilikHeader h2">Logos Kütüphane</h3></p>
+            <table id="libTable" class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Ad</th>
+                        <th scope="col">Link</th>
+                        <th scope="col">Açıklama</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+            <ul id="libList">
+            </ul>
+        </div>
+</template>
+
+
+<template id="payForm">
+    <div class="gizlilik"></div>
+</template>
+<script src="scripts/function.js"></script>
+<script>
+
+    checkLoggedIn(),
+        initIndex();
+
+</script>
+
+
+
 </body>
+
 </html>
