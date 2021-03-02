@@ -1,14 +1,27 @@
 ﻿<!doctype html>
 <html>
 <head>
+
+
     <meta charset="utf-8">
     <title>Logos Sanat</title>
 
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 
-    <!--<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />-->
-    <link rel="stylesheet" type="text/css" href="https://d33wubrfki0l68.cloudfront.net/css/899cc41ca6893001504edef5b23cbe39287cab50/styles/bootstrap.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="white" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Hello World">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/slider.css" />
     <link rel="stylesheet" href="styles/slick.min.css" />
@@ -24,7 +37,7 @@
     <script src="scripts/slick.js"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/jquery.fancybox.min.js"></script>
-    <script src="scripts/lesson.js"></script>
+
 
 </head>
 
@@ -42,7 +55,7 @@
                 </button>
             </div>
             <div class="searchArea">
-                <button onclick="selectSubscription();" >PREMIUM</button>
+                <button onclick="selectSubscription();">PREMIUM</button>
             </div>
         </div>
 
@@ -96,8 +109,8 @@
 
             </ul>
 
-          
-            
+
+
 
             <div class="menuFooter">
                 <div class="mobileSocialMedia">
@@ -323,8 +336,7 @@
                 </div>
 
 
-            <!-- Ana sayfa akademi -->
-
+                <!-- Ana sayfa akademi -->
                 <!--<div class="academyArea">
 
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -1069,26 +1081,26 @@
     <!-- Modal -->
     <div class="modal fade" id="liveModal" tabindex="-1" role="dialog" aria-labelledby="Live" aria-hidden="true">
         <div class="modal-dialog" role="document">
-        <div class="modal-content liveContainer">
-            <div class="modal-header">
-                <h5 class="modal-title h5" id="liveTitle">Modal title</h5>
-                <button type="button" onclick="hideLive();" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div id="liveModalBody" class="modal-body">
-                <h5 id="liveZaman" class="h4"></h5>
-                <div id="liveVideo" class="liveVideo"></div>
+            <div class="modal-content liveContainer">
+                <div class="modal-header">
+                    <h5 class="modal-title h5" id="liveTitle">Modal title</h5>
+                    <button type="button" onclick="hideLive();" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="liveModalBody" class="modal-body">
+                    <h5 id="liveZaman" class="h4"></h5>
+                    <div id="liveVideo" class="liveVideo"></div>
 
-            </div>
-            <div class="modal-footer">
-                <button type="button" onclick="hideLive();" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="hideLive();" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-      <template id="kullanimSartlari">
+    <template id="kullanimSartlari">
         <div class="kullanimSartlari">
             <p><h3 class="kullanimSartlariHeader">LOGOSSANAT SİTE KULLANIM ŞARTLARI</h3></p>
             <br>
@@ -1646,104 +1658,106 @@
         </div>
     </template>
 
-<template id="contact">
-    <div class="gizlilik">
-        <p><h3 class="gizlilikHeader h2">İletişim</h3></p>
-        <h3 class="h3">E-mail</h3>
-        <p>info@logossanat.com</p>
-        <br />
-        <h2 class="h3"><b>Adres</b></h2>
-        <p>Erzene, 73. Sk. no 5/a, 35110 </p>
-        <p>Bornova/İzmir</p>
-        <br />
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12495.8811941774!2d27.222634!3d38.465247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4a89e66d6466198!2sLogossanat%20St%C3%BCdyo!5e0!3m2!1sen!2str!4v1614624747990!5m2!1sen!2str" width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <template id="contact">
+        <div class="gizlilik">
+            <p><h3 class="gizlilikHeader h2">İletişim</h3></p>
+            <h3 class="h3">E-mail</h3>
+            <p>info@logossanat.com</p>
+            <br />
+            <h2 class="h3"><b>Adres</b></h2>
+            <p>Erzene, 73. Sk. no 5/a, 35110 </p>
+            <p>Bornova/İzmir</p>
+            <br />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12495.8811941774!2d27.222634!3d38.465247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe4a89e66d6466198!2sLogossanat%20St%C3%BCdyo!5e0!3m2!1sen!2str!4v1614624747990!5m2!1sen!2str" width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-    </div>
-</template>
+        </div>
+    </template>
 
-<template id="selectSubscription">
-    <div class="gizlilik">
-        <p><h3 class="h3">Üyelik Seçenekleri</h3></p>
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 box-shadow">
-                <div class="card-header paymentHeader">
-                    <h4 class="my-0 font-weight-normal">Free</h4>
+    <template id="selectSubscription">
+        <div class="gizlilik">
+            <p><h3 class="h3">Üyelik Seçenekleri</h3></p>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header paymentHeader">
+                        <h4 class="my-0 font-weight-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Ücretsiz<small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Ücretsiz içeriklere erişebilirsiniz</li>
+                            <li>Genele yönelik canlı yayınları izleyebilirsiniz</li>
+                            <li>Logos Kütüphanedeki kısıtlı içerikleri görebilirsiniz</li>
+                        </ul>
+
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">Ücretsiz<small class="text-muted"></small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Ücretsiz içeriklere erişebilirsiniz</li>
-                        <li>Genele yönelik canlı yayınları izleyebilirsiniz</li>
-                        <li>Logos Kütüphanedeki kısıtlı içerikleri görebilirsiniz</li>
-                    </ul>
-                    
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header paymentHeader">
+                        <h4 class="my-0 font-weight-normal">Premium</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">5 TL <small class="text-muted">/ Ay</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Tüm derslere erişebilirsiniz</li>
+                            <li>Canlı yayınları izleyebilirsiniz</li>
+                            <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary paymentButton">SATIN AL</button>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-4 box-shadow">
-                <div class="card-header paymentHeader">
-                    <h4 class="my-0 font-weight-normal">Premium</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">5 TL <small class="text-muted">/ Ay</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Tüm derslere erişebilirsiniz</li>
-                        <li>Canlı yayınları izleyebilirsiniz</li>
-                        <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary paymentButton">SATIN AL</button>
-                </div>
-            </div>
-            <div class="card mb-4 box-shadow">
-                <div class="card-header paymentHeader">
-                    <h4 class="my-0 font-weight-normal">VIP</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">29 TL <small class="text-muted">/ Ay</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Tüm derslere erişebilirsiniz</li>
-                        <li>Canlı yayınları izleyebilirsiniz</li>
-                        <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary paymentButton">SATIN AL</button>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header paymentHeader">
+                        <h4 class="my-0 font-weight-normal">VIP</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">29 TL <small class="text-muted">/ Ay</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Tüm derslere erişebilirsiniz</li>
+                            <li>Canlı yayınları izleyebilirsiniz</li>
+                            <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary paymentButton">SATIN AL</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</template>
+    </template>
 
-<template id="lib">
-    <div class="gizlilik">
-        <p><h3 class="gizlilikHeader h2">Logos Kütüphane</h3></p>
-        <table id="libTable" class="table">
-            <thead class="thead-dark">
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Ad</th>
-                <th scope="col">Link</th>
-                <th scope="col">Açıklama</th>
-            </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+    <template id="lib">
+        <div class="gizlilik">
+            <p><h3 class="gizlilikHeader h2">Logos Kütüphane</h3></p>
+            <table id="libTable" class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Ad</th>
+                        <th scope="col">Link</th>
+                        <th scope="col">Açıklama</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
 
-        <ul id="libList">
-        </ul>
-    </div>
+            <ul id="libList">
+            </ul>
+        </div>
 </template>
 
 
 <template id="payForm">
     <div class="gizlilik"></div>
 </template>
-        <script src="scripts/function.js"></script>
-        <script>
+<script src="scripts/function.js"></script>
+<script>
 
-            checkLoggedIn(),
-                initIndex();
+    checkLoggedIn(),
+        initIndex();
 
-        </script>
+</script>
 
-
+</div>
+<script src="scripts/main.js"></script>
+</body>
 </body>
 </html>
