@@ -485,6 +485,7 @@ footer .footer .footerRight .storeLinks a {
   padding: 10px;
   display: block;
   transition: 0.3s;
+    cursor: pointer;
 }
 .contentArea .contentTop .latestPost ul li a span {
   font-family: 'sourceLight';

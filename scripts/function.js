@@ -131,7 +131,7 @@ function showAllLessons(akademi){
             var les=getLessonInfo($(this));
             var id="lesson"+(index+1);             
             //var str ='<a href="' + les.url+ '"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
-            var str = '<a onclick="showLesson("'+les.code+'");"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span>' + les.short_description + '</span></div></a>';
+            var str = '<a  onclick="showLesson(\'' + les.code +'\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span>' + les.short_description + '</span></div></a>';
             var container=document.getElementById(id);
             container.innerHTML=str;           
         }       
@@ -227,7 +227,7 @@ function showLastAddedLessons(academyDoc,akademi){
 }
 
 function showLastAdd(les,id){
-    var str = '<a onclick="showLesson("' + les.code +'");"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
+    var str = '<a  onclick="showLesson(\'' + les.code +'\');"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
     var container=document.getElementById(id);
     container.innerHTML=str;
 
@@ -236,7 +236,7 @@ function showLastAdd(les,id){
 
 function UpdateLesson(les,id){
 
-    var str = '<a onclick="showLesson("' + les.code +'");"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
+    var str = '<a  onclick="showLesson(\'' + les.code +'\');"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
     var container=document.getElementById(id);
     container.innerHTML=str;
 
