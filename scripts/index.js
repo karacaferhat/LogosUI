@@ -785,3 +785,41 @@ function openLib() {
 function openHome() {
     window.location='main_index.html';
 }
+
+function showLive() {
+    var Connect = new XMLHttpRequest();
+    var xmlpath = "Yonetim/CanliYayin.xml";
+    Connect.open("GET", xmlpath, false);
+    Connect.setRequestHeader("Content-Type", "text/xml");
+    Connect.send(null);
+    var libdoc;
+    libdoc = Connect.responseXML;
+    var baslik = libdoc.getElementsByTagName("baslik")[0];
+    var zaman = libdoc.getElementsByTagName("zaman")[0];
+    var cont = libdoc.getElementsByTagName("link")[0];
+
+    var cnt = cont.innerHTML;
+    $('#liveTitle').html(baslik.textContent);
+    $('#liveZaman').html(zaman.textContent);
+
+    $('#liveVideo').html(cnt);
+    $('#liveModal').modal('show');
+}
+
+function hideLive() {
+    $("#liveModal").on('hidden.bs.modal', function (e) {
+        var div = document.getElementById("liveModal");
+        var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+        iframe.postMessage('{"method":"pause"}', '*');
+    });
+    $('#liveVideo').html(cnt);
+    $('#liveModal').modal('hide');
+}
+
+function selectSubscription(){
+    var template = document.getElementById("selectSubscription");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+
+}

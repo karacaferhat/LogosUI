@@ -601,6 +601,7 @@ footer .footer .footerRight .storeLinks a {
   text-align: center;
   display: block;
   padding-bottom: 20px;
+    cursor: pointer;
 }
 .subContent {
   background-color: #eaeaea;
@@ -1163,6 +1164,7 @@ footer .footer .footerRight .storeLinks a {
 }
 
 @media (max-width: 567px) {
+ 
   .contentArea .contentTop .videoArea iframe {
     height: 10%;
   }
@@ -1271,4 +1273,50 @@ footer .footer .footerRight .storeLinks a {
 }
 .homeFont {
     font-size: xx-large;
+}
+
+
+   
+
+    .paymentButton {
+        width: 100%;
+        background-color: #b88741;
+        color: #ffffff;
+        font-family: 'captureIT';
+        font-size: 20px;
+        line-height: 50px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: inset 0px 4px 18px 1px rgb(0 0 0 / 75%);
+    }
+
+    .paymentHeader {
+        width: 100%;
+        background-color: #786f62;
+        color: #ffffff;
+        font-family: 'captureIT';
+        font-size: 30px;
+        line-height: 50px;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: inset 0px 4px 18px 1px rgb(0 0 0 / 75%);
+    }
+
+.liveContainer {
+    width: fit-content;
+    background-color: #afabab;
+    font-family: 'sourceLight';
+}
+.liveVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
