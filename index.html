@@ -49,43 +49,52 @@
 
 <body>
     <header>
+        
+          
+
         <div class="container headerTop clearfix">
             <div class="logoArea">
                 <a href="index.html"><img src="images/logossanat-logo.png" alt="Logos Sanat Logo"></a>
             </div>
+            <div class="searchArea" id="loginArea">
+                <button onclick="openSignup();">  <i class="fas fa-user">&nbsp;</i>GİRİS YAP</button>
+            </div>
+            <div class="searchArea">
+                <button onclick="selectSubscription();"><i class="fas fa-award">&nbsp;</i>PREMIUM ÜYELİK</button>
+            </div>
+
+
             <div class="searchArea">
                 <button onclick="showLive();">
                     <i class="fas fa-video"></i>
                     CANLI IZLE
                 </button>
             </div>
-            <div class="searchArea">
-                <button onclick="selectSubscription();">PREMIUM ÜYELİK</button>
-            </div>
         </div>
 
-        <div class="headerBottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-7 col-md-12">
-                        <div class="menu">
-                            <ul>
-                                <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
-                                <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
-                                <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
-                                <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
-                                <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
-                            </ul>
+            <div class="headerBottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12">
+                            <div class="menu">
+                                <ul>
+                                    <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
+                                    <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
+                                    <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
+                                    <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
+                                    <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
+                                    <li><a onclick="openLib();" class="library"><i class="fa fa-warehouse homeFont" aria-hidden="true"></i>Kütüphane</a></li>
+
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-8">
-                        <div class="loginArea">
-                            <ul><li><a onclick="openSignup();">GİRİS YAP</a></li></ul>
-                        </div>
-                    </div>
+                    <!--<div class="col-xl-2 col-lg-2 col-md-8 logindiv">
+                    <ul></ul>
+                </div>-->
                 </div>
             </div>
-        </div>
+
 
     </header>
 

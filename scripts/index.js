@@ -523,7 +523,7 @@ function openUserInfoForm() {
 }
 function showUserInfoPanel(data) {
     var str = $("#userPanel").html();
-    $(".loginArea").html(str);
+    $("#loginArea").html(str);
     $('#name').html(data.userInfo.name);
     $('#surname').html(data.userInfo.surname);
 

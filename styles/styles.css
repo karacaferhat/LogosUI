@@ -243,7 +243,7 @@ header .headerTop .logoArea {
 }
 header .headerTop .searchArea {
   float: right;
-  width: 30%;
+  width: 25%;
   padding-top: 2%;
 }
 header .headerTop .searchArea input {
@@ -261,11 +261,13 @@ header .headerTop .searchArea input::placeholder {
   font-size: 15px;
 }
 header .headerTop .searchArea button {
-  width: 100%;
+
+    float: right;
+    width:100%;
   background-color: #b88741;
   color: #ffffff;
   font-family: 'captureIT';
-  font-size: 30px;
+  font-size: 20px;
   line-height: 50px;
   -webkit-font-smoothing: antialiased;
   text-align: center;
@@ -489,8 +491,9 @@ footer .footer .footerRight .storeLinks a {
 }
 .contentArea .contentTop .latestPost ul li a span {
   font-family: 'sourceLight';
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 22px;
+    font-weight: bold;
+  line-height: 22px;
   -webkit-font-smoothing: antialiased;
   color: #000000;
   display: block;
@@ -1205,16 +1208,17 @@ footer .footer .footerRight .storeLinks a {
 }
 
 .userPanel {
-     display: flex;
-  background-color: #b88741;
-  padding: 10px 10px;
-  font-family: 'captureIT';
-  font-size: 19px;
-  line-height: 19px;
-  -webkit-font-smoothing: antialiased;
-  color: #ffffff;
-  box-shadow: inset 0px 4px 18px 1px rgba(0, 0, 0, 0.75);
-
+    float: right;
+    width: fit-content;
+    display: flex;
+    background-color: #b88741;
+    padding: 10px 10px;
+    font-family: 'captureIT';
+    font-size: 19px;
+    line-height: 19px;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    box-shadow: inset 0px 4px 18px 1px rgba(0, 0, 0, 0.75);
 }
 .kullanimSartlari {
     background-color: white;
@@ -1338,4 +1342,37 @@ footer .footer .footerRight .storeLinks a {
 .liveModal {
     top: 10% !important;
     left: 8% !important;
+}
+
+/*.library:before {
+    content: "\f015";
+    font-size: 18px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0px;
+    top: 5px;
+}
+*/
+.logindiv { 
+    width: fit-content !important; 
+
+
+}
+.topButtonContainer {
+    width: 100%;
+}
+.topButton {
+    width: 100%;
+    background-color: #b88741;
+    color: #ffffff;
+    font-family: 'captureIT';
+    font-size: 30px;
+    line-height: 50px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: inset 0px 4px 18px 1px rgb(0 0 0 / 75%);
 }
