@@ -1275,8 +1275,24 @@ footer .footer .footerRight .storeLinks a {
     font-size: xx-large;
 }
 
+@media (max-width: 567px) {
+    .lib_link {
+        width: 100%;
+    }
+}
 
-   
+@media (max-width: 400px) {
+    .lib_link {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .lib_link {
+        width: 40%;
+    }
+}
 
     .paymentButton {
         width: 100%;
