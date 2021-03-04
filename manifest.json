@@ -1,6 +1,6 @@
 {
-  "name": "Hello World",
-  "short_name": "Hello",
+  "name": "Logossanat",
+  "short_name": "Logos",
   "icons": [
     {
       "src": "images/hello-icon-128.png",
@@ -33,10 +33,10 @@
       "type": "image/png"
     }
   ],
-  "lang": "en-US",
+  "lang": "tr-TR",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "white",
-  "theme_color": "white",
+  "background_color": "black",
+  "theme_color": "black",
   "prefer_related_applications": false
 }

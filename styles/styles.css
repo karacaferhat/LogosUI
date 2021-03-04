@@ -1314,9 +1314,12 @@ footer .footer .footerRight .storeLinks a {
     font-family: 'sourceLight';
 }
 .liveVideo iframe {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+   
+}
+.liveModal {
+    top: 10% !important;
+    left: 8% !important;
 }
