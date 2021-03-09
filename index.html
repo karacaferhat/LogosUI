@@ -605,7 +605,7 @@
                         </div>
                     </div>
                 </div>
-                <a style="margin-left: 13%;" href="https://www.iyzico.com/" target="_blank"><img src="/images/logo-band.png" style="height:60px;"></a>
+                <a style="margin-left: 10%;" href="https://www.iyzico.com/" target="_blank"><img src="/images/logo-band.png" style="height:60px;"></a>
             </div>
         </div>
     </footer>
@@ -1719,7 +1719,7 @@
                             <li>Canlı yayınları izleyebilirsiniz</li>
                             <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                        <button type="button" onclick="showPayform();" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
                     </div>
                 </div>
                 <div class="card mb-4 box-shadow">
@@ -1737,7 +1737,7 @@
                     </div>
                 </div>
             </div>
-            <a style="margin-left: 13%;" href="https://www.iyzico.com/" target="_blank"><img src="/images/logo-band.png" style="height:60px;"></a>
+            <a style="margin-left: 10%;" href="https://www.iyzico.com/" target="_blank"><img src="/images/logo-band.png" style="height:60px;"></a>
         </div>
     </template>
 
@@ -2029,7 +2029,10 @@
     </div>
 </template>
 <template id="payForm">
-        <div class="gizlilik"></div>
+    <div class="gizlilik">
+        <div id="iyzipay-checkout-form" class="popup"></div>
+    </div>
+
     </template>
 
     <script>

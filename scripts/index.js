@@ -824,3 +824,36 @@ function selectSubscription(){
 
 }
 
+function showPayform() {
+    var template = document.getElementById("payForm");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+
+    var mydata = {
+        email: "ferhat.karaca@gmail.com",
+        ip: "192.168.0.1",
+        productName: "P1",
+        productId: "1",
+        quantity: 1,
+        price: 1
+    };
+    $.ajax({
+        type: "POST",
+        url: loginUrl,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(mydata),
+        dataType: "json",
+        success: function (data) {
+
+            $('#contentContainer').html(data.htmlContent);
+        },
+        error: function (request) {
+
+            ShowArrayMessage(request.error);
+
+
+        }
+
+    });
+    
+}
