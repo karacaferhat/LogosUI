@@ -211,8 +211,7 @@ function openSignup(){
    
 }
 
-
-
+//"https://localhost:5001";
 var baseUrl = "https://fsnetwebapi.azurewebsites.net";
 var registerUrl = baseUrl + "/api/v1/identity/register";
 var loginUrl = baseUrl + "/api/v1/identity/login";
@@ -338,6 +337,10 @@ function RenewLogin() {
     var tkn = getCookie("token");
     var refTkn = getCookie("refreshToken");
 
+    if (tkn == null || tkn == "undefined" || tkn == "") {
+       
+        return false;
+    };
 
     var mydata = {
         token: tkn,
@@ -860,56 +863,67 @@ function selectSubscription(){
 }
 
 function showPayform() {
+    var template = document.getElementById("payForm");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+
     var email = getCookie("email");
-    var ip = getMyIp();
-    var mydata = {
-        email: email,
-        ip: ip,
-        productName: "P1",
-        productId: "1",
-        quantity: 1,
-        price: 1
-    };
-    var token = getCookie("token");
-    $.ajax({
-        type: "POST",
-        url: paymentPostUrl,
-        contentType: "application/json; charset=utf-8",
-        data: JSON.stringify(mydata),
-        dataType: "json",
-        headers: {
-            Authorization: 'Bearer ' + token
-        },
-        success: function (data) {
-
-            $('#iyzipay-checkout-form').html(data.htmlContent);
-        },
-        error: function (request) {
-            if (request.status == 401) {
-                if (RenewLogin()) {
-                    showPayform();
-                }
-
-            }
-           
-            ShowMessage(request.error);
-
-        }
-
-    });
-    
-}
-function getMyIp() {
-    
-
+    $('#iyzipay-checkout-form').empty();
     $.ajax({
         type: "GET",
         url: "https://api.ipify.org?format=jsonp&callback=?",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
-        success: function (data) {
+        success: function (Ipdata) {
 
-            return data.ip;
+            var ip = Ipdata.ip;
+
+            var payItem = {
+                productName: "P1",
+                productId: "1",
+                quantity: 1,
+                price: 1
+            }
+            var payItems = [];
+            payItems.push(payItem);
+
+            var mydata = {
+                email: email,
+                ip: ip,
+                items: payItems
+            };
+
+            var token = getCookie("token");
+            $.ajax({
+                type: "POST",
+                url: paymentPostUrl,
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(mydata),
+                dataType: "json",
+                headers: {
+                    Authorization: 'Bearer ' + token
+                },
+                success: function (data) {
+                    console.log(data.htmlContent);
+                    $('#myCheckoutDiv').html(data.htmlContent);
+                },
+                error: function (request) {
+                    if (request.status == 401) {
+                        if (RenewLogin()) {
+                            showPayform();
+                        } else {
+                            openSignup();
+                            return;
+                        }
+
+                    }
+
+                    ShowMessage(request.error);
+
+                }
+
+            });
         },
         error: function (request) {
 
@@ -919,4 +933,12 @@ function getMyIp() {
         }
 
     });
+
+    
+    
+}
+function getMyIp() {
+    
+
+  
 }
