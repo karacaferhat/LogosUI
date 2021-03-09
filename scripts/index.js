@@ -220,6 +220,7 @@ var refreshUrl = baseUrl + "/api/v1/identity/refresh";
 var updateUserInfoUrl = baseUrl + "/api/v1/identity/updateUserInfo";
 var resetUrl = baseUrl + "/api/v1/identity/reset";
 var changeUrl = baseUrl + "/api/v1/identity/change";
+var paymentPostUrl = baseUrl + "/api/v1/payment/post";
 
 function Register() {
 
@@ -323,6 +324,40 @@ function Login() {
 
             ShowArrayMessage(request.responseJSON.errors);
 
+
+        }
+
+    });
+
+
+
+}
+
+function RenewLogin() {
+
+    var tkn = getCookie("token");
+    var refTkn = getCookie("refreshToken");
+
+
+    var mydata = {
+        token: tkn,
+        refreshToken: refTkn
+    };
+    $.ajax({
+        type: "POST",
+        url: refreshUrl,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(mydata),
+        dataType: "json",
+        success: function (data) {
+            deleteAllCookies();
+            saveLoginInfo(data);
+            return true;
+        },
+        error: function (request) {
+
+            ShowArrayMessage(request.responseJSON.errors);
+            return false;
 
         }
 
@@ -825,35 +860,63 @@ function selectSubscription(){
 }
 
 function showPayform() {
-    var template = document.getElementById("payForm");
-    var clone = template.content.cloneNode(true);
-    $('#contentContainer').empty();
-
+    var email = getCookie("email");
+    var ip = getMyIp();
     var mydata = {
-        email: "ferhat.karaca@gmail.com",
-        ip: "192.168.0.1",
+        email: email,
+        ip: ip,
         productName: "P1",
         productId: "1",
         quantity: 1,
         price: 1
     };
+    var token = getCookie("token");
     $.ajax({
         type: "POST",
-        url: loginUrl,
+        url: paymentPostUrl,
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify(mydata),
         dataType: "json",
+        headers: {
+            Authorization: 'Bearer ' + token
+        },
         success: function (data) {
 
-            $('#contentContainer').html(data.htmlContent);
+            $('#iyzipay-checkout-form').html(data.htmlContent);
         },
         error: function (request) {
+            if (request.status == 401) {
+                if (RenewLogin()) {
+                    showPayform();
+                }
 
-            ShowArrayMessage(request.error);
-
+            }
+           
+            ShowMessage(request.error);
 
         }
 
     });
     
+}
+function getMyIp() {
+    
+
+    $.ajax({
+        type: "GET",
+        url: "https://api.ipify.org?format=jsonp&callback=?",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+
+            return data.ip;
+        },
+        error: function (request) {
+
+            return "no ip";
+
+
+        }
+
+    });
 }
