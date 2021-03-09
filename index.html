@@ -49,8 +49,8 @@
 
 <body>
     <header>
-        
-       
+
+
 
         <div class="container headerTop clearfix">
             <div class="logoArea">
@@ -72,28 +72,28 @@
             </div>
         </div>
 
-            <div class="headerBottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12">
-                            <div class="menu">
-                                <ul>
-                                    <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
-                                    <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
-                                    <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
-                                    <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
-                                    <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
-                                    <li><a onclick="openLib();" class="library"><i class="fa fa-warehouse homeFont" aria-hidden="true"></i>Kütüphane</a></li>
+        <div class="headerBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="menu">
+                            <ul>
+                                <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
+                                <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
+                                <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
+                                <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
+                                <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
+                                <li><a onclick="openLib();" class="library"><i class="fa fa-warehouse homeFont" aria-hidden="true"></i>Kütüphane</a></li>
 
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
-                    <!--<div class="col-xl-2 col-lg-2 col-md-8 logindiv">
+                </div>
+                <!--<div class="col-xl-2 col-lg-2 col-md-8 logindiv">
                     <ul></ul>
                 </div>-->
-                </div>
             </div>
+        </div>
 
 
     </header>
@@ -1719,7 +1719,7 @@
                             <li>Canlı yayınları izleyebilirsiniz</li>
                             <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
                         </ul>
-                        <button type="button" onclick="showPayform();" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                        <button type="button" onclick="showPayform(1,'Premium');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
                     </div>
                 </div>
                 <div class="card mb-4 box-shadow">
@@ -1733,11 +1733,11 @@
                             <li>Canlı yayınları izleyebilirsiniz</li>
                             <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                        <button type="button" onclick="showPayform(2,'VIP Extra');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
                     </div>
                 </div>
             </div>
-            
+
             <a style="margin-left: 10%;" href="https://www.iyzico.com/" target="_blank"><img src="/images/logo-band.png" style="height:60px;"></a>
         </div>
     </template>
@@ -1763,277 +1763,282 @@
         </div>
     </template>
 
-    
-<template id="mss">
-    <div class="gizlilik">
-        <section class="themeModules" data-bg="false" data-layout="fixed">
 
-            <h1>MESAFELİ SATIŞ SÖZLEŞMESİ</h1>
+    <template id="mss">
+        <div class="gizlilik">
+            <section class="themeModules" data-bg="false" data-layout="fixed">
 
-            <h2>1 - TARAFLAR</h2>
+                <h1>MESAFELİ SATIŞ SÖZLEŞMESİ</h1>
 
-            <h3>SATICI</h3>
-            <ul>
-                <li>Satıcı İsim/Unvanı:</li>
-                <li>Satıcı’nın Açık Adresi:</li>
-                <li>Satıcı’nın Telefonu:</li>
-                <li>Satıcı Mersis No:</li>
-                <li>Satıcı E-Posta Adresi :</li>
-                <li>Alıcı’nın İade Halinde Malı Satıcı’ya Göndereceği Kargo Şirketi:</li>
-            </ul>
-            <p>logossanat.com Destek Merkezi :info@logossanat.com</p>
+                <h2>1 - TARAFLAR</h2>
 
-            <h3>ALICI</h3>
-            <ul>
-                <li>Adı – Soyadı :</li>
-                <li>Adresi :</li>
-                <li>Telefon :</li>
-                <li>E-Posta :</li>
-            </ul>
+                <h3>SATICI</h3>
+                <ul>
+                    <li>Satıcı İsim/Unvanı:</li>
+                    <li>Satıcı’nın Açık Adresi:</li>
+                    <li>Satıcı’nın Telefonu:</li>
+                    <li>Satıcı Mersis No:</li>
+                    <li>Satıcı E-Posta Adresi :</li>
+                    <li>Alıcı’nın İade Halinde Malı Satıcı’ya Göndereceği Kargo Şirketi:</li>
+                </ul>
+                <p>logossanat.com Destek Merkezi :info@logossanat.com</p>
 
-            <h3>SÖZLEŞME’NİN KONUSU VE KAPSAMI</h3>
-            <p>
-                İşbu Mesafeli Satış Sözleşmesi (“<b>Sözleşme</b>”) 6502 Sayılı Tüketicinin Korunması Hakkında Kanun (“<b>Kanun</b>”) ve Mesafeli Sözleşmeler Yönetmeliği’ne uygun olarak düzenlenmiştir. İşbu Sözleşme’nin tarafları işbu Sözleşme tahtında Kanun’dan ve Mesafeli Sözleşmeler Yönetmeliği’nden kaynaklanan yükümlülük ve sorumluluklarını bildiklerini
-                ve anladıklarını kabul ve beyan ederler.
-            </p>
-            <p>
-                İşbu Sözleşme’nin konusunu; Alıcı’nın, Doğuş Planet Elektronik Ticaret ve Bilişim Hizmetleri A.Ş.’ye (“<b>Doğrusözlü Eğitim Kurumları/Aracı Hizmet Sağlayıcı</b>”) ait www.logossanat.com alan adlı web sitesinden (“<b>Websitesi</b>”), Satıcı’ya ait mal veya hizmetin satın alınmasına yönelik elektronik olarak sipariş verdiği, Sözleşme’de belirtilen niteliklere sahip mal veya hizmetin
-                satışı ve teslimi ile ilgili olarak Kanun ve Mesafeli Sözleşmeler Yönetmeliği hükümleri gereğince tarafların hak ve yükümlülüklerinin belirlenmesi oluşturur.
-            </p>
-            <p>
-                İşbu Sözleşme’nin akdedilmesi tarafların ayrı ayrı Doğrusözlü Eğitim Kurumları ile akdetmiş oldukları Websitesi Üyelik Sözleşmeleri’nin hükümlerinin ifasını engellemeyecek olup taraflar işbu Sözleşme konusu mal veya hizmetin satışında Doğrusözlü Eğitim Kurumları herhangi bir şekilde taraf olmadığını ve Sözleşme kapsamında tarafların yükümlülüklerini yerine getirmeleri ile ilgili herhangi
-                bir sorumluluğu ve taahhüdü bulunmadığını kabul ve beyan ederler.
-            </p>
+                <h3>ALICI</h3>
+                <ul>
+                    <li>Adı – Soyadı :</li>
+                    <li>Adresi :</li>
+                    <li>Telefon :</li>
+                    <li>E-Posta :</li>
+                </ul>
 
-            <h3>SÖZLEŞME KONUSU MAL VE HİZMETİN TEMEL NİTELİKLERİ VE FİYATI (KDV DAHİL)</h3>
-
-            <table width="100%" style="margin-bottom: 20px">
-                <thead>
-                <tr>
-                    <td class="borderLeftBold">Ürün Kodu Ve Adı</td>
-                    <td>Adet</td>
-                    <td>Satici Unvani</td>
-                    <td>Birim Fiyatı</td>
-                    <td>Birim İndirimi</td>
-                    <td>Kupon</td>
-                    <td>Puan</td>
-                    <td>Toplam Satış Tutarı</td>
-                    <td>Vade Farkı</td>
-                    <td class="borderRightBold">KDV Dahil Toplam Tutar</td>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
-
-            <p>İlan edilen fiyatlar ve vaatler güncelleme yapılana ve değiştirilene kadar geçerlidir. Süreli olarak ilan edilen fiyatlar ise belirtilen süre sonuna kadar geçerlidir.</p>
-
-            <ul>
-                <li>Kargo hariç toplam ürün bedeli:</li>
-                <li>Kargo Ücreti:</li>
-                <li>Kargo Dahil Toplam Bedeli:</li>
-                <li>Ödeme Şekli ve Planı:</li>
-                <li>Alınan Vade Farkı:</li>
-                <li>Vade Farkı hesabında kullanılan faiz oranı:</li>
-            </ul>
-
-            <p>SÖZ KONUSU ÜRÜN BEDELİ, ÖDEME KORUMA SİSTEMİ KAPSAMINDA SATICI ADINA, Doğrusözlü Eğitim Kurumları TARAFINDAN ALICI’DAN TAHSİL EDİLMEKTEDİR. ALICI MALIN/HİZMETİN BEDELİNİ DOĞUŞ PLANET’E ÖDEMEKLE, ÜRÜN BEDELİNİ SATICI’YA ÖDEMİŞ SAYILACAKTIR.</p>
-
-            <h3>MALIN TESLİMİ VE TESLİM ŞEKLİ</h3>
-            <p>Sözleşme Alıcı tarafından elektronik ortamda onaylanmakla yürürlüğe girmiş olup, Alıcı’nın Satıcı’dan satın almış olduğu mal veya hizmetin Alıcı’ya teslim edilmesiyle ifa edilmiş olur. Mal, Alıcı’nın sipariş formunda ve işbu Sözleşme’de belirtmiş olduğu adrese ve belirtilen yetkili kişi/kişilere teslim edilecektir.</p>
-
-            <h3>TESLİMAT MASRAFLARI VE İFASI</h3>
-            <p>Malın teslimat masrafları aksine bir hüküm yoksa Alıcı’ya aittir. Satıcı, Websitesi’nde teslimat ücretinin kendisince karşılanacağını beyan etmişse teslimat masrafları Satıcı’ya ait olacaktır.</p>
-            <p>Malın teslimatı; ödemenin gerçekleşmesinden sonra taahhüt edilen sürede yapılır. Satıcı, sipariş konusu mal veya hizmetin ediminin yerine getirilmesinin imkansızlaştığı haller saklı kalmak kaydıyla, mal veya hizmeti, Alıcı tarafından mal veya hizmetin sipariş edilmesinden itibaren 30 (otuz) gün içinde teslim eder.</p>
-            <p>Herhangi bir nedenle Alıcı tarafından mal veya hizmetin bedeli ödenmez veya yapılan ödeme banka kayıtlarında iptal edilir ise, Satıcı mal veya hizmetin teslimi yükümlülüğünden kurtulmuş kabul edilir.</p>
-            <p>Malın Satıcı tarafından kargoya verilmesinden sonra ve fakat Alıcı tarafından teslim alınmasından önce Alıcı tarafından yapılan sipariş iptallerinde kargo bedelinden Alıcı sorumludur.</p>
-            <p>Sipariş konusu mal ya da hizmet ediminin yerine getirilmesinin imkansızlaştığı hallerde Satıcı bu durumu öğrendiği tarihten itibaren 3 (üç) gün içinde Alıcı’yı bilgilendirecek ve varsa teslimat masrafları da dâhil olmak üzere tahsil edilen tüm ödemeleri bildirim tarihinden itibaren en geç 14 (on dört) gün içinde iade edecektir.</p>
-
-            <h3>ALICI’NIN BEYAN VE TAAHHÜTLERİ</h3>
-
-            <p>Alıcı, Websitesi’nde yer alan Sözleşme konusu mal veya hizmetin temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimat ve kargo bedeline ilişkin olarak Satıcı tarafından yüklenen ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder.</p>
-            <p>Alıcılar, tüketici sıfatıyla talep ve şikayetlerini yukarıda yer alan Satıcı iletişim bilgilerini kullanarak ve/veya Websitesi’nde yer alan Hesabım&gt;Ürün Sorularım üzerinden ulaştırabilirler.</p>
-            <p>
-                Alıcı, işbu Sözleşme’yi ve Ön Bilgilendirme Formu’nu elektronik ortamda teyit etmekle, mesafeli sözleşmelerin akdinden önce Satıcı tarafından Alıcı’ya verilmesi gereken adres, siparişi verilen mal veya hizmete ait temel özellikler, mal veya hizmetin vergiler dahil fiyatı, ödeme ve teslimat ile teslimat fiyatı bilgilerini de doğru ve eksiksiz olarak edindiğini teyit etmiş
-                olur. Alıcı’nın, teslim edildiği esnada tahrip olmuş, kırık, ambalajı yırtılmış vb. hasarlı ve ayıplı olduğu açıkça belli olan Sözleşme konusu mal veya hizmeti kargo şirketinden teslim alması halinde sorumluluk tamamen kendisine aittir.
-            </p>
-            <p>
-                Mal veya hizmetin tesliminden sonra Alıcı’ya ait kredi kartının Alıcı’nın kusurundan kaynaklanmayan bir şekilde yetkisiz kişilerce haksız veya hukuka aykırı olarak kullanılması nedeni ile ilgili banka veya finans kuruluşunun mal veya hizmetin bedelini Satıcı’ya ödememesi halinde, Alıcı kendisine teslim edilmiş olması kaydıyla mal veya hizmeti 3 (üç) gün içinde Satıcı’ya iade
-                etmekle yükümlüdür. Bu halde teslimat giderleri Alıcı’ya aittir.
-            </p>
-
-            <h3>SATICI’NIN BEYAN VE TAAHHÜTLERİ</h3>
-            <p>Satıcı, Sözleşme konusu mal veya hizmetin tüketici mevzuatına uygun olarak, sağlam, eksiksiz, siparişte belirtilen niteliklere uygun ve varsa garanti belgeleri ve kullanım kılavuzları ile Alıcı’ya teslim edilmesinden sorumludur.</p>
-            <p>Satıcı, mücbir sebepler veya nakliyeyi engelleyen olağanüstü durumlar nedeni ile sözleşme konusu mal veya hizmeti süresi içinde teslim edemez ise, durumu öğrendiği tarihten itibaren 3 (üç) gün içinde Alıcı’ya bildirmekle yükümlüdür.</p>
-            <p>Sözleşme konusu mal veya hizmet, Alıcı’dan başka bir kişiye teslim edilecek ise, teslim edilecek kişinin teslimatı kabul etmemesinden Satıcı sorumlu tutulamaz.</p>
-
-            <h3>CAYMA HAKKI</h3>
-            <p>Alıcı, hiçbir hukuki ve cezai sorumluluk üstlenmeksizin ve hiçbir gerekçe göstermeksizin, mal satışına ilişkin işlemlerde teslimat tarihinden itibaren, hizmet satışına ilişkin işlemlerde satın alma tarihinden itibaren 14 (on dört) gün içerisinde cayma hakkını kullanabilir. Alıcı, malın teslimine kadar olan süre içinde de cayma hakkını kullanabilir.</p>
-            <p>
-                Alıcı, cayma hakkını logossanat.com’a giriş yaparak logossanat.com’da yer alan Hesabım&gt;Mevcut Sipariş&gt;Siparişlerim üzerinden "İade Et" bağlantısına tıklayarak kullanabilir. Alıcı’nın ilgili sayfada yer alan iade talep formunu doldurup satıcının iade adres bilgilerini alarak, cayma hakkını kullandığı tarihten itibaren 10 (on) gün içinde malı geri göndermesi gerekmektedir. Mal ile beraber
-                faturasının, malın kutusunun, ambalajının, varsa standart aksesuarları, mal ile birlikte hediye edilen diğer ürünlerin de eksiksiz ve hasarsız olarak iade edilmesi gerekmektedir. Alıcı, cayma süresi içinde malı, işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde kullandığı takdirde meydana gelen değişiklik ve bozulmalardan sorumlu değildir. Cayma
-                hakkının kullanılmasına ilişkin detaylı bilgi logossanat.com’da yer alan https://www.logossanat.com/genel/urun-iadesi-2082300 sayfasında yer almaktadır.
-            </p>
-            <p>
-                Alıcı iade edeceği malı Satıcı’ya Ön Bilgilendirme Formu’nda belirtilen Satıcı’nın anlaşmalı kargo şirketi ile gönderdiği sürece, iade kargo bedeli Satıcı’ya aittir. Alıcı’nın iade edeceği malı Ön Bilgilendirme Formu’nda belirtilen Satıcı’nın anlaşmalı kargo şirketi dışında bir kargo şirketi ile göndermesi halinde, iade kargo bedeli ve malın kargo sürecinde uğrayacağı
-                hasardan Satıcı sorumlu değildir.
-            </p>
-            <p>
-                Alıcı’nın cayma hakkını kullanmasından itibaren 14 (on dört) gün içerisinde (malın Satıcı’nın iade için belirttiği taşıyıcı aracılığıyla geri gönderilmesi kaydıyla), Alıcı’nın ilgili mal veya hizmete ilişkin Satıcı veya Aracı Hizmet Sağlayıcı’ya yaptığı tüm ödemeler Alıcı’ya satın alırken kullandığı ödeme aracına uygun bir şekilde ve tüketiciye herhangi bir masraf veya
-                yükümlülük getirmeden ve tek seferde iade edilecektir. Kredi kullanılarak yapılan alışverişlerde, cayma hakkının usulüne uygun kullanıldığı durumlarda ürün bedeli kredi ile ilişkili hesaba iade edilecektir.
-            </p>
-            <p>Doğrusözlü Eğitim Kurumları, İŞBU MESAFELİ SATIŞ SÖZLEŞMESİ’NİN TARAFI OLMADIĞINDAN ALICI’NIN, Doğrusözlü Eğitim Kurumları  KARŞI CAYMA HAKKI YOKTUR VE Doğrusözlü Eğitim Kurumları’DAN BEDEL İADESİ VEYA ÜRÜN DEĞİŞİMİ TALEP EDEMEZ.</p>
-
-            <h3>CAYMA HAKKININ KULLANILAMAYACAĞI HALLER</h3>
-            <p>Mevzuat uyarınca Alıcı aşağıdaki hallerde cayma hakkını kullanamaz:</p>
-            <p>
-                Fiyatı finansal piyasalardaki dalgalanmalara bağlı olarak değişen ve Satıcı’nın kontrolünde olmayan mal veya hizmetlere ilişkin sözleşmelerde (örn. ziynet, altın ve gümüş kategorisindeki ürünler);
-                Alıcı’nın istekleri veya açıkça onun kişisel ihtiyaçları doğrultusunda hazırlanan, niteliği itibariyle geri gönderilmeye elverişli olmayan ve çabuk bozulma tehlikesi olan veya son kullanma tarihi geçme ihtimali olan malların teslimine ilişkin sözleşmelerde;
-                Tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olan mallardan; iadesi sağlık ve hijyen açısından uygun olmayanların teslimine ilişkin sözleşmelerde;
-                Tesliminden sonra başka ürünlerle karışan ve doğası gereği ayrıştırılması mümkün olmayan mallara ilişkin sözleşmelerde;
-                Alıcı tarafından ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olması şartıyla maddi ortamda sunulan kitap, ses veya görüntü kayıtlarına, yazılım programlarına ve bilgisayar sarf malzemelerine ilişkin sözleşmelerde;
-                Abonelik sözleşmesi kapsamında sağlananlar dışında gazete, dergi gibi süreli yayınların teslimine ilişkin sözleşmelerde;
-                Belirli bir tarihte veya dönemde yapılması gereken, konaklama, eşya taşıma, araba kiralama, yiyecek-içecek tedariki ve eğlence veya dinlenme amacıyla yapılan boş zamanın değerlendirilmesine ilişkin sözleşmelerde;
-                Bahis ve piyangoya ilişkin hizmetlerin ifasına ilişkin sözleşmelerde;
-                Cayma hakkı süresi sona ermeden önce, tüketicinin onayı ile ifasına başlanan hizmetlere ilişkin sözleşmelerde; ve
-                Elektronik ortamda anında ifa edilen hizmetler ile tüketiciye anında teslim edilen gayri maddi mallara ilişkin sözleşmelerde (hediye kartı, hediye çeki, para yerine geçen kupon ve benzeri).
-            </p>
-            <p>Mesafeli Sözleşmeler Yönetmeliği’nin kapsamı dışında bırakılmış olan mal veya hizmetler (Satıcı’nın düzenli teslimatları ile Alıcı’nın meskenine teslim edilen gıda maddelerinin, içeceklerin ya da diğer günlük tüketim maddeleri ile seyahat, konaklama, lokantacılık, eğlence sektörü gibi alanlarda hizmetler) bakımından cayma hakkı kullanılamayacaktır.</p>
-            <p>Tatil kategorisinde satışa sunulan bu tür mal ve hizmetlerin iptal ve iade şartları her Satıcı’nın uygulama ve kurallarına tabidir.</p>
-
-            <h3>UYUŞMAZLIKLARIN ÇÖZÜMÜ</h3>
-            <p>
-                Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamında satılan mal veya hizmete ilişkin sorumluluk bizzat Satıcı’ya aittir. Bununla birlikte Alıcılar, satın aldıkları mal ve hizmetlerle ilgili şikâyetlerini Satıcılar’a doğrudan veya Doğrusözlü Eğitim Kurumları üzerinden iletecektir. Şikayetin Doğuş Planet’e iletilmesi halinde Doğuş Planet sorunun çözülmesi için mümkün olan tüm desteği
-                sağlayacaktır.
-            </p>
-            <p>İş bu Mesafeli Satış Sözleşme ile ilgili çıkacak ihtilaflarda; her yıl Gümrük ve Ticaret Bakanlığı tarafından ilan edilen değere kadar Alıcı’nın yerleşim yerindeki ürünü satın aldığı veya ikametgâhının bulunduğu yerdeki İl veya İlçe Tüketici Sorunları Hakem Heyetleri, söz konusu değerin üzerindeki ihtilaflarda ise Tüketici Mahkemeleri yetkilidir.</p>
-
-            <h3>MAL/HİZMETİN FİYATI</h3>
-            <p>Malın peşin veya vadeli satış fiyatı, sipariş formunda yer almakla birlikte, sipariş sonu gönderilen bilgilendirme e-postası ve ürün ile birlikte müşteriye gönderilen fatura içeriğinde mevcut olan fiyattır. Satıcı veya Doğrusözlü Eğitim Kurumları tarafından yapılan indirimler, kuponlar, kargo ücreti ve sair uygulamalar satış fiyatına yansıtılır.</p>
-
-            <h3>TEMERRÜT HALİ VE HUKUKİ SONUÇLARI</h3>
-            <p>
-                Alıcı’nın, kredi kartı ile yapmış olduğu işlemlerde temerrüde düşmesi halinde kart sahibi bankanın kendisi ile yapmış olduğu kredi kartı sözleşmesi çerçevesinde faiz ödeyecek ve bankaya karşı sorumlu olacaktır. Bu durumda ilgili banka hukuki yollara başvurabilir; doğacak masrafları ve vekâlet ücretini Alıcı’dan talep edebilir ve her koşulda Alıcı’nın borcundan dolayı
-                temerrüde düşmesi halinde, Alıcı’nın borcu gecikmeli ifasından dolayı Satıcı’nın uğradığı zarar ve ziyandan Alıcı sorumlu olacaktır.
-            </p>
-
-            <h3>BİLDİRİMLER VE DELİL SÖZLEŞMESİ</h3>
-            <p>
-                İşbu Sözleşme tahtında taraflar arasında yapılacak her türlü yazışma, mevzuatta sayılan zorunlu haller dışında, Websitesi’nde yer alan Hesabım&gt;Ürün Sorularım veya elektronik posta aracılığıyla yapılacaktır. Alıcı, işbu Sözleşme’den doğabilecek ihtilaflarda Satıcı’nın ve Doğrusözlü Eğitim Kurumları’in resmi defter ve ticari kayıtlarıyla, kendi veritabanında, sunucularında tuttuğu elektronik
-                bilgilerin ve bilgisayar kayıtlarının, bağlayıcı, kesin ve münhasır delil teşkil edeceğini, bu maddenin Hukuk Muhakemeleri Kanunu’nun 193. maddesi anlamında delil sözleşmesi niteliğinde olduğunu kabul, beyan ve taahhüt eder.
-            </p>
-
-            <h3>YÜRÜRLÜK</h3>
-            <p>14 (on dört) maddeden ibaret bu Sözleşme, taraflarca okunarak, 11/09/2019 tarihinde, Alıcı tarafından elektronik ortamda onaylanmak suretiyle akdedilmiş ve yürürlüğe girmiştir.</p>
-            <table style="width: 100%">
-                <tbody>
-                <tr>
-                    <td>SATICI</td>
-                    <td>ALICI</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
-        </section>
-    </div>
-</template>
-
-<template id="iade">
-    <div class="gizlilik">
-        <div id="col-main" class="content">
-
-            <div id="page-header">
-                <h2 id="page-title">TESLİMAT ve İADE ŞARTLARI</h2>
-            </div>
-
-            <span>
+                <h3>SÖZLEŞME’NİN KONUSU VE KAPSAMI</h3>
                 <p>
-                    Siparişleriniz,&nbsp;ödemesi tamamlandıktan&nbsp;sonra <strong><font color="#ff0000">en geç&nbsp;3 iş günü</font></strong> içinde kargoya verilecektir. <br>
-                    <br>Grev, lokavt, tabii afetler, ayaklanma, halk hareketleri,
-                    nükleer risk ve tehlike, savaş, istila, ihtilal, iç savaş, sabotaj ve yangın
-                    halleri gibi olağanüstü durumlarda ve alıcıdan kaynaklanan (adreste bulunmama,
-                    teslim alacak yetkilinin olmaması, alıcının adresten taşınmış olması, vb.)
-                    durumlarda teslimat süresi ve koşulları değişkenlik
-                    gösterebilir.<br>
-                    <br>Siparişinizi resimli bir kimlik ibraz
-                    ederek, imza karşılığı kargo görevlisinden teslim alabilirsiniz.<br>
-                    <br>
-                    <span>Siparişiniz teslim edildiğinde, kargo yetkilisi eşliğinde paketinizi açmalı ve ürünü kontrol etmelisiniz. Özellikle ezilmiş, yırtılmış, açılmış veya ıslanmış paketlerde bunu yapmanız çok önemlidir. Beklenmedik bir durumda, sorunlu ürünle karşılaşırsanız paketi teslim almayıp kargo yetkilisine tutanak tutturarak kargo şirketi tarafından tarafımıza iade edilmesini sağlamanız gerekmektedir.</span><br>
+                    İşbu Mesafeli Satış Sözleşmesi (“<b>Sözleşme</b>”) 6502 Sayılı Tüketicinin Korunması Hakkında Kanun (“<b>Kanun</b>”) ve Mesafeli Sözleşmeler Yönetmeliği’ne uygun olarak düzenlenmiştir. İşbu Sözleşme’nin tarafları işbu Sözleşme tahtında Kanun’dan ve Mesafeli Sözleşmeler Yönetmeliği’nden kaynaklanan yükümlülük ve sorumluluklarını bildiklerini
+                    ve anladıklarını kabul ve beyan ederler.
                 </p>
                 <p>
-                    Teslimat anında belirttiğiniz adreste siz yoksanız,
-                    siparişiniz teslimat adresinde bulunan kişiye, resimli kimliği kontrol edilip
-                    imzası alındıktan sonra teslim edilmektedir.<br>
-                    <br>Teslimat anında adreste
-                    kimse bulunmazsa, kargo şirketi görevlisi size kargo şirketinin telefon
-                    numarasını içeren bir haber notu bırakacaktır. Haber notu bırakılan adrese
-                    tekrar uğranmaz, bu durumda kargoyu şubeden müşteri almalıdır. Sipariş verdikten
-                    sonra teslim alacak kişi değiştirilememektedir.<br>
-                    <br>Teslimat adresi olarak
-                    "internet cafe", "herhangi bir kahvehane", "kargo şirketlerinin şube adresleri"
-                    veya "herhangi bir umuma açık alan" belirtilmiş ise sipariş iptal edilecek ve bu
-                    adreslere teslimat yapılmayacaktır.
+                    İşbu Sözleşme’nin konusunu; Alıcı’nın, Doğuş Planet Elektronik Ticaret ve Bilişim Hizmetleri A.Ş.’ye (“<b>Doğrusözlü Eğitim Kurumları/Aracı Hizmet Sağlayıcı</b>”) ait www.logossanat.com alan adlı web sitesinden (“<b>Websitesi</b>”), Satıcı’ya ait mal veya hizmetin satın alınmasına yönelik elektronik olarak sipariş verdiği, Sözleşme’de belirtilen niteliklere sahip mal veya hizmetin
+                    satışı ve teslimi ile ilgili olarak Kanun ve Mesafeli Sözleşmeler Yönetmeliği hükümleri gereğince tarafların hak ve yükümlülüklerinin belirlenmesi oluşturur.
                 </p>
-            </span>
-            <p><span></span>&nbsp;</p>
-            <p><span><span>İADE ŞARTLARI</span></span></p>
-            <p><span><strong><font color="#ff0000">Tüm müşterilerimizin; tüketicinin 'Sebep Göstermeksizin Cayma Hakkı' kapsamında 7 iş günü içerisinde yasal iade hakkı bulunmaktadır.</font></strong> </span></p>
-            <p><span>Ayrıca üretim hatası ya da başka bir olduğunu düşündüğünüz ve iade etmek istediğiniz ürünleri de teslim aldığınız tarihi takip <!--?xml:namespace prefix = st1 /--><st1:place><st1:city>eden</st1:city></st1:place> 7 iş günü içerisinde bildirip bize ulaştırabilirsiniz.</span></p>
-            <p>
-                <span>
-                    İadenizi&nbsp;çalıştığımız kargo şirketi&nbsp;ile ücretsiz olarak geri gönderebilirsiniz.&nbsp;<strong>Çalıştığımız</strong> <strong>kargo şirketi dışında herhangi başka bir kargo şirketi ile ürün iadesi yapılması halinde kargo ücreti gönderen tarafından karşılanacak, gönderen tarafından kargo ücreti karşılanmadığı ve ürün iadesi karşı ödemeli şekilde çalıştğımız&nbsp;dışında başka bir kargo şirketi aracılığı ile yapıldığı takdirde Logossanat&nbsp;kargo ücretini ürünün iade bedelinden kesme hakkına sahip olacaktır.<span style="color: rgb(255, 0, 0); line-height: 115%; font-family: tahoma, sans-serif; font-size: 10.5pt;"> </span></strong><span style="font-family: tahoma, geneva, sans-serif; font-size: 12px;">
-                        <br>
-                        <br>
-                    </span>Kargonuzu gönderdikten sonra, gerekli olması halinde, gönderi kodunu paylaşmanız istenebilir. Lütfen kargo gönderi numarasını saklayınız.
-                </span>
-            </p>
-            <p><span><strong><font color="#ff0000">Siparişinizi teslim aldığınız tarihten itibaren 7 iş günü içerisinde iade edebilirsiniz.</font></strong> <span>İade işleminizle ilgili destek bölümümüze ulaşarak bilgi verebilir ve ürününüzü faturasıyla birlikte&nbsp;kargo</span> şirketi ile ödemeli olarak geri gönderebilirsiniz. İsteğiniz bize ulaştığında&nbsp;tarafımızdan değerlendirilecek ve size bir bilgi e-postası gönderilecektir.</span></p>
-            <p><span>İade edeceğiniz ürünü eksiksiz, orijinal faturasıyla,&nbsp;paketi hasar görmemiş, kullanılmamış, kullanım hatası sonucu zarar görmemiş haliyle, sipariş numarası ve Logossanat'un doğru adresini içerecek şekilde geri gönderdiğinizden emin olmalısınız. </span></p>
-            <p><st1:place><st1:city><span>Eğer</span></st1:city></st1:place><span> ürünün faturası bir kurum adına düzenlenmiş ise, iade işlemi için kurumun düzenlemiş olduğu, kargo payı dahil edilmeden, 'Ürün Birim Fiyatı + KDV' şeklinde kesilmiş bir 'İADE FATURASI' nın ürün ile birlikte gönderilmesi gerekmektedir. </span></p>
-            <p><span>Ürünün kutusu, ambalajı, varsa standart aksesuarları bize iade ettiğiniz paketin içinde eksiksiz ve hasarsız bir şekilde bulunmalıdır. <span>Orijinal ambalajı zarar görmüş, tahrip edilmiş, herhangi bir şekilde kullanımdan dolayı zarar görmüş ürünlerin iadesi <st1:place><st1:city>kabul</st1:city></st1:place> edilmemektedir. <span>Her türlü yazılım, program, PLAK, DVD, VCD, CD ve kasetlerin, bilgisayar ve kırtasiye malzemelerinin ancak ambalajı açılmamış, bozulmamış, kullanılmamış ve denenmemiş olduğu takdirde iadesi kabul edilir.</span></span></span></p>
-            <p><span>İadeniz elimize ulaştıktan sonra :</span></p>
-            <p>
-                <span>
-                    <font color="#ff0000">
-                        Size bir bilgi e-postası gönderilecek ve&nbsp;iadeniz onaylandığında, ürün bedeli yasal süre olan 10 iş günü içerisinde&nbsp;ödemeyi yaptığınız kredi kartınıza iade
-                        edilir
-                    </font>. Bu süre&nbsp;iade ettiğiniz ürünün tarafımızdan&nbsp;teslim almasıyla başlar. (385
-                    Sayılı Vergi Usül Kanunu Genel Tebliği uyarınca zorunludur). İadenizin ekstrenize yansıma süresi bankanıza bağlı olarak değişiklik göstermektedir. İade işleminizin kredi kartınıza yansımasında gecikme yaşanması halinde, size gönderdiğimiz bilgi e-postasının içinde yer alan İade İşlem Numarasıyla bankanızdan detaylı bilgi alabilirsiniz.
-                </span>
-            </p>
-            <p><span></span><span></span></p>
-            <p><span>DEĞİŞTİRME KOŞULLARI</span></p>
-            <p><font color="#ff0000"><b><span>Logossanat’dan yaptığınız herhangi bir alışverişte, ürünün niteliği ne olursa olsun değişim yapamıyoruz.</span></b><span> <strong>Ancak teslim aldığınız andan itibaren 7 gün içerisinde yukarıda belirttiğimiz koşulları yerine getirerek ürünü iade edebilirsiniz.</strong></span></font></p>
-            <font color="#ff0000">
-            </font>
-            <p><span></span><span></span><span></span><span></span></p>
-            <p><span>Saygılarımızla,&nbsp;</span></p>
-            <span>Logossanat</span>
+                <p>
+                    İşbu Sözleşme’nin akdedilmesi tarafların ayrı ayrı Doğrusözlü Eğitim Kurumları ile akdetmiş oldukları Websitesi Üyelik Sözleşmeleri’nin hükümlerinin ifasını engellemeyecek olup taraflar işbu Sözleşme konusu mal veya hizmetin satışında Doğrusözlü Eğitim Kurumları herhangi bir şekilde taraf olmadığını ve Sözleşme kapsamında tarafların yükümlülüklerini yerine getirmeleri ile ilgili herhangi
+                    bir sorumluluğu ve taahhüdü bulunmadığını kabul ve beyan ederler.
+                </p>
 
+                <h3>SÖZLEŞME KONUSU MAL VE HİZMETİN TEMEL NİTELİKLERİ VE FİYATI (KDV DAHİL)</h3>
 
+                <table width="100%" style="margin-bottom: 20px">
+                    <thead>
+                        <tr>
+                            <td class="borderLeftBold">Ürün Kodu Ve Adı</td>
+                            <td>Adet</td>
+                            <td>Satici Unvani</td>
+                            <td>Birim Fiyatı</td>
+                            <td>Birim İndirimi</td>
+                            <td>Kupon</td>
+                            <td>Puan</td>
+                            <td>Toplam Satış Tutarı</td>
+                            <td>Vade Farkı</td>
+                            <td class="borderRightBold">KDV Dahil Toplam Tutar</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>İlan edilen fiyatlar ve vaatler güncelleme yapılana ve değiştirilene kadar geçerlidir. Süreli olarak ilan edilen fiyatlar ise belirtilen süre sonuna kadar geçerlidir.</p>
+
+                <ul>
+                    <li>Kargo hariç toplam ürün bedeli:</li>
+                    <li>Kargo Ücreti:</li>
+                    <li>Kargo Dahil Toplam Bedeli:</li>
+                    <li>Ödeme Şekli ve Planı:</li>
+                    <li>Alınan Vade Farkı:</li>
+                    <li>Vade Farkı hesabında kullanılan faiz oranı:</li>
+                </ul>
+
+                <p>SÖZ KONUSU ÜRÜN BEDELİ, ÖDEME KORUMA SİSTEMİ KAPSAMINDA SATICI ADINA, Doğrusözlü Eğitim Kurumları TARAFINDAN ALICI’DAN TAHSİL EDİLMEKTEDİR. ALICI MALIN/HİZMETİN BEDELİNİ DOĞUŞ PLANET’E ÖDEMEKLE, ÜRÜN BEDELİNİ SATICI’YA ÖDEMİŞ SAYILACAKTIR.</p>
+
+                <h3>MALIN TESLİMİ VE TESLİM ŞEKLİ</h3>
+                <p>Sözleşme Alıcı tarafından elektronik ortamda onaylanmakla yürürlüğe girmiş olup, Alıcı’nın Satıcı’dan satın almış olduğu mal veya hizmetin Alıcı’ya teslim edilmesiyle ifa edilmiş olur. Mal, Alıcı’nın sipariş formunda ve işbu Sözleşme’de belirtmiş olduğu adrese ve belirtilen yetkili kişi/kişilere teslim edilecektir.</p>
+
+                <h3>TESLİMAT MASRAFLARI VE İFASI</h3>
+                <p>Malın teslimat masrafları aksine bir hüküm yoksa Alıcı’ya aittir. Satıcı, Websitesi’nde teslimat ücretinin kendisince karşılanacağını beyan etmişse teslimat masrafları Satıcı’ya ait olacaktır.</p>
+                <p>Malın teslimatı; ödemenin gerçekleşmesinden sonra taahhüt edilen sürede yapılır. Satıcı, sipariş konusu mal veya hizmetin ediminin yerine getirilmesinin imkansızlaştığı haller saklı kalmak kaydıyla, mal veya hizmeti, Alıcı tarafından mal veya hizmetin sipariş edilmesinden itibaren 30 (otuz) gün içinde teslim eder.</p>
+                <p>Herhangi bir nedenle Alıcı tarafından mal veya hizmetin bedeli ödenmez veya yapılan ödeme banka kayıtlarında iptal edilir ise, Satıcı mal veya hizmetin teslimi yükümlülüğünden kurtulmuş kabul edilir.</p>
+                <p>Malın Satıcı tarafından kargoya verilmesinden sonra ve fakat Alıcı tarafından teslim alınmasından önce Alıcı tarafından yapılan sipariş iptallerinde kargo bedelinden Alıcı sorumludur.</p>
+                <p>Sipariş konusu mal ya da hizmet ediminin yerine getirilmesinin imkansızlaştığı hallerde Satıcı bu durumu öğrendiği tarihten itibaren 3 (üç) gün içinde Alıcı’yı bilgilendirecek ve varsa teslimat masrafları da dâhil olmak üzere tahsil edilen tüm ödemeleri bildirim tarihinden itibaren en geç 14 (on dört) gün içinde iade edecektir.</p>
+
+                <h3>ALICI’NIN BEYAN VE TAAHHÜTLERİ</h3>
+
+                <p>Alıcı, Websitesi’nde yer alan Sözleşme konusu mal veya hizmetin temel nitelikleri, satış fiyatı ve ödeme şekli ile teslimat ve kargo bedeline ilişkin olarak Satıcı tarafından yüklenen ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder.</p>
+                <p>Alıcılar, tüketici sıfatıyla talep ve şikayetlerini yukarıda yer alan Satıcı iletişim bilgilerini kullanarak ve/veya Websitesi’nde yer alan Hesabım&gt;Ürün Sorularım üzerinden ulaştırabilirler.</p>
+                <p>
+                    Alıcı, işbu Sözleşme’yi ve Ön Bilgilendirme Formu’nu elektronik ortamda teyit etmekle, mesafeli sözleşmelerin akdinden önce Satıcı tarafından Alıcı’ya verilmesi gereken adres, siparişi verilen mal veya hizmete ait temel özellikler, mal veya hizmetin vergiler dahil fiyatı, ödeme ve teslimat ile teslimat fiyatı bilgilerini de doğru ve eksiksiz olarak edindiğini teyit etmiş
+                    olur. Alıcı’nın, teslim edildiği esnada tahrip olmuş, kırık, ambalajı yırtılmış vb. hasarlı ve ayıplı olduğu açıkça belli olan Sözleşme konusu mal veya hizmeti kargo şirketinden teslim alması halinde sorumluluk tamamen kendisine aittir.
+                </p>
+                <p>
+                    Mal veya hizmetin tesliminden sonra Alıcı’ya ait kredi kartının Alıcı’nın kusurundan kaynaklanmayan bir şekilde yetkisiz kişilerce haksız veya hukuka aykırı olarak kullanılması nedeni ile ilgili banka veya finans kuruluşunun mal veya hizmetin bedelini Satıcı’ya ödememesi halinde, Alıcı kendisine teslim edilmiş olması kaydıyla mal veya hizmeti 3 (üç) gün içinde Satıcı’ya iade
+                    etmekle yükümlüdür. Bu halde teslimat giderleri Alıcı’ya aittir.
+                </p>
+
+                <h3>SATICI’NIN BEYAN VE TAAHHÜTLERİ</h3>
+                <p>Satıcı, Sözleşme konusu mal veya hizmetin tüketici mevzuatına uygun olarak, sağlam, eksiksiz, siparişte belirtilen niteliklere uygun ve varsa garanti belgeleri ve kullanım kılavuzları ile Alıcı’ya teslim edilmesinden sorumludur.</p>
+                <p>Satıcı, mücbir sebepler veya nakliyeyi engelleyen olağanüstü durumlar nedeni ile sözleşme konusu mal veya hizmeti süresi içinde teslim edemez ise, durumu öğrendiği tarihten itibaren 3 (üç) gün içinde Alıcı’ya bildirmekle yükümlüdür.</p>
+                <p>Sözleşme konusu mal veya hizmet, Alıcı’dan başka bir kişiye teslim edilecek ise, teslim edilecek kişinin teslimatı kabul etmemesinden Satıcı sorumlu tutulamaz.</p>
+
+                <h3>CAYMA HAKKI</h3>
+                <p>Alıcı, hiçbir hukuki ve cezai sorumluluk üstlenmeksizin ve hiçbir gerekçe göstermeksizin, mal satışına ilişkin işlemlerde teslimat tarihinden itibaren, hizmet satışına ilişkin işlemlerde satın alma tarihinden itibaren 14 (on dört) gün içerisinde cayma hakkını kullanabilir. Alıcı, malın teslimine kadar olan süre içinde de cayma hakkını kullanabilir.</p>
+                <p>
+                    Alıcı, cayma hakkını logossanat.com’a giriş yaparak logossanat.com’da yer alan Hesabım&gt;Mevcut Sipariş&gt;Siparişlerim üzerinden "İade Et" bağlantısına tıklayarak kullanabilir. Alıcı’nın ilgili sayfada yer alan iade talep formunu doldurup satıcının iade adres bilgilerini alarak, cayma hakkını kullandığı tarihten itibaren 10 (on) gün içinde malı geri göndermesi gerekmektedir. Mal ile beraber
+                    faturasının, malın kutusunun, ambalajının, varsa standart aksesuarları, mal ile birlikte hediye edilen diğer ürünlerin de eksiksiz ve hasarsız olarak iade edilmesi gerekmektedir. Alıcı, cayma süresi içinde malı, işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde kullandığı takdirde meydana gelen değişiklik ve bozulmalardan sorumlu değildir. Cayma
+                    hakkının kullanılmasına ilişkin detaylı bilgi logossanat.com’da yer alan https://www.logossanat.com/genel/urun-iadesi-2082300 sayfasında yer almaktadır.
+                </p>
+                <p>
+                    Alıcı iade edeceği malı Satıcı’ya Ön Bilgilendirme Formu’nda belirtilen Satıcı’nın anlaşmalı kargo şirketi ile gönderdiği sürece, iade kargo bedeli Satıcı’ya aittir. Alıcı’nın iade edeceği malı Ön Bilgilendirme Formu’nda belirtilen Satıcı’nın anlaşmalı kargo şirketi dışında bir kargo şirketi ile göndermesi halinde, iade kargo bedeli ve malın kargo sürecinde uğrayacağı
+                    hasardan Satıcı sorumlu değildir.
+                </p>
+                <p>
+                    Alıcı’nın cayma hakkını kullanmasından itibaren 14 (on dört) gün içerisinde (malın Satıcı’nın iade için belirttiği taşıyıcı aracılığıyla geri gönderilmesi kaydıyla), Alıcı’nın ilgili mal veya hizmete ilişkin Satıcı veya Aracı Hizmet Sağlayıcı’ya yaptığı tüm ödemeler Alıcı’ya satın alırken kullandığı ödeme aracına uygun bir şekilde ve tüketiciye herhangi bir masraf veya
+                    yükümlülük getirmeden ve tek seferde iade edilecektir. Kredi kullanılarak yapılan alışverişlerde, cayma hakkının usulüne uygun kullanıldığı durumlarda ürün bedeli kredi ile ilişkili hesaba iade edilecektir.
+                </p>
+                <p>Doğrusözlü Eğitim Kurumları, İŞBU MESAFELİ SATIŞ SÖZLEŞMESİ’NİN TARAFI OLMADIĞINDAN ALICI’NIN, Doğrusözlü Eğitim Kurumları  KARŞI CAYMA HAKKI YOKTUR VE Doğrusözlü Eğitim Kurumları’DAN BEDEL İADESİ VEYA ÜRÜN DEĞİŞİMİ TALEP EDEMEZ.</p>
+
+                <h3>CAYMA HAKKININ KULLANILAMAYACAĞI HALLER</h3>
+                <p>Mevzuat uyarınca Alıcı aşağıdaki hallerde cayma hakkını kullanamaz:</p>
+                <p>
+                    Fiyatı finansal piyasalardaki dalgalanmalara bağlı olarak değişen ve Satıcı’nın kontrolünde olmayan mal veya hizmetlere ilişkin sözleşmelerde (örn. ziynet, altın ve gümüş kategorisindeki ürünler);
+                    Alıcı’nın istekleri veya açıkça onun kişisel ihtiyaçları doğrultusunda hazırlanan, niteliği itibariyle geri gönderilmeye elverişli olmayan ve çabuk bozulma tehlikesi olan veya son kullanma tarihi geçme ihtimali olan malların teslimine ilişkin sözleşmelerde;
+                    Tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olan mallardan; iadesi sağlık ve hijyen açısından uygun olmayanların teslimine ilişkin sözleşmelerde;
+                    Tesliminden sonra başka ürünlerle karışan ve doğası gereği ayrıştırılması mümkün olmayan mallara ilişkin sözleşmelerde;
+                    Alıcı tarafından ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olması şartıyla maddi ortamda sunulan kitap, ses veya görüntü kayıtlarına, yazılım programlarına ve bilgisayar sarf malzemelerine ilişkin sözleşmelerde;
+                    Abonelik sözleşmesi kapsamında sağlananlar dışında gazete, dergi gibi süreli yayınların teslimine ilişkin sözleşmelerde;
+                    Belirli bir tarihte veya dönemde yapılması gereken, konaklama, eşya taşıma, araba kiralama, yiyecek-içecek tedariki ve eğlence veya dinlenme amacıyla yapılan boş zamanın değerlendirilmesine ilişkin sözleşmelerde;
+                    Bahis ve piyangoya ilişkin hizmetlerin ifasına ilişkin sözleşmelerde;
+                    Cayma hakkı süresi sona ermeden önce, tüketicinin onayı ile ifasına başlanan hizmetlere ilişkin sözleşmelerde; ve
+                    Elektronik ortamda anında ifa edilen hizmetler ile tüketiciye anında teslim edilen gayri maddi mallara ilişkin sözleşmelerde (hediye kartı, hediye çeki, para yerine geçen kupon ve benzeri).
+                </p>
+                <p>Mesafeli Sözleşmeler Yönetmeliği’nin kapsamı dışında bırakılmış olan mal veya hizmetler (Satıcı’nın düzenli teslimatları ile Alıcı’nın meskenine teslim edilen gıda maddelerinin, içeceklerin ya da diğer günlük tüketim maddeleri ile seyahat, konaklama, lokantacılık, eğlence sektörü gibi alanlarda hizmetler) bakımından cayma hakkı kullanılamayacaktır.</p>
+                <p>Tatil kategorisinde satışa sunulan bu tür mal ve hizmetlerin iptal ve iade şartları her Satıcı’nın uygulama ve kurallarına tabidir.</p>
+
+                <h3>UYUŞMAZLIKLARIN ÇÖZÜMÜ</h3>
+                <p>
+                    Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamında satılan mal veya hizmete ilişkin sorumluluk bizzat Satıcı’ya aittir. Bununla birlikte Alıcılar, satın aldıkları mal ve hizmetlerle ilgili şikâyetlerini Satıcılar’a doğrudan veya Doğrusözlü Eğitim Kurumları üzerinden iletecektir. Şikayetin Doğuş Planet’e iletilmesi halinde Doğuş Planet sorunun çözülmesi için mümkün olan tüm desteği
+                    sağlayacaktır.
+                </p>
+                <p>İş bu Mesafeli Satış Sözleşme ile ilgili çıkacak ihtilaflarda; her yıl Gümrük ve Ticaret Bakanlığı tarafından ilan edilen değere kadar Alıcı’nın yerleşim yerindeki ürünü satın aldığı veya ikametgâhının bulunduğu yerdeki İl veya İlçe Tüketici Sorunları Hakem Heyetleri, söz konusu değerin üzerindeki ihtilaflarda ise Tüketici Mahkemeleri yetkilidir.</p>
+
+                <h3>MAL/HİZMETİN FİYATI</h3>
+                <p>Malın peşin veya vadeli satış fiyatı, sipariş formunda yer almakla birlikte, sipariş sonu gönderilen bilgilendirme e-postası ve ürün ile birlikte müşteriye gönderilen fatura içeriğinde mevcut olan fiyattır. Satıcı veya Doğrusözlü Eğitim Kurumları tarafından yapılan indirimler, kuponlar, kargo ücreti ve sair uygulamalar satış fiyatına yansıtılır.</p>
+
+                <h3>TEMERRÜT HALİ VE HUKUKİ SONUÇLARI</h3>
+                <p>
+                    Alıcı’nın, kredi kartı ile yapmış olduğu işlemlerde temerrüde düşmesi halinde kart sahibi bankanın kendisi ile yapmış olduğu kredi kartı sözleşmesi çerçevesinde faiz ödeyecek ve bankaya karşı sorumlu olacaktır. Bu durumda ilgili banka hukuki yollara başvurabilir; doğacak masrafları ve vekâlet ücretini Alıcı’dan talep edebilir ve her koşulda Alıcı’nın borcundan dolayı
+                    temerrüde düşmesi halinde, Alıcı’nın borcu gecikmeli ifasından dolayı Satıcı’nın uğradığı zarar ve ziyandan Alıcı sorumlu olacaktır.
+                </p>
+
+                <h3>BİLDİRİMLER VE DELİL SÖZLEŞMESİ</h3>
+                <p>
+                    İşbu Sözleşme tahtında taraflar arasında yapılacak her türlü yazışma, mevzuatta sayılan zorunlu haller dışında, Websitesi’nde yer alan Hesabım&gt;Ürün Sorularım veya elektronik posta aracılığıyla yapılacaktır. Alıcı, işbu Sözleşme’den doğabilecek ihtilaflarda Satıcı’nın ve Doğrusözlü Eğitim Kurumları’in resmi defter ve ticari kayıtlarıyla, kendi veritabanında, sunucularında tuttuğu elektronik
+                    bilgilerin ve bilgisayar kayıtlarının, bağlayıcı, kesin ve münhasır delil teşkil edeceğini, bu maddenin Hukuk Muhakemeleri Kanunu’nun 193. maddesi anlamında delil sözleşmesi niteliğinde olduğunu kabul, beyan ve taahhüt eder.
+                </p>
+
+                <h3>YÜRÜRLÜK</h3>
+                <p>14 (on dört) maddeden ibaret bu Sözleşme, taraflarca okunarak, 11/09/2019 tarihinde, Alıcı tarafından elektronik ortamda onaylanmak suretiyle akdedilmiş ve yürürlüğe girmiştir.</p>
+                <table style="width: 100%">
+                    <tbody>
+                        <tr>
+                            <td>SATICI</td>
+                            <td>ALICI</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </div>
-    </div>
-</template>
-<template id="payForm">
-    <div class="gizlilik">
-        <div id="iyzipay-checkout-form" class="responsive"></div>
-        <div id="myCheckoutDiv" ></div>
-    </div>
+    </template>
+
+    <template id="iade">
+        <div class="gizlilik">
+            <div id="col-main" class="content">
+
+                <div id="page-header">
+                    <h2 id="page-title">TESLİMAT ve İADE ŞARTLARI</h2>
+                </div>
+
+                <span>
+                    <p>
+                        Siparişleriniz,&nbsp;ödemesi tamamlandıktan&nbsp;sonra <strong><font color="#ff0000">en geç&nbsp;3 iş günü</font></strong> içinde kargoya verilecektir. <br>
+                        <br>Grev, lokavt, tabii afetler, ayaklanma, halk hareketleri,
+                        nükleer risk ve tehlike, savaş, istila, ihtilal, iç savaş, sabotaj ve yangın
+                        halleri gibi olağanüstü durumlarda ve alıcıdan kaynaklanan (adreste bulunmama,
+                        teslim alacak yetkilinin olmaması, alıcının adresten taşınmış olması, vb.)
+                        durumlarda teslimat süresi ve koşulları değişkenlik
+                        gösterebilir.<br>
+                        <br>Siparişinizi resimli bir kimlik ibraz
+                        ederek, imza karşılığı kargo görevlisinden teslim alabilirsiniz.<br>
+                        <br>
+                        <span>Siparişiniz teslim edildiğinde, kargo yetkilisi eşliğinde paketinizi açmalı ve ürünü kontrol etmelisiniz. Özellikle ezilmiş, yırtılmış, açılmış veya ıslanmış paketlerde bunu yapmanız çok önemlidir. Beklenmedik bir durumda, sorunlu ürünle karşılaşırsanız paketi teslim almayıp kargo yetkilisine tutanak tutturarak kargo şirketi tarafından tarafımıza iade edilmesini sağlamanız gerekmektedir.</span><br>
+                    </p>
+                    <p>
+                        Teslimat anında belirttiğiniz adreste siz yoksanız,
+                        siparişiniz teslimat adresinde bulunan kişiye, resimli kimliği kontrol edilip
+                        imzası alındıktan sonra teslim edilmektedir.<br>
+                        <br>Teslimat anında adreste
+                        kimse bulunmazsa, kargo şirketi görevlisi size kargo şirketinin telefon
+                        numarasını içeren bir haber notu bırakacaktır. Haber notu bırakılan adrese
+                        tekrar uğranmaz, bu durumda kargoyu şubeden müşteri almalıdır. Sipariş verdikten
+                        sonra teslim alacak kişi değiştirilememektedir.<br>
+                        <br>Teslimat adresi olarak
+                        "internet cafe", "herhangi bir kahvehane", "kargo şirketlerinin şube adresleri"
+                        veya "herhangi bir umuma açık alan" belirtilmiş ise sipariş iptal edilecek ve bu
+                        adreslere teslimat yapılmayacaktır.
+                    </p>
+                </span>
+                <p><span></span>&nbsp;</p>
+                <p><span><span>İADE ŞARTLARI</span></span></p>
+                <p><span><strong><font color="#ff0000">Tüm müşterilerimizin; tüketicinin 'Sebep Göstermeksizin Cayma Hakkı' kapsamında 7 iş günü içerisinde yasal iade hakkı bulunmaktadır.</font></strong> </span></p>
+                <p><span>Ayrıca üretim hatası ya da başka bir olduğunu düşündüğünüz ve iade etmek istediğiniz ürünleri de teslim aldığınız tarihi takip <!--?xml:namespace prefix = st1 /--><st1:place><st1:city>eden</st1:city></st1:place> 7 iş günü içerisinde bildirip bize ulaştırabilirsiniz.</span></p>
+                <p>
+                    <span>
+                        İadenizi&nbsp;çalıştığımız kargo şirketi&nbsp;ile ücretsiz olarak geri gönderebilirsiniz.&nbsp;<strong>Çalıştığımız</strong> <strong>kargo şirketi dışında herhangi başka bir kargo şirketi ile ürün iadesi yapılması halinde kargo ücreti gönderen tarafından karşılanacak, gönderen tarafından kargo ücreti karşılanmadığı ve ürün iadesi karşı ödemeli şekilde çalıştğımız&nbsp;dışında başka bir kargo şirketi aracılığı ile yapıldığı takdirde Logossanat&nbsp;kargo ücretini ürünün iade bedelinden kesme hakkına sahip olacaktır.<span style="color: rgb(255, 0, 0); line-height: 115%; font-family: tahoma, sans-serif; font-size: 10.5pt;"> </span></strong><span style="font-family: tahoma, geneva, sans-serif; font-size: 12px;">
+                            <br>
+                            <br>
+                        </span>Kargonuzu gönderdikten sonra, gerekli olması halinde, gönderi kodunu paylaşmanız istenebilir. Lütfen kargo gönderi numarasını saklayınız.
+                    </span>
+                </p>
+                <p><span><strong><font color="#ff0000">Siparişinizi teslim aldığınız tarihten itibaren 7 iş günü içerisinde iade edebilirsiniz.</font></strong> <span>İade işleminizle ilgili destek bölümümüze ulaşarak bilgi verebilir ve ürününüzü faturasıyla birlikte&nbsp;kargo</span> şirketi ile ödemeli olarak geri gönderebilirsiniz. İsteğiniz bize ulaştığında&nbsp;tarafımızdan değerlendirilecek ve size bir bilgi e-postası gönderilecektir.</span></p>
+                <p><span>İade edeceğiniz ürünü eksiksiz, orijinal faturasıyla,&nbsp;paketi hasar görmemiş, kullanılmamış, kullanım hatası sonucu zarar görmemiş haliyle, sipariş numarası ve Logossanat'un doğru adresini içerecek şekilde geri gönderdiğinizden emin olmalısınız. </span></p>
+                <p><st1:place><st1:city><span>Eğer</span></st1:city></st1:place><span> ürünün faturası bir kurum adına düzenlenmiş ise, iade işlemi için kurumun düzenlemiş olduğu, kargo payı dahil edilmeden, 'Ürün Birim Fiyatı + KDV' şeklinde kesilmiş bir 'İADE FATURASI' nın ürün ile birlikte gönderilmesi gerekmektedir. </span></p>
+                <p><span>Ürünün kutusu, ambalajı, varsa standart aksesuarları bize iade ettiğiniz paketin içinde eksiksiz ve hasarsız bir şekilde bulunmalıdır. <span>Orijinal ambalajı zarar görmüş, tahrip edilmiş, herhangi bir şekilde kullanımdan dolayı zarar görmüş ürünlerin iadesi <st1:place><st1:city>kabul</st1:city></st1:place> edilmemektedir. <span>Her türlü yazılım, program, PLAK, DVD, VCD, CD ve kasetlerin, bilgisayar ve kırtasiye malzemelerinin ancak ambalajı açılmamış, bozulmamış, kullanılmamış ve denenmemiş olduğu takdirde iadesi kabul edilir.</span></span></span></p>
+                <p><span>İadeniz elimize ulaştıktan sonra :</span></p>
+                <p>
+                    <span>
+                        <font color="#ff0000">
+                            Size bir bilgi e-postası gönderilecek ve&nbsp;iadeniz onaylandığında, ürün bedeli yasal süre olan 10 iş günü içerisinde&nbsp;ödemeyi yaptığınız kredi kartınıza iade
+                            edilir
+                        </font>. Bu süre&nbsp;iade ettiğiniz ürünün tarafımızdan&nbsp;teslim almasıyla başlar. (385
+                        Sayılı Vergi Usül Kanunu Genel Tebliği uyarınca zorunludur). İadenizin ekstrenize yansıma süresi bankanıza bağlı olarak değişiklik göstermektedir. İade işleminizin kredi kartınıza yansımasında gecikme yaşanması halinde, size gönderdiğimiz bilgi e-postasının içinde yer alan İade İşlem Numarasıyla bankanızdan detaylı bilgi alabilirsiniz.
+                    </span>
+                </p>
+                <p><span></span><span></span></p>
+                <p><span>DEĞİŞTİRME KOŞULLARI</span></p>
+                <p><font color="#ff0000"><b><span>Logossanat’dan yaptığınız herhangi bir alışverişte, ürünün niteliği ne olursa olsun değişim yapamıyoruz.</span></b><span> <strong>Ancak teslim aldığınız andan itibaren 7 gün içerisinde yukarıda belirttiğimiz koşulları yerine getirerek ürünü iade edebilirsiniz.</strong></span></font></p>
+                <font color="#ff0000">
+                </font>
+                <p><span></span><span></span><span></span><span></span></p>
+                <p><span>Saygılarımızla,&nbsp;</span></p>
+                <span>Logossanat</span>
+
+
+            </div>
+        </div>
+    </template>
+    <template id="payForm">
+        <div class="payForm">
+
+            <h3 id="payProductName" class="h3"></h3>
+            <h3 id="payWarning" class="h4">Abonelik için ödeme yapıyorsunuz.</h3>
+
+            <h3 id="payProductPrice" class="h3"></h3>
+
+            <div id="payFrameContainer" class="payFrameContainer"></div>
+        </div>
 
     </template>
 
@@ -2044,37 +2049,38 @@
 
     </script>
 
-<button name="btnAdd" id="btnAdd"  >Install</button>
-    
-<script>
-    var deferredPrompt;
-    btnAdd = document.getElementById("btnAdd");
-    window.addEventListener('beforeinstallprompt', function (event) {
-        // Prevent Chrome 67 and earlier from automatically showing the prompt
-        event.preventDefault();
-        // Stash the event so it can be triggered later.
-        deferredPrompt = event;
-    });
+    <button name="btnAdd" id="btnAdd">Install</button>
 
-    // Installation must be done by a user gesture! Here, the button click
-    btnAdd.addEventListener('click', (e) => {
-        // hide our user interface that shows our A2HS button
-        btnAdd.style.display = 'none';
-        // Show the prompt
-        deferredPrompt.prompt();
-        // Wait for the user to respond to the prompt
-        deferredPrompt.userChoice
-            .then((choiceResult) => {
-                if (choiceResult.outcome === 'accepted') {
-                    console.log('User accepted the A2HS prompt');
-                } else {
-                    console.log('User dismissed the A2HS prompt');
-                }
-                deferredPrompt = null;
-            });
-    });
+    <script>
+        var deferredPrompt;
+        btnAdd = document.getElementById("btnAdd");
+        window.addEventListener('beforeinstallprompt', function (event) {
+            // Prevent Chrome 67 and earlier from automatically showing the prompt
+            event.preventDefault();
+            // Stash the event so it can be triggered later.
+            deferredPrompt = event;
+        });
 
-</script>
+        // Installation must be done by a user gesture! Here, the button click
+        btnAdd.addEventListener('click', (e) => {
+            // hide our user interface that shows our A2HS button
+            btnAdd.style.display = 'none';
+            // Show the prompt
+            deferredPrompt.prompt();
+            // Wait for the user to respond to the prompt
+            deferredPrompt.userChoice
+                .then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the A2HS prompt');
+                    } else {
+                        console.log('User dismissed the A2HS prompt');
+                    }
+                    deferredPrompt = null;
+                });
+        });
+
+    </script>
+
 </body>
 
 </html>
