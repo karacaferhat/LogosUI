@@ -125,7 +125,7 @@
     <div id="contentContainer" class="container">
         <div id="iyzipay-checkout-form" class="popup"></div>
     </div>
-    
+
 
     <div id="myScript"></div>
 
@@ -153,7 +153,13 @@
         </div>
     </div>
 
-
+    <script language="JavaScript" type="text/javascript">
+        //<![CDATA[
+        window.onbeforeunload = function () {
+            return 'Are you sure you want to leave?';
+        };
+        //]]>
+    </script>
 
     <script>
 
@@ -196,20 +202,20 @@
 
 
                 },
-        error: function (request) {
-            if (request.status == 401) {
-                if (RenewLogin()) {
-                    showPayform();
-                } else {
-                    openSignup();
-                    return;
+                error: function (request) {
+                    if (request.status == 401) {
+                        if (RenewLogin()) {
+                            showPayform();
+                        } else {
+                            openSignup();
+                            return;
+                        }
+
+                    }
+
+                    ShowMessage(request.error);
+
                 }
-
-            }
-
-            ShowMessage(request.error);
-
-        }
 
             });
 
