@@ -964,7 +964,7 @@ function showPaymentResult() {
             },
             success: function (data) {
                 if (data.paymentStatus == "SUCCESS") {
-                    ShowMessage(lastFourDigits + ' ile biten kartınızdan ödeme başarı ile alınmıştır.');
+                    ShowMessage(data.lastFourDigits + ' ile biten kartınızdan ödeme başarı ile alınmıştır.');
 
                 } else {
                     ShowMessage('Ödeme işlmeninde hata:' + data.errorMessage);
