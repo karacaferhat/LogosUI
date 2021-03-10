@@ -56,7 +56,7 @@
             <div class="logoArea">
                 <a href="index.html"><img src="images/logossanat-logo.png" alt="Logos Sanat Logo"></a>
             </div>
-           
+
         </div>
 
         <div class="headerBottom">
@@ -66,7 +66,7 @@
                         <div class="menu">
                             <ul>
                                 <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
-                               
+
 
                             </ul>
                         </div>
@@ -96,7 +96,7 @@
         <div class="mobileMenu">
             <ul>
                 <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
-               
+
 
             </ul>
 
@@ -123,16 +123,11 @@
 
 
     <div id="contentContainer" class="container">
-      
+        <div id="iyzipay-checkout-form" class="responsive"></div>
     </div>
-
     
 
- 
-
-  
-
-<div id="myScript"></div>
+    <div id="myScript"></div>
 
     <div class="modal" id="myModal">
         <div class="modal-dialog">
@@ -158,22 +153,36 @@
         </div>
     </div>
 
-   
-    
+
+
     <script>
-        function initPaymentResult() {
-            var conversationId = null;
-            conversationId = getParameterByName("ConvId");
-           
-            var payToken = getCookie("payToken");
-            var token = getCookie("token");
+
+        function initPayForm() {
+
+
+            var email = getCookie("email");
+            $('#myScript').empty();
+            var ip = "178.154.15.15";
+
+            var payItem = {
+                productName: "productName",
+                productId: "1",
+                quantity: 1,
+                price: 1
+            }
+            var payItems = [];
+            payItems.push(payItem);
+
             var mydata = {
-                conversationId: conversationId,
-                payToken: payToken
+                email: email,
+                ip: ip,
+                items: payItems
             };
+            setCookie("payToken", "");
+            var token = getCookie("token");
             $.ajax({
                 type: "POST",
-                url: paymentResultUrl,
+                url: paymentPostUrl,
                 contentType: "application/json; charset=utf-8",
                 data: JSON.stringify(mydata),
                 dataType: "json",
@@ -181,23 +190,37 @@
                     Authorization: 'Bearer ' + token
                 },
                 success: function (data) {
-                    if (data.paymentStatus == "SUCCESS") {
-                        ShowMessage(data.lastFourDigits + ' ile biten kartınızdan ödeme başarı ile alınmıştır.');
 
-                    } else {
-                        ShowMessage('Ödeme işlmeninde hata:' + data.errorMessage);
-                    }
-                
+                    setCookie("payToken", data.paymentFormToken);
+                    $('#myScript').html(data.htmlContent);
+
+
                 },
-                error: function (request) {
-                    ShowMessage(request.error);
+        error: function (request) {
+            if (request.status == 401) {
+                if (RenewLogin()) {
+                    showPayform();
+                } else {
+                    openSignup();
+                    return;
                 }
 
-            });
+            }
+
+            ShowMessage(request.error);
+
         }
+
+            });
+
+
+
+        }
+
+        initPayForm();
     </script>
 
-    
+
 
 </body>
 
