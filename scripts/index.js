@@ -220,7 +220,7 @@ var updateUserInfoUrl = baseUrl + "/api/v1/identity/updateUserInfo";
 var resetUrl = baseUrl + "/api/v1/identity/reset";
 var changeUrl = baseUrl + "/api/v1/identity/change";
 var paymentPostUrl = baseUrl + "/api/v1/payment/post";
-
+var paymentResultUrl = baseUrl + "/api/v1/payment/checkPayment"
 function Register() {
 
     var pas1 = $('#registerPas').val();
@@ -888,7 +888,7 @@ function showPayform(price,productName) {
         ip: ip,
         items: payItems
     };
-
+    setCookie("payToken", "");
     var token = getCookie("token");
     $.ajax({
         type: "POST",
@@ -902,6 +902,7 @@ function showPayform(price,productName) {
         success: function (data) {
             $('#payProductName').html(productName);
             $('#payProductPrice').html(price + ' TL');
+            setCookie("payToken", data.paymentFormToken);
             CreatePaymentFrame(data.paymentPageUrl +'&iframe=true');
             
         },
@@ -941,3 +942,50 @@ function CreatePaymentFrame(link) {
 
 }
 
+function showPaymentResult() {
+    var conversationId = null;
+    conversationId =getParameterByName("ConvId");
+    if (conversationId != null) {
+       
+        var payToken = getCookie("payToken");
+        var token = getCookie("token");
+        var mydata = {
+            conversationId: conversationId,
+            payToken: payToken
+        };
+        $.ajax({
+            type: "POST",
+            url: paymentResultUrl,
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(mydata),
+            dataType: "json",
+            headers: {
+                Authorization: 'Bearer ' + token
+            },
+            success: function (data) {
+                if (data.paymentStatus == "SUCCESS") {
+                    ShowMessage(lastFourDigits + ' ile biten kartınızdan ödeme başarı ile alınmıştır.');
+
+                } else {
+                    ShowMessage('Ödeme işlmeninde hata:' + data.errorMessage);
+                }
+                
+            },
+            error: function (request) {
+                ShowMessage(request.error);
+            }
+
+        });
+
+    }
+
+}
+
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
