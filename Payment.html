@@ -153,13 +153,7 @@
         </div>
     </div>
 
-    <script language="JavaScript" type="text/javascript">
-        //<![CDATA[
-        window.onbeforeunload = function () {
-            return 'Are you sure you want to leave?';
-        };
-        //]]>
-    </script>
+   
 
     <script>
 
@@ -198,6 +192,7 @@
                 success: function (data) {
 
                     setCookie("payToken", data.paymentFormToken);
+                  
                     $('#myScript').html(data.htmlContent);
 
 

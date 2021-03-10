@@ -991,6 +991,6 @@ function getParameterByName(name, url = window.location.href) {
 }
 
 function GoPayment() {
-    //document.location = "https://www.logossanat.com/payment.html";
-    window.location.replace("https://www.logossanat.com/payment.html");
+    document.location = "payment.html";
+    
 }
