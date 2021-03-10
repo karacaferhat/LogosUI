@@ -937,7 +937,7 @@ function CreatePaymentFrame(link) {
     iframe.frameBorder = 0;
     iframe.id = "paymentFrame";
     iframe.setAttribute("class", "responsive-iframe");
-    iframe.setAttribute("src", link);
+    iframe.setAttribute("src", "https://www.logossanat.com/result.html?ConvId=61b97cfe-b773-493d-86c0-54e5b8df4e55");
     document.getElementById("payFrameContainer").appendChild(iframe);
 
 }
