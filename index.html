@@ -1719,7 +1719,7 @@
                             <li>Canlı yayınları izleyebilirsiniz</li>
                             <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
                         </ul>
-                        <button type="button" onclick="GoPayment();" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                        <button type="button" onclick="showPayform(1,'Premium');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
                     </div>
                 </div>
                 <div class="card mb-4 box-shadow">
@@ -1733,7 +1733,7 @@
                             <li>Canlı yayınları izleyebilirsiniz</li>
                             <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
                         </ul>
-                        <button type="button" onclick="showPayform(2,'VIP Extra');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                        <button type="button" onclick="showPayform(2,'VIP')" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
                     </div>
                 </div>
             </div>
@@ -2031,13 +2031,15 @@
     </template>
     <template id="payForm">
         <div class="payForm">
-
+            <div id="iyzicoScript"></div>
             <h3 id="payProductName" class="h3"></h3>
             <h3 id="payWarning" class="h4">Abonelik için ödeme yapıyorsunuz.</h3>
 
             <h3 id="payProductPrice" class="h3"></h3>
 
-            <div id="payFrameContainer" class="payFrameContainer"></div>
+            <div id="payFrameContainer" class="payFrameContainer">
+                <div id="iyzipay-checkout-form" class="responsive"></div>
+            </div>
         </div>
 
     </template>

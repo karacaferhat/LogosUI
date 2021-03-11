@@ -47,6 +47,7 @@
 </head>
 
 
+
 <body>
     <header>
 
@@ -117,15 +118,15 @@
 
 
     </div>
-     
+
 
 
 
 
     <div id="contentContainer" class="container">
-        <div id="iyzipay-checkout-form" class="popup"></div>
+        <div id="iyzipay-checkout-form" class="responsive"></div>
     </div>
-    
+
 
     <div id="myScript"></div>
 
@@ -153,7 +154,7 @@
         </div>
     </div>
 
-
+   
 
     <script>
 
@@ -192,24 +193,25 @@
                 success: function (data) {
 
                     setCookie("payToken", data.paymentFormToken);
+                  
                     $('#myScript').html(data.htmlContent);
 
 
                 },
-        error: function (request) {
-            if (request.status == 401) {
-                if (RenewLogin()) {
-                    showPayform();
-                } else {
-                    openSignup();
-                    return;
+                error: function (request) {
+                    if (request.status == 401) {
+                        if (RenewLogin()) {
+                            showPayform();
+                        } else {
+                            openSignup();
+                            return;
+                        }
+
+                    }
+
+                    ShowMessage(request.error);
+
                 }
-
-            }
-
-            ShowMessage(request.error);
-
-        }
 
             });
 

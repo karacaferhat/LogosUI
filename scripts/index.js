@@ -871,7 +871,7 @@ function showPayform(price,productName) {
     $('#contentContainer').html(clone);
 
     var email = getCookie("email");
-    $('#myCheckoutDiv').empty();
+    $('#iyzicoScript').empty();
     var ip = "178.154.15.15";
 
     var payItem = {
@@ -903,7 +903,8 @@ function showPayform(price,productName) {
             $('#payProductName').html(productName);
             $('#payProductPrice').html(price + ' TL');
             setCookie("payToken", data.paymentFormToken);
-            CreatePaymentFrame(data.paymentPageUrl +'&iframe=true');
+            $('#iyzicoScript').html(data.htmlContent);
+            
             
         },
         error: function (request) {
