@@ -332,49 +332,16 @@ function Login() {
 
 }
 
-function RenewLogin() {
 
-    var tkn = getCookie("token");
-    var refTkn = getCookie("refreshToken");
-
-    if (tkn == null || tkn == "undefined" || tkn == "") {
-       
-        return false;
-    };
-
-    var mydata = {
-        token: tkn,
-        refreshToken: refTkn
-    };
-    $.ajax({
-        type: "POST",
-        url: refreshUrl,
-        contentType: "application/json; charset=utf-8",
-        data: JSON.stringify(mydata),
-        dataType: "json",
-        success: function (data) {
-            deleteAllCookies();
-            saveLoginInfo(data);
-            return true;
-        },
-        error: function (request) {
-
-            ShowArrayMessage(request.responseJSON.errors);
-            return false;
-
-        }
-
-    });
-
-
-
-}
 
 function ShowArrayMessage(errs) {
     var str = buildErrorMessage(errs);
     ShowMessage(str);
 }
-
+function LogArrayMessage(errs) {
+    var str = buildErrorMessage(errs);
+    console.log(str);
+}
 function buildErrorMessage(ers) {
     var str = "";
     for (var i = 0; i < ers.length; i++) {
@@ -382,7 +349,15 @@ function buildErrorMessage(ers) {
     }
     return str;
 }
-
+function CheckTokenActive(ers) {
+    var str = "";
+    for (var i = 0; i < ers.length; i++) {
+        if (ers[i]=="Token aktif") {
+            return true;
+        }
+    }
+    return false;
+}
 function ShowMessage(mes) {
 
     $('#msg').html(mes);
@@ -390,23 +365,26 @@ function ShowMessage(mes) {
 }
 
 function setCookie(cname, value) {
-    document.cookie = cname + " = " + value;
+    //document.cookie = cname + " = " + value;
+    localStorage.setItem(cname, value);
 }
 
 function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
+    return localStorage.getItem(cname);
+
+    //var name = cname + "=";
+    //var decodedCookie = decodeURIComponent(document.cookie);
+    //var ca = decodedCookie.split(';');
+    //for (var i = 0; i < ca.length; i++) {
+    //    var c = ca[i];
+    //    while (c.charAt(0) == ' ') {
+    //        c = c.substring(1);
+    //    }
+    //    if (c.indexOf(name) == 0) {
+    //        return c.substring(name.length, c.length);
+    //    }
+    //}
+    //return "";
 }
 
 function checkLoggedIn() {
@@ -573,13 +551,15 @@ function showUserInfoPanel(data) {
     }
     
 }
-
+function GoHome() {
+    document.location = "index.html";
+}
 function Logout()
 {
     setCookie("token", "");
     setCookie("refreshToken", "");
     hideUserInfoPanel();
-    document.location = "index.html";
+ 
 }
 function hideUserInfoPanel(data) {
     $(".loginArea").html('<ul><li> <a onclick="openSignup();">GİRİS YAP</a></li></ul>');
@@ -682,6 +662,7 @@ function resetPas() {
         success: function (data) {
             ShowMessage("Yeni şifreniz eposta adresine iletilmiştir.");
             Logout();
+           
             openSignup();
         },
         error: function (request) {
@@ -730,6 +711,7 @@ function UpdPsw() {
         success: function (data) {
             ShowMessage("Şifreniz değiştirilmiştir");
             Logout();
+          
             openSignup();
 
         },
@@ -874,6 +856,55 @@ function selectSubscription(){
 
 }
 
+
+function getToken() {
+
+  
+
+    var tkn = getCookie("token");
+    var refTkn = getCookie("refreshToken");
+
+    if (tkn == null || tkn == "undefined" || tkn == "") {
+        Logout();
+        openSignup();
+        return "";
+    };
+
+    var mydata = {
+        token: tkn,
+        refreshToken: refTkn
+    };
+   
+    $.ajax({
+        type: "POST",
+        url: refreshUrl,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(mydata),
+        dataType: "json",
+        success: function (data) {
+            setCookie("token", data.token);
+            setCookie("refreshToken", data.refreshToken);
+            tkn = data.token;
+            refTkn = data.refreshToken;
+           
+           
+        },
+        error: function (request) {
+            TokenActive = CheckTokenActive(request.responseJSON.errors);
+            if (!TokenActive) {
+                LogArrayMessage(request.responseJSON.errors);
+                Logout();
+                openSignup();
+            }
+            
+
+
+        }
+    });
+   
+
+}
+
 function showPayform(price,productName) {
     var template = document.getElementById("payForm");
     var clone = template.content.cloneNode(true);
@@ -918,17 +949,12 @@ function showPayform(price,productName) {
             
         },
         error: function (request) {
-            if (request.status == 401) {
-                if (RenewLogin()) {
-                    showPayform();
-                } else {
-                    openSignup();
-                    return;
-                }
-
+            if (request.status = 401) {
+                getToken();
+            } else {
+                ShowMessage(request.error);
             }
-
-            ShowMessage(request.error);
+            
 
         }
 
