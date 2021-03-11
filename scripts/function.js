@@ -103,10 +103,11 @@ function loadAkademi(akademi){
 function setIntroVideo(doc){
     var intro = doc.getElementsByTagName("intro")[0];   
     var videoId=intro.textContent;        
-    var videoContainer = document.getElementById('video');         
+    var videoContainer = document.getElementById('video');
     var options = {
-              id: videoId
-          };           
+        id: videoId,
+        responsive: true
+};           
     var player = new Vimeo.Player(videoContainer, options);
 }
 

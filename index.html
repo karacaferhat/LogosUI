@@ -776,11 +776,12 @@
                                 <input id="loginPas" autocomplete="current-password" type="password" class="form-control" placeholder="Şifreniz" oninvalid="this.setCustomValidity('Şifre boş olamaz')"
                                        oninput="this.setCustomValidity('')" required>
                             </div>
-                            <div class="form-group">
-                                <button onclick="openResetPasForm();">Hatırlamıyorum</button>
-                            </div>
+
                             <div class="form-group">
                                 <button>GİRİS YAP</button>
+                            </div>
+                            <div class="form-group">
+                                <button class="Remember" onclick="openResetPasForm();">SIFRE HATIRLAT</button>
                             </div>
                         </form>
                     </div>

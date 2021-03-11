@@ -489,15 +489,14 @@ footer .footer .footerRight .storeLinks a {
   transition: 0.3s;
     cursor: pointer;
 }
-.contentArea .contentTop .latestPost ul li a span {
-  font-family: 'sourceLight';
-  font-size: 22px;
-    font-weight: bold;
-  line-height: 22px;
-  -webkit-font-smoothing: antialiased;
-  color: #000000;
-  display: block;
-}
+    .contentArea .contentTop .latestPost ul li a span {
+        font-family: 'captureIT';
+        font-size: 20px;
+        line-height: 20px;
+        -webkit-font-smoothing: antialiased;
+        color: #000000;
+        display: block;
+    }
 .contentArea .contentTop .latestPost ul li a span:last-child {
   font-size: 14px;
   color: #b88741;
@@ -510,9 +509,9 @@ footer .footer .footerRight .storeLinks a {
   background-color: #c3c3c3;
 }
 .contentArea .contentBottom {
-  background-color: #eaeaea;
-  box-shadow: inset 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
-  padding-bottom: 40px;
+    background-color: #eaeaea;
+    box-shadow: inset 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
+    padding-bottom: 1%;
 }
 .contentArea .contentBottom .latestVideos {
   padding: 20px 15px;
@@ -520,13 +519,14 @@ footer .footer .footerRight .storeLinks a {
 .contentArea .contentBottom .latestVideos > div > div {
   margin-bottom: 25px;
 }
-.contentArea .contentBottom .latestVideos > div > div a {
-  background-color: #ffffff;
-  display: inline-block;
-  padding: 10px;
-  transition: 0.3s;
-  position: relative;
-}
+    .contentArea .contentBottom .latestVideos > div > div a {
+        background-color: #ffffff;
+        display: inline-block;
+        padding: 10px;
+        transition: 0.3s;
+        position: relative;
+        cursor: pointer;
+    }
 .contentArea .contentBottom .latestVideos > div > div a:hover {
   transition: 0.3s;
 }
@@ -1121,6 +1121,19 @@ footer .footer .footerRight .storeLinks a {
     text-align: center;
     color: #ffffff;
   }
+    .Remember {
+        display: inline-grid;
+        width: 33%;
+        background-color: #b88741;
+        color: #ffffff;
+        font-family: 'captureIT';
+        font-size: 18px;
+        line-height: 40px;
+        -webkit-font-smoothing: antialiased;
+        border: none;
+        cursor: pointer;
+        box-shadow: inset 0px 4px 18px 1px rgb(0 0 0 / 75%);
+    }
   .mobileHeader .mobileMenu .menuFooter .mobileSocialMedia {
     justify-content: center;
     display: flex;
@@ -1162,7 +1175,7 @@ footer .footer .footerRight .storeLinks a {
     width: 100%;
   }
   .lessonContent .videoArea iframe {
-    height: 200px;
+   
   }
 }
 
@@ -1329,7 +1342,7 @@ footer .footer .footerRight .storeLinks a {
     }
 
 .liveContainer {
-    width: fit-content;
+   
     background-color: #afabab;
     font-family: 'sourceLight';
 }
@@ -1377,6 +1390,7 @@ footer .footer .footerRight .storeLinks a {
     box-shadow: inset 0px 4px 18px 1px rgb(0 0 0 / 75%);
 }
 .payForm {
+    width: fit-content;
     background-color: white;
     font-family: 'sourceBlack';
     padding-left: 5%;

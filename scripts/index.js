@@ -745,10 +745,9 @@ function UpdPsw() {
 }
 
 
-
 function showLesson(code) {
     var p = getCookie("profile");
-    if (p != "X" && p != "X") {
+    if (p != "P" && p != "V") {
         $('#paymantWarning').modal('show');
         
         return;
