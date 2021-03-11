@@ -565,6 +565,13 @@ function showUserInfoPanel(data) {
     $('#name').html(data.userInfo.name);
     $('#surname').html(data.userInfo.surname);
 
+    if (data.userInfo.profile == "P") {
+        $('#profile').html('<br>(Premium)');    
+    }
+    if (data.userInfo.profile == "V") {
+        $('#profile').html('<br>(VIP)');
+    }
+    
 }
 
 function Logout()
@@ -740,6 +747,12 @@ function UpdPsw() {
 
 
 function showLesson(code) {
+    var p = getCookie("profile");
+    if (p != "X" && p != "X") {
+        $('#paymantWarning').modal('show');
+        
+        return;
+    }
     var template = document.getElementById("lessonTemplate");
     var clone = template.content.cloneNode(true);
     $('#contentContainer').empty();
@@ -862,8 +875,6 @@ function selectSubscription(){
 
 }
 
-
-
 function showPayform(price,productName) {
     var template = document.getElementById("payForm");
     var clone = template.content.cloneNode(true);
@@ -927,11 +938,7 @@ function showPayform(price,productName) {
     
     
 }
-function getMyIp() {
-    
 
-  
-}
 function CreatePaymentFrame(link) {
     document.getElementById("payFrameContainer").innerHTML = "";
     var iframe = document.createElement('iframe');

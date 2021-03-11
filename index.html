@@ -1061,6 +1061,7 @@
         <div class="dropdown show userPanel">
             <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-user"></i>&nbsp;<span id="name"></span>&nbsp;<span id="surname"></span>
+                <span id="profile"></span>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -1071,31 +1072,56 @@
         </div>
     </div>
 
-    <div class="modal" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Info</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
 
-                <!-- Modal body -->
-                <div id="msg" class="modal-body scrollMsg">
-
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
-                </div>
+            <!-- Modal body -->
+            <div id="msg" class="modal-body scrollMsg">
 
             </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+            </div>
+
         </div>
     </div>
+</div>
 
-    <!-- Modal -->
+<div class="modal" id="paymantWarning">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div id="msg" class="modal-body scrollMsg">
+                <p>Bu bölüm abone olan üyelerimiz içindir.Lütfen abone olunuz</p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+                <button type="button" onclick="selectSubscription();" class="btn btn-light" data-dismiss="modal">Abone ol</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
     <div class="modal fade liveModal" id="liveModal" tabindex="-1" role="dialog" aria-labelledby="Live" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content liveContainer">
