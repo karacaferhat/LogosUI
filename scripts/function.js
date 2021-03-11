@@ -188,7 +188,8 @@ function getLessonInfo(node){
     var pdf= akademipath+$(node).find("pdf").text();
     var back_track=akademipath+$(node).find("back_track").text();
     var video_link= $(node).find("video_link").text();
-    var video_id= $(node).find("video_id").text();
+    var video_id = $(node).find("video_id").text();
+    var price_profile = $(node).find("price_profile").text();
     var url='lesson.html?lessoncode='+code;
 
     
@@ -203,7 +204,8 @@ function getLessonInfo(node){
         pdf:pdf,
         back_track:back_track,
         video_link:video_link,       
-        video_id:video_id,
+        video_id: video_id,
+        price_profile: price_profile,
         url: url
     }
     return lesson;

@@ -746,10 +746,10 @@ function UpdPsw() {
 
 
 function showLesson(code) {
-    var p = getCookie("profile");
-    if (p != "P" && p != "V") {
+    var user_profile = getCookie("profile");
+    var les = findLesson(code);
+    if (user_profile != les.price_profile) {
         $('#paymantWarning').modal('show');
-        
         return;
     }
     var template = document.getElementById("lessonTemplate");
@@ -757,7 +757,7 @@ function showLesson(code) {
     $('#contentContainer').empty();
     $('#contentContainer').html(clone);
 
-    var les = findLesson(code);
+  
     var title = document.getElementById("LessonTitle");
     var long_description = document.getElementById("LessonLongDescription");
     var pdf = document.getElementById("LessonPdf");
