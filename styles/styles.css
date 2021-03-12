@@ -1415,3 +1415,8 @@ footer .footer .footerRight .storeLinks a {
     height: 100%;
     overflow: hidden;
 }
+@media screen and (display-mode:standalone){
+    header{
+        height:88px !important;
+    }
+}
