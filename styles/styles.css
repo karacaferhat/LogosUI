@@ -918,7 +918,7 @@ footer .footer .footerRight .storeLinks a {
     display: none;
   }
   .mobileHeader {
-    position:fixed;
+    position:fixed;1
     top:0;
     z-index:1;
     width: 100%;
