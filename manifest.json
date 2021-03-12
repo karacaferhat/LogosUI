@@ -57,6 +57,22 @@
       "type": "image/webp"
     }
   ],
+  "shortcuts": [
+  
+    {
+      "name": "Yeni Yüklenenler",
+      "short_name": "Güncel Videolar",
+      "description": "En güncel videolar",
+      "url": "/index.html?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "/images/pwa_icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": [ "music", "education", "entertainment" ],
   "lang": "tr-TR",
   "start_url": "/index.html",
   "background_color": "black",
