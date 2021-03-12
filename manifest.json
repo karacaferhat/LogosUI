@@ -30,8 +30,8 @@
   ],
   "lang": "tr-TR",
   "start_url": "/index.html",
-  "background_color": "black",
-  "theme_color": "black",
+  "background_color": "#2b2a28",
+  "theme_color": "#2b2a28",
   "prefer_related_applications": false,
   "orientation": "portrait-primary",
   "icons": [
