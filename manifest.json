@@ -11,13 +11,13 @@
   ],
   "shortcuts": [
     {
-      "name": "Yeni Y�klenenler",
-      "short_name": "G�ncel Videolar",
-      "description": "En g�ncel videolar",
+      "name": "Yeni Yüklenenler",
+      "short_name": "Güncel Videolar",
+      "description": "En güncel videolar",
       "url": "/index.html?utm_source=homescreen",
       "icons": [
         {
-          "src": "/images/pwa_icons/icon-192.png",
+          "src": "/images/pwa_icons/manifest-icon-192.png",
           "sizes": "192x192"
         }
       ]
