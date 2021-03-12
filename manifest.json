@@ -1,6 +1,6 @@
 {
-  "name": "Logossanat",
-  "short_name": "Logos",
+  "name": "Logos Web App",
+  "short_name": "Logos App",
   "icons": [
     {
       "src": "images/hello-icon-128.png",
