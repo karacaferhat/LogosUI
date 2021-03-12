@@ -910,16 +910,20 @@ footer .footer .footerRight .storeLinks a {
   }
 }
 @media (max-width: 767px) {
-  .container {
-    max-width: 100% !important;
-  }
+    .container {
+        max-width: 100% !important;
+        margin-top: 30%;
+    }
   header {
     display: none;
   }
   .mobileHeader {
+    position:fixed;
+    top:0;
+    z-index:1;
     width: 100%;
     display: block !important;
-    height: 100%;
+    height: fit-content;
     padding-bottom: 10px;
     background-color: #000000;
     box-shadow: inset 0px -11px 12px -5px rgba(0, 0, 0, 0.75);
@@ -1420,3 +1424,11 @@ footer .footer .footerRight .storeLinks a {
         height:88px !important;
     }
 }*/
+
+@media (max-width: 400px) {
+    .mobileHeader {
+        position:fixed;
+        top:0;
+    }
+
+}
