@@ -50,6 +50,13 @@
       "type": "image/png"
     }
   ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/screenshot.webp",
+      "sizes": "376x670",
+      "type": "image/webp"
+    }
+  ],
   "lang": "tr-TR",
   "start_url": "/index.html",
   "background_color": "black",
