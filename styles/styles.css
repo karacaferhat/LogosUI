@@ -919,7 +919,7 @@ footer .footer .footerRight .storeLinks a {
   }
   .mobileHeader {
     position:fixed;
-    top:0;
+    margin-top:2%;
     z-index:1;
     width: 100%;
     display: block !important;
