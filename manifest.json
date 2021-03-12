@@ -1,7 +1,7 @@
 {
   "display": "standalone",
-  "name": "Logos Web App",
-  "short_name": "Logos App",
+  "name": "Logos Web Akademi",
+  "short_name": "Logos",
   "screenshots": [
     {
       "src": "images/screenshots/screenshot.webp",
