@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <intro>503074068</intro>
+    <intro>518967054</intro>
     <liste>
         <son_yuklenen>r1</son_yuklenen>    
         <son_yuklenen>r2</son_yuklenen> 
@@ -14,14 +14,14 @@
         <son_yuklenen>r6</son_yuklenen> 
     </liste>
     <liste>
-        <sectiklerimiz>r1</sectiklerimiz>    
-        <sectiklerimiz>r2</sectiklerimiz> 
-        <sectiklerimiz>cp1</sectiklerimiz> 
-        <sectiklerimiz>cp2</sectiklerimiz> 
-        <sectiklerimiz>cp3</sectiklerimiz> 
-        <sectiklerimiz>r4</sectiklerimiz> 
-        <sectiklerimiz>cp4</sectiklerimiz> 
-        <sectiklerimiz>r6</sectiklerimiz>         
+        <sectiklerimiz>gs1</sectiklerimiz>    
+        <sectiklerimiz>gs2</sectiklerimiz> 
+        <sectiklerimiz>gs3</sectiklerimiz> 
+        <sectiklerimiz>gs4</sectiklerimiz> 
+        <sectiklerimiz>ds1</sectiklerimiz> 
+        <sectiklerimiz>ks1</sectiklerimiz> 
+        <sectiklerimiz>fs1</sectiklerimiz> 
+        <sectiklerimiz>r6</sectiklerimiz>
     </liste>
     <gitar>
         <gitar_ders>r1</gitar_ders>

@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <dersler>
+  <ders>
+        <code>ks1</code>        
+        <academy>keman</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>ks1.png</preview_image>
+        <preview_image_thumb>ks1.png</preview_image_thumb>
+        <title>Klasik Keman Performans</title>
+        <short_description>Özde Çökmez</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519007404</video_link>
+        <video_id>519007404</video_id>     
+    </ders> 
+    <ders>
+        <code>fs1</code>        
+        <academy>flüt</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>fs1.png</preview_image>
+        <preview_image_thumb>fs1.png</preview_image_thumb>
+        <title>Klasik Flüt Performans</title>
+        <short_description>Koray İşlek</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519006535</video_link>
+        <video_id>519006535</video_id>     
+    </ders> 
+    <ders>
+        <code>gs4</code>        
+        <academy>gitar</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>gs4.png</preview_image>
+        <preview_image_thumb>gs4.png</preview_image_thumb>
+        <title>Sam Smith - Diamonds</title>
+        <short_description>Serhan Doğrusözlü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518044143</video_link>
+        <video_id>518044143</video_id>     
+    </ders> 
+    <ders>
+        <code>gs3</code>        
+        <academy>gitar</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>gs3.png</preview_image>
+        <preview_image_thumb>gs3.png</preview_image_thumb>
+        <title>Modern Rock Gitar Performans</title>
+        <short_description>Serhan Doğrusözlü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518044774</video_link>
+        <video_id>518044774</video_id>     
+    </ders> 
+    <ders>
+        <code>gs2</code>        
+        <academy>gitar</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>gs2.png</preview_image>
+        <preview_image_thumb>gs2.png</preview_image_thumb>
+        <title>Justin Timberlake Michael Jackson - Love Never Felt So Good</title>
+        <short_description>Serhan Doğrusözlü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518042820</video_link>
+        <video_id>518042820</video_id>     
+    </ders> 
+    <ders>
+        <code>gs1</code>        
+        <academy>gitar</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>gs1.png</preview_image>
+        <preview_image_thumb>gs1.png</preview_image_thumb>
+        <title>Işın Karaca - Hoşgörü</title>
+        <short_description>Serhan Doğrusözlü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518043491</video_link>
+        <video_id>518043491</video_id>     
+    </ders> 
+    <ders>
+        <code>ds1</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>ds1.png</preview_image>
+        <preview_image_thumb>ds1.png</preview_image_thumb>
+        <title>Funk Davul Performans</title>
+        <short_description>Derya Damarsardı</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518045264</video_link>
+        <video_id>518045264</video_id>     
+    </ders> 
     <ders>
         <code>r1</code>        
         <academy>davul</academy>
@@ -111,6 +209,20 @@
         <pdf>r8.pdf</pdf>     
         <back_track>r8.wav</back_track>  
         <video_link>https://vimeo.com/503396319</video_link>    
+        <video_id>503396319</video_id>   
+    </ders>
+    <ders>
+        <code>r9</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r9.png</preview_image>
+        <preview_image_thumb>r9_thumb.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 9</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 4. hi hat vuruşundan sonra ve tekrar 1. vuruşa denk gelen 16lık kickler vardır.Çalışmaya başlarken tek kick vuruşuyla başlayıp sürekli üstüne iki kick hissiyatı önemlidir. 16lık doğru yere vurmak duyumu güçlendirir. Bu yüzden çalışmaya başlarken metronomu olağanca düşük tutmak çok önemlidir.</long_description>
+        <pdf>r9.pdf</pdf>     
+        <back_track>r9.wav</back_track>  
+        <video_link>https://vimeo.com/504695050</video_link>    
         <video_id>503396319</video_id>   
     </ders>
        <ders>
