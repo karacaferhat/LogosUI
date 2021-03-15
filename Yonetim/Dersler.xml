@@ -3,7 +3,7 @@
 <dersler>
   <ders>
         <code>ks1</code>        
-        <academy>davul</academy>
+        <academy>keman</academy>
         <price_profile>U</price_profile>   
         <preview_image>ks1.png</preview_image>
         <preview_image_thumb>ks1.png</preview_image_thumb>
@@ -17,7 +17,7 @@
     </ders> 
     <ders>
         <code>fs1</code>        
-        <academy>davul</academy>
+        <academy>flüt</academy>
         <price_profile>U</price_profile>   
         <preview_image>fs1.png</preview_image>
         <preview_image_thumb>fs1.png</preview_image_thumb>
@@ -31,7 +31,7 @@
     </ders> 
     <ders>
         <code>gs4</code>        
-        <academy>davul</academy>
+        <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs4.png</preview_image>
         <preview_image_thumb>gs4.png</preview_image_thumb>
@@ -45,7 +45,7 @@
     </ders> 
     <ders>
         <code>gs3</code>        
-        <academy>davul</academy>
+        <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs3.png</preview_image>
         <preview_image_thumb>gs3.png</preview_image_thumb>
@@ -59,7 +59,7 @@
     </ders> 
     <ders>
         <code>gs2</code>        
-        <academy>davul</academy>
+        <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs2.png</preview_image>
         <preview_image_thumb>gs2.png</preview_image_thumb>
@@ -73,7 +73,7 @@
     </ders> 
     <ders>
         <code>gs1</code>        
-        <academy>davul</academy>
+        <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs1.png</preview_image>
         <preview_image_thumb>gs1.png</preview_image_thumb>
