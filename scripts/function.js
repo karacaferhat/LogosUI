@@ -125,16 +125,19 @@ function setAkademiTitle(doc) {
     $('#akademiTitle').html(intro.textContent);
 }
 function showAllLessons(akademi){
-    var lessonsDoc=loadLessons(); 
+    var lessonsDoc = loadLessons(); 
+    var i = 0;
     $(lessonsDoc).find("ders").each(function(index){
         var _akademi=$(this).find('academy').text();
         if (akademi.toLowerCase()==_akademi.toLowerCase()){
-            var les=getLessonInfo($(this));
-            var id="lesson"+(index+1);             
+            var les = getLessonInfo($(this));
+            console.log(i+ 1);
+            var id="lesson"+(i+1);             
             //var str ='<a href="' + les.url+ '"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
             var str = '<a  onclick="showLesson(\'' + les.code +'\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span>' + les.short_description + '</span></div></a>';
             var container=document.getElementById(id);
-            container.innerHTML=str;           
+            container.innerHTML = str; 
+            i = i + 1;
         }       
      }
  
