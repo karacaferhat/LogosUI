@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <dersler>
+  <ders>
+        <code>ds2</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>ds2.png</preview_image>
+        <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
+        <title>STICKING EGZERSIZ</title>
+        <short_description>STICK CONTROL</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524818558</video_link>
+        <video_id>524818558</video_id>     
+    </ders> 
  <ders>
         <code>gs5</code>        
         <academy>gitar</academy>
