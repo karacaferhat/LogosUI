@@ -225,6 +225,34 @@
         <video_link>https://vimeo.com/504695050</video_link>    
         <video_id>503396319</video_id>   
     </ders>
+  <ders>
+        <code>r10</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r10.png</preview_image>
+        <preview_image_thumb>r10.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 10</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.</long_description>
+        <pdf>r10.pdf</pdf>     
+        <back_track>r10.wav</back_track>  
+        <video_link>https://vimeo.com/504695594</video_link>    
+        <video_id>504695594</video_id>   
+    </ders>
+   <ders>
+        <code>r11</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r11.png</preview_image>
+        <preview_image_thumb>r11.png</preview_image_thumb>
+        <title>RITIM EGZERSIZ 11</title>
+        <short_description>4/4 Ritim Çalışması</short_description>
+        <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir..</long_description>
+        <pdf>r11.pdf</pdf>     
+        <back_track>r11.wav</back_track>  
+        <video_link>https://vimeo.com/505136808</video_link>    
+        <video_id>505136808</video_id>   
+    </ders>
        <ders>
         <code>cp1</code>
         <academy>piyano</academy>
