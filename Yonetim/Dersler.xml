@@ -33,7 +33,7 @@
         <code>fs1</code>        
         <academy>flüt</academy>
         <price_profile>U</price_profile>   
-        <preview_image>fs1.png</preview_image>
+        <preview_image>fs_thumb.webp</preview_image>
         <preview_image_thumb>fs1.png</preview_image_thumb>
         <title>Klasik Flüt Performans</title>
         <short_description>Koray İşlek</short_description>
@@ -48,7 +48,7 @@
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs4.png</preview_image>
-        <preview_image_thumb>gs4.png</preview_image_thumb>
+        <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
         <title>Sam Smith - Diamonds</title>
         <short_description>Serhan Doğrusözlü</short_description>
         <long_description></long_description>
@@ -62,7 +62,7 @@
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs3.png</preview_image>
-        <preview_image_thumb>gs3.png</preview_image_thumb>
+        <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
         <title>Modern Rock Gitar Performans</title>
         <short_description>Serhan Doğrusözlü</short_description>
         <long_description></long_description>
@@ -76,7 +76,7 @@
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs2.png</preview_image>
-        <preview_image_thumb>gs2.png</preview_image_thumb>
+        <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
         <title>Justin Timberlake Michael Jackson - Love Never Felt So Good</title>
         <short_description>Serhan Doğrusözlü</short_description>
         <long_description></long_description>
@@ -90,7 +90,7 @@
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
         <preview_image>gs1.png</preview_image>
-        <preview_image_thumb>gs1.png</preview_image_thumb>
+        <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
         <title>Işın Karaca - Hoşgörü</title>
         <short_description>Serhan Doğrusözlü</short_description>
         <long_description></long_description>
@@ -103,7 +103,7 @@
         <code>ds1</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>ds1.png</preview_image>
+        <preview_image>ds_thumb.webp</preview_image>
         <preview_image_thumb>ds1.png</preview_image_thumb>
         <title>Funk Davul Performans</title>
         <short_description>Derya Damarsardı</short_description>
