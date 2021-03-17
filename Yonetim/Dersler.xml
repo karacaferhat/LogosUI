@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <dersler>
+ <ders>
+        <code>gs5</code>        
+        <academy>gitar</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>gs5.png</preview_image>
+        <preview_image_thumb>gs5.png</preview_image_thumb>
+        <title>Jazzy Majör Blues</title>
+        <short_description>Serhan Doğrusözlü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524317069</video_link>
+        <video_id>524317069</video_id>     
+    </ders> 
   <ders>
         <code>ks1</code>        
         <academy>keman</academy>
