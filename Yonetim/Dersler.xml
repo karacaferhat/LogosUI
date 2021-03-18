@@ -674,6 +674,7 @@
         <video_id>505202637</video_id>   
   </ders>
   <ders>
+        <code>r43</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
         <preview_image>r43.webp</preview_image>
@@ -687,6 +688,7 @@
         <video_id>505205301</video_id>   
     </ders>
     <ders>
+        <code>r44</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
         <preview_image>r44.webp</preview_image>
@@ -700,6 +702,7 @@
         <video_id>505207847</video_id>   
     </ders>
       <ders>
+        <code>r45</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
         <preview_image>r45.webp</preview_image>
@@ -713,6 +716,7 @@
         <video_id>505210365</video_id>   
     </ders>
         <ders>
+        <code>r46</code>  
         <academy>davul</academy>
         <price_profile>U</price_profile>        
         <preview_image>r46.webp</preview_image>
@@ -727,6 +731,7 @@
     </ders>
   
         <ders>
+        <code>r47</code>  
         <academy>davul</academy>
         <price_profile>U</price_profile>        
         <preview_image>r47.webp</preview_image>
