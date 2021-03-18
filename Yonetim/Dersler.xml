@@ -429,11 +429,39 @@
         <preview_image_thumb>r24.png</preview_image_thumb>
         <title>TEK KICK CIFT KICK SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
-        <long_description>Bu çalışmada her metronoma dört hi-hat vuruşu denk gelmektedir. Bu egzersizde çalışırken metronoma özellikle dikkat edilmelidir.Backing tracklerin üzerine çalışarak rahatça geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir. Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r24.pdf</pdf>     
         <back_track>r24.wav</back_track>  
         <video_link>https://vimeo.com/505161439</video_link>    
         <video_id>505161439</video_id>   
+    </ders>
+  <ders>
+        <code>r25</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r25.png</preview_image>
+        <preview_image_thumb>r25.png</preview_image_thumb>
+        <title>TRAMPET ONCESI KICK</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir.Fakat özellikle bu çalışmalarda ellerimizi sabit bir şekilde ritme sabitleyip kicklere odaklanılmalıdır.Gerekirse yavaş çalışılmalıdır.Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <pdf>r25.pdf</pdf>     
+        <back_track>r25.wav</back_track>  
+        <video_link>https://vimeo.com/505163835</video_link>    
+        <video_id>505163835</video_id>   
+    </ders>
+  <ders>
+        <code>r26</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r26.png</preview_image>
+        <preview_image_thumb>r26.png</preview_image_thumb>
+        <title>HI-HAT UCLEME</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu egzersizde sağ elimize özellikle dikkat etmeliyiz. Gerekirse düşük tempoda çalışarak dersteki gibi ritim boyu sabit 16lık giden bir hi-hat yürüyüşü gerçekleştirmeliyiz.Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r26.pdf</pdf>     
+        <back_track>r26.wav</back_track>  
+        <video_link>https://vimeo.com/505166044</video_link>    
+        <video_id>505166044</video_id>   
     </ders>
   
        <ders>
