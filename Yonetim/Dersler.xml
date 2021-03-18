@@ -385,8 +385,8 @@
         <price_profile>U</price_profile>        
         <preview_image>r21.png</preview_image>
         <preview_image_thumb>r21.png</preview_image_thumb>
-        <title>RITIM EGZERSIZ 21</title>
-        <short_description>4/4 Ritim Çalışması</short_description>
+        <title>HI-HATLER ARASI 16LIK KICK</title>
+        <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
         <pdf>r21.pdf</pdf>     
         <back_track>r21.wav</back_track>  
@@ -399,7 +399,7 @@
         <price_profile>U</price_profile>        
         <preview_image>r22.png</preview_image>
         <preview_image_thumb>r22.png</preview_image_thumb>
-        <title>2 8LIK ARASI 16LIK KICK CALISMASI</title>
+        <title>HI-HATLER ARASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
         <pdf>r22.pdf</pdf>     
@@ -413,14 +413,57 @@
         <price_profile>U</price_profile>        
         <preview_image>r23.png</preview_image>
         <preview_image_thumb>r23.png</preview_image_thumb>
-        <title>RITIM EGZERSIZ 23</title>
-        <short_description>4/4 Ritim Çalışması</short_description>
+        <title>16LIK HI-HAT</title>
+        <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada her metronoma dört hi-hat vuruşu denk gelmektedir. Bu egzersizde çalışırken metronoma özellikle dikkat edilmelidir.Backing tracklerin üzerine çalışarak rahatça geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r23.pdf</pdf>     
         <back_track>r23.wav</back_track>  
         <video_link>https://vimeo.com/505159163</video_link>    
         <video_id>505159163</video_id>   
     </ders>
+   <ders>
+        <code>r24</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r24.png</preview_image>
+        <preview_image_thumb>r24.png</preview_image_thumb>
+        <title>TEK KICK CIFT KICK SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir. Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <pdf>r24.pdf</pdf>     
+        <back_track>r24.wav</back_track>  
+        <video_link>https://vimeo.com/505161439</video_link>    
+        <video_id>505161439</video_id>   
+    </ders>
+  <ders>
+        <code>r25</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r25.png</preview_image>
+        <preview_image_thumb>r25.png</preview_image_thumb>
+        <title>TRAMPET ONCESI KICK</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir.Fakat özellikle bu çalışmalarda ellerimizi sabit bir şekilde ritme sabitleyip kicklere odaklanılmalıdır.Gerekirse yavaş çalışılmalıdır.Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <pdf>r25.pdf</pdf>     
+        <back_track>r25.wav</back_track>  
+        <video_link>https://vimeo.com/505163835</video_link>    
+        <video_id>505163835</video_id>   
+    </ders>
+  <ders>
+        <code>r26</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r26.png</preview_image>
+        <preview_image_thumb>r26.png</preview_image_thumb>
+        <title>HI-HAT UCLEME</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu egzersizde sağ elimize özellikle dikkat etmeliyiz. Gerekirse düşük tempoda çalışarak dersteki gibi ritim boyu sabit 16lık giden bir hi-hat yürüyüşü gerçekleştirmeliyiz.Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r26.pdf</pdf>     
+        <back_track>r26.wav</back_track>  
+        <video_link>https://vimeo.com/505166044</video_link>    
+        <video_id>505166044</video_id>   
+    </ders>
+  
        <ders>
         <code>cp1</code>
         <academy>piyano</academy>
