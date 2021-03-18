@@ -659,7 +659,7 @@
         <video_link>https://vimeo.com/505199427</video_link>    
         <video_id>505199427</video_id>   
     </ders>
-            <ders>
+    <ders>
         <code>r41</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
@@ -672,8 +672,7 @@
         <back_track>r41.wav</back_track>  
         <video_link>https://vimeo.com/505202637</video_link>    
         <video_id>505202637</video_id>   
-    </ders>
-     <code>r41</code>
+  </ders>
   <ders>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
