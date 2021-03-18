@@ -127,21 +127,23 @@ function setAkademiTitle(doc) {
 function showAllLessons(akademi){
     var lessonsDoc = loadLessons(); 
     var i = 0;
+    var str = "";
     $(lessonsDoc).find("ders").each(function(index){
         var _akademi=$(this).find('academy').text();
         if (akademi.toLowerCase()==_akademi.toLowerCase()){
             var les = getLessonInfo($(this));
             console.log(i+ 1);
-            var id="lesson"+(i+1);             
-            //var str ='<a href="' + les.url+ '"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
-            var str = '<a  onclick="showLesson(\'' + les.code +'\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span>' + les.short_description + '</span></div></a>';
-            var container=document.getElementById(id);
-            container.innerHTML = str; 
+            var id = "lesson" + (i + 1);          
+          
+            
+             str = str+'<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span>' + les.short_description + '</span></div></a></div >';
+           
             i = i + 1;
         }       
-     }
- 
-     )
+    }
+    )
+    var container = document.getElementById("lessons");
+    container.innerHTML = str; 
     
        
 
