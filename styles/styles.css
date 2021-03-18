@@ -490,8 +490,9 @@ footer .footer .footerRight .storeLinks a {
     cursor: pointer;
 }
     .contentArea .contentTop .latestPost ul li a span {
-        font-family: 'captureIT';
-        font-size: 20px;
+        font-family: 'sourceLight';
+        font-size: 20px;                
+        font-weight: bold;        
         line-height: 20px;
         -webkit-font-smoothing: antialiased;
         color: #000000;

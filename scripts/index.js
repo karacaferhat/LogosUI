@@ -19,7 +19,7 @@ function showLastAddedListOnIndexPAge(pageXML,lessonXML){
         var code=$(this).text();
         var lesson = findLessonByDoc(lessonXML, code);
         
-        var str = '<li><a onclick="showLesson(\'' + code +'\');" ><span>'+lesson.academy+'</span><span>'+lesson.short_description+'</span></a ></li> ';
+        var str = '<li><a onclick="showLesson(\'' + code + '\');" ><span>' + lesson.short_description+ '</span><span>' + lesson.academy+'</span></a ></li> ';
 
         $("#LastAddedList").append(str);
       
@@ -544,10 +544,10 @@ function showUserInfoPanel(data) {
     $('#surname').html(data.userInfo.surname);
 
     if (data.userInfo.profile == "P") {
-        $('#profile').html('<br>(Premium)');    
+        $('#profile').html('<br>(Pro)');    
     }
-    if (data.userInfo.profile == "V") {
-        $('#profile').html('<br>(VIP)');
+    if (data.userInfo.profile == "G") {
+        $('#profile').html('<br>(Master)');
     }
     
 }
