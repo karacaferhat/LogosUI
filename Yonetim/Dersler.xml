@@ -5,7 +5,7 @@
         <code>ds2</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>ds2.png</preview_image>
+        <preview_image>ds2_thumb.png</preview_image>
         <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
         <title>STICKING EGZERSIZ</title>
         <short_description>Bateri Örnek Ders</short_description>
@@ -33,8 +33,8 @@
         <code>ks1</code>        
         <academy>keman</academy>
         <price_profile>U</price_profile>   
-        <preview_image>ks1.png</preview_image>
-        <preview_image_thumb>ks1.png</preview_image_thumb>
+        <preview_image>ks1.webp</preview_image>
+        <preview_image_thumb>ks1.webp</preview_image_thumb>
         <title>MINUET SOL MAJÖR</title>
         <short_description>Klasik Keman Performans</short_description>
         <long_description></long_description>
@@ -47,8 +47,8 @@
         <code>fs1</code>        
         <academy>flüt</academy>
         <price_profile>U</price_profile>   
-        <preview_image>fs_thumb.webp</preview_image>
-        <preview_image_thumb>fs1.png</preview_image_thumb>
+        <preview_image>fs1.webp</preview_image>
+        <preview_image_thumb>fs1.webp</preview_image_thumb>
         <title>KLASIK FLUT PERFORMANS</title>
         <short_description>Koray İşlek</short_description>
         <long_description></long_description>
@@ -118,7 +118,7 @@
         <academy>davul</academy>
         <price_profile>U</price_profile>   
         <preview_image>ds_thumb.webp</preview_image>
-        <preview_image_thumb>ds1.png</preview_image_thumb>
+        <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
         <title>FUNK DAVUL</title>
         <short_description>Modern Funk Davul Fikirleri</short_description>
         <long_description></long_description>
