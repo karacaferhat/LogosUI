@@ -231,7 +231,7 @@
         <price_profile>U</price_profile>        
         <preview_image>r8.webp</preview_image>
         <preview_image_thumb>r8_thumb.webp</preview_image_thumb>
-        <title>TRAMPET ONCESI VE SONRASI 166LIK KICK</title>
+        <title>TRAMPET ONCESI VE SONRASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r8.pdf</pdf>     
@@ -651,13 +651,94 @@
         <price_profile>U</price_profile>        
         <preview_image>r40.webp</preview_image>
         <preview_image_thumb>r40_thumb.webp</preview_image_thumb>
-        <title>1 8LIK 2 16LIK KICK</title>
+        <title>2 16LIK KICK ONCESI KICK</title>
         <short_description>METAL GROOVE</short_description>
         <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r40.pdf</pdf>     
         <back_track>r40.wav</back_track>  
         <video_link>https://vimeo.com/505199427</video_link>    
         <video_id>505199427</video_id>   
+    </ders>
+            <ders>
+        <code>r41</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r41.webp</preview_image>
+        <preview_image_thumb>r41_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini sabit kicklerin üzerine çalmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r41.pdf</pdf>     
+        <back_track>r41.wav</back_track>  
+        <video_link>https://vimeo.com/505202637</video_link>    
+        <video_id>505202637</video_id>   
+    </ders>
+     <code>r41</code>
+  <ders>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r43.webp</preview_image>
+        <preview_image_thumb>r43_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen  kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r43.pdf</pdf>     
+        <back_track>r43.wav</back_track>  
+        <video_link>https://vimeo.com/505205301</video_link>    
+        <video_id>505205301</video_id>   
+    </ders>
+    <ders>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r44.webp</preview_image>
+        <preview_image_thumb>r44_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen double kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r44.pdf</pdf>     
+        <back_track>r44.wav</back_track>  
+        <video_link>https://vimeo.com/505207847</video_link>    
+        <video_id>505207847</video_id>   
+    </ders>
+      <ders>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r45.webp</preview_image>
+        <preview_image_thumb>r45_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r45.pdf</pdf>     
+        <back_track>r45.wav</back_track>  
+        <video_link>https://vimeo.com/505210365</video_link>    
+        <video_id>505210365</video_id>   
+    </ders>
+        <ders>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r46.webp</preview_image>
+        <preview_image_thumb>r46_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen double kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r46.pdf</pdf>     
+        <back_track>r46.wav</back_track>  
+        <video_link>https://vimeo.com/505212376</video_link>    
+        <video_id>505212376</video_id>   
+    </ders>
+  
+        <ders>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r47.webp</preview_image>
+        <preview_image_thumb>r47_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini arka arkaya gelen kicklerin üzerine çalışmaktayız.Kickler yoğun olduğu için gerekirse yavaş çalışılmalıdır. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r47.pdf</pdf>     
+        <back_track>r47.wav</back_track>  
+        <video_link>https://vimeo.com/505214988</video_link>    
+        <video_id>505214988</video_id>   
     </ders>
        <ders>
         <code>cp1</code>
