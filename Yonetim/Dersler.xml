@@ -385,8 +385,8 @@
         <price_profile>U</price_profile>        
         <preview_image>r21.png</preview_image>
         <preview_image_thumb>r21.png</preview_image_thumb>
-        <title></title>
-        <short_description>HI-HATLER ARASI 16LIK KICK</short_description>
+        <title>HI-HATLER ARASI 16LIK KICK</title>
+        <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
         <pdf>r21.pdf</pdf>     
         <back_track>r21.wav</back_track>  
@@ -399,7 +399,7 @@
         <price_profile>U</price_profile>        
         <preview_image>r22.png</preview_image>
         <preview_image_thumb>r22.png</preview_image_thumb>
-        <title>2 8LIK ARASI 16LIK KICK CALISMASI</title>
+        <title>HI-HATLER ARASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
         <pdf>r22.pdf</pdf>     
@@ -413,13 +413,27 @@
         <price_profile>U</price_profile>        
         <preview_image>r23.png</preview_image>
         <preview_image_thumb>r23.png</preview_image_thumb>
-        <title>HI-HATLER ARASI 16LIK KICK</title>
+        <title>16LIK HI-HAT</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada her metronoma dört hi-hat vuruşu denk gelmektedir. Bu egzersizde çalışırken metronoma özellikle dikkat edilmelidir.Backing tracklerin üzerine çalışarak rahatça geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r23.pdf</pdf>     
         <back_track>r23.wav</back_track>  
         <video_link>https://vimeo.com/505159163</video_link>    
         <video_id>505159163</video_id>   
+    </ders>
+   <ders>
+        <code>r24</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r24.png</preview_image>
+        <preview_image_thumb>r24.png</preview_image_thumb>
+        <title>TEK KICK CIFT KICK SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada her metronoma dört hi-hat vuruşu denk gelmektedir. Bu egzersizde çalışırken metronoma özellikle dikkat edilmelidir.Backing tracklerin üzerine çalışarak rahatça geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <pdf>r24.pdf</pdf>     
+        <back_track>r24.wav</back_track>  
+        <video_link>https://vimeo.com/505161439</video_link>    
+        <video_id>505161439</video_id>   
     </ders>
   
        <ders>
