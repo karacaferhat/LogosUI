@@ -1422,3 +1422,7 @@ footer .footer .footerRight .storeLinks a {
     }
 }*/
 
+.lessonList{
+    height:400px;
+    overflow:scroll;
+}
