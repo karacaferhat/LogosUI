@@ -47,8 +47,8 @@
         <code>fs1</code>        
         <academy>flüt</academy>
         <price_profile>U</price_profile>   
-        <preview_image>fs1.webp</preview_image>
-        <preview_image_thumb>fs1.webp</preview_image_thumb>
+        <preview_image>fs1.png</preview_image>
+        <preview_image_thumb>fs1.png</preview_image_thumb>
         <title>KLASIK FLUT PERFORMANS</title>
         <short_description>Koray İşlek</short_description>
         <long_description></long_description>
@@ -61,7 +61,7 @@
         <code>gs4</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs4.png</preview_image>
+        <preview_image>gs4_thumb.webp</preview_image>
         <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
         <title>SAM SMITH - DIAMONDS</title>
         <short_description>Serhan Doğrusözlü</short_description>
@@ -75,7 +75,7 @@
         <code>gs3</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs3.png</preview_image>
+        <preview_image>gs3_thumb.webp</preview_image>
         <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
         <title>MODERN ROCK GITAR PERFORMANS</title>
         <short_description>Modern Rock Gitar Fikirleri</short_description>
@@ -89,7 +89,7 @@
         <code>gs2</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs2.png</preview_image>
+        <preview_image>gs2_thumb.webp</preview_image>
         <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
         <title>FUNK GITAR</title>
         <short_description>Justin Timberlake Michael Jackson - Love Never Felt So Good</short_description>
@@ -103,7 +103,7 @@
         <code>gs1</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs1.png</preview_image>
+        <preview_image>gs1_thumb.webp</preview_image>
         <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
         <title>POP-FUNK GITAR</title>
         <short_description>Işın Karaca - Hoşgörü</short_description>
@@ -127,11 +127,291 @@
         <video_link>https://vimeo.com/518045264</video_link>
         <video_id>518045264</video_id>     
     </ders> 
+      <ders>
+        <code>sc1</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc1_thumb.png</preview_image>
+        <preview_image_thumb>sc1_thumb.png</preview_image_thumb>
+        <title>STICKING -1</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524804337</video_link>
+        <video_id>524804337</video_id>     
+    </ders> 
+        <ders>
+        <code>sc2</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc2_thumb.png</preview_image>
+        <preview_image_thumb>sc2_thumb.png</preview_image_thumb>
+        <title>STICKING -2</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524805403</video_link>
+        <video_id>524805403</video_id>     
+    </ders> 
+          <ders>
+        <code>sc3</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc3_thumb.png</preview_image>
+        <preview_image_thumb>sc3_thumb.png</preview_image_thumb>
+        <title>STICKING -3</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524806451</video_link>
+        <video_id>524806451</video_id>     
+    </ders>
+            <ders>
+        <code>sc4</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc4_thumb.png</preview_image>
+        <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
+        <title>STICKING -4</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524807719</video_link>
+        <video_id>524807719</video_id>     
+    </ders>
+              <ders>
+        <code>sc5</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc5_thumb.png</preview_image>
+        <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
+        <title>STICKING -5</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524808680</video_link>
+        <video_id>524808680</video_id>     
+    </ders>
+                <ders>
+        <code>sc6</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc6_thumb.png</preview_image>
+        <preview_image_thumb>sc6_thumb.png</preview_image_thumb>
+        <title>STICKING -6</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524809676</video_link>
+        <video_id>524809676</video_id>     
+    </ders>
+                  <ders>
+        <code>sc7</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc7_thumb.png</preview_image>
+        <preview_image_thumb>sc7_thumb.png</preview_image_thumb>
+        <title>STICKING -7</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524810702</video_link>
+        <video_id>524810702</video_id>     
+    </ders>
+  <ders>
+          <code>sc8</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc8_thumb.png</preview_image>
+        <preview_image_thumb>sc8_thumb.png</preview_image_thumb>
+        <title>STICKING -8</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524811738</video_link>
+        <video_id>524811738</video_id>     
+    </ders>
+  <ders>
+            <code>sc9</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc9_thumb.png</preview_image>
+        <preview_image_thumb>sc9_thumb.png</preview_image_thumb>
+        <title>STICKING -9</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524812714</video_link>
+        <video_id>524812714</video_id>     
+    </ders>
+    <ders>
+            <code>sc10</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc10_thumb.png</preview_image>
+        <preview_image_thumb>sc10_thumb.png</preview_image_thumb>
+        <title>STICKING -10</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524813776</video_link>
+        <video_id>524813776</video_id>     
+    </ders>
+      <ders>
+            <code>sc11</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc11_thumb.png</preview_image>
+        <preview_image_thumb>sc11_thumb.png</preview_image_thumb>
+        <title>STICKING -11</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524814894</video_link>
+        <video_id>524814894</video_id>     
+    </ders>
+       <ders>
+            <code>sc12</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc12_thumb.png</preview_image>
+        <preview_image_thumb>sc12_thumb.png</preview_image_thumb>
+        <title>STICKING -12</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524816141</video_link>
+        <video_id>524816141</video_id>     
+    </ders>
+         <ders>
+            <code>sc13</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc13_thumb.png</preview_image>
+        <preview_image_thumb>sc13_thumb.png</preview_image_thumb>
+        <title>STICKING -13</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524818558</video_link>
+        <video_id>524818558</video_id>     
+    </ders>
+          <ders>
+            <code>sc14</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc14_thumb.png</preview_image>
+        <preview_image_thumb>sc14_thumb.png</preview_image_thumb>
+        <title>STICKING -14</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524820310</video_link>
+        <video_id>524820310</video_id>     
+    </ders>
+            <ders>
+            <code>sc15</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc15_thumb.png</preview_image>
+        <preview_image_thumb>sc15_thumb.png</preview_image_thumb>
+        <title>STICKING -15</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524821969</video_link>
+        <video_id>524821969</video_id>     
+    </ders>
+             <ders>
+            <code>sc16</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc16_thumb.png</preview_image>
+        <preview_image_thumb>sc16_thumb.png</preview_image_thumb>
+        <title>STICKING -16</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524823037</video_link>
+        <video_id>524823037</video_id>     
+    </ders>
+              <ders>
+            <code>sc17</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc17_thumb.png</preview_image>
+        <preview_image_thumb>sc17_thumb.png</preview_image_thumb>
+        <title>STICKING -17</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524824156</video_link>
+        <video_id>524824156</video_id>     
+    </ders>
+                <ders>
+            <code>sc18</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc18_thumb.png</preview_image>
+        <preview_image_thumb>sc18_thumb.png</preview_image_thumb>
+        <title>STICKING -18</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524825198</video_link>
+        <video_id>524825198</video_id>     
+    </ders>
+    <ders>
+        <code>sc19</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc19_thumb.png</preview_image>
+        <preview_image_thumb>sc19_thumb.png</preview_image_thumb>
+        <title>STICKING -19</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524826212</video_link>
+        <video_id>524826212</video_id>     
+    </ders>
+      <ders>
+        <code>sc20</code>        
+        <academy>davul</academy>
+        <price_profile>U</price_profile>   
+        <preview_image>sc20_thumb.png</preview_image>
+        <preview_image_thumb>sc20_thumb.png</preview_image_thumb>
+        <title>STICKING -20</title>
+        <short_description>Stick Control</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524827274</video_link>
+        <video_id>524827274</video_id>     
+    </ders>
     <ders>
         <code>r1</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>r1.png</preview_image>
+        <preview_image>r1_thumb.png</preview_image>
         <preview_image_thumb>r1_thumb.png</preview_image_thumb>
         <title>Tek Kick Çift Kick</title>
         <short_description>ROCK RITIM</short_description>
@@ -145,7 +425,7 @@
         <code>r2</code>
         <academy>davul</academy>        
         <price_profile>U</price_profile>       
-        <preview_image>r2.png</preview_image>
+        <preview_image>r2_thumb.png</preview_image>
         <preview_image_thumb>r2_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -159,7 +439,7 @@
         <code>r3</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r3.png</preview_image>
+        <preview_image>r3_thumb.png</preview_image>
         <preview_image_thumb>r3_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -173,7 +453,7 @@
         <code>r4</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r4.png</preview_image>
+        <preview_image>r4_thumb.png</preview_image>
         <preview_image_thumb>r4_thumb.png</preview_image_thumb>
         <title>8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -187,7 +467,7 @@
         <code>r5</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r5.png</preview_image>
+        <preview_image>r5_thumb.png</preview_image>
         <preview_image_thumb>r5_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -201,7 +481,7 @@
         <code>r6</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r6.png</preview_image>
+        <preview_image>r6_thumb.png</preview_image>
         <preview_image_thumb>r6_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -215,7 +495,7 @@
         <code>r7</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r7.png</preview_image>
+        <preview_image>r7_thumb.png</preview_image>
         <preview_image_thumb>r7_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -229,9 +509,9 @@
         <code>r8</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r8.png</preview_image>
-        <preview_image_thumb>r8_thumb.png</preview_image_thumb>
-        <title>TRAMPET ONCESI VE SONRASI 166LIK KICK</title>
+        <preview_image>r8_thumb.webp</preview_image>
+        <preview_image_thumb>r8_thumb.webp</preview_image_thumb>
+        <title>TRAMPET ONCESI VE SONRASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r8.pdf</pdf>     
@@ -243,8 +523,8 @@
         <code>r9</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r9.png</preview_image>
-        <preview_image_thumb>r9_thumb.png</preview_image_thumb>
+        <preview_image>r9_thumb.webp</preview_image>
+        <preview_image_thumb>r9_thumb.webp</preview_image_thumb>
         <title>16LIK ONCEDEN GELEN KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 4. hi hat vuruşundan sonra ve tekrar 1. vuruşa denk gelen 16lık kickler vardır.Çalışmaya başlarken tek kick vuruşuyla başlayıp sürekli üstüne iki kick hissiyatı önemlidir. 16lık doğru yere vurmak duyumu güçlendirir. Bu yüzden çalışmaya başlarken metronomu olağanca düşük tutmak çok önemlidir.</long_description>
@@ -257,8 +537,8 @@
         <code>r10</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r10.png</preview_image>
-        <preview_image_thumb>r10.png</preview_image_thumb>
+        <preview_image>r10_thumb.webp</preview_image>
+        <preview_image_thumb>r10_thumb.webp</preview_image_thumb>
         <title>16LIK ONCEDEN KICK ILE TEK KICK CIFT KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.</long_description>
@@ -271,8 +551,8 @@
         <code>r11</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r11.png</preview_image>
-        <preview_image_thumb>r11.png</preview_image_thumb>
+        <preview_image>r11_thumb.webp</preview_image>
+        <preview_image_thumb>r11_thumb.webp</preview_image_thumb>
         <title>2 TANE 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir..</long_description>
@@ -285,8 +565,8 @@
         <code>r14</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r14.png</preview_image>
-        <preview_image_thumb>r14.png</preview_image_thumb>
+        <preview_image>r14_thumb.webp</preview_image>
+        <preview_image_thumb>r14_thumb.webp</preview_image_thumb>
         <title>2 8LIK ARASI 16LIK VURUSLAR</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.16lık kick ve trampet  vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kick ve trampetleri doğru duyurmak önemlidir.</long_description>
@@ -299,8 +579,8 @@
         <code>r15</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r15.png</preview_image>
-        <preview_image_thumb>r15.png</preview_image_thumb>
+        <preview_image>r15_thumb.webp</preview_image>
+        <preview_image_thumb>r15_thumb.webp</preview_image_thumb>
         <title>8LIK ARASI 16LIK VURUSLAR</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.Egzersiz 14’teki çalışmada trampet aralarında iki kick varken bu çalışmada ilk iki trampet tek kick vardır.16lık kick ve trampet  vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kick ve trampetleri doğru duyurmak önemlidir..</long_description>
@@ -313,8 +593,8 @@
         <code>r16</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r16.png</preview_image>
-        <preview_image_thumb>r16.png</preview_image_thumb>
+        <preview_image>r16_thumb.webp</preview_image>
+        <preview_image_thumb>r16_thumb.webp</preview_image_thumb>
         <title>8LIK TRAMPET VURUSLARI</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada özellikle hi hat ve trampet vuruşlarının aynı andan gelmesinden dolayı geometrik olarak pozisyonunuzu iyi ayarlamanız gerekmektedir. Bunun dışında yüksek aksanları en başa ve en sona koymuş bulunmaktayız. </long_description>
@@ -327,8 +607,8 @@
         <code>r17</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r17.png</preview_image>
-        <preview_image_thumb>r17.png</preview_image_thumb>
+        <preview_image>r17_thumb.webp</preview_image>
+        <preview_image_thumb>r17_thumb.webp</preview_image_thumb>
         <title>HI-HAT ACMA KAPAMA</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi hat vuruş ve açılışlarının yerelerine dikkat edilmelidir. Gerekirse sadece hi hat açıp kapama tek başına çalışılmalıdır. Bu ritim aynı zamanda çoğu club ve pop parçasının ana ritmidir.Bir çok yerde karşımıza çıkar. Aynı zamanda bir çok parçanın üzerine bu ritmi çalışabilirsiniz.Metronom eşliğinde backing tracklerin üzerine çalışmayı unutmayalım. Keyifli çalışmalar.</long_description>
@@ -341,8 +621,8 @@
         <code>r18</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r18.png</preview_image>
-        <preview_image_thumb>r18.png</preview_image_thumb>
+        <preview_image>r18_thumb.webp</preview_image>
+        <preview_image_thumb>r18_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada normalde ellerimizle uyguladığımız paradiddle egzersizini kick ve trampet olarak ritme uygulamış bulunmaktayız. Bu sebepten ötürü ilk önce kick ve trampet vuruşlarını çalışıp sonradan hi hat eklemek avantajınıza olabilir. Kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. </long_description>
@@ -355,8 +635,8 @@
         <code>r19</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r19.png</preview_image>
-        <preview_image_thumb>r19.png</preview_image_thumb>
+        <preview_image>r19_thumb.webp</preview_image>
+        <preview_image_thumb>r19_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada normalde ellerimizle uyguladığımız paradiddle egzersizini kick ve trampet olarak ritme uygulamış bulunmaktayız. Egzersiz 18’den tek farkı sol elle başlayan trampet vuruşu birinci vuruştur.İlk önce kick ve trampet vuruşlarını çalışıp sonradan hi hat eklemek avantajınıza olabilir. Kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.</long_description>
@@ -369,8 +649,8 @@
         <code>r20</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r20.png</preview_image>
-        <preview_image_thumb>r20.png</preview_image_thumb>
+        <preview_image>r20_thumb.webp</preview_image>
+        <preview_image_thumb>r20_thumb.webp</preview_image_thumb>
         <title>16LIK KICK VE TRAMPET</title>
         <short_description>4/4 Ritim Çalışması</short_description>
         <long_description>Bu çalışmada normalde ellerimizle uyguladığımız paradiddle egzersizini kick ve trampet olarak ritme uygulamış bulunmaktayız. Egzersiz 18 ve 19’dan tek farkı ritmin ilk vuruşunda paradiddle egzersizinin başlamasıdır.İlk önce kick ve trampet vuruşlarını çalışıp sonradan hi hat eklemek avantajınıza olabilir. Kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.</long_description>
@@ -383,8 +663,8 @@
         <code>r21</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r21.png</preview_image>
-        <preview_image_thumb>r21.png</preview_image_thumb>
+        <preview_image>r21_thumb.webp</preview_image>
+        <preview_image_thumb>r21_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
@@ -397,8 +677,8 @@
         <code>r22</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r22.png</preview_image>
-        <preview_image_thumb>r22.png</preview_image_thumb>
+        <preview_image>r22_thumb.webp</preview_image>
+        <preview_image_thumb>r22_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
@@ -411,8 +691,8 @@
         <code>r23</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r23.png</preview_image>
-        <preview_image_thumb>r23.png</preview_image_thumb>
+        <preview_image>r23_thumb.webp</preview_image>
+        <preview_image_thumb>r23_thumb.webp</preview_image_thumb>
         <title>16LIK HI-HAT</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada her metronoma dört hi-hat vuruşu denk gelmektedir. Bu egzersizde çalışırken metronoma özellikle dikkat edilmelidir.Backing tracklerin üzerine çalışarak rahatça geliştirilebilir. Keyifli çalışmalar.</long_description>
@@ -425,8 +705,8 @@
         <code>r24</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r24.png</preview_image>
-        <preview_image_thumb>r24.png</preview_image_thumb>
+        <preview_image>r24_thumb.webp</preview_image>
+        <preview_image_thumb>r24_thumb.webp</preview_image_thumb>
         <title>TEK KICK CIFT KICK SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir. Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
@@ -439,8 +719,8 @@
         <code>r25</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r25.png</preview_image>
-        <preview_image_thumb>r25.png</preview_image_thumb>
+        <preview_image>r25_thumb.webp</preview_image>
+        <preview_image_thumb>r25_thumb.webp</preview_image_thumb>
         <title>TRAMPET ONCESI KICK</title>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir.Fakat özellikle bu çalışmalarda ellerimizi sabit bir şekilde ritme sabitleyip kicklere odaklanılmalıdır.Gerekirse yavaş çalışılmalıdır.Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
@@ -453,8 +733,8 @@
         <code>r26</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r26.png</preview_image>
-        <preview_image_thumb>r26.png</preview_image_thumb>
+        <preview_image>r26_thumb.webp</preview_image>
+        <preview_image_thumb>r26_thumb.webp</preview_image_thumb>
         <title>HI-HAT UCLEME</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu egzersizde sağ elimize özellikle dikkat etmeliyiz. Gerekirse düşük tempoda çalışarak dersteki gibi ritim boyu sabit 16lık giden bir hi-hat yürüyüşü gerçekleştirmeliyiz.Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
@@ -463,7 +743,287 @@
         <video_link>https://vimeo.com/505166044</video_link>    
         <video_id>505166044</video_id>   
     </ders>
+    <ders>
+        <code>r27</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r27_thumb.webp</preview_image>
+        <preview_image_thumb>r27_thumb.webp</preview_image_thumb>
+        <title>BOSSA NOVA</title>
+        <short_description>LATIN RITIM</short_description>
+        <long_description>Bu çalışmada ilk önce kick ve trampeti çalışmalıyız sonra hi hat ve kick sonra hi hat ve trampet olarak üç farklı çalışma yapabiliriz. Bu şekilde çaldığımız toplu ritmi daha sağlıklı algılayabiliriz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r27.pdf</pdf>     
+        <back_track>r27.wav</back_track>  
+        <video_link>https://vimeo.com/505168320</video_link>    
+        <video_id>505168320</video_id>   
+    </ders>
+      <ders>
+        <code>r28</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r28_thumb.webp</preview_image>
+        <preview_image_thumb>r28_thumb.webp</preview_image_thumb>
+        <title>HI-HATLER ARASI KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada ilk 16lığa gelen kick vuruşunu çalışmaktayız. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <pdf>r28.pdf</pdf>     
+        <back_track>r28.wav</back_track>  
+        <video_link>https://vimeo.com/505171720</video_link>    
+        <video_id>505171720</video_id>   
+    </ders>
+        <ders>
+        <code>r29</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r29_thumb.webp</preview_image>
+        <preview_image_thumb>r29_thumb.webp</preview_image_thumb>
+        <title>8LIK KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r29.pdf</pdf>     
+        <back_track>r29.wav</back_track>  
+        <video_link>https://vimeo.com/505174170</video_link>    
+        <video_id>505174170</video_id>   
+    </ders>
+        <ders>
+        <code>r30</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r30_thumb.webp</preview_image>
+        <preview_image_thumb>r30_thumb.webp</preview_image_thumb>
+        <title>HI-HATLER ARASI KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r30.pdf</pdf>     
+        <back_track>r30.wav</back_track>  
+        <video_link>https://vimeo.com/505176390</video_link>    
+        <video_id>505176390</video_id>   
+    </ders>
+          <ders>
+        <code>r31</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r31_thumb.webp</preview_image>
+        <preview_image_thumb>r31_thumb.webp</preview_image_thumb>
+        <title>16LIK CIFT KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r31.pdf</pdf>     
+        <back_track>r31.wav</back_track>  
+        <video_link>https://vimeo.com/505178854</video_link>    
+        <video_id>505178854</video_id>   
+    </ders>
+            <ders>
+        <code>r32</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r32_thumb.webp</preview_image>
+        <preview_image_thumb>r32_thumb.webp</preview_image_thumb>
+        <title>16LIK CIFT KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar</long_description>
+        <pdf>r32.pdf</pdf>     
+        <back_track>r32.wav</back_track>  
+        <video_link>https://vimeo.com/505181254</video_link>    
+        <video_id>505181254</video_id>   
+    </ders>
+              <ders>
+        <code>r33</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r33_thumb.webp</preview_image>
+        <preview_image_thumb>r33_thumb.webp</preview_image_thumb>
+        <title>16LIK CIFT KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r33.pdf</pdf>     
+        <back_track>r33.wav</back_track>  
+        <video_link>https://vimeo.com/505183688</video_link>    
+        <video_id>505183688</video_id>   
+    </ders>
+                <ders>
+        <code>r34</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r34_thumb.webp</preview_image>
+        <preview_image_thumb>r34_thumb.webp</preview_image_thumb>
+        <title>16LIK CIFT KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r34.pdf</pdf>     
+        <back_track>r34.wav</back_track>  
+        <video_link>https://vimeo.com/505185935</video_link>    
+        <video_id>505185935</video_id>   
+    </ders>
+                  <ders>
+        <code>r35</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r35_thumb.webp</preview_image>
+        <preview_image_thumb>r35_thumb.webp</preview_image_thumb>
+        <title>8LIK KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin ve trampetlerin üstüne denk  gelen kick vuruşlarını çalışmaktayız.8lik kick vuruşlarının doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar</long_description>
+        <pdf>r35.pdf</pdf>     
+        <back_track>r35.wav</back_track>  
+        <video_link>https://vimeo.com/505188117</video_link>    
+        <video_id>505188117</video_id>   
+    </ders>
+    <ders>
+        <code>r36</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r36_thumb.webp</preview_image>
+        <preview_image_thumb>r36_thumb.webp</preview_image_thumb>
+        <title>HI-HAT ARASI KICK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r36.pdf</pdf>     
+        <back_track>r36.wav</back_track>  
+        <video_link>https://vimeo.com/505190553</video_link>    
+        <video_id>505188117</video_id>   
+    </ders>
+    <ders>
+        <code>r37</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r37_thumb.webp</preview_image>
+        <preview_image_thumb>r37_thumb.webp</preview_image_thumb>
+        <title>3 16LIK KICKK</title>
+        <short_description>ROCK RITIM</short_description>
+        <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r37.pdf</pdf>     
+        <back_track>r37.wav</back_track>  
+        <video_link>https://vimeo.com/505192865</video_link>    
+        <video_id>505192865</video_id>   
+    </ders>
+      <ders>
+        <code>r38</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r38_thumb.webp</preview_image>
+        <preview_image_thumb>r38_thumb.webp</preview_image_thumb>
+        <title>3 16LIK KICK</title>
+        <short_description>METAL GROOVE</short_description>
+        <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar.</long_description>
+        <pdf>r38.pdf</pdf>     
+        <back_track>r38.wav</back_track>  
+        <video_link>https://vimeo.com/505195135</video_link>    
+        <video_id>505195135</video_id>   
+    </ders>
+        <ders>
+        <code>r39</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r39_thumb.webp</preview_image>
+        <preview_image_thumb>r39_thumb.webp</preview_image_thumb>
+        <title>1 8LIK 2 16LIK KICK</title>
+        <short_description>METAL GROOVE</short_description>
+        <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r39.pdf</pdf>     
+        <back_track>r39.wav</back_track>  
+        <video_link>https://vimeo.com/505197449</video_link>    
+        <video_id>505197449</video_id>   
+    </ders>
+          <ders>
+        <code>r40</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r40_thumb.webp</preview_image>
+        <preview_image_thumb>r40_thumb.webp</preview_image_thumb>
+        <title>2 16LIK KICK ONCESI KICK</title>
+        <short_description>METAL GROOVE</short_description>
+        <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r40.pdf</pdf>     
+        <back_track>r40.wav</back_track>  
+        <video_link>https://vimeo.com/505199427</video_link>    
+        <video_id>505199427</video_id>   
+    </ders>
+    <ders>
+        <code>r41</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r41_thumb.webp</preview_image>
+        <preview_image_thumb>r41_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini sabit kicklerin üzerine çalmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r41.pdf</pdf>     
+        <back_track>r41.wav</back_track>  
+        <video_link>https://vimeo.com/505202637</video_link>    
+        <video_id>505202637</video_id>   
+  </ders>
+  <ders>
+        <code>r43</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r43_thumb.webp</preview_image>
+        <preview_image_thumb>r43_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen  kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r43.pdf</pdf>     
+        <back_track>r43.wav</back_track>  
+        <video_link>https://vimeo.com/505205301</video_link>    
+        <video_id>505205301</video_id>   
+    </ders>
+    <ders>
+        <code>r44</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r44_thumb.webp</preview_image>
+        <preview_image_thumb>r44_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen double kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r44.pdf</pdf>     
+        <back_track>r44.wav</back_track>  
+        <video_link>https://vimeo.com/505207847</video_link>    
+        <video_id>505207847</video_id>   
+    </ders>
+      <ders>
+        <code>r45</code>
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r45_thumb.webp</preview_image>
+        <preview_image_thumb>r45_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r45.pdf</pdf>     
+        <back_track>r45.wav</back_track>  
+        <video_link>https://vimeo.com/505210365</video_link>    
+        <video_id>505210365</video_id>   
+    </ders>
+        <ders>
+        <code>r46</code>  
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r46_thumb.webp</preview_image>
+        <preview_image_thumb>r46_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini aralara gelen double kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r46.pdf</pdf>     
+        <back_track>r46.wav</back_track>  
+        <video_link>https://vimeo.com/505212376</video_link>    
+        <video_id>505212376</video_id>   
+    </ders>
   
+        <ders>
+        <code>r47</code>  
+        <academy>davul</academy>
+        <price_profile>U</price_profile>        
+        <preview_image>r47_thumb.webp</preview_image>
+        <preview_image_thumb>r47_thumb.webp</preview_image_thumb>
+        <title>SHUFFLE</title>
+        <short_description>SHUFFLE GROOVE</short_description>
+        <long_description>Bu çalışmada shuffle ritmini arka arkaya gelen kicklerin üzerine çalışmaktayız.Kickler yoğun olduğu için gerekirse yavaş çalışılmalıdır. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
+        <pdf>r47.pdf</pdf>     
+        <back_track>r47.wav</back_track>  
+        <video_link>https://vimeo.com/505214988</video_link>    
+        <video_id>505214988</video_id>   
+    </ders>
        <ders>
         <code>cp1</code>
         <academy>piyano</academy>
@@ -478,6 +1038,7 @@
         <video_link>https://vimeo.com/503853719</video_link>    
         <video_id>503853719</video_id>   
     </ders>
+  
      <ders>
         <code>cp2</code>
         <academy>piyano</academy>
