@@ -4,7 +4,7 @@
   <ders>
         <code>ds2</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>ds2_thumb.png</preview_image>
         <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
         <title>STICKING EGZERSIZ</title>
@@ -18,7 +18,7 @@
  <ders>
         <code>gs5</code>        
         <academy>gitar</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>gs5.png</preview_image>
         <preview_image_thumb>gs5.png</preview_image_thumb>
         <title>JAZZY MAJOR BLUES</title>
@@ -32,7 +32,7 @@
   <ders>
         <code>ks1</code>        
         <academy>keman</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>ks1.webp</preview_image>
         <preview_image_thumb>ks1.webp</preview_image_thumb>
         <title>MINUET SOL MAJÖR</title>
@@ -46,7 +46,7 @@
     <ders>
         <code>fs1</code>        
         <academy>flüt</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>fs1.png</preview_image>
         <preview_image_thumb>fs1.png</preview_image_thumb>
         <title>KLASIK FLUT PERFORMANS</title>
@@ -60,7 +60,7 @@
     <ders>
         <code>gs4</code>        
         <academy>gitar</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>gs4_thumb.webp</preview_image>
         <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
         <title>SAM SMITH - DIAMONDS</title>
@@ -74,7 +74,7 @@
     <ders>
         <code>gs3</code>        
         <academy>gitar</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>gs3_thumb.webp</preview_image>
         <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
         <title>MODERN ROCK GITAR PERFORMANS</title>
@@ -88,7 +88,7 @@
     <ders>
         <code>gs2</code>        
         <academy>gitar</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>gs2_thumb.webp</preview_image>
         <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
         <title>FUNK GITAR</title>
@@ -102,7 +102,7 @@
     <ders>
         <code>gs1</code>        
         <academy>gitar</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>gs1_thumb.webp</preview_image>
         <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
         <title>POP-FUNK GITAR</title>
@@ -116,7 +116,7 @@
     <ders>
         <code>ds1</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>ds_thumb.webp</preview_image>
         <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
         <title>FUNK DAVUL</title>
@@ -130,7 +130,7 @@
       <ders>
         <code>sc1</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc1_thumb.png</preview_image>
         <preview_image_thumb>sc1_thumb.png</preview_image_thumb>
         <title>STICKING -1</title>
@@ -144,7 +144,7 @@
         <ders>
         <code>sc2</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc2_thumb.png</preview_image>
         <preview_image_thumb>sc2_thumb.png</preview_image_thumb>
         <title>STICKING -2</title>
@@ -158,7 +158,7 @@
           <ders>
         <code>sc3</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc3_thumb.png</preview_image>
         <preview_image_thumb>sc3_thumb.png</preview_image_thumb>
         <title>STICKING -3</title>
@@ -172,7 +172,7 @@
             <ders>
         <code>sc4</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc4_thumb.png</preview_image>
         <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
         <title>STICKING -4</title>
@@ -186,7 +186,7 @@
               <ders>
         <code>sc5</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc5_thumb.png</preview_image>
         <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
         <title>STICKING -5</title>
@@ -200,7 +200,7 @@
                 <ders>
         <code>sc6</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc6_thumb.png</preview_image>
         <preview_image_thumb>sc6_thumb.png</preview_image_thumb>
         <title>STICKING -6</title>
@@ -214,7 +214,7 @@
                   <ders>
         <code>sc7</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc7_thumb.png</preview_image>
         <preview_image_thumb>sc7_thumb.png</preview_image_thumb>
         <title>STICKING -7</title>
@@ -228,7 +228,7 @@
   <ders>
           <code>sc8</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc8_thumb.png</preview_image>
         <preview_image_thumb>sc8_thumb.png</preview_image_thumb>
         <title>STICKING -8</title>
@@ -242,7 +242,7 @@
   <ders>
             <code>sc9</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc9_thumb.png</preview_image>
         <preview_image_thumb>sc9_thumb.png</preview_image_thumb>
         <title>STICKING -9</title>
@@ -256,7 +256,7 @@
     <ders>
             <code>sc10</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc10_thumb.png</preview_image>
         <preview_image_thumb>sc10_thumb.png</preview_image_thumb>
         <title>STICKING -10</title>
@@ -270,7 +270,7 @@
       <ders>
             <code>sc11</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc11_thumb.png</preview_image>
         <preview_image_thumb>sc11_thumb.png</preview_image_thumb>
         <title>STICKING -11</title>
@@ -284,7 +284,7 @@
        <ders>
             <code>sc12</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc12_thumb.png</preview_image>
         <preview_image_thumb>sc12_thumb.png</preview_image_thumb>
         <title>STICKING -12</title>
@@ -298,7 +298,7 @@
          <ders>
             <code>sc13</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc13_thumb.png</preview_image>
         <preview_image_thumb>sc13_thumb.png</preview_image_thumb>
         <title>STICKING -13</title>
@@ -312,7 +312,7 @@
           <ders>
             <code>sc14</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc14_thumb.png</preview_image>
         <preview_image_thumb>sc14_thumb.png</preview_image_thumb>
         <title>STICKING -14</title>
@@ -326,7 +326,7 @@
             <ders>
             <code>sc15</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc15_thumb.png</preview_image>
         <preview_image_thumb>sc15_thumb.png</preview_image_thumb>
         <title>STICKING -15</title>
@@ -340,7 +340,7 @@
              <ders>
             <code>sc16</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc16_thumb.png</preview_image>
         <preview_image_thumb>sc16_thumb.png</preview_image_thumb>
         <title>STICKING -16</title>
@@ -354,7 +354,7 @@
               <ders>
             <code>sc17</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc17_thumb.png</preview_image>
         <preview_image_thumb>sc17_thumb.png</preview_image_thumb>
         <title>STICKING -17</title>
@@ -368,7 +368,7 @@
                 <ders>
             <code>sc18</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc18_thumb.png</preview_image>
         <preview_image_thumb>sc18_thumb.png</preview_image_thumb>
         <title>STICKING -18</title>
@@ -382,7 +382,7 @@
     <ders>
         <code>sc19</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc19_thumb.png</preview_image>
         <preview_image_thumb>sc19_thumb.png</preview_image_thumb>
         <title>STICKING -19</title>
@@ -396,7 +396,7 @@
       <ders>
         <code>sc20</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>sc20_thumb.png</preview_image>
         <preview_image_thumb>sc20_thumb.png</preview_image_thumb>
         <title>STICKING -20</title>
@@ -410,7 +410,7 @@
     <ders>
         <code>r1</code>        
         <academy>davul</academy>
-        <price_profile>U</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>r1_thumb.png</preview_image>
         <preview_image_thumb>r1_thumb.png</preview_image_thumb>
         <title>Tek Kick Çift Kick</title>
@@ -424,7 +424,7 @@
     <ders>
         <code>r2</code>
         <academy>davul</academy>        
-        <price_profile>U</price_profile>       
+        <price_profile>P</price_profile>       
         <preview_image>r2_thumb.png</preview_image>
         <preview_image_thumb>r2_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 8LIK KICK</title>
@@ -438,7 +438,7 @@
      <ders>
         <code>r3</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r3_thumb.png</preview_image>
         <preview_image_thumb>r3_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 8LIK KICK</title>
@@ -452,7 +452,7 @@
     <ders>
         <code>r4</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r4_thumb.png</preview_image>
         <preview_image_thumb>r4_thumb.png</preview_image_thumb>
         <title>8LIK KICK</title>
@@ -466,7 +466,7 @@
     <ders>
         <code>r5</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r5_thumb.png</preview_image>
         <preview_image_thumb>r5_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
@@ -480,7 +480,7 @@
     <ders>
         <code>r6</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r6_thumb.png</preview_image>
         <preview_image_thumb>r6_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
@@ -494,7 +494,7 @@
     <ders>
         <code>r7</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r7_thumb.png</preview_image>
         <preview_image_thumb>r7_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 16LIK KICK</title>
@@ -508,7 +508,7 @@
     <ders>
         <code>r8</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r8_thumb.webp</preview_image>
         <preview_image_thumb>r8_thumb.webp</preview_image_thumb>
         <title>TRAMPET ONCESI VE SONRASI 16LIK KICK</title>
@@ -522,7 +522,7 @@
     <ders>
         <code>r9</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r9_thumb.webp</preview_image>
         <preview_image_thumb>r9_thumb.webp</preview_image_thumb>
         <title>16LIK ONCEDEN GELEN KICK</title>
@@ -536,7 +536,7 @@
   <ders>
         <code>r10</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r10_thumb.webp</preview_image>
         <preview_image_thumb>r10_thumb.webp</preview_image_thumb>
         <title>16LIK ONCEDEN KICK ILE TEK KICK CIFT KICK</title>
@@ -550,7 +550,7 @@
    <ders>
         <code>r11</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r11_thumb.webp</preview_image>
         <preview_image_thumb>r11_thumb.webp</preview_image_thumb>
         <title>2 TANE 16LIK KICK</title>
@@ -564,7 +564,7 @@
    <ders>
         <code>r14</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r14_thumb.webp</preview_image>
         <preview_image_thumb>r14_thumb.webp</preview_image_thumb>
         <title>2 8LIK ARASI 16LIK VURUSLAR</title>
@@ -578,7 +578,7 @@
    <ders>
         <code>r15</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r15_thumb.webp</preview_image>
         <preview_image_thumb>r15_thumb.webp</preview_image_thumb>
         <title>8LIK ARASI 16LIK VURUSLAR</title>
@@ -592,7 +592,7 @@
    <ders>
         <code>r16</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r16_thumb.webp</preview_image>
         <preview_image_thumb>r16_thumb.webp</preview_image_thumb>
         <title>8LIK TRAMPET VURUSLARI</title>
@@ -606,7 +606,7 @@
    <ders>
         <code>r17</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r17_thumb.webp</preview_image>
         <preview_image_thumb>r17_thumb.webp</preview_image_thumb>
         <title>HI-HAT ACMA KAPAMA</title>
@@ -620,7 +620,7 @@
    <ders>
         <code>r18</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r18_thumb.webp</preview_image>
         <preview_image_thumb>r18_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
@@ -634,7 +634,7 @@
    <ders>
         <code>r19</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r19_thumb.webp</preview_image>
         <preview_image_thumb>r19_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
@@ -648,7 +648,7 @@
    <ders>
         <code>r20</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r20_thumb.webp</preview_image>
         <preview_image_thumb>r20_thumb.webp</preview_image_thumb>
         <title>16LIK KICK VE TRAMPET</title>
@@ -662,7 +662,7 @@
    <ders>
         <code>r21</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r21_thumb.webp</preview_image>
         <preview_image_thumb>r21_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
@@ -676,7 +676,7 @@
   <ders>
         <code>r22</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r22_thumb.webp</preview_image>
         <preview_image_thumb>r22_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
@@ -690,7 +690,7 @@
   <ders>
         <code>r23</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r23_thumb.webp</preview_image>
         <preview_image_thumb>r23_thumb.webp</preview_image_thumb>
         <title>16LIK HI-HAT</title>
@@ -704,7 +704,7 @@
    <ders>
         <code>r24</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r24_thumb.webp</preview_image>
         <preview_image_thumb>r24_thumb.webp</preview_image_thumb>
         <title>TEK KICK CIFT KICK SHUFFLE</title>
@@ -718,7 +718,7 @@
   <ders>
         <code>r25</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r25_thumb.webp</preview_image>
         <preview_image_thumb>r25_thumb.webp</preview_image_thumb>
         <title>TRAMPET ONCESI KICK</title>
@@ -732,7 +732,7 @@
   <ders>
         <code>r26</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r26_thumb.webp</preview_image>
         <preview_image_thumb>r26_thumb.webp</preview_image_thumb>
         <title>HI-HAT UCLEME</title>
@@ -746,7 +746,7 @@
     <ders>
         <code>r27</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r27_thumb.webp</preview_image>
         <preview_image_thumb>r27_thumb.webp</preview_image_thumb>
         <title>BOSSA NOVA</title>
@@ -760,7 +760,7 @@
       <ders>
         <code>r28</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r28_thumb.webp</preview_image>
         <preview_image_thumb>r28_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI KICK</title>
@@ -774,7 +774,7 @@
         <ders>
         <code>r29</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r29_thumb.webp</preview_image>
         <preview_image_thumb>r29_thumb.webp</preview_image_thumb>
         <title>8LIK KICK</title>
@@ -788,7 +788,7 @@
         <ders>
         <code>r30</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r30_thumb.webp</preview_image>
         <preview_image_thumb>r30_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI KICK</title>
@@ -802,7 +802,7 @@
           <ders>
         <code>r31</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r31_thumb.webp</preview_image>
         <preview_image_thumb>r31_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
@@ -816,7 +816,7 @@
             <ders>
         <code>r32</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r32_thumb.webp</preview_image>
         <preview_image_thumb>r32_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
@@ -830,7 +830,7 @@
               <ders>
         <code>r33</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r33_thumb.webp</preview_image>
         <preview_image_thumb>r33_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
@@ -844,7 +844,7 @@
                 <ders>
         <code>r34</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r34_thumb.webp</preview_image>
         <preview_image_thumb>r34_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
@@ -858,7 +858,7 @@
                   <ders>
         <code>r35</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r35_thumb.webp</preview_image>
         <preview_image_thumb>r35_thumb.webp</preview_image_thumb>
         <title>8LIK KICK</title>
@@ -872,7 +872,7 @@
     <ders>
         <code>r36</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r36_thumb.webp</preview_image>
         <preview_image_thumb>r36_thumb.webp</preview_image_thumb>
         <title>HI-HAT ARASI KICK</title>
@@ -886,7 +886,7 @@
     <ders>
         <code>r37</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r37_thumb.webp</preview_image>
         <preview_image_thumb>r37_thumb.webp</preview_image_thumb>
         <title>3 16LIK KICKK</title>
@@ -900,7 +900,7 @@
       <ders>
         <code>r38</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r38_thumb.webp</preview_image>
         <preview_image_thumb>r38_thumb.webp</preview_image_thumb>
         <title>3 16LIK KICK</title>
@@ -914,7 +914,7 @@
         <ders>
         <code>r39</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r39_thumb.webp</preview_image>
         <preview_image_thumb>r39_thumb.webp</preview_image_thumb>
         <title>1 8LIK 2 16LIK KICK</title>
@@ -928,7 +928,7 @@
           <ders>
         <code>r40</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r40_thumb.webp</preview_image>
         <preview_image_thumb>r40_thumb.webp</preview_image_thumb>
         <title>2 16LIK KICK ONCESI KICK</title>
@@ -942,7 +942,7 @@
     <ders>
         <code>r41</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r41_thumb.webp</preview_image>
         <preview_image_thumb>r41_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
@@ -956,7 +956,7 @@
   <ders>
         <code>r43</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r43_thumb.webp</preview_image>
         <preview_image_thumb>r43_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
@@ -970,7 +970,7 @@
     <ders>
         <code>r44</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r44_thumb.webp</preview_image>
         <preview_image_thumb>r44_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
@@ -984,7 +984,7 @@
       <ders>
         <code>r45</code>
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r45_thumb.webp</preview_image>
         <preview_image_thumb>r45_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
@@ -998,7 +998,7 @@
         <ders>
         <code>r46</code>  
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r46_thumb.webp</preview_image>
         <preview_image_thumb>r46_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
@@ -1013,7 +1013,7 @@
         <ders>
         <code>r47</code>  
         <academy>davul</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>r47_thumb.webp</preview_image>
         <preview_image_thumb>r47_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
@@ -1027,7 +1027,7 @@
        <ders>
         <code>cp1</code>
         <academy>piyano</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>cp1.png</preview_image>
         <preview_image_thumb>cp1_thumb.png</preview_image_thumb>
         <title>Re-Si ARASI CALISMA</title>
@@ -1042,7 +1042,7 @@
      <ders>
         <code>cp2</code>
         <academy>piyano</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>cp2.png</preview_image>
         <preview_image_thumb>cp2_thumb.png</preview_image_thumb>
         <title>Si-Re ARASI CALISMA</title>
@@ -1056,7 +1056,7 @@
      <ders>
         <code>cp3</code>
         <academy>piyano</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>cp3.png</preview_image>
         <preview_image_thumb>cp3_thumb.png</preview_image_thumb>
         <title>Sol-Mi ARASI CALISMA</title>
@@ -1070,7 +1070,7 @@
     <ders>
         <code>cp4</code>
         <academy>piyano</academy>
-        <price_profile>U</price_profile>        
+        <price_profile>P</price_profile>        
         <preview_image>cp4.png</preview_image>
         <preview_image_thumb>cp4_thumb.png</preview_image_thumb>
         <title>Sol-Mi ARASI CALISMA</title>

@@ -727,14 +727,33 @@ function UpdPsw() {
 
 }
 
-
-function showLesson(code) {
-    var user_profile = getCookie("profile");
-    var les = findLesson(code);
-    if (user_profile != les.price_profile) {
-        $('#paymantWarning').modal('show');
-        return;
+function AuthLesson(lp) {
+    if (lp == "F") {
+        return true;
     }
+    if (user_profile != "M") {
+        return true;
+    }
+        
+    var user_profile = getCookie("profile");
+    if (lp == "M" && user_profile == "P") {
+        return false;
+    }
+    if (lp == "P" && user_profile == "F") {
+        return false;
+    }
+}
+function showLesson(code) {
+   
+    var les = findLesson(code);
+    
+
+    if (AuthLesson(les.price_profile)==false) {
+            $('#paymantWarning').modal('show');
+            return;
+     }
+    
+    
     var template = document.getElementById("lessonTemplate");
     var clone = template.content.cloneNode(true);
     $('#contentContainer').empty();
