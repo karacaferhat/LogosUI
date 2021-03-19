@@ -61,7 +61,7 @@
         <code>gs4</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs4.png</preview_image>
+        <preview_image>gs4_thumb.png</preview_image>
         <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
         <title>SAM SMITH - DIAMONDS</title>
         <short_description>Serhan Doğrusözlü</short_description>
@@ -75,7 +75,7 @@
         <code>gs3</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs3.png</preview_image>
+        <preview_image>gs3_thumb.png</preview_image>
         <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
         <title>MODERN ROCK GITAR PERFORMANS</title>
         <short_description>Modern Rock Gitar Fikirleri</short_description>
@@ -89,7 +89,7 @@
         <code>gs2</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs2.png</preview_image>
+        <preview_image>gs2_thumb.png</preview_image>
         <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
         <title>FUNK GITAR</title>
         <short_description>Justin Timberlake Michael Jackson - Love Never Felt So Good</short_description>
@@ -103,7 +103,7 @@
         <code>gs1</code>        
         <academy>gitar</academy>
         <price_profile>U</price_profile>   
-        <preview_image>gs1.png</preview_image>
+        <preview_image>gs1_thumb.png</preview_image>
         <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
         <title>POP-FUNK GITAR</title>
         <short_description>Işın Karaca - Hoşgörü</short_description>
@@ -131,7 +131,7 @@
         <code>sc1</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc1.png</preview_image>
+        <preview_image>sc1_thumb.png</preview_image>
         <preview_image_thumb>sc1_thumb.png</preview_image_thumb>
         <title>STICKING -1</title>
         <short_description>Stick Control</short_description>
@@ -145,7 +145,7 @@
         <code>sc2</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc2.png</preview_image>
+        <preview_image>sc2_thumb.png</preview_image>
         <preview_image_thumb>sc2_thumb.png</preview_image_thumb>
         <title>STICKING -2</title>
         <short_description>Stick Control</short_description>
@@ -159,7 +159,7 @@
         <code>sc3</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc3.png</preview_image>
+        <preview_image>sc3_thumb.png</preview_image>
         <preview_image_thumb>sc3_thumb.png</preview_image_thumb>
         <title>STICKING -3</title>
         <short_description>Stick Control</short_description>
@@ -173,7 +173,7 @@
         <code>sc4</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc4.png</preview_image>
+        <preview_image>sc4_thumb.png</preview_image>
         <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
         <title>STICKING -4</title>
         <short_description>Stick Control</short_description>
@@ -187,7 +187,7 @@
         <code>sc5</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc5.png</preview_image>
+        <preview_image>sc5_thumb.png</preview_image>
         <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
         <title>STICKING -5</title>
         <short_description>Stick Control</short_description>
@@ -201,7 +201,7 @@
         <code>sc6</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc6.png</preview_image>
+        <preview_image>sc6_thumb.png</preview_image>
         <preview_image_thumb>sc6_thumb.png</preview_image_thumb>
         <title>STICKING -6</title>
         <short_description>Stick Control</short_description>
@@ -215,7 +215,7 @@
         <code>sc7</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc7.png</preview_image>
+        <preview_image>sc7_thumb.png</preview_image>
         <preview_image_thumb>sc7_thumb.png</preview_image_thumb>
         <title>STICKING -7</title>
         <short_description>Stick Control</short_description>
@@ -229,7 +229,7 @@
           <code>sc8</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc8.png</preview_image>
+        <preview_image>sc8_thumb.png</preview_image>
         <preview_image_thumb>sc8_thumb.png</preview_image_thumb>
         <title>STICKING -8</title>
         <short_description>Stick Control</short_description>
@@ -243,7 +243,7 @@
             <code>sc9</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc9.png</preview_image>
+        <preview_image>sc9_thumb.png</preview_image>
         <preview_image_thumb>sc9_thumb.png</preview_image_thumb>
         <title>STICKING -9</title>
         <short_description>Stick Control</short_description>
@@ -257,7 +257,7 @@
             <code>sc10</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc10.png</preview_image>
+        <preview_image>sc10_thumb.png</preview_image>
         <preview_image_thumb>sc10_thumb.png</preview_image_thumb>
         <title>STICKING -10</title>
         <short_description>Stick Control</short_description>
@@ -271,7 +271,7 @@
             <code>sc11</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc11.png</preview_image>
+        <preview_image>sc11_thumb.png</preview_image>
         <preview_image_thumb>sc11_thumb.png</preview_image_thumb>
         <title>STICKING -11</title>
         <short_description>Stick Control</short_description>
@@ -285,7 +285,7 @@
             <code>sc12</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc12.png</preview_image>
+        <preview_image>sc12_thumb.png</preview_image>
         <preview_image_thumb>sc12_thumb.png</preview_image_thumb>
         <title>STICKING -12</title>
         <short_description>Stick Control</short_description>
@@ -299,7 +299,7 @@
             <code>sc13</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc13.png</preview_image>
+        <preview_image>sc13_thumb.png</preview_image>
         <preview_image_thumb>sc13_thumb.png</preview_image_thumb>
         <title>STICKING -13</title>
         <short_description>Stick Control</short_description>
@@ -313,7 +313,7 @@
             <code>sc14</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc14.png</preview_image>
+        <preview_image>sc14_thumb.png</preview_image>
         <preview_image_thumb>sc14_thumb.png</preview_image_thumb>
         <title>STICKING -14</title>
         <short_description>Stick Control</short_description>
@@ -327,7 +327,7 @@
             <code>sc15</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc15.png</preview_image>
+        <preview_image>sc15_thumb.png</preview_image>
         <preview_image_thumb>sc15_thumb.png</preview_image_thumb>
         <title>STICKING -15</title>
         <short_description>Stick Control</short_description>
@@ -341,7 +341,7 @@
             <code>sc16</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc16.png</preview_image>
+        <preview_image>sc16_thumb.png</preview_image>
         <preview_image_thumb>sc16_thumb.png</preview_image_thumb>
         <title>STICKING -16</title>
         <short_description>Stick Control</short_description>
@@ -355,7 +355,7 @@
             <code>sc17</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc17.png</preview_image>
+        <preview_image>sc17_thumb.png</preview_image>
         <preview_image_thumb>sc17_thumb.png</preview_image_thumb>
         <title>STICKING -17</title>
         <short_description>Stick Control</short_description>
@@ -369,7 +369,7 @@
             <code>sc18</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc18.png</preview_image>
+        <preview_image>sc18_thumb.png</preview_image>
         <preview_image_thumb>sc18_thumb.png</preview_image_thumb>
         <title>STICKING -18</title>
         <short_description>Stick Control</short_description>
@@ -383,7 +383,7 @@
         <code>sc19</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc19.png</preview_image>
+        <preview_image>sc19_thumb.png</preview_image>
         <preview_image_thumb>sc19_thumb.png</preview_image_thumb>
         <title>STICKING -19</title>
         <short_description>Stick Control</short_description>
@@ -397,7 +397,7 @@
         <code>sc20</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>sc20.png</preview_image>
+        <preview_image>sc20_thumb.png</preview_image>
         <preview_image_thumb>sc20_thumb.png</preview_image_thumb>
         <title>STICKING -20</title>
         <short_description>Stick Control</short_description>
@@ -411,7 +411,7 @@
         <code>r1</code>        
         <academy>davul</academy>
         <price_profile>U</price_profile>   
-        <preview_image>r1.png</preview_image>
+        <preview_image>r1_thumb.png</preview_image>
         <preview_image_thumb>r1_thumb.png</preview_image_thumb>
         <title>Tek Kick Çift Kick</title>
         <short_description>ROCK RITIM</short_description>
@@ -425,7 +425,7 @@
         <code>r2</code>
         <academy>davul</academy>        
         <price_profile>U</price_profile>       
-        <preview_image>r2.png</preview_image>
+        <preview_image>r2_thumb.png</preview_image>
         <preview_image_thumb>r2_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -439,7 +439,7 @@
         <code>r3</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r3.png</preview_image>
+        <preview_image>r3_thumb.png</preview_image>
         <preview_image_thumb>r3_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -453,7 +453,7 @@
         <code>r4</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r4.png</preview_image>
+        <preview_image>r4_thumb.png</preview_image>
         <preview_image_thumb>r4_thumb.png</preview_image_thumb>
         <title>8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -467,7 +467,7 @@
         <code>r5</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r5.png</preview_image>
+        <preview_image>r5_thumb.png</preview_image>
         <preview_image_thumb>r5_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -481,7 +481,7 @@
         <code>r6</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r6.png</preview_image>
+        <preview_image>r6_thumb.png</preview_image>
         <preview_image_thumb>r6_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -495,7 +495,7 @@
         <code>r7</code>
         <academy>davul</academy>
         <price_profile>U</price_profile>        
-        <preview_image>r7.png</preview_image>
+        <preview_image>r7_thumb.png</preview_image>
         <preview_image_thumb>r7_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
