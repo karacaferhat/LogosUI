@@ -181,12 +181,13 @@ function showCrouselKeman(pageXML,lessonXML){
 
 
 function openTab(akademi) {
-  
+    ShowLoading();
     var template = document.getElementById("akademiTemplate");
     var clone = template.content.cloneNode(true);
     $('#contentContainer').empty();
     $('#contentContainer').html(clone);
     initAkademi(akademi);
+    HideLoading();
 }
 function openContentTab(id) {
 
@@ -1046,4 +1047,11 @@ function getParameterByName(name, url = window.location.href) {
 function GoPayment() {
     document.location = "payment.html";
     
+}
+
+function ShowLoading() {
+    $('#loadingModal').show();
+}
+function HideLoading() {
+    $('#loadingModal').hide();
 }
