@@ -134,6 +134,7 @@
         <preview_image>sc1.png</preview_image>
         <preview_image_thumb>sc1_thumb.png</preview_image_thumb>
         <title>STICKING -1</title>
+        <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -148,6 +149,7 @@
         <preview_image>sc2.png</preview_image>
         <preview_image_thumb>sc2_thumb.png</preview_image_thumb>
         <title>STICKING -2</title>
+          <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -162,6 +164,7 @@
         <preview_image>sc3.png</preview_image>
         <preview_image_thumb>sc3_thumb.png</preview_image_thumb>
         <title>STICKING -3</title>
+            <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -176,6 +179,7 @@
         <preview_image>sc4.png</preview_image>
         <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
         <title>STICKING -4</title>
+              <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -190,6 +194,7 @@
         <preview_image>sc5.png</preview_image>
         <preview_image_thumb>sc5_thumb.png</preview_image_thumb>
         <title>STICKING -5</title>
+                <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -204,6 +209,7 @@
         <preview_image>sc6.png</preview_image>
         <preview_image_thumb>sc6_thumb.png</preview_image_thumb>
         <title>STICKING -6</title>
+                  <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -218,6 +224,7 @@
         <preview_image>sc7.png</preview_image>
         <preview_image_thumb>sc7_thumb.png</preview_image_thumb>
         <title>STICKING -7</title>
+                    <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -232,6 +239,7 @@
         <preview_image>sc8.png</preview_image>
         <preview_image_thumb>sc8_thumb.png</preview_image_thumb>
         <title>STICKING -8</title>
+    <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -246,6 +254,7 @@
         <preview_image>sc9.png</preview_image>
         <preview_image_thumb>sc9_thumb.png</preview_image_thumb>
         <title>STICKING -9</title>
+    <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -260,6 +269,7 @@
         <preview_image>sc10.png</preview_image>
         <preview_image_thumb>sc10_thumb.png</preview_image_thumb>
         <title>STICKING -10</title>
+      <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -274,6 +284,7 @@
         <preview_image>sc11.png</preview_image>
         <preview_image_thumb>sc11_thumb.png</preview_image_thumb>
         <title>STICKING -11</title>
+        <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -288,6 +299,7 @@
         <preview_image>sc12.png</preview_image>
         <preview_image_thumb>sc12_thumb.png</preview_image_thumb>
         <title>STICKING -12</title>
+         <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -302,6 +314,7 @@
         <preview_image>sc13.png</preview_image>
         <preview_image_thumb>sc13_thumb.png</preview_image_thumb>
         <title>STICKING -13</title>
+           <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -316,6 +329,7 @@
         <preview_image>sc14.png</preview_image>
         <preview_image_thumb>sc14_thumb.png</preview_image_thumb>
         <title>STICKING -14</title>
+            <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -330,6 +344,7 @@
         <preview_image>sc15.png</preview_image>
         <preview_image_thumb>sc15_thumb.png</preview_image_thumb>
         <title>STICKING -15</title>
+              <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -344,6 +359,7 @@
         <preview_image>sc16.png</preview_image>
         <preview_image_thumb>sc16_thumb.png</preview_image_thumb>
         <title>STICKING -16</title>
+               <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -358,6 +374,7 @@
         <preview_image>sc17.png</preview_image>
         <preview_image_thumb>sc17_thumb.png</preview_image_thumb>
         <title>STICKING -17</title>
+                <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -372,6 +389,7 @@
         <preview_image>sc18.png</preview_image>
         <preview_image_thumb>sc18_thumb.png</preview_image_thumb>
         <title>STICKING -18</title>
+                  <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -386,6 +404,7 @@
         <preview_image>sc19.png</preview_image>
         <preview_image_thumb>sc19_thumb.png</preview_image_thumb>
         <title>STICKING -19</title>
+      <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -400,6 +419,7 @@
         <preview_image>sc20.png</preview_image>
         <preview_image_thumb>sc20_thumb.png</preview_image_thumb>
         <title>STICKING -20</title>
+        <level>1</level>
         <short_description>Stick Control</short_description>
         <long_description></long_description>
         <pdf></pdf>     
