@@ -127,7 +127,158 @@
         <video_link>https://vimeo.com/518045264</video_link>
         <video_id>518045264</video_id>     
     </ders> 
-      <ders>
+  <ders>
+        <code>g1</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g1.png</preview_image>
+        <preview_image_thumb>g1.png</preview_image_thumb>
+        <title>La minör Mi majör</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu çalışmada kullandığımız akorlar La minor ve Mi major akorlarıdır. Akorları basarken parmaklarımızı dik tutmaya özen gösterelim. Penayı çok sıkmayalım. Vuruşların hepsini yukarıdan aşağı doğru yapalım.</long_description>
+        <pdf>g1.pdf</pdf>     
+        <back_track>g1.wav</back_track>  
+        <video_link>https://vimeo.com/505442163</video_link>
+        <video_id>505442163</video_id>     
+    </ders>     
+    <ders>
+        <code>g2</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g2.png</preview_image>
+        <preview_image_thumb>g2.png</preview_image_thumb>
+        <title>La minör Mi majör</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu çalışmada kullandığımız akorlar La minor ve Mi major akorlarıdır. İkinci ve dördüncü vuruşları aşağıdan yukarı yapmaya dikkat edelim. Her zamanki gibi parmakları dik basmaya dikkat edelim. En önemlisi La minor çalarken kalın Mi teline vurmayalım.</long_description>
+        <pdf>g2.pdf</pdf>     
+        <back_track>g2.wav</back_track>  
+        <video_link>https://vimeo.com/505443955</video_link>
+        <video_id>505443955</video_id>     
+    </ders> 
+     <ders>
+        <code>g3</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g3.png</preview_image>
+        <preview_image_thumb>g3.png</preview_image_thumb>
+        <title>La minör Mi majör</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>İlerleyen derslerimizde de kullanılacağı için Do major akoruna değindik fakat alıştırmamızda kullanılan akorlar Mi minor ve La minor akorlarıdır. Her zamanki gibi parmaklarımızı dik tutalım ve penayı çok sıkmamaya özen gösterelim. Yüzük parmağımızla sol telini susturmamaya dikkat edelim.</long_description>
+        <pdf>g3.pdf</pdf>     
+        <back_track>g3.wav</back_track>  
+        <video_link>https://vimeo.com/505445463</video_link>
+        <video_id>505445463</video_id>     
+    </ders> 
+       <ders>
+        <code>g4</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g4.png</preview_image>
+        <preview_image_thumb>g4.png</preview_image_thumb>
+        <title>DO MAJÖR LA MİNÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>İlerleyen derslerimizde de kullanılacağı için Do major akoruna değindik fakat alıştırmamızda kullanılan akorlar Mi minor ve La minor akorlarıdır. Her zamanki gibi parmaklarımızı dik tutalım ve penayı çok sıkmamaya özen gösterelim. Yüzük parmağımızla sol telini susturmamaya dikkat edelim.</long_description>
+        <pdf>g4.pdf</pdf>     
+        <back_track>g4.wav</back_track>  
+        <video_link>https://vimeo.com/505447489</video_link>
+        <video_id>505447489</video_id>     
+    </ders>
+      </ders> 
+       <ders>
+        <code>g5</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g5.png</preview_image>
+        <preview_image_thumb>g5.png</preview_image_thumb>
+        <title>Mİ MİNÖR DO MAJÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu dersimizde kullandığımız akorlar Mi minor ve Do major akorlarıdır. Do major akorunu basarken kalın Mi teline vurmamaya dikkat edelim. Penayı çok sıkmamaya özen gösterelim. Penaya açı vererek çalmak vuruşlarınızı kolaylaştıracaktır.</long_description>
+        <pdf>g5.pdf</pdf>     
+        <back_track>g5.wav</back_track>  
+        <video_link>https://vimeo.com/505449034</video_link>
+        <video_id>505449034</video_id>     
+    </ders>
+         <ders>
+        <code>g6</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g6.png</preview_image>
+        <preview_image_thumb>g6.png</preview_image_thumb>
+        <title>Mİ MİNÖR DO MAJÖR LA MİNÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu dersimizde kullanılan akorlar Mi minor Do major ve La minördür. La minor ve Do major akorlarını basarken kalın Mi teline vurmamaya dikkat edelim. Aşağıdan yukarı vuruşlarda bütün teller yerine alttaki iki yada en fazla 3 tele vurmamız yeterlidir.</long_description>
+        <pdf>g6.pdf</pdf>     
+        <back_track>g6.wav</back_track>  
+        <video_link>https://vimeo.com/505450092</video_link>
+        <video_id>505450092</video_id>     
+    </ders>
+           <ders>
+        <code>g7</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g7.png</preview_image>
+        <preview_image_thumb>g7.png</preview_image_thumb>
+        <title>Mİ MAJÖR LA MİNÖR RE MİNÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu dersmizide kullanılan akorlar Mi major La minor ve D majördür. La minor ve Do majode kalın Mi teline vurmamaya dikkat edelim. Ölüçülerdeki ikilik ve birlik notalara dikkat edelim. Penayı çok sıkmamaya dikkat edelim. Akorları basarken parmaklarımızı dik basmaya özen gösterelim.</long_description>
+        <pdf>g7.pdf</pdf>     
+        <back_track>g7.wav</back_track>  
+        <video_link>https://vimeo.com/505452589</video_link>
+        <video_id>505452589</video_id>     
+    </ders>
+             <ders>
+        <code>g8</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g8.png</preview_image>
+        <preview_image_thumb>g8.png</preview_image_thumb>
+        <title>Mİ MAJÖR LA MİNÖR RE MİNÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>İlerleyen derslerde kullanılacağı için burada Re major akoruna da değindik. Fakat alıştırmada kullanılan akorlar Re minor ve La minor akorlarıdır. Re minor basarken kalın Mi ve La teline La minor basarken ise Kalın mi teline vurmamaya dikkat edelim. </long_description>
+        <pdf>g8.pdf</pdf>     
+        <back_track>g8.wav</back_track>  
+        <video_link>https://vimeo.com/505454901</video_link>
+        <video_id>505454901</video_id>     
+    </ders>
+               <ders>
+        <code>g9</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g9.png</preview_image>
+        <preview_image_thumb>g9.png</preview_image_thumb>
+        <title>RE MİNÖR Mİ MİNÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu dersimizde kullanılan akorlar Re minor ve Mi minor akorlarıdır. Re minor çalarken kalın Mi ve La teline vurmamaya özen gösterelim. Penamızı çok sert tumayalım. Akorları basarken parmaklarımızı dik basmaya özen gösterelim.</long_description>
+        <pdf>g9.pdf</pdf>     
+        <back_track>g9.wav</back_track>  
+        <video_link>https://vimeo.com/505456689</video_link>
+        <video_id>505456689</video_id>     
+    </ders>
+                 <ders>
+        <code>g10</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g10.png</preview_image>
+        <preview_image_thumb>g10.png</preview_image_thumb>
+        <title>RE MİNÖR Mİ MİNÖR</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>Bu alıştırmada kullanılan akorlar Do major Re minor Mi minor ve La minor akorlarıdır. La minör ve Do majorde kalın Mi teline Re minored ise kalın Mi ve La teline vurmamaya dikkat edelim.</long_description>
+        <pdf>g10.pdf</pdf>     
+        <back_track>g10.wav</back_track>  
+        <video_link>https://vimeo.com/505458042</video_link>
+        <video_id>505458042</video_id>     
+    </ders>
+  <ders>
         <code>sc1</code>        
         <academy>davul</academy>
         <price_profile>P</price_profile>   
