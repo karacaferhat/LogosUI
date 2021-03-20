@@ -551,7 +551,7 @@
         <code>r11</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r11_thumb.webp</preview_image>
+        <preview_image>r11.png</preview_image>
         <preview_image_thumb>r11_thumb.webp</preview_image_thumb>
         <title>2 TANE 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -565,7 +565,7 @@
         <code>r14</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r14_thumb.webp</preview_image>
+        <preview_image>r14.png</preview_image>
         <preview_image_thumb>r14_thumb.webp</preview_image_thumb>
         <title>2 8LIK ARASI 16LIK VURUSLAR</title>
         <short_description>ROCK RITIM</short_description>
@@ -579,7 +579,7 @@
         <code>r15</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r15_thumb.webp</preview_image>
+        <preview_image>r15.png</preview_image>
         <preview_image_thumb>r15_thumb.webp</preview_image_thumb>
         <title>8LIK ARASI 16LIK VURUSLAR</title>
         <short_description>ROCK RITIM</short_description>
@@ -593,7 +593,7 @@
         <code>r16</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r16_thumb.webp</preview_image>
+        <preview_image>r16.png</preview_image>
         <preview_image_thumb>r16_thumb.webp</preview_image_thumb>
         <title>8LIK TRAMPET VURUSLARI</title>
         <short_description>ROCK RITIM</short_description>
@@ -607,7 +607,7 @@
         <code>r17</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r17_thumb.webp</preview_image>
+        <preview_image>r17.png</preview_image>
         <preview_image_thumb>r17_thumb.webp</preview_image_thumb>
         <title>HI-HAT ACMA KAPAMA</title>
         <short_description>ROCK RITIM</short_description>
@@ -621,7 +621,7 @@
         <code>r18</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r18_thumb.webp</preview_image>
+        <preview_image>r18.png</preview_image>
         <preview_image_thumb>r18_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
         <short_description>ROCK RITIM</short_description>
@@ -635,7 +635,7 @@
         <code>r19</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r19_thumb.webp</preview_image>
+        <preview_image>r19.png</preview_image>
         <preview_image_thumb>r19_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
         <short_description>ROCK RITIM</short_description>
@@ -649,7 +649,7 @@
         <code>r20</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r20_thumb.webp</preview_image>
+        <preview_image>r20.png</preview_image>
         <preview_image_thumb>r20_thumb.webp</preview_image_thumb>
         <title>16LIK KICK VE TRAMPET</title>
         <short_description>4/4 Ritim Çalışması</short_description>
@@ -663,7 +663,7 @@
         <code>r21</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r21_thumb.webp</preview_image>
+        <preview_image>r21.png</preview_image>
         <preview_image_thumb>r21_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -677,7 +677,7 @@
         <code>r22</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r22_thumb.webp</preview_image>
+        <preview_image>r22.png</preview_image>
         <preview_image_thumb>r22_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -691,7 +691,7 @@
         <code>r23</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r23_thumb.webp</preview_image>
+        <preview_image>r23.png</preview_image>
         <preview_image_thumb>r23_thumb.webp</preview_image_thumb>
         <title>16LIK HI-HAT</title>
         <short_description>ROCK RITIM</short_description>
@@ -705,7 +705,7 @@
         <code>r24</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r24_thumb.webp</preview_image>
+        <preview_image>r24.png</preview_image>
         <preview_image_thumb>r24_thumb.webp</preview_image_thumb>
         <title>TEK KICK CIFT KICK SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -719,7 +719,7 @@
         <code>r25</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r25_thumb.webp</preview_image>
+        <preview_image>r25.png</preview_image>
         <preview_image_thumb>r25_thumb.webp</preview_image_thumb>
         <title>TRAMPET ONCESI KICK</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -733,7 +733,7 @@
         <code>r26</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r26_thumb.webp</preview_image>
+        <preview_image>r26.png</preview_image>
         <preview_image_thumb>r26_thumb.webp</preview_image_thumb>
         <title>HI-HAT UCLEME</title>
         <short_description>ROCK RITIM</short_description>
@@ -747,7 +747,7 @@
         <code>r27</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r27_thumb.webp</preview_image>
+        <preview_image>r27.png</preview_image>
         <preview_image_thumb>r27_thumb.webp</preview_image_thumb>
         <title>BOSSA NOVA</title>
         <short_description>LATIN RITIM</short_description>
@@ -761,7 +761,7 @@
         <code>r28</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r28_thumb.webp</preview_image>
+        <preview_image>r28.png</preview_image>
         <preview_image_thumb>r28_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -775,7 +775,7 @@
         <code>r29</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r29_thumb.webp</preview_image>
+        <preview_image>r29.png</preview_image>
         <preview_image_thumb>r29_thumb.webp</preview_image_thumb>
         <title>8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -789,7 +789,7 @@
         <code>r30</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r30_thumb.webp</preview_image>
+        <preview_image>r30.png</preview_image>
         <preview_image_thumb>r30_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -803,7 +803,7 @@
         <code>r31</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r31_thumb.webp</preview_image>
+        <preview_image>r31.png</preview_image>
         <preview_image_thumb>r31_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -817,7 +817,7 @@
         <code>r32</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r32_thumb.webp</preview_image>
+        <preview_image>r32.png</preview_image>
         <preview_image_thumb>r32_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -831,7 +831,7 @@
         <code>r33</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r33_thumb.webp</preview_image>
+        <preview_image>r33.png</preview_image>
         <preview_image_thumb>r33_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -845,7 +845,7 @@
         <code>r34</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r34_thumb.webp</preview_image>
+        <preview_image>r34.png</preview_image>
         <preview_image_thumb>r34_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -859,7 +859,7 @@
         <code>r35</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r35_thumb.webp</preview_image>
+        <preview_image>r35.png</preview_image>
         <preview_image_thumb>r35_thumb.webp</preview_image_thumb>
         <title>8LIK KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -873,7 +873,7 @@
         <code>r36</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r36_thumb.webp</preview_image>
+        <preview_image>r36.png</preview_image>
         <preview_image_thumb>r36_thumb.webp</preview_image_thumb>
         <title>HI-HAT ARASI KICK</title>
         <short_description>ROCK RITIM</short_description>
@@ -887,7 +887,7 @@
         <code>r37</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r37_thumb.webp</preview_image>
+        <preview_image>r37.png</preview_image>
         <preview_image_thumb>r37_thumb.webp</preview_image_thumb>
         <title>3 16LIK KICKK</title>
         <short_description>ROCK RITIM</short_description>
@@ -901,7 +901,7 @@
         <code>r38</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r38_thumb.webp</preview_image>
+        <preview_image>r38.png</preview_image>
         <preview_image_thumb>r38_thumb.webp</preview_image_thumb>
         <title>3 16LIK KICK</title>
         <short_description>METAL GROOVE</short_description>
@@ -915,7 +915,7 @@
         <code>r39</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r39_thumb.webp</preview_image>
+        <preview_image>r39.png</preview_image>
         <preview_image_thumb>r39_thumb.webp</preview_image_thumb>
         <title>1 8LIK 2 16LIK KICK</title>
         <short_description>METAL GROOVE</short_description>
@@ -929,7 +929,7 @@
         <code>r40</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r40_thumb.webp</preview_image>
+        <preview_image>r40.png</preview_image>
         <preview_image_thumb>r40_thumb.webp</preview_image_thumb>
         <title>2 16LIK KICK ONCESI KICK</title>
         <short_description>METAL GROOVE</short_description>
@@ -943,7 +943,7 @@
         <code>r41</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r41_thumb.webp</preview_image>
+        <preview_image>r41.png</preview_image>
         <preview_image_thumb>r41_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -957,7 +957,7 @@
         <code>r43</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r43_thumb.webp</preview_image>
+        <preview_image>r43.png</preview_image>
         <preview_image_thumb>r43_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -971,7 +971,7 @@
         <code>r44</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r44_thumb.webp</preview_image>
+        <preview_image>r44.png</preview_image>
         <preview_image_thumb>r44_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -985,7 +985,7 @@
         <code>r45</code>
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r45_thumb.webp</preview_image>
+        <preview_image>r45.png</preview_image>
         <preview_image_thumb>r45_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -999,7 +999,7 @@
         <code>r46</code>  
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r46_thumb.webp</preview_image>
+        <preview_image>r46.png</preview_image>
         <preview_image_thumb>r46_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
@@ -1014,7 +1014,7 @@
         <code>r47</code>  
         <academy>davul</academy>
         <price_profile>P</price_profile>        
-        <preview_image>r47_thumb.webp</preview_image>
+        <preview_image>r47.png</preview_image>
         <preview_image_thumb>r47_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
         <short_description>SHUFFLE GROOVE</short_description>
