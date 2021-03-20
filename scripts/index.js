@@ -1049,9 +1049,22 @@ function GoPayment() {
     
 }
 
-function ShowLoading() {
-    $('#loadingModal').show();
+async function ShowLoading() {
+    $('#loadingModal').removeClass("loadingModalhidden");
+    $('#loadingModal').addClass("loadingModalshown");
+    
 }
-function HideLoading() {
-    $('#loadingModal').hide();
+async function HideLoading() {
+ 
+    $('#loadingModal').removeClass("loadingModalshown");
+    $('#loadingModal').addClass("loadingModalhidden");
+    
+}
+
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+        currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
 }

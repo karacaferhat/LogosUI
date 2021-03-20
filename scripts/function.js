@@ -97,6 +97,7 @@ function loadAkademi(akademi){
     var xmlpath="Yonetim/"+akademi+"Akademi.xml";
     Connect.open("GET",xmlpath , false);
     Connect.setRequestHeader("Content-Type", "text/xml");
+
     Connect.send(null);
     return Connect.responseXML;
 }
