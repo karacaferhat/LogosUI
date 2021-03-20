@@ -19,7 +19,7 @@ function showLastAddedListOnIndexPAge(pageXML,lessonXML){
         var code=$(this).text();
         var lesson = findLessonByDoc(lessonXML, code);
         
-        var str = '<li><a onclick="showLesson(\'' + code + '\');" ><span>' + lesson.short_description+ '</span><span>' + lesson.academy+'</span></a ></li> ';
+        var str = '<li><a onclick="showLesson(\'' + code + '\');" ><span>' + lesson.short_description + '</span><span class="price_desc">' + lesson.price_desc + '</span><span>' + lesson.academy+'</span></a ></li> ';
 
         $("#LastAddedList").append(str);
       
@@ -44,7 +44,7 @@ function showSelectedListOnIndexPAge(pageXML,lessonXML){
         var container=document.getElementById(id);
         if (container !=null){
             var content="";
-            content = '<a onclick="showLesson(\'' + code +'\');" ><h3>'+lesson.title+'</h3><div class="left"><img src="'+ lesson.preview_image_thumb+'"><span>'+lesson.academy+'</span></div><div class="right"><span>'+lesson.short_description+'</span><span>'+lesson.academy+'</span></div></a>';
+            content = '<a class="masterLessonContainer" onclick="showLesson(\'' + code + '\');" ><h3>' + lesson.title + '</h3><div class="left"><img src="' + lesson.preview_image_thumb + '"><span>' + lesson.academy + '</span></div><div class="right"><span>' + lesson.short_description + '</span> <span class="price_desc">' + lesson.price_desc +'</span> <span>'+lesson.academy+'</span></div></a>';
             container.innerHTML=content;
         }        
         
@@ -1054,6 +1054,7 @@ async function ShowLoading() {
     $('#loadingModal').addClass("loadingModalshown");
     
 }
+
 async function HideLoading() {
  
     $('#loadingModal').removeClass("loadingModalshown");

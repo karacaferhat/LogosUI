@@ -1448,3 +1448,9 @@ footer .footer .footerRight .storeLinks a {
     width: 100%;
     background: rgba( 255, 255, 255, .8 ) url('http://sampsonresume.com/labs/pIkfp.gif') 50% 50% no-repeat;
 }
+.price_desc {
+    color: #ca6a21 !important;
+}
+.masterLessonContainer {
+    height: 94%;
+}

@@ -136,8 +136,8 @@ function showAllLessons(akademi){
             console.log(i+ 1);
             var id = "lesson" + (i + 1);          
           
-            
-             str = str+'<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span>' + les.short_description + '</span></div></a></div >';
+           
+            str = str + '<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc + '</span><span>' + les.short_description + '</span></div></a></div >';
            
             i = i + 1;
         }       
@@ -197,7 +197,7 @@ function getLessonInfo(node){
     var video_id = $(node).find("video_id").text();
     var price_profile = $(node).find("price_profile").text();
     var url='lesson.html?lessoncode='+code;
-
+    var price_desc = GetPriceDesc(price_profile);
     
     var lesson={
         title:title,
@@ -212,6 +212,7 @@ function getLessonInfo(node){
         video_link:video_link,       
         video_id: video_id,
         price_profile: price_profile,
+        price_desc: price_desc,
         url: url
     }
     return lesson;
@@ -234,9 +235,23 @@ function showLastAddedLessons(academyDoc,akademi){
     showLastAdd(soneklenen3_ders,"LastAdd3");
 
 }
+function GetPriceDesc(price_profile) {
+    if (price_profile == "F") {
+        price_desc = "Free";
+    }
+    if (price_profile == "P") {
+        price_desc = "Pro";
+    }
+    if (price_profile == "M") {
+        price_desc = "Master";
+    }
+    return price_desc;
+}
 
-function showLastAdd(les,id){
-    var str = '<a  onclick="showLesson(\'' + les.code +'\');"><div class="left"><img src="'+ les.preview_image+'"></div><div class="right"><span>'+les.title+'</span><span>'+les.short_description+'</span></div></a>';
+function showLastAdd(les, id) {
+   
+
+    var str = '<a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc+'</span><span>'+les.short_description+'</span></div></a>';
     var container=document.getElementById(id);
     container.innerHTML=str;
 
