@@ -488,7 +488,7 @@
         <video_id>505483018</video_id>     
     </ders>
           <ders>
-        <code>g25/code>        
+        <code>g25</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g25.png</preview_image>
@@ -503,7 +503,7 @@
         <video_id>505484321</video_id>     
     </ders>
                     <ders>
-        <code>g26/code>        
+        <code>g26</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g26.png</preview_image>
@@ -518,7 +518,7 @@
         <video_id>505485801</video_id>     
     </ders>
                               <ders>
-        <code>g27/code>        
+        <code>g27</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g27.png</preview_image>
