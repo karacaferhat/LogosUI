@@ -1252,7 +1252,7 @@
         <video_link>https://vimeo.com/505574953</video_link>
         <video_id>505574953</video_id>     
     </ders>
-                                     <ders>
+    <ders>
         <code>g78</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
@@ -1267,6 +1267,321 @@
         <video_link>https://vimeo.com/505577243</video_link>
         <video_id>505577243</video_id>     
     </ders>
+    <ders>
+        <code>g79</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g79.png</preview_image>
+        <preview_image_thumb>g79.png</preview_image_thumb>
+        <title>DORIAN</title>
+        <level>1</level>
+        <short_description>12 Tonda Dorian</short_description>
+        <long_description>Dorian dizisi majör dizide ikinci çevrim minör dizide ise dördüncü çevrimdir. Burada La minör ve Do majöre ait dorian dizisi çalınmıştır. 12 tonda çalmaya çalışalım. Keyifli çalışmalar. </long_description>
+        <pdf>g79.pdf</pdf>     
+        <back_track>g79.wav</back_track>  
+        <video_link>https://vimeo.com/505578823</video_link>
+        <video_id>505578823</video_id>     
+    </ders>  
+    <ders>
+        <code>g80</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g80.png</preview_image>
+        <preview_image_thumb>g80.png</preview_image_thumb>
+        <title>IONIAN</title>
+        <level>1</level>
+        <short_description>12 Tonda IONIAN</short_description>
+        <long_description>Ionian dizisi majör dizide birinci çevrim , minör dizide üçüncü çevrimdir. Parmak numaralarına uyalım. 12 tonda çalmaya çalışalım. </long_description>
+        <pdf>g80.pdf</pdf>     
+        <back_track>g80.wav</back_track>  
+        <video_link>https://vimeo.com/505581098</video_link>
+        <video_id>505581098</video_id>     
+    </ders>  
+      <ders>
+        <code>g81</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g81.png</preview_image>
+        <preview_image_thumb>g81.png</preview_image_thumb>
+        <title>LYDIAN</title>
+        <level>1</level>
+        <short_description>12 Tonda LYDIAN</short_description>
+        <long_description>Lydian dizisi minör dizide altıncı majör dizide dördüncü çevrimdir. 12 tonda çalmaya çalışalım. Parmak numaralarına dikkat edelim. Keyifli çalışmalar.</long_description>
+        <pdf>g81.pdf</pdf>     
+        <back_track>g81.wav</back_track>  
+        <video_link>https://vimeo.com/505583175</video_link>
+        <video_id>505583175</video_id>     
+    </ders> 
+      <ders>
+        <code>g82</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g82.png</preview_image>
+        <preview_image_thumb>g82.png</preview_image_thumb>
+        <title>LOCRIAN</title>
+        <level>1</level>
+        <short_description>12 Tonda LOCRIAN</short_description>
+        <long_description>Locrian dizisi minör dizide ikinci majör dizide yedinci çevrimdir. 12 tonda çalmaya çalışalım. Parmak numaralarına dikkat edelim. Keyifli çalışmalar.</long_description>
+        <pdf>g82.pdf</pdf>     
+        <back_track>g82.wav</back_track>  
+        <video_link>https://vimeo.com/505585336</video_link>
+        <video_id>505585336</video_id>     
+    </ders>  
+      <ders>
+        <code>g83</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g83.png</preview_image>
+        <preview_image_thumb>g83.png</preview_image_thumb>
+        <title>MIXOLYDIAN</title>
+        <level>1</level>
+        <short_description>12 Tonda MIXOLYDIAN</short_description>
+        <long_description>Mixolydian dizisi minör dizini yedinci çevrimi majör dizinin ise beşinci çevrimidir. Parmak hareketlerine dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
+        <pdf>g83.pdf</pdf>     
+        <back_track>g83.wav</back_track>  
+        <video_link>https://vimeo.com/505587709</video_link>
+        <video_id>505587709</video_id>     
+    </ders>  
+      <ders>
+        <code>g84</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g84.png</preview_image>
+        <preview_image_thumb>g84.png</preview_image_thumb>
+        <title>PHRYGIAN</title>
+        <level>1</level>
+        <short_description>12 Tonda PHRYGIAN</short_description>
+        <long_description>Phrygian dizisi minör dizinin 5. çevrimi majör dizini ise 3. çevrimidir. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
+        <pdf>g84.pdf</pdf>     
+        <back_track>g84.wav</back_track>  
+        <video_link>https://vimeo.com/505590050</video_link>
+        <video_id>505590050</video_id>     
+    </ders>  
+    <ders>
+        <code>g85</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g85.png</preview_image>
+        <preview_image_thumb>g85.png</preview_image_thumb>
+        <title>1. DERECE MİNÖR PENTATONİK DİZİ</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Minör pentatonik diziler bir minör dizinin ikinci ve altıncı sesinin tondan çıkarılmasıyla elde edilir. Burada La minör dizisinden Si ve Fa çıkarılarak La minör pentatonik dizisi elde edilmiştir. Ders sonunda gösterdiğimiz egzersizdeki gibi bu diziyi 12 tonda çalmak oldukça yararlı olacaktır.</long_description>
+        <pdf>g85.pdf</pdf>     
+        <back_track>g85.wav</back_track>  
+        <video_link>https://vimeo.com/505592470</video_link>
+        <video_id>505592470</video_id>     
+    </ders>  
+    <ders>
+        <code>g86</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g86.png</preview_image>
+        <preview_image_thumb>g86.png</preview_image_thumb>
+        <title>3. DERECE MİNÖR PENTATONİK DİZİ</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>3. derece minör pentatonik dizi demek diziye ait üçüncü sesten başlayan minör pentatonik dizi demektir. Burada La minör dizisinde üçüncü ses do olduğu için La minör pentatonik dizisi Do’dan başlayarak çalınmıştır.</long_description>
+        <pdf>g86.pdf</pdf>     
+        <back_track>g86.wav</back_track>  
+        <video_link>https://vimeo.com/505595567</video_link>
+        <video_id>505595567</video_id>     
+    </ders>    
+    <ders>
+        <code>g87</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g87.png</preview_image>
+        <preview_image_thumb>g87.png</preview_image_thumb>
+        <title>4. DERECE MİNÖR PENTATONİK DİZİ</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>4. derece minör pentatonik dizi ait olduğu dizinin dördüncü sesinden başlayarak çalınır. Burada La minör dizisinin dördüncü sesi olan Re’den başlayarak çalınmıştır. 12 tonda çalmak yararlı olacaktır.</long_description>
+        <pdf>g87.pdf</pdf>     
+        <back_track>g87.wav</back_track>  
+        <video_link>https://vimeo.com/505598626</video_link>
+        <video_id>505598626</video_id>     
+    </ders>    
+    <ders>
+        <code>g88</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g88.png</preview_image>
+        <preview_image_thumb>g88.png</preview_image_thumb>
+        <title>5. DERECE MİNÖR PENTATONİK DİZİ</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>5. derece minör pentatonik diziler ait oldukları dizinin 5. Sesinden başladıkları için bu ismi alırlar. Burada La minörün 5. sesi olan Mi sesinden başlanılmıştır. 12 tonda çalmaya ve metronoma uymaya dikkat edelim. Keyifli çalışmalar. </long_description>
+        <pdf>g88.pdf</pdf>     
+        <back_track>g88.wav</back_track>  
+        <video_link>https://vimeo.com/505601440</video_link>
+        <video_id>505601440</video_id>     
+    </ders>  
+    <ders>
+        <code>g89</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g89.png</preview_image>
+        <preview_image_thumb>g89.png</preview_image_thumb>
+        <title>7. DERECE MİNÖR PENTATONİK DİZİ</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>7. derece minör pentatonik dizi ait olduğu dizinin 7. sesinden başlar. Burada La minörün 7. derecesi olan Solden başlanılmıştır. 12 tonda çalmaya çalışalım ve metronoma dikkat edelim. Keyifli çalışmalar. </long_description>
+        <pdf>g89.pdf</pdf>     
+        <back_track>g89.wav</back_track>  
+        <video_link>https://vimeo.com/505605017</video_link>
+        <video_id>505605017</video_id>     
+    </ders>  
+    <ders>
+        <code>g90</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g90.png</preview_image>
+        <preview_image_thumb>g90.png</preview_image_thumb>
+        <title>MAJÖR BLUES</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Majör blues dizisi dizinin 1. 2. 3. 5. ve 6. sesinin üzerine birde üçüncü derecenin bemolünün eklenmesiyle oluşur. Burada birinci derece majör blues dizisini görmekteyiz. Keyifli çalışmalar. </long_description>
+        <pdf>g90.pdf</pdf>     
+        <back_track>g90.wav</back_track>  
+        <video_link>https://vimeo.com/505607604</video_link>
+        <video_id>505607604</video_id>     
+    </ders>   
+    <ders>
+        <code>g92</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g92.png</preview_image>
+        <preview_image_thumb>g92.png</preview_image_thumb>
+        <title>MAJÖR BLUES</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde 2. dereceden başlayan majör blues dizisini görmekteyiz. Kullanılan parmaklara dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar. </long_description>
+        <pdf>g92.pdf</pdf>     
+        <back_track>g92.wav</back_track>  
+        <video_link>https://vimeo.com/505613769</video_link>
+        <video_id>505613769</video_id>     
+    </ders>   
+    <ders>
+        <code>g93</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g93.png</preview_image>
+        <preview_image_thumb>g93.png</preview_image_thumb>
+        <title>MAJÖR BLUES</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde diziye ait 3. Dereceden başlayan majör blues dizisini görmekteyiz. Kullanılan parmaklara ve pena vuruşlarına dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
+        <pdf>g93.pdf</pdf>     
+        <back_track>g93.wav</back_track>  
+        <video_link>https://vimeo.com/505619849</video_link>
+        <video_id>505619849</video_id>     
+    </ders>  
+    <ders>
+        <code>g94</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g94.png</preview_image>
+        <preview_image_thumb>g94.png</preview_image_thumb>
+        <title>MAJÖR BLUES</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde diziye ait 5. Sesten başlayan majör blues dizisini görmekteyiz. Parmak hareketlerine dikkat edelim. Farklı tempolarda çalışalım. 12 tona uyarlayalım . Keyifli çalışmalar. </long_description>
+        <pdf>g94.pdf</pdf>     
+        <back_track>g94.wav</back_track>  
+        <video_link>https://vimeo.com/505625964</video_link>
+        <video_id>505625964</video_id>     
+    </ders>    
+      <ders>
+        <code>g96</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g96.png</preview_image>
+        <preview_image_thumb>g96.png</preview_image_thumb>
+        <title>BAŞLIK</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde diziye ait 7. Sesten başlayan 7. Derece majör blues dizisini görmekteyiz. Parmak hareketlerine dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar. </long_description>
+        <pdf>g96.pdf</pdf>     
+        <back_track>g96.wav</back_track>  
+        <video_link>https://vimeo.com/505631705</video_link>
+        <video_id>505631705</video_id>     
+    </ders>  
+      <ders>
+        <code>g97</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g97.png</preview_image>
+        <preview_image_thumb>g97.png</preview_image_thumb>
+        <title>BAŞLIK</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde 1. Derece minör pentatonik dizisine ait bir lick görmekteyiz. Ard arda gelen slide hareketlerine dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. Keyifli çalışmalar. </long_description>
+        <pdf>g97.pdf</pdf>     
+        <back_track>g97.wav</back_track>  
+        <video_link>https://vimeo.com/505638290</video_link>
+        <video_id>505638290</video_id>     
+    </ders>   
+      <ders>
+        <code>g98</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g98.png</preview_image>
+        <preview_image_thumb>g98.png</preview_image_thumb>
+        <title>BAŞLIK</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde 1. Derece minör pentatonik dizisine ait bir lick görmekteyiz. Ard arda gelen slide hareketlerine dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. Keyifli çalışmalar. </long_description>
+        <pdf>g98.pdf</pdf>     
+        <back_track>g98.wav</back_track>  
+        <video_link>https://vimeo.com/505640176</video_link>
+        <video_id>505640176</video_id>     
+    </ders>  
+      <ders>
+        <code>g99</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g99.png</preview_image>
+        <preview_image_thumb>g99.png</preview_image_thumb>
+        <title>BAŞLIK</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde La majör blues dizisine ait bir lick görmekteyiz. Burada birinci derece kullanıldığını unutmayalım. Tartımlara dikkat edelim. Doğru penalamaya dikkat edelim.</long_description>
+        <pdf>g99.pdf</pdf>     
+        <back_track>g99.wav</back_track>  
+        <video_link>https://vimeo.com/505641784</video_link>
+        <video_id>505641784</video_id>     
+    </ders>    
+      <ders>
+        <code>g100</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g100.png</preview_image>
+        <preview_image_thumb>g100.png</preview_image_thumb>
+        <title>BAŞLIK</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Bu dersimizde birinci derece minör pentatonik diziye ait bir lick görmekteyiz. Slide olan notalardaki tartımlara dikkat edelim. Keyifli çalışmalar. </long_description>
+        <pdf>g100.pdf</pdf>     
+        <back_track>g100.wav</back_track>  
+        <video_link>https://vimeo.com/505643622</video_link>
+        <video_id>505643622</video_id>     
+    </ders>    
+      <ders>
+        <code>g101</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g101.png</preview_image>
+        <preview_image_thumb>g101.png</preview_image_thumb>
+        <title>BAŞLIK</title>
+        <level>1</level>
+        <short_description>DİZİ</short_description>
+        <long_description>Birinci derece minör pentatonik dizisine ait bir lick görmekteyiz. Hammer on ve pull oflara dikkat edelim. Backing track üzerine çalışalım. Keyifli çalışmalar.</long_description>
+        <pdf>g101.pdf</pdf>     
+        <back_track>g101.wav</back_track>  
+        <video_link>https://vimeo.com/505645344</video_link>
+        <video_id>505645344</video_id>     
+    </ders>    
   <ders>
         <code>sc1</code>        
         <academy>davul</academy>
