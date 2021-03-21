@@ -672,7 +672,7 @@
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g38.png</preview_image>
-        <preview_image_thumb>g37.png</preview_image_thumb>
+        <preview_image_thumb>g38.png</preview_image_thumb>
         <title>8LİK RİTİM</title>
         <level>1</level>
         <short_description>POP RITIM</short_description>
@@ -681,6 +681,201 @@
         <back_track>g38.wav/back_track>  
         <video_link>https://vimeo.com/505499729</video_link>
         <video_id>505499729</video_id>     
+    </ders>     
+    <ders>
+        <code>g39/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g39.png</preview_image>
+        <preview_image_thumb>g39.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g39.pdf</pdf>     
+        <back_track>g39.wav/back_track>  
+        <video_link>https://vimeo.com/505500958</video_link>
+        <video_id>505500958</video_id>     
+    </ders>            
+    <ders>
+        <code>g40/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g40.png</preview_image>
+        <preview_image_thumb>g40.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g40.pdf</pdf>     
+        <back_track>g40.wav/back_track>  
+        <video_link>https://vimeo.com/505502002</video_link>
+        <video_id>505502002</video_id>     
+    </ders>      
+    <ders>
+        <code>g41/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g41.png</preview_image>
+        <preview_image_thumb>g41.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g41.pdf</pdf>     
+        <back_track>g41.wav/back_track>  
+        <video_link>https://vimeo.com/505503009</video_link>
+        <video_id>505503009</video_id>     
+    </ders>    
+    <ders>
+        <code>g42/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g42.png</preview_image>
+        <preview_image_thumb>g42.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g42.pdf</pdf>     
+        <back_track>g42.wav/back_track>  
+        <video_link>https://vimeo.com/505504156</video_link>
+        <video_id>505504156</video_id>     
+    </ders>    
+    <ders>
+        <code>g43/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g43.png</preview_image>
+        <preview_image_thumb>g43.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g43.pdf</pdf>     
+        <back_track>g43.wav/back_track>  
+        <video_link>https://vimeo.com/505505158</video_link>
+        <video_id>505505158</video_id>     
+    </ders>     
+    <ders>
+        <code>g44/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g44.png</preview_image>
+        <preview_image_thumb>g44.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g44.pdf</pdf>     
+        <back_track>g44.wav/back_track>  
+        <video_link>https://vimeo.com/505506076</video_link>
+        <video_id>505506076</video_id>     
+    </ders>           
+    <ders>
+        <code>g45/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g45.png</preview_image>
+        <preview_image_thumb>g45.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g45.pdf</pdf>     
+        <back_track>g45.wav/back_track>  
+        <video_link>https://vimeo.com/505507811</video_link>
+        <video_id>505507811</video_id>     
+    </ders>       
+    <ders>
+        <code>g46/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g46.png</preview_image>
+        <preview_image_thumb>g46.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g46.pdf</pdf>     
+        <back_track>g46.wav/back_track>  
+        <video_link>https://vimeo.com/505509519</video_link>
+        <video_id>505509519</video_id>     
+    </ders>     
+    <ders>
+        <code>g47/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g47.png</preview_image>
+        <preview_image_thumb>g47.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g47.pdf</pdf>     
+        <back_track>g47.wav/back_track>  
+        <video_link>https://vimeo.com/505511555</video_link>
+        <video_id>505511555</video_id>     
+    </ders>      
+    <ders>
+        <code>g48/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g48.png</preview_image>
+        <preview_image_thumb>g48.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g48.pdf</pdf>     
+        <back_track>g48.wav/back_track>  
+        <video_link>https://vimeo.com/508780990</video_link>
+        <video_id>508780990</video_id>     
+    </ders>           
+    <ders>
+        <code>g49/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g49.png</preview_image>
+        <preview_image_thumb>g49.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g49.pdf</pdf>     
+        <back_track>g49.wav/back_track>  
+        <video_link>https://vimeo.com/505515979</video_link>
+        <video_id>505515979</video_id>     
+    </ders>                 
+    <ders>
+        <code>g50/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g50.png</preview_image>
+        <preview_image_thumb>g50.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g50.pdf</pdf>     
+        <back_track>g50.wav/back_track>  
+        <video_link>https://vimeo.com/505518464</video_link>
+        <video_id>505518464</video_id>     
+    </ders> 
+    <ders>
+        <code>g51/code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g51.png</preview_image>
+        <preview_image_thumb>g51.png</preview_image_thumb>
+        <title>8LİK RİTİM</title>
+        <level>1</level>
+        <short_description>POP RITIM</short_description>
+        <long_description>8lik ritim notaları 1 dörtlük vuruşun yarısına eşdeğerdir. Yani bir metronom vuruşunda ikiye bölmek gerekir. Tüm 8lik ritim egzersizlerini daha kolay hale gelsin diye Mi majör ile gösterdik. Sizler bunu diğer akorlara da uygulayabilirsiniz.  </long_description>
+        <pdf>g51.pdf</pdf>     
+        <back_track>g51.wav/back_track>  
+        <video_link>https://vimeo.com/505520330</video_link>
+        <video_id>505520330</video_id>     
     </ders>           
   <ders>
         <code>sc1</code>        
