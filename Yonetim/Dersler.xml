@@ -533,7 +533,7 @@
         <video_id>505486947</video_id>     
     </ders>
     <ders>
-        <code>g28/code>        
+        <code>g28</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g28.png</preview_image>
@@ -548,7 +548,7 @@
         <video_id>505488104</video_id>     
     </ders>
               <ders>
-        <code>g29/code>        
+        <code>g29/<code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g29.png</preview_image>
@@ -563,7 +563,7 @@
         <video_id>505489391</video_id>     
     </ders>
                         <ders>
-        <code>g30/code>        
+        <code>g30</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g30.png</preview_image>
@@ -578,7 +578,7 @@
         <video_id>505490657</video_id>     
     </ders>
                                   <ders>
-        <code>g31/code>        
+        <code>g31</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g31.png</preview_image>
@@ -593,7 +593,7 @@
         <video_id>505491841</video_id>     
     </ders>
     <ders>
-        <code>g32/code>        
+        <code>g32</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g32.png</preview_image>
@@ -608,7 +608,7 @@
         <video_id>505493027</video_id>     
     </ders>
               <ders>
-        <code>g33/code>        
+        <code>g33</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g33.png</preview_image>
@@ -623,7 +623,7 @@
         <video_id>505494160</video_id>     
     </ders>
                         <ders>
-        <code>g34/code>        
+        <code>g34</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g34.png</preview_image>
@@ -638,7 +638,7 @@
         <video_id>505495189</video_id>     
     </ders>
     <ders>
-        <code>g35/code>        
+        <code>g35</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g35.png</preview_image>
@@ -653,7 +653,7 @@
         <video_id>505496315</video_id>     
     </ders>
     <ders>
-        <code>g37/code>        
+        <code>g37</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g37.png</preview_image>
@@ -668,7 +668,7 @@
         <video_id>505498675</video_id>     
     </ders>
     <ders>
-        <code>g38/code>        
+        <code>g38</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g38.png</preview_image>
@@ -683,7 +683,7 @@
         <video_id>505499729</video_id>     
     </ders>     
     <ders>
-        <code>g39/code>        
+        <code>g39</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g39.png</preview_image>
@@ -698,7 +698,7 @@
         <video_id>505500958</video_id>     
     </ders>            
     <ders>
-        <code>g40/code>        
+        <code>g40</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g40.png</preview_image>
@@ -713,7 +713,7 @@
         <video_id>505502002</video_id>     
     </ders>      
     <ders>
-        <code>g41/code>        
+        <code>g41</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g41.png</preview_image>
@@ -728,7 +728,7 @@
         <video_id>505503009</video_id>     
     </ders>    
     <ders>
-        <code>g42/code>        
+        <code>g42</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g42.png</preview_image>
@@ -743,7 +743,7 @@
         <video_id>505504156</video_id>     
     </ders>    
     <ders>
-        <code>g43/code>        
+        <code>g43</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g43.png</preview_image>
@@ -758,7 +758,7 @@
         <video_id>505505158</video_id>     
     </ders>     
     <ders>
-        <code>g44/code>        
+        <code>g44</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g44.png</preview_image>
@@ -773,7 +773,7 @@
         <video_id>505506076</video_id>     
     </ders>           
     <ders>
-        <code>g45/code>        
+        <code>g45</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g45.png</preview_image>
@@ -788,7 +788,7 @@
         <video_id>505507811</video_id>     
     </ders>       
     <ders>
-        <code>g46/code>        
+        <code>g46</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g46.png</preview_image>
@@ -803,7 +803,7 @@
         <video_id>505509519</video_id>     
     </ders>     
     <ders>
-        <code>g47/code>        
+        <code>g47</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g47.png</preview_image>
@@ -818,7 +818,7 @@
         <video_id>505511555</video_id>     
     </ders>      
     <ders>
-        <code>g48/code>        
+        <code>g48</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g48.png</preview_image>
@@ -833,7 +833,7 @@
         <video_id>508780990</video_id>     
     </ders>           
     <ders>
-        <code>g49/code>        
+        <code>g49</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g49.png</preview_image>
@@ -848,7 +848,7 @@
         <video_id>505515979</video_id>     
     </ders>                 
     <ders>
-        <code>g50/code>        
+        <code>g50</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g50.png</preview_image>
@@ -863,7 +863,7 @@
         <video_id>505518464</video_id>     
     </ders> 
     <ders>
-        <code>g51/code>        
+        <code>g51</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
         <preview_image>g51.png</preview_image>
