@@ -1365,7 +1365,7 @@
         <preview_image_thumb>g85.png</preview_image_thumb>
         <title>1. DERECE MİNÖR PENTATONİK DİZİ</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MİNÖR PENTATONİK</short_description>
         <long_description>Minör pentatonik diziler bir minör dizinin ikinci ve altıncı sesinin tondan çıkarılmasıyla elde edilir. Burada La minör dizisinden Si ve Fa çıkarılarak La minör pentatonik dizisi elde edilmiştir. Ders sonunda gösterdiğimiz egzersizdeki gibi bu diziyi 12 tonda çalmak oldukça yararlı olacaktır.</long_description>
         <pdf>g85.pdf</pdf>     
         <back_track>g85.wav</back_track>  
@@ -1380,7 +1380,7 @@
         <preview_image_thumb>g86.png</preview_image_thumb>
         <title>3. DERECE MİNÖR PENTATONİK DİZİ</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MİNÖR PENTATONİK</short_description>
         <long_description>3. derece minör pentatonik dizi demek diziye ait üçüncü sesten başlayan minör pentatonik dizi demektir. Burada La minör dizisinde üçüncü ses do olduğu için La minör pentatonik dizisi Do’dan başlayarak çalınmıştır.</long_description>
         <pdf>g86.pdf</pdf>     
         <back_track>g86.wav</back_track>  
@@ -1395,7 +1395,7 @@
         <preview_image_thumb>g87.png</preview_image_thumb>
         <title>4. DERECE MİNÖR PENTATONİK DİZİ</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MİNÖR PENTATONİK</short_description>
         <long_description>4. derece minör pentatonik dizi ait olduğu dizinin dördüncü sesinden başlayarak çalınır. Burada La minör dizisinin dördüncü sesi olan Re’den başlayarak çalınmıştır. 12 tonda çalmak yararlı olacaktır.</long_description>
         <pdf>g87.pdf</pdf>     
         <back_track>g87.wav</back_track>  
@@ -1410,7 +1410,7 @@
         <preview_image_thumb>g88.png</preview_image_thumb>
         <title>5. DERECE MİNÖR PENTATONİK DİZİ</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MİNÖR PENTATONİK</short_description>
         <long_description>5. derece minör pentatonik diziler ait oldukları dizinin 5. Sesinden başladıkları için bu ismi alırlar. Burada La minörün 5. sesi olan Mi sesinden başlanılmıştır. 12 tonda çalmaya ve metronoma uymaya dikkat edelim. Keyifli çalışmalar. </long_description>
         <pdf>g88.pdf</pdf>     
         <back_track>g88.wav</back_track>  
@@ -1425,7 +1425,7 @@
         <preview_image_thumb>g89.png</preview_image_thumb>
         <title>7. DERECE MİNÖR PENTATONİK DİZİ</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MİNÖR PENTATONİK</short_description>
         <long_description>7. derece minör pentatonik dizi ait olduğu dizinin 7. sesinden başlar. Burada La minörün 7. derecesi olan Solden başlanılmıştır. 12 tonda çalmaya çalışalım ve metronoma dikkat edelim. Keyifli çalışmalar. </long_description>
         <pdf>g89.pdf</pdf>     
         <back_track>g89.wav</back_track>  
@@ -1438,9 +1438,9 @@
         <price_profile>P</price_profile>   
         <preview_image>g90.png</preview_image>
         <preview_image_thumb>g90.png</preview_image_thumb>
-        <title>MAJÖR BLUES</title>
+        <title>1. DERECE MAJÖR BLUES</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MAJÖR BLUES</short_description>
         <long_description>Majör blues dizisi dizinin 1. 2. 3. 5. ve 6. sesinin üzerine birde üçüncü derecenin bemolünün eklenmesiyle oluşur. Burada birinci derece majör blues dizisini görmekteyiz. Keyifli çalışmalar. </long_description>
         <pdf>g90.pdf</pdf>     
         <back_track>g90.wav</back_track>  
@@ -1453,9 +1453,9 @@
         <price_profile>P</price_profile>   
         <preview_image>g92.png</preview_image>
         <preview_image_thumb>g92.png</preview_image_thumb>
-        <title>MAJÖR BLUES</title>
+        <title>2. DERECE MAJÖR BLUES</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MAJÖR BLUES</short_description>
         <long_description>Bu dersimizde 2. dereceden başlayan majör blues dizisini görmekteyiz. Kullanılan parmaklara dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar. </long_description>
         <pdf>g92.pdf</pdf>     
         <back_track>g92.wav</back_track>  
@@ -1468,9 +1468,9 @@
         <price_profile>P</price_profile>   
         <preview_image>g93.png</preview_image>
         <preview_image_thumb>g93.png</preview_image_thumb>
-        <title>MAJÖR BLUES</title>
+        <title>3. DERECE MAJÖR BLUES</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MAJÖR BLUES</short_description>
         <long_description>Bu dersimizde diziye ait 3. Dereceden başlayan majör blues dizisini görmekteyiz. Kullanılan parmaklara ve pena vuruşlarına dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
         <pdf>g93.pdf</pdf>     
         <back_track>g93.wav</back_track>  
@@ -1483,9 +1483,9 @@
         <price_profile>P</price_profile>   
         <preview_image>g94.png</preview_image>
         <preview_image_thumb>g94.png</preview_image_thumb>
-        <title>MAJÖR BLUES</title>
+        <title>5. DERECE MAJÖR BLUES</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MAJÖR BLUES</short_description>
         <long_description>Bu dersimizde diziye ait 5. Sesten başlayan majör blues dizisini görmekteyiz. Parmak hareketlerine dikkat edelim. Farklı tempolarda çalışalım. 12 tona uyarlayalım . Keyifli çalışmalar. </long_description>
         <pdf>g94.pdf</pdf>     
         <back_track>g94.wav</back_track>  
@@ -1498,9 +1498,9 @@
         <price_profile>P</price_profile>   
         <preview_image>g96.png</preview_image>
         <preview_image_thumb>g96.png</preview_image_thumb>
-        <title>BAŞLIK</title>
+        <title>6. DERECE MAJÖR BLUES</title>
         <level>1</level>
-        <short_description>DİZİ</short_description>
+        <short_description>MAJÖR BLUES</short_description>
         <long_description>Bu dersimizde diziye ait 7. Sesten başlayan 7. Derece majör blues dizisini görmekteyiz. Parmak hareketlerine dikkat edelim. 12 tonda çalmaya çalışalım. Keyifli çalışmalar. </long_description>
         <pdf>g96.pdf</pdf>     
         <back_track>g96.wav</back_track>  
