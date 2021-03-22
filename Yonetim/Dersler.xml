@@ -1,132 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 <dersler>
-  <ders>
-        <code>ds2</code>        
-        <academy>davul</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>ds2.png</preview_image>
-        <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
-        <title>STICKING EGZERSIZ</title>
-        <short_description>Bateri Örnek Ders</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/524818558</video_link>
-        <video_id>524818558</video_id>     
-    </ders> 
- <ders>
-        <code>gs5</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>gs5.png</preview_image>
-        <preview_image_thumb>gs5.png</preview_image_thumb>
-        <title>JAZZY MAJOR BLUES</title>
-        <short_description>Elektro Gitar Örnek Ders</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/524317069</video_link>
-        <video_id>524317069</video_id>     
-    </ders> 
-  <ders>
-        <code>ks1</code>        
-        <academy>keman</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>ks1.webp</preview_image>
-        <preview_image_thumb>ks1.webp</preview_image_thumb>
-        <title>MINUET SOL MAJÖR</title>
-        <short_description>Klasik Keman Performans</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/519007404</video_link>
-        <video_id>519007404</video_id>     
-    </ders> 
-    <ders>
-        <code>fs1</code>        
-        <academy>flüt</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>fs1.png</preview_image>
-        <preview_image_thumb>fs1.png</preview_image_thumb>
-        <title>KLASIK FLUT PERFORMANS</title>
-        <short_description>Koray İşlek</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/519006535</video_link>
-        <video_id>519006535</video_id>     
-    </ders> 
-    <ders>
-        <code>gs4</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>gs4_thumb.webp</preview_image>
-        <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
-        <title>SAM SMITH - DIAMONDS</title>
-        <short_description>Serhan Doğrusözlü</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/518044143</video_link>
-        <video_id>518044143</video_id>     
-    </ders> 
-    <ders>
-        <code>gs3</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>gs3_thumb.webp</preview_image>
-        <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
-        <title>MODERN ROCK GITAR PERFORMANS</title>
-        <short_description>Modern Rock Gitar Fikirleri</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/518044774</video_link>
-        <video_id>518044774</video_id>     
-    </ders> 
-    <ders>
-        <code>gs2</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>gs2_thumb.webp</preview_image>
-        <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
-        <title>FUNK GITAR</title>
-        <short_description>Justin Timberlake Michael Jackson - Love Never Felt So Good</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/518042820</video_link>
-        <video_id>518042820</video_id>     
-    </ders> 
-    <ders>
-        <code>gs1</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>gs1_thumb.webp</preview_image>
-        <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
-        <title>POP-FUNK GITAR</title>
-        <short_description>Işın Karaca - Hoşgörü</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/518043491</video_link>
-        <video_id>518043491</video_id>     
-    </ders> 
-    <ders>
-        <code>ds1</code>        
-        <academy>davul</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>ds1.png</preview_image>
-        <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
-        <title>FUNK DAVUL</title>
-        <short_description>Modern Funk Davul Fikirleri</short_description>
-        <long_description></long_description>
-        <pdf></pdf>     
-        <back_track></back_track>  
-        <video_link>https://vimeo.com/518045264</video_link>
-        <video_id>518045264</video_id>     
-    </ders> 
+  
   <ders>
         <code>g1</code>        
         <academy>gitar</academy>
@@ -3277,5 +3152,131 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_link>https://vimeo.com/505289283</video_link>    
         <video_id>505289283</video_id>   
     </ders>
+  <ders>
+        <code>ds2</code>        
+        <academy>davul</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ds2.png</preview_image>
+        <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
+        <title>STICKING EGZERSIZ</title>
+        <short_description>Bateri Örnek Ders</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524818558</video_link>
+        <video_id>524818558</video_id>     
+    </ders> 
+ <ders>
+        <code>gs5</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>gs5.png</preview_image>
+        <preview_image_thumb>gs5.png</preview_image_thumb>
+        <title>JAZZY MAJOR BLUES</title>
+        <short_description>Elektro Gitar Örnek Ders</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/524317069</video_link>
+        <video_id>524317069</video_id>     
+    </ders> 
+  <ders>
+        <code>ks1</code>        
+        <academy>keman</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ks1.webp</preview_image>
+        <preview_image_thumb>ks1.webp</preview_image_thumb>
+        <title>MINUET SOL MAJÖR</title>
+        <short_description>Klasik Keman Performans</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519007404</video_link>
+        <video_id>519007404</video_id>     
+    </ders> 
+    <ders>
+        <code>fs1</code>        
+        <academy>flüt</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>fs1.png</preview_image>
+        <preview_image_thumb>fs1.png</preview_image_thumb>
+        <title>KLASIK FLUT PERFORMANS</title>
+        <short_description>Koray İşlek</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519006535</video_link>
+        <video_id>519006535</video_id>     
+    </ders> 
+    <ders>
+        <code>gs4</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>gs4_thumb.webp</preview_image>
+        <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
+        <title>SAM SMITH - DIAMONDS</title>
+        <short_description>Serhan Doğrusözlü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518044143</video_link>
+        <video_id>518044143</video_id>     
+    </ders> 
+    <ders>
+        <code>gs3</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>gs3_thumb.webp</preview_image>
+        <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
+        <title>MODERN ROCK GITAR PERFORMANS</title>
+        <short_description>Modern Rock Gitar Fikirleri</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518044774</video_link>
+        <video_id>518044774</video_id>     
+    </ders> 
+    <ders>
+        <code>gs2</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>gs2_thumb.webp</preview_image>
+        <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
+        <title>FUNK GITAR</title>
+        <short_description>Justin Timberlake Michael Jackson - Love Never Felt So Good</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518042820</video_link>
+        <video_id>518042820</video_id>     
+    </ders> 
+    <ders>
+        <code>gs1</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>gs1_thumb.webp</preview_image>
+        <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
+        <title>POP-FUNK GITAR</title>
+        <short_description>Işın Karaca - Hoşgörü</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518043491</video_link>
+        <video_id>518043491</video_id>     
+    </ders> 
+    <ders>
+        <code>ds1</code>        
+        <academy>davul</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ds1.png</preview_image>
+        <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
+        <title>FUNK DAVUL</title>
+        <short_description>Modern Funk Davul Fikirleri</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/518045264</video_link>
+        <video_id>518045264</video_id>     
+    </ders> 
   </dersler>
 </root>
