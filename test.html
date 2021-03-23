@@ -1,39 +1,79 @@
 <html>
 <head>
-    <script type=\"text/javascript\">
-        if (typeof iyziInit == 'undefined') {
-        var iyziInit = {
-          currency:\"TRY\",token:\"1e2f4082-f639-41b4-ad45-d695d12a9906\",price:1.00,locale:\"tr\"
-          ,baseUrl:\"https://api.iyzipay.com\",
-          merchantGatewayBaseUrl:\"https://merchant-gateway.iyzipay.com\",
-          registerCardEnabled:false,
-          bkmEnabled:false,
-          bankTransferEnabled:false,
-          bankTransferRedirectUrl:\"https://www.logossanat.com/result.html\",
-          bankTransferCustomUIProps:{},
-          creditCardEnabled:true,
-          bankTransferAccounts:[],
-          userCards:[],fundEnabled:true,memberCheckoutOtpData:{},force3Ds:false,
-          isSandbox:false,storeNewCardEnabled:true,
-          paymentWithNewCardEnabled:true,enabledApmTypes:[],payWithIyzicoUsed:false,payWithIyzicoEnabled:true,
-          payWithIyzicoCustomUI:{},buyerName:\"Ferhat\",buyerSurname:\"Karaca\",
-          merchantInfo:\"https://www.logossanat.com/\",
-          cancelUrl:\"\",buyerProtectionEnabled:true,
-          hide3DS:true,gsmNumber:\"\",email:\"ferhat.karaca@gmail.com\",
-          checkConsumerDetail:{},subscriptionPaymentEnabled:false,ucsEnabled:false,
-          fingerprintEnabled:false,metadata : {},createTag:function(){
-          var iyziJSTag = document.createElement('script');iyziJSTag.setAttribute('src','https://static.iyzipay.com/checkoutform/v2/bundle.js?v=1615400324633');
-          document.head.appendChild(iyziJSTag);}};iyziInit.createTag();}</script>
-
+    <meta name="google-signin-client_id" content="534817273999-svjrlp1r8svianogir6s2cq9jjvvrv8g.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="scripts/jquery.js"></script>
 </head>
 
 <body>
-   
-        <div id="iyzicoScript"></div>
-        <div id="iyzipay-checkout-form" class="responsive"></div>
+    <script>
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        }
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        }
+        var auth2;
+        start();
+        function start() {
+            gapi.load('auth2', function () {
+                auth2 = gapi.auth2.init({
+                    client_id: '534817273999-svjrlp1r8svianogir6s2cq9jjvvrv8g.apps.googleusercontent.com',
+                    // Scopes to request in addition to 'profile' and 'email'
+                    //scope: 'additional_scope'
+                });
+            });
+        }
+        function signInCallback(authResult) {
+            if (authResult['code']) {
+                console.log(authResult['code']);
 
-    
-</body>
+                // Hide the sign-in button now that the user is authorized, for example:
+                $('#signinButton').attr('style', 'display: none');
+
+                // Send the code to the server
+                //$.ajax({
+                //    type: 'POST',
+                //    url: 'http://example.com/storeauthcode',
+                //    // Always include an `X-Requested-With` header in every AJAX request,
+                //    // to protect against CSRF attacks.
+                //    headers: {
+                //        'X-Requested-With': 'XMLHttpRequest'
+                //    },
+                //    contentType: 'application/octet-stream; charset=utf-8',
+                //    success: function (result) {
+                //        // Handle or verify the server response.
+                //    },
+                //    processData: false,
+                //    data: authResult['code']
+                //});
+            } else {
+                // There was an error.
+            }
+        }
+
+    </script>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    <a href="#" onclick="signOut();">Sign out</a>
+
+    <button id="signinButton">Sign in with Google</button>
+    <script>
+        $('#signinButton').click(function () {
+            // signInCallback defined in step 6.
+            auth2.grantOfflineAccess().then(signInCallback);
+        });
+    </script>
+
+
+    </body>
 
 
 
