@@ -1454,3 +1454,16 @@ footer .footer .footerRight .storeLinks a {
 .masterLessonContainer {
     height: 94%;
 }
+input[type="radio"] {
+    -webkit-appearance: radio;
+    margin-left: 2%;
+    padding-right: 10%;
+    margin-right: 1%;
+    margin-bottom: 10%;
+}
+.paybody {
+    padding-top: 1.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 1rem;
+}
