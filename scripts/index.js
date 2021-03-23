@@ -559,6 +559,8 @@ function Logout()
 {
     setCookie("token", "");
     setCookie("refreshToken", "");
+    setCookie("profile", "");
+    setCookie("payToken", "");
     hideUserInfoPanel();
  
 }
@@ -732,17 +734,18 @@ function AuthLesson(lp) {
     if (lp == "F") {
         return true;
     }
-    if (user_profile != "M") {
+         
+    var user_profile = getCookie("profile");
+    if (user_profile == "M") {
         return true;
     }
-        
-    var user_profile = getCookie("profile");
     if (lp == "M" && user_profile == "P") {
         return false;
     }
     if (lp == "P" && user_profile == "F") {
         return false;
     }
+    return false;
 }
 function showLesson(code) {
    
