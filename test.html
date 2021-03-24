@@ -71,14 +71,32 @@
             // signInCallback defined in step 6.
             auth2.grantOfflineAccess().then(signInCallback);
         });
+        function displayRadioValue() {
+            var ele = document.getElementsByName('masterRadio');
+
+            for (i = 0; i < ele.length; i++) {
+                if (ele[i].checked)
+                    alert(ele[i].value);
+            }
+        }
     </script>
 
     <div class="form-check">
         <label>Gitar</label><input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="Gitar" aria-label="Gitar">
         <label>Keman</label><input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="Keman" aria-label="Gitar">
-        
-    </div>
 
+    </div>
+    <form id="masterForm">
+        <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio1" value="Gitar" aria-label="Gitar">
+        <label class="form-check-label" for="masterRadio1">Gitar</label>
+        <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio2" value="Davul" aria-label="Davul">
+        <label class="form-check-label" for="masterRadio2">Davul</label>
+        <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio3" value="Piyano" aria-label="Piyano">
+        <label class="form-check-label" for="masterRadio3">Piyano</label>
+        <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio4" value="Keman" aria-label="Keman">
+        <label class="form-check-label" for="masterRadio4">Keman</label>
+    </form>
+    <button onclick="displayRadioValue();">test</button>
 </body>
 
 

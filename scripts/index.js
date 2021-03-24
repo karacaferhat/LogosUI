@@ -253,7 +253,7 @@ function Register() {
     var name = $('#registerName').val();
     var surname = $('#registerSirname').val();
     var registerCity = $('#registerCity').val();
-    var registerInstrument = $('#registerInstrument').val();
+    var registerInstrument = '';//$('#registerInstrument').val();
     var email = $('#registerEmail').val();
 
     //"2021-02-14T18:53:09.216Z"
@@ -284,7 +284,7 @@ function Register() {
             $('#registerDoBMonth').val("");
             $('#registerDoBYear').val("");
             $('#registerCity').val("");
-            $('#registerInstrument').val("");
+          //  $('#registerInstrument').val("");
 
             saveLoginInfo(data);
             window.location = 'index.html';
@@ -462,7 +462,7 @@ function getUserInfoFromCookie() {
         surname: getCookie("surname"),
         email: getCookie("email"),
         instrument: getCookie("instrument"),
-        dateOfBirth: getCookie("instrument"),
+        dateOfBirth: getCookie("dateOfBirth"),
         city: getCookie("city"),
         profile: getCookie("profile")
     };
@@ -517,7 +517,7 @@ function openUserInfoForm() {
     $('#userInfoEmail').val(email);
     $('#userInfoName').val(name);
     $('#userInfoSurname').val(surname);
-    $('#userInfoInstrument').val(instrument);
+   // $('#userInfoInstrument').val(instrument);
 
     $('#userInfoCity').val(city);
 
@@ -603,7 +603,7 @@ function updateUserInfo() {
     var name = $('#userInfoName').val();
     var surname = $('#userInfoSurname').val();
     var registerCity = $('#userInfoCity').val();
-    var registerInstrument = $('#userInfoInstrument').val();
+    var registerInstrument = '';//$('#userInfoInstrument').val();
     var email = $('#userInfoEmail').val();
    
 
@@ -626,7 +626,7 @@ function updateUserInfo() {
 
             setCookie("name", data.userInfo.name);
             setCookie("surname", data.userInfo.surname);
-            setCookie("instrument", data.userInfo.instrument);
+          //  setCookie("instrument", data.userInfo.instrument);
             setCookie("dateOfBirth", data.userInfo.dateOfBirth);
             setCookie("city", data.userInfo.city);
 
@@ -730,9 +730,16 @@ function UpdPsw() {
 
 }
 
-function AuthLesson(lp) {
+function AuthLesson(les) {
+    var lp = les.price_profile;
+    var lesson_academy = les.academy;
+    var user_academy = getCookie("instrument");
     if (lp == "F") {
         return true;
+    }
+
+    if (lesson_academy.toUpperCase() != user_academy.toUpperCase()) {
+        return false;
     }
          
     var user_profile = getCookie("profile");
@@ -752,7 +759,7 @@ function showLesson(code) {
     var les = findLesson(code);
     
 
-    if (AuthLesson(les.price_profile)==false) {
+    if (AuthLesson(les)==false) {
             $('#paymantWarning').modal('show');
             return;
      }
@@ -929,19 +936,46 @@ function getToken() {
 
 }
 
-function showPayform(price,productName) {
+function displayRadioValue(name) {
+    var ele = document.getElementsByName(name);
+    var val = null;
+    for (i = 0; i < ele.length; i++) {
+        if (ele[i].checked)
+            val= ele[i].value;
+    }
+    return val;
+}
+
+function showPayform(price, productName) {
+    var academy;
+    if (productName == "Pro") {
+        academy = displayRadioValue('proRadio');        
+    }
+
+    if (productName == "Master") {
+        academy = displayRadioValue('masterRadio');      
+    }
+    if (academy == null) {
+        ShowMessage("Lütfen enstruman seçiniz ");
+        return;
+    }
+
     var template = document.getElementById("payForm");
     var clone = template.content.cloneNode(true);
+    
     $('#contentContainer').empty();
     $('#contentContainer').html(clone);
+
+   
 
     var email = getCookie("email");
     $('#iyzicoScript').empty();
     var ip = "178.154.15.15";
 
     var payItem = {
-        productName: "P1",
-        productId: "1",
+        productName: productName,
+        academy: academy,
+        productId: productName + '_' + academy,
         quantity: 1,
         price: price
     }
@@ -965,7 +999,7 @@ function showPayform(price,productName) {
             Authorization: 'Bearer ' + token
         },
         success: function (data) {
-            $('#payProductName').html(productName);
+            $('#payProductName').html(productName +' '+ academy);
             $('#payProductPrice').html(price + ' TL');
             setCookie("payToken", data.paymentFormToken);
             $('#iyzicoScript').html(data.htmlContent);

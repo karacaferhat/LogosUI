@@ -1051,9 +1051,9 @@
                                                          <option value="81">Düzce</option>
                                                      </select>
                                                  </div>
-                                                 <div class="form-group">
+                                                 <!--<div class="form-group">
                                                      <select id="registerInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
-                                                 </div>
+                                                 </div>-->
 
 
                                                  <div class="form-group">
@@ -1554,9 +1554,9 @@
                                                          <option value="81">Düzce</option>
                                                      </select>
                                                  </div>
-                                                 <div class="form-group">
+                                                 <!--<div class="form-group">
                                                      <select id="userInfoInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
-                                                 </div>
+                                                 </div>-->
 
                                                  <button onclick="updateUserInfo();">KAYDET</button>
 
@@ -1744,11 +1744,13 @@
                                          </div>
                                          <div class="card-body paybody">
                                              <h1 class="card-title pricing-card-title">Ücretsiz<small class="text-muted"></small></h1>
-                                             <ul class="list-unstyled mt-3 mb-4">
-                                                 <li>Ücretsiz podcastlere erişebilirsiniz</li>
-                                                 <li>Ücretsiz dersleri izleyebilirsiniz</li>                                                
+                                             <ul class="list-group list-group-flush">
+                                                 <li class="list-group-item">Ücretsiz podcastler</li>
+                                                 <li class="list-group-item">Ücretsiz videolar</li>
+                                                 <li class="list-group-item">Ücretsiz dersler</li>
+                                                 
                                              </ul>
-
+                                            
                                          </div>
                                      </div>
                                      <div class="card mb-4 box-shadow">
@@ -1756,25 +1758,33 @@
                                              <h4 class="my-0 font-weight-normal">Pro</h4>
                                          </div>
                                          <div class="card-body paybody">
-                                             <h1 class="card-title pricing-card-title">60 TL <small class="text-muted">/ Ay</small></h1>
-                                             <ul class="list-unstyled mt-3 mb-4">
-                                                 <li>Tüm free içerikler +</li>
-                                                 <li>Seçtiğiniz akademi başlığındaki derslere erişebilirsiniz</li>
-                                                 <li>Tüm podcastlere erişebilirsiniz</li>
-                                                 <li>Logos Kütüphanedeki tüm içerikleri görebilirsiniz</li>
+                                             <h1 class="card-title pricing-card-title payPrice">60 TL <small class="text-muted">/ Ay</small></h1>
+                                             <ul class="list-group list-group-flush">
 
+                                                 <li class="list-group-item">Tüm free içerikler</li>
+                                                 <li class="list-group-item">Seçilen akademideki tüm içerikler</li>
+                                                 <li class="list-group-item">Tüm podcastler</li>
+                                                 <li class="list-group-item">Tüm kütüphane içerikleri</li>
+                                                 <li class="list-group-item">
+                                                     <div class="form-check">
+                                                         <form id="proForm">
+
+                                                             <input class="form-check-input position-static" type="radio" name="proRadio" id="proRadio1" value="Gitar" aria-label="Gitar">
+                                                             <label class="form-check-label" for="proRadio1">Gitar</label>
+                                                             <input class="form-check-input position-static" type="radio" name="proRadio" id="proRadio2" value="Davul" aria-label="Davul">
+                                                             <label class="form-check-label" for="proRadio2">Davul</label>
+                                                             <input class="form-check-input position-static" type="radio" name="proRadio" id="proRadio3" value="Piyano" aria-label="Piyano">
+                                                             <label class="form-check-label" for="proRadio3">Piyano</label>
+                                                             <input class="form-check-input position-static" type="radio" name="proRadio" id="proRadio4" value="Keman" aria-label="Keman">
+                                                             <label class="form-check-label" for="proRadio4">Keman</label>
+                                                         </form>
+                                                      </div>
+                                                 </li>
+                                                 <li class="list-group-item">  <button type="button" onclick="showPayform(60,'Pro');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button></li>
                                              </ul>
-                                             <div class="form-check">
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="Gitar" aria-label="Gitar">
-                                                 <label class="form-check-label" for="blankRadio1">Gitar</label>
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio2" value="Davul" aria-label="Davul">
-                                                 <label class="form-check-label" for="blankRadio2">Davul</label>
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio3" value="Piyano" aria-label="Piyano">
-                                                 <label class="form-check-label" for="blankRadio3">Piyano</label>
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio4" value="Keman" aria-label="Keman">
-                                                 <label class="form-check-label" for="blankRadio4">Keman</label>
-                                             </div>
-                                             <button type="button" onclick="showPayform(60,'Pro');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                                             
+                                             
+                                           
                                          </div>
                                      </div>
                                      <div class="card mb-4 box-shadow">
@@ -1782,24 +1792,30 @@
                                              <h4 class="my-0 font-weight-normal">Master</h4>
                                          </div>
                                          <div class="card-body paybody">
-                                             <h1 class="card-title pricing-card-title">90 TL <small class="text-muted">/ Ay</small></h1>
-                                             <ul class="list-unstyled mt-3 mb-4">
-                                                 <li>Tüm free içerikler +</li>
-                                                 <li>Seçtiğiniz akademi başlığındaki derslere erişebilirsiniz</li>
-                                                 <li>Tüm podcastlere erişebilirsiniz</li>
-                                                 <li>Canlı yayınları izleyebilirsiniz</li>
-                                             </ul>
-                                             <div class="form-check">
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="Gitar" aria-label="Gitar">
-                                                 <label class="form-check-label" for="blankRadio1">Gitar</label>
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio2" value="Davul" aria-label="Davul">
-                                                 <label class="form-check-label" for="blankRadio2">Davul</label>
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio3" value="Piyano" aria-label="Piyano">
-                                                 <label class="form-check-label" for="blankRadio3">Piyano</label>
-                                                 <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio4" value="Keman" aria-label="Keman">
-                                                 <label class="form-check-label" for="blankRadio4">Keman</label>
-                                             </div>
-                                             <button type="button" onclick="showPayform(90,'Master')" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                                             <h1 class="card-title pricing-card-title payPrice">90 TL <small class="text-muted">/ Ay</small></h1>
+                                             <ul class="list-group list-group-flush">
+                                                 <li class="list-group-item">Tüm Pro içerikleri</li>
+                                                 <li class="list-group-item">Canlı Yayınlar</li>
+                                                 <li class="list-group-item">
+                                                     <div class="form-check">    
+                                                         <form id="masterForm">
+                                                             <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio1" value="Gitar" aria-label="Gitar">
+                                                             <label class="form-check-label" for="masterRadio1">Gitar</label>
+                                                             <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio2" value="Davul" aria-label="Davul">
+                                                             <label class="form-check-label" for="masterRadio2">Davul</label>
+                                                             <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio3" value="Piyano" aria-label="Piyano">
+                                                             <label class="form-check-label" for="masterRadio3">Piyano</label>
+                                                             <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio4" value="Keman" aria-label="Keman">
+                                                             <label class="form-check-label" for="masterRadio4">Keman</label>
+                                                         </form>
+                                                       </div>
+                                                 </li>
+                                                 <li class="list-group-item">
+                                                     <div style="padding-top: 32%;">
+                                                         <button type="button" onclick="showPayform(90,'Master')" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
+                                                     </div>
+                                                 </li>
+                                             </ul>                                             
                                          </div>
                                      </div>
                                  </div>
