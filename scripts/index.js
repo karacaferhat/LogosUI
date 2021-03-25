@@ -220,7 +220,7 @@ var refreshUrl = baseUrl + "/api/v1/identity/refresh";
 var updateUserInfoUrl = baseUrl + "/api/v1/identity/updateUserInfo";
 var resetUrl = baseUrl + "/api/v1/identity/reset";
 var changeUrl = baseUrl + "/api/v1/identity/change";
-var paymentPostUrl = baseUrl + "/api/v1/payment/post";
+var paymentPostUrl = baseUrl + "/api/v1/payment/postSubscription";
 var paymentResultUrl = baseUrl + "/api/v1/payment/checkPayment"
 function Register() {
 
@@ -948,12 +948,16 @@ function displayRadioValue(name) {
 
 function showPayform(price, productName) {
     var academy;
+    var producId; //bu iyzico abonelik ürününüe ait key
     if (productName == "Pro") {
-        academy = displayRadioValue('proRadio');        
+        academy = displayRadioValue('proRadio');   
+      //  producId = "611a44de-b802-4619-a396-1e80188d838e";
+        producId = "8044d858-0167-4639-9e9d-799b6e8a6aef";
     }
 
     if (productName == "Master") {
         academy = displayRadioValue('masterRadio');      
+        producId = "d59d1bb5-2560-4595-8fee-a42daf68b3ff";
     }
     if (academy == null) {
         ShowMessage("Lütfen enstruman seçiniz ");
@@ -972,21 +976,24 @@ function showPayform(price, productName) {
     $('#iyzicoScript').empty();
     var ip = "178.154.15.15";
 
-    var payItem = {
-        productName: productName,
-        academy: academy,
-        productId: productName + '_' + academy,
-        quantity: 1,
-        price: price
-    }
-    var payItems = [];
-    payItems.push(payItem);
+    //var payItem = {
+    //    productName: productName,
+    //    academy: academy,
+    //    productId: productName + '_' + academy,
+    //    quantity: 1,
+    //    price: price
+    //}
+    //var payItems = [];
+    //payItems.push(payItem);
 
     var mydata = {
         email: email,
-        ip: ip,
-        items: payItems
+        ip: ip,       
+        productName: productName,
+        academy: academy,
+        productId: producId
     };
+  
     setCookie("payToken", "");
     var token = getCookie("token");
     $.ajax({
