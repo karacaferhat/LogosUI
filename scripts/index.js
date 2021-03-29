@@ -188,6 +188,7 @@ function openTab(akademi) {
     $('#contentContainer').html(clone);
     initAkademi(akademi);
     HideLoading();
+    $(".menuBtn").click();
 }
 function openContentTab(id) {
 
@@ -208,7 +209,7 @@ function openSignup(){
     var email = getCookie("email");
     $('#loginEmail').val(email);
 
-    
+    $(".mobileMenu").removeClass("active");
    
 }
 
@@ -544,12 +545,18 @@ function showUserInfoPanel(data) {
     $('#name').html(data.userInfo.name);
     $('#surname').html(data.userInfo.surname);
 
+    $('#mobileLoginButton').html('');
+    $('#mobileLoginButton').html('<a onclick="Logout();" class="davul">' + data.userInfo.name+'<br>'+' CIKIS</a>');
+
+
     if (data.userInfo.profile == "P") {
         $('#profile').html('<br>(Pro)');    
     }
     if (data.userInfo.profile == "G") {
         $('#profile').html('<br>(Master)');
     }
+  
+
     
 }
 function GoHome() {
@@ -851,7 +858,8 @@ function openLib() {
 }
 
 function openHome() {
-    window.location='index.html';
+    window.location = 'index.html';
+    $(".menuBtn").click();
 }
 
 function showLive() {
@@ -872,6 +880,7 @@ function showLive() {
 
     $('#liveVideo').html(cnt);
     $('#liveModal').modal('show');
+    $(".menuBtn").click();
 }
 
 function hideLive() {
@@ -889,7 +898,7 @@ function selectSubscription(){
     var clone = template.content.cloneNode(true);
     $('#contentContainer').empty();
     $('#contentContainer').html(clone);
-
+    $(".menuBtn").click();
 }
 
 
