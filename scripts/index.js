@@ -734,9 +734,11 @@ function AuthLesson(les) {
     var lp = les.price_profile;
     var lesson_academy = les.academy;
     var user_academy = getCookie("instrument");
+   
     if (lp == "F") {
         return true;
     }
+ 
 
     if (lesson_academy.toUpperCase() != user_academy.toUpperCase()) {
         return false;
