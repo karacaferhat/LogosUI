@@ -194,16 +194,17 @@ body {
   margin-right: 10px;
 }
 .title {
-  font-family: 'captureIT';
-  font-size: 25px;
-  line-height: 25px;
-  -webkit-font-smoothing: antialiased;
-  border-bottom: 2px solid #b88741;
-  color: #b88741;
-  padding-right: 30px;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 25px;
+    font-family: 'captureIT';
+    font-size: 25px;
+    line-height: 25px;
+    -webkit-font-smoothing: antialiased;
+    border-bottom: 2px solid #b88741;
+    color: #b88741;
+    padding-right: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    padding-top: 2%;
 }
 .tabsBtn {
   display: inline-block;
@@ -490,18 +491,20 @@ footer .footer .footerRight .storeLinks a {
     cursor: pointer;
 }
     .contentArea .contentTop .latestPost ul li a span {
-        font-family: 'sourceLight';
-        font-size: 20px;                
-        font-weight: bold;        
+        font-family: 'captureIT';
+        font-size: 23px;
+        font-family: 'captureIT';
+        /* font-weight: bold; */
         line-height: 20px;
         -webkit-font-smoothing: antialiased;
-        color: #000000;
+        color: #8a651c;
         display: block;
     }
-.contentArea .contentTop .latestPost ul li a span:last-child {
-  font-size: 14px;
-  color: #b88741;
-}
+        .contentArea .contentTop .latestPost ul li a span:last-child {
+            font-size: 22px;
+            color: #0c0c0c;
+            text-align: right;
+        }
 .contentArea .contentTop .latestPost ul li a:hover {
   background-color: #fff4f4;
   transition: 0.3s;
@@ -910,8 +913,21 @@ footer .footer .footerRight .storeLinks a {
     text-align: center;
   }
 }
+.footercontainer {
+    width: 85%;
+    padding-right: 12px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.payband{
+    width:100%;
+}
 @media (max-width: 767px) {
-    footer {
+    .payband {
+        width: 50%;
+    }
+    .footer {
         background-color: #ffffff;
         margin-top: 25px;
         box-shadow: inset 2px 2px 28px -5px rgb(0 0 0 / 75%);
@@ -920,6 +936,13 @@ footer .footer .footerRight .storeLinks a {
     .container {
         max-width: 100% !important;
         margin-top: 30%;
+    }
+    .footercontainer {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
   header {
     display: none;

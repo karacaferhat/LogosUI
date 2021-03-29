@@ -2,6 +2,7 @@
     var doc=loadIndex();
     var lessonsDoc=loadLessons(); 
     setIntroVideo(doc);
+    setGununVideosu(doc);
     showLastAddedListOnIndexPAge(doc,lessonsDoc);
     showSelectedListOnIndexPAge(doc,lessonsDoc);
     //showCrouselGuitar(doc,lessonsDoc);
@@ -547,7 +548,7 @@ function showUserInfoPanel(data) {
     $('#surname').html(data.userInfo.surname);
 
     $('#mobileLoginButton').html('');
-    $('#mobileLoginButton').html('<a onclick="Logout();" class="davul">' + data.userInfo.name+'<br>'+' CIKIS</a>');
+    $('#mobileLoginButton').html('<a onclick="Logout();" class="davul"> <i class="fas fa-user"></i>&nbsp' + data.userInfo.name + ' ' + data.userInfo.surname+'<br>'+'-CIKIS</a>');
 
 
     if (data.userInfo.profile == "P") {

@@ -111,6 +111,16 @@ function setIntroVideo(doc){
 };           
     var player = new Vimeo.Player(videoContainer, options);
 }
+function setGununVideosu(doc) {
+    var intro = doc.getElementsByTagName("gunun_videosu")[0];
+    var videoId = intro.textContent;
+    var videoContainer = document.getElementById('gunun_video');
+    var options = {
+        id: videoId,
+        responsive: true
+    };
+    var player = new Vimeo.Player(videoContainer, options);
+}
 
 function initAkademi(akademi){        
     var academyDoc = loadAkademi(akademi);
