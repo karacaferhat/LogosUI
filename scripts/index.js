@@ -570,7 +570,7 @@ function Logout()
     setCookie("profile", "");
     setCookie("payToken", "");
     hideUserInfoPanel();
- 
+    $(".menuBtn").click();
 }
 function hideUserInfoPanel(data) {
     $("#loginArea").html(' <button onclick="openSignup();">  <i class="fas fa-user">&nbsp;</i>GİRİS YAP</button>');
