@@ -1500,9 +1500,11 @@ input[type="radio"] {
     padding-right: 0.25rem;
     padding-bottom: 1rem;
 }
+
 .payPrice{
     font-weight:bolder;
 }
+
 .podcastTitle {
     font-size: 24px !important;
    cursor:pointer;

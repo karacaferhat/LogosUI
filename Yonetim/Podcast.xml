@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<kaynak>
+		<ad>Podcast</ad>
+		<link>524317069</link>
+		<aciklama>Deneyimlerimizi paylaşalım</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Deneme</ad>
+		<link>524317069</link>
+		<aciklama>Nothing else matters ne zaman çalabilirim?</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Deneme 2</ad>
+		<link>524317069</link>
+		<aciklama>John Petrucci hangi mevkide oynuyor?</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Deneme 3</ad>
+		<link>524317069</link>
+		<aciklama>Chuck Loeb ve Fourplay</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Deneme4</ad>
+		<link>524317069</link>
+		<aciklama>Sohbet</aciklama>
+	</kaynak>
+</root>

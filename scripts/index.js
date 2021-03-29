@@ -867,6 +867,46 @@ function openLib() {
 
 }
 
+function openPodcast() {
+    var template = document.getElementById("podcast");
+    var clone = template.content.cloneNode(true);
+    $('#contentContainer').empty();
+    $('#contentContainer').html(clone);
+
+    var Connect = new XMLHttpRequest();
+    var xmlpath = "Yonetim/Podcast.xml";
+    Connect.open("GET", xmlpath, false);
+    Connect.setRequestHeader("Content-Type", "text/xml");
+    Connect.send(null);
+    var libdoc;
+    libdoc = Connect.responseXML;
+
+    var str = "";
+    $(libdoc).find("kaynak").each(function (index) {
+        var ad = $(this).find('ad').text();
+        var link = $(this).find('link').text();
+        var aciklama = $(this).find('aciklama').text();
+
+        str = str + "<li>" + ad + "</li>";
+
+        $("#libTable").find('tbody')
+            .append($('<tr>')
+                .append($('<th>').attr('scope', 'row').text(index + 1))
+                .append($('<td>').text(ad))
+                .append($('<td>').html('<a href="' + link + '"><i class="fas fa-headphones"></i></a>'))
+                .append($('<td>').text(aciklama))
+
+
+            );
+
+    });
+    //$('#libList').html(str);
+
+
+
+
+}
+
 function openHome() {
     window.location = 'index.html';
     $(".menuBtn").click();

@@ -117,7 +117,7 @@
                                                      <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
                                                      <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
                                                      <li><a onclick="openLib();" class="library"><i class="fa fa-warehouse homeFont" aria-hidden="true"></i>Kütüphane</a></li>
-                                                     <li><a onclick="openPodCast();" class="podcastTitle"><i class="fa fa-headphones"></i>Podcast</a></li>
+                                                     <li><a onclick="openPodcast();" class="podcastTitle"><i class="fa fa-headphones"></i>Podcast</a></li>
 
                                                  </ul>
                                              </div>
@@ -147,14 +147,14 @@
                              <div class="mobileMenu">
                                  <ul>
                                      <li><a onclick="openHome();"> <i class="fa fa-home homeFont" aria-hidden="true"></i>ANA MENU</a></li>
-                                     <li id="mobileLoginButton" ><a onclick="openSignup();" class="davul">GIRIS</a></li>
+                                     <li id="mobileLoginButton"><a onclick="openSignup();" class="davul">GIRIS</a></li>
                                      <li><a onclick="openTab('Gitar');" class="gitar">GITAR AKADEMİ</a></li>
                                      <li><a onclick="openTab('Piyano');" class="piyano">PİYANO AKADEMİ</a></li>
                                      <li><a onclick="openTab('Keman');" class="keman">KEMAN AKADEMİ</a></li>
                                      <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
                                      <li><a onclick="selectSubscription();" class="davul">UYELIK AL</a></li>
                                      <li><a onclick="showLive();" class="davul">CANLI YAYIN</a></li>
-                                    
+
 
                                  </ul>
 
@@ -190,7 +190,7 @@
                                                  <div id="video"></div>
                                              </div>
                                          </div>
-                                        
+
                                      </div>
                                      <div class="row">
                                          <div class="col-xl-8 col-lg-8">
@@ -1064,8 +1064,8 @@
                                                      </select>
                                                  </div>
                                                  <!--<div class="form-group">
-                                                     <select id="registerInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
-                                                 </div>-->
+                                <select id="registerInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
+                            </div>-->
 
 
                                                  <div class="form-group">
@@ -1567,8 +1567,8 @@
                                                      </select>
                                                  </div>
                                                  <!--<div class="form-group">
-                                                     <select id="userInfoInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
-                                                 </div>-->
+                                <select id="userInfoInstrument"><option value="">İlgilendiğiniz Enstruman</option><option value="Keman">Keman</option><option value="Piyano">Piyano</option><option value="Davul">Davul</option><option value="Gitar">Gitar</option></select>
+                            </div>-->
 
                                                  <button onclick="updateUserInfo();">KAYDET</button>
 
@@ -1760,9 +1760,9 @@
                                                  <li class="list-group-item">Ücretsiz podcastler</li>
                                                  <li class="list-group-item">Ücretsiz videolar</li>
                                                  <li class="list-group-item">Ücretsiz dersler</li>
-                                                 
+
                                              </ul>
-                                            
+
                                          </div>
                                      </div>
                                      <div class="card mb-4 box-shadow">
@@ -1790,13 +1790,13 @@
                                                              <input class="form-check-input position-static" type="radio" name="proRadio" id="proRadio4" value="Keman" aria-label="Keman">
                                                              <label class="form-check-label" for="proRadio4">Keman</label>
                                                          </form>
-                                                      </div>
+                                                     </div>
                                                  </li>
                                                  <li class="list-group-item">  <button type="button" onclick="showPayform(60,'Pro');" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button></li>
                                              </ul>
-                                             
-                                             
-                                           
+
+
+
                                          </div>
                                      </div>
                                      <div class="card mb-4 box-shadow">
@@ -1809,7 +1809,7 @@
                                                  <li class="list-group-item">Tüm Pro içerikleri</li>
                                                  <li class="list-group-item">Canlı Yayınlar</li>
                                                  <li class="list-group-item">
-                                                     <div class="form-check">    
+                                                     <div class="form-check">
                                                          <form id="masterForm">
                                                              <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio1" value="Gitar" aria-label="Gitar">
                                                              <label class="form-check-label" for="masterRadio1">Gitar</label>
@@ -1820,19 +1820,40 @@
                                                              <input class="form-check-input position-static" type="radio" name="masterRadio" id="masterRadio4" value="Keman" aria-label="Keman">
                                                              <label class="form-check-label" for="masterRadio4">Keman</label>
                                                          </form>
-                                                       </div>
+                                                     </div>
                                                  </li>
                                                  <li class="list-group-item">
                                                      <div style="padding-top: 32%;">
                                                          <button type="button" onclick="showPayform(90,'Master')" class="btn btn-lg btn-block btn-primary paymentButton"><i class="fa fa-cc-visa" aria-hidden="true"></i> SATIN AL</button>
                                                      </div>
                                                  </li>
-                                             </ul>                                             
+                                             </ul>
                                          </div>
                                      </div>
                                  </div>
 
                                  <a style="margin-left: 10%;" href="https://www.iyzico.com/" target="_blank"><img src="/images/logo-band.png" class="payband"></a>
+                             </div>
+                         </template>
+
+                         <template id="podcast">
+                             <div class="gizlilik">
+                                 <p></p><h3 class="gizlilikHeader h2">Podcast Günlüğü</h3><p></p>
+                                 <table id="libTable" class="table">
+                                     <thead class="thead-dark">
+                                         <tr>
+                                             <th scope="col">#</th>
+                                             <th scope="col">Başlık</th>
+                                             <th scope="col">Link</th>
+                                             <th scope="col">Açıklama</th>
+                                         </tr>
+                                     </thead>
+                                     <tbody>
+                                     </tbody>
+                                 </table>
+
+                                 <ul id="libList">
+                                 </ul>
                              </div>
                          </template>
 
@@ -2143,7 +2164,7 @@
 
                              checkLoggedIn(),
                                  initIndex();
-                           
+
                          </script>
 
                          <button style="display:none" name="btnAdd" id="btnAdd">Install</button>
