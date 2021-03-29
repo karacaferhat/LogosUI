@@ -1503,3 +1503,8 @@ input[type="radio"] {
 .payPrice{
     font-weight:bolder;
 }
+.podcastTitle {
+    font-size: 24px !important;
+   cursor:pointer;
+
+}
