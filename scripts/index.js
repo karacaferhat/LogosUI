@@ -209,7 +209,8 @@ function openSignup(){
     var email = getCookie("email");
     $('#loginEmail').val(email);
 
-    $(".mobileMenu").removeClass("active");
+    
+    $(".menuBtn").click();
    
 }
 
