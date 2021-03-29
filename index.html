@@ -154,6 +154,8 @@
                                      <li><a onclick="openTab('Davul');" class="davul">DAVUL AKADEMİ</a></li>
                                      <li><a onclick="selectSubscription();" class="davul">UYELIK AL</a></li>
                                      <li><a onclick="showLive();" class="davul">CANLI YAYIN</a></li>
+                                     <li><a onclick="openLib();" class="davul">KÜTÜPHANE</a></li>
+                                     <li><a onclick="openPodcast();" class="davul">PODCAST</a></li>
 
 
                                  </ul>
@@ -1181,6 +1183,27 @@
                              </div>
                          </div>
 
+                         <!-- Modal -->
+                         <div class="modal fade podcastModal" id="podcastModal" tabindex="-1" role="dialog" aria-labelledby="Podcast" aria-hidden="true">
+                             <div class="modal-dialog" role="document">
+                                 <div class="modal-content liveContainer">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title h5" id="podcastTitle">Modal title</h5>
+                                         <button type="button" onclick="hidePodcast();" class="close" data-dismiss="modal" aria-label="Close">
+                                             <span aria-hidden="true">×</span>
+                                         </button>
+                                     </div>
+                                     <div id="liveModalBody" class="modal-body">
+                                         <h5 id="liveZaman" class="h4"></h5>
+                                         <div id="podcastVideo" class="podcastVideo"></div>
+
+                                     </div>
+                                     <div class="modal-footer">
+                                         <button type="button" onclick="hidePodcast();" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
                          <template id="kullanimSartlari">
                              <div class="kullanimSartlari">
                                  <p></p><h3 class="kullanimSartlariHeader">LOGOSSANAT SİTE KULLANIM ŞARTLARI</h3><p></p>

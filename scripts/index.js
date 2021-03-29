@@ -860,12 +860,14 @@ function openLib() {
              );
 
      });
+
     //$('#libList').html(str);
 
 
-
-
+    $(".menuBtn").click();
 }
+  
+
 
 function openPodcast() {
     var template = document.getElementById("podcast");
@@ -893,7 +895,7 @@ function openPodcast() {
             .append($('<tr>')
                 .append($('<th>').attr('scope', 'row').text(index + 1))
                 .append($('<td>').text(ad))
-                .append($('<td>').html('<a href="' + link + '"><i class="fas fa-headphones"></i></a>'))
+                .append($('<td>').html('<a onclick="showPodcast("'+link+'")"><i class="fas fa-headphones"></i></a>'))
                 .append($('<td>').text(aciklama))
 
 
@@ -903,9 +905,10 @@ function openPodcast() {
     //$('#libList').html(str);
 
 
-
-
+    $(".menuBtn").click();
 }
+
+
 
 function openHome() {
     window.location = 'index.html';
@@ -929,6 +932,17 @@ function showLive() {
     $('#liveZaman').html(zaman.textContent);
 
     $('#liveVideo').html(cnt);
+    $('#liveModal').modal('show');
+    $(".menuBtn").click();
+}
+function showPodcast(videoId) {
+         
+    var videoContainer = document.getElementById('podcastVideo');
+    var options = {
+        id: videoId
+    };
+    var player = new Vimeo.Player(videoContainer, options);
+  
     $('#liveModal').modal('show');
     $(".menuBtn").click();
 }
