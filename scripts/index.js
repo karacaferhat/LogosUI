@@ -574,7 +574,8 @@ function Logout()
 }
 function hideUserInfoPanel(data) {
     $("#loginArea").html(' <button onclick="openSignup();">  <i class="fas fa-user">&nbsp;</i>GİRİS YAP</button>');
-   
+    $('#mobileLoginButton').html('');
+    $('#mobileLoginButton').html('<a onclick="Logout();" class="davul">GIRIS</a>');
 
 }
 
