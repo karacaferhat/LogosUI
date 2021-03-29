@@ -22,7 +22,7 @@
             $(".mobileMenu").removeClass("active");
             e.preventDefault();
             $('body').css('overflow', 'auto');
-            $('.mobileHeader').css('height', '100%');
+            $('.mobileHeader').css('height', '10%');
         } else {
             $(this).addClass("active");
             $(".mobileMenu").addClass("active");

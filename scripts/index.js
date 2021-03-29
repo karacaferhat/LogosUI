@@ -569,6 +569,13 @@ function Logout()
     setCookie("refreshToken", "");
     setCookie("profile", "");
     setCookie("payToken", "");
+    setCookie("dateOfBirth", "");
+    setCookie("email", "")
+    setCookie("name", "")
+    setCookie("surname", "")
+    setCookie("instrument", "")
+    setCookie("city", "")
+
     hideUserInfoPanel();
     $(".menuBtn").click();
 }
