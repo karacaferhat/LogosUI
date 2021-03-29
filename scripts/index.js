@@ -742,7 +742,10 @@ function AuthLesson(les) {
 
     if (lesson_academy.toUpperCase() != user_academy.toUpperCase()) {
         return false;
+    } else {
+        return true;
     }
+
          
     var user_profile = getCookie("profile");
     if (user_profile == "M") {
