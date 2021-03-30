@@ -1040,8 +1040,8 @@ function showPayform(price, productName) {
     var producId; //bu iyzico abonelik ürününüe ait key
     if (productName == "Pro") {
         academy = displayRadioValue('proRadio');   
-      //  producId = "611a44de-b802-4619-a396-1e80188d838e";
-        producId = "8044d858-0167-4639-9e9d-799b6e8a6aef";
+        producId = "611a44de-b802-4619-a396-1e80188d838e";
+      //  producId = "8044d858-0167-4639-9e9d-799b6e8a6aef";
     }
 
     if (productName == "Master") {
