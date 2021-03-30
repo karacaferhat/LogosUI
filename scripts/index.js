@@ -895,7 +895,7 @@ function openPodcast() {
             .append($('<tr>')
                 .append($('<th>').attr('scope', 'row').text(index + 1))
                 .append($('<td>').text(ad))
-                .append($('<td>').html('<a onclick="showPodcast("'+link+'")"><i class="fas fa-headphones"></i></a>'))
+                .append($('<td>').html('<a id="' + link +'" onclick="showPodcast(this.id)"><i class="fas fa-headphones"></i></a>'))
                 .append($('<td>').text(aciklama))
 
 
@@ -939,12 +939,23 @@ function showPodcast(videoId) {
          
     var videoContainer = document.getElementById('podcastVideo');
     var options = {
-        id: videoId
+        id: videoId,
+        width: 320
     };
     var player = new Vimeo.Player(videoContainer, options);
   
-    $('#liveModal').modal('show');
+    $('#podcastModal').modal('show');
     $(".menuBtn").click();
+}
+
+function hidePodcast() {
+    $("#podcastModal").on('hidden.bs.modal', function (e) {
+        var div = document.getElementById("podcastModal");
+        var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+        iframe.postMessage('{"method":"pause"}', '*');
+    });
+    $('#podcastVideo').html(cnt);
+    $('#podcastModal').modal('hide');
 }
 
 function hideLive() {
@@ -1041,6 +1052,7 @@ function showPayform(price, productName) {
         ShowMessage("Lütfen enstruman seçiniz ");
         return;
     }
+
 
     var template = document.getElementById("payForm");
     var clone = template.content.cloneNode(true);
