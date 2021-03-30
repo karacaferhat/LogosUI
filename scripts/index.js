@@ -895,7 +895,7 @@ function openPodcast() {
             .append($('<tr>')
                 .append($('<th>').attr('scope', 'row').text(index + 1))
                 .append($('<td>').text(ad))
-                .append($('<td>').html('<a style="cursor:pointer" id="' + link +'" onclick="showPodcast(this.id)"><i class="fas fa-headphones"></i></a>'))
+                .append($('<td>').html('<a style="cursor:pointer" tag="'+ ad +'" id="' + link +'" onclick="showPodcast(this)"><i class="fas fa-headphones"></i></a>'))
                 .append($('<td>').text(aciklama))
 
 
@@ -935,15 +935,15 @@ function showLive() {
     $('#liveModal').modal('show');
     $(".menuBtn").click();
 }
-function showPodcast(videoId) {
+function showPodcast(pcast) {
          
     var videoContainer = document.getElementById('podcastVideo');
     var options = {
-        id: videoId,
+        id: pcast.id,
         width: 320
     };
     var player = new Vimeo.Player(videoContainer, options);
-  
+    $('#podcastTitle').html(pcast.tag);
     $('#podcastModal').modal('show');
     $(".menuBtn").click();
 }
