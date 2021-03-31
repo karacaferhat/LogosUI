@@ -1006,7 +1006,7 @@ function getToken() {
             setCookie("refreshToken", data.refreshToken);
             tkn = data.token;
             refTkn = data.refreshToken;
-           
+          
            
         },
         error: function (request) {
@@ -1017,6 +1017,8 @@ function getToken() {
                 openSignup();
             }
             
+
+
 
 
         }
