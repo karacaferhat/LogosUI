@@ -1,27 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<kaynak>
-		<ad>Elektro Gitaristler İçin Parmak Egzersizleri test</ad>
-		<link>/content/media/kutuphane/ElektroGitaristlerİçin ParmakEgzersizleri.pdf</link>
+		<ad>Elektro Gitaristler İçin Parmak Egzersizleri</ad>
+		<link>/content/media/kutuphane/ElektroGitaristlerIcinParmakEgzersizleri.pdf</link>
 		<aciklama>Günlük egzersiz için çok değerli bir kaynak</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Garry Moore - Oh My Pretty Woman</ad>
+		<ad>Garry Moore - Oh My Pretty Woman Gitar</ad>
 		<link>/content/media/kutuphane/GarryMoore-OhMyPrettyWoman.pdf</link>
 		<aciklama>Repertuar</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Garry Moore - The Loner</ad>
+		<ad>Garry Moore - The Loner Gitar</ad>
 		<link>/content/media/kutuphane/GarryMoore-TheLoner.pdf</link>
 		<aciklama>Repertuar</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Garry Moore - Walking By Myself</ad>
+		<ad>Garry Moore - Walking By Myself Gitar</ad>
 		<link>/content/media/kutuphane/GarryMoore-WalkingByMyself.pdf</link>
 		<aciklama>Repertuar</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Garry Moore - Walking By Myself</ad>
+		<ad>Sticking Egzersizleri</ad>
+		<link>/content/media/kutuphane/GarryMoore-WalkingByMyself.pdf</link>
+		<aciklama>Repertuar</aciklama>
+	</kaynak>
+		<kaynak>
+		<ad>Kick Drum Egzersizleri</ad>
 		<link>/content/media/kutuphane/GarryMoore-WalkingByMyself.pdf</link>
 		<aciklama>Repertuar</aciklama>
 	</kaynak>

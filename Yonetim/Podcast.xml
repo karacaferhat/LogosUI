@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<kaynak>
-		<ad>Podcast</ad>
+		<ad>Scotty Moore</ad>
 		<link>519533592</link>
-		<aciklama>Deneyimlerimizi paylaşalım</aciklama>
+		<aciklama>Podcast -1</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Deneme</ad>
+		<ad>Andy Timmons</ad>
 		<link>https://vimeo.com/519533592</link>
-		<aciklama>Nothing else matters ne zaman çalabilirim?</aciklama>
+		<aciklama>Podcast -2</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Deneme 2</ad>
+		<ad>Garry Moore</ad>
 		<link>524317069</link>
-		<aciklama>John Petrucci hangi mevkide oynuyor?</aciklama>
+		<aciklama>Podcast -3</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Deneme 3</ad>
+		<ad>John Bonham</ad>
 		<link>524317069</link>
-		<aciklama>Chuck Loeb ve Fourplay</aciklama>
+		<aciklama>Podcast -4</aciklama>
 	</kaynak>
 	<kaynak>
-		<ad>Deneme4</ad>
+		<ad>Nico Mcbrain</ad>
 		<link>524317069</link>
-		<aciklama>Sohbet</aciklama>
+		<aciklama>Podcast -5</aciklama>
 	</kaynak>
 </root>
