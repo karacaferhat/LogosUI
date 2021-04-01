@@ -5,7 +5,7 @@
   <ders>
         <code>g1</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g1.png</preview_image>
         <preview_image_thumb>g1.png</preview_image_thumb>
         <title>La minör Mi majör</title>
@@ -20,7 +20,7 @@
     <ders>
         <code>g2</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g2.png</preview_image>
         <preview_image_thumb>g2.png</preview_image_thumb>
         <title>La minör Mi majör</title>
@@ -35,7 +35,7 @@
      <ders>
         <code>g3</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g3.png</preview_image>
         <preview_image_thumb>g3.png</preview_image_thumb>
         <title>La minör Mi majör</title>
@@ -50,7 +50,7 @@
        <ders>
         <code>g4</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g4.png</preview_image>
         <preview_image_thumb>g4.png</preview_image_thumb>
         <title>DO MAJÖR LA MİNÖR</title>
@@ -65,7 +65,7 @@
        <ders>
         <code>g5</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g5.png</preview_image>
         <preview_image_thumb>g5.png</preview_image_thumb>
         <title>Mİ MİNÖR DO MAJÖR</title>
@@ -80,7 +80,7 @@
          <ders>
         <code>g6</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g6.png</preview_image>
         <preview_image_thumb>g6.png</preview_image_thumb>
         <title>Mİ MİNÖR DO MAJÖR LA MİNÖR</title>
@@ -95,7 +95,7 @@
            <ders>
         <code>g7</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g7.png</preview_image>
         <preview_image_thumb>g7.png</preview_image_thumb>
         <title>Mİ MAJÖR LA MİNÖR RE MİNÖR</title>
