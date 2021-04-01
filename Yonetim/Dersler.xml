@@ -65,7 +65,7 @@
        <ders>
         <code>g5</code>        
         <academy>gitar</academy>
-        <price_profile>F</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>g5.png</preview_image>
         <preview_image_thumb>g5.png</preview_image_thumb>
         <title>Mİ MİNÖR DO MAJÖR</title>
@@ -80,7 +80,7 @@
          <ders>
         <code>g6</code>        
         <academy>gitar</academy>
-        <price_profile>F</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>g6.png</preview_image>
         <preview_image_thumb>g6.png</preview_image_thumb>
         <title>Mİ MİNÖR DO MAJÖR LA MİNÖR</title>
@@ -95,7 +95,7 @@
            <ders>
         <code>g7</code>        
         <academy>gitar</academy>
-        <price_profile>F</price_profile>   
+        <price_profile>P</price_profile>   
         <preview_image>g7.png</preview_image>
         <preview_image_thumb>g7.png</preview_image_thumb>
         <title>Mİ MAJÖR LA MİNÖR RE MİNÖR</title>
@@ -4302,7 +4302,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
   <ders>
         <code>ds2</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>ds2.png</preview_image>
         <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
         <title>STICKING EGZERSIZ</title>
@@ -4316,7 +4316,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
  <ders>
         <code>gs5</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>gs5.png</preview_image>
         <preview_image_thumb>gs5.png</preview_image_thumb>
         <title>JAZZY MAJOR BLUES</title>
@@ -4330,7 +4330,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
   <ders>
         <code>ks1</code>        
         <academy>keman</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>ks1.webp</preview_image>
         <preview_image_thumb>ks1.webp</preview_image_thumb>
         <title>MINUET SOL MAJÖR</title>
@@ -4344,7 +4344,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
     <ders>
         <code>fs1</code>        
         <academy>flüt</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>fs1.png</preview_image>
         <preview_image_thumb>fs1.png</preview_image_thumb>
         <title>KLASIK FLUT PERFORMANS</title>
@@ -4358,7 +4358,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
     <ders>
         <code>gs4</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>gs4_thumb.webp</preview_image>
         <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
         <title>SAM SMITH - DIAMONDS</title>
@@ -4372,7 +4372,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
     <ders>
         <code>gs3</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>gs3_thumb.webp</preview_image>
         <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
         <title>MODERN ROCK GITAR PERFORMANS</title>
@@ -4386,7 +4386,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
     <ders>
         <code>gs2</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>gs2_thumb.webp</preview_image>
         <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
         <title>FUNK GITAR</title>
@@ -4400,7 +4400,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
     <ders>
         <code>gs1</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>gs1_thumb.webp</preview_image>
         <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
         <title>POP-FUNK GITAR</title>
@@ -4414,7 +4414,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
     <ders>
         <code>ds1</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>ds1.png</preview_image>
         <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
         <title>FUNK DAVUL</title>
