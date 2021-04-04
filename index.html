@@ -2183,10 +2183,15 @@
                          </template>
 
                          <script>
+                             try {
+                                    checkLoggedIn(),
+                                    initIndex();
+                             }
+                             catch (err) {
+                                 document.getElementById("video").innerHTML = err.message;
+                             }
 
-
-                             checkLoggedIn(),
-                                 initIndex();
+                                
 
                          </script>
 
