@@ -5,7 +5,7 @@
   <ders>
         <code>g1</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g1.png</preview_image>
         <preview_image_thumb>g1.png</preview_image_thumb>
         <title>La minör Mi majör</title>
@@ -20,7 +20,7 @@
     <ders>
         <code>g2</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g2.png</preview_image>
         <preview_image_thumb>g2.png</preview_image_thumb>
         <title>La minör Mi majör</title>
@@ -35,7 +35,7 @@
      <ders>
         <code>g3</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g3.png</preview_image>
         <preview_image_thumb>g3.png</preview_image_thumb>
         <title>La minör Mi majör</title>
@@ -50,7 +50,7 @@
        <ders>
         <code>g4</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>g4.png</preview_image>
         <preview_image_thumb>g4.png</preview_image_thumb>
         <title>DO MAJÖR LA MİNÖR</title>
@@ -1839,7 +1839,7 @@
   <ders>
         <code>sc1</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>sc1.png</preview_image>
         <preview_image_thumb>sc1_thumb.png</preview_image_thumb>
         <title>STICKING -1</title>
@@ -1854,7 +1854,7 @@
         <ders>
         <code>sc2</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>sc2.png</preview_image>
         <preview_image_thumb>sc2_thumb.png</preview_image_thumb>
         <title>STICKING -2</title>
@@ -1869,7 +1869,7 @@
           <ders>
         <code>sc3</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>sc3.png</preview_image>
         <preview_image_thumb>sc3_thumb.png</preview_image_thumb>
         <title>STICKING -3</title>
@@ -1884,7 +1884,7 @@
             <ders>
         <code>sc4</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>sc4.png</preview_image>
         <preview_image_thumb>sc4_thumb.png</preview_image_thumb>
         <title>STICKING -4</title>
@@ -2756,7 +2756,7 @@
        <ders>
         <code>cp1</code>
         <academy>piyano</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>cp1.png</preview_image>
         <preview_image_thumb>cp1_thumb.png</preview_image_thumb>
         <title>Re-Si ARASI CALISMA</title>
@@ -2771,7 +2771,7 @@
      <ders>
         <code>cp2</code>
         <academy>piyano</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>cp2.png</preview_image>
         <preview_image_thumb>cp2_thumb.png</preview_image_thumb>
         <title>Si-Re ARASI CALISMA</title>
@@ -2785,7 +2785,7 @@
      <ders>
         <code>cp3</code>
         <academy>piyano</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>cp3.png</preview_image>
         <preview_image_thumb>cp3_thumb.png</preview_image_thumb>
         <title>Sol-Mi ARASI CALISMA</title>
@@ -2799,7 +2799,7 @@
     <ders>
         <code>cp4</code>
         <academy>piyano</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>cp4.png</preview_image>
         <preview_image_thumb>cp4_thumb.png</preview_image_thumb>
         <title>Sol-Mi ARASI CALISMA</title>
@@ -3534,10 +3534,389 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_link>https://vimeo.com/505439437</video_link>    
         <video_id>505439437</video_id>   
     </ders>  
+     <ders>
+        <code>yc1</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc1.jpg</preview_image>
+        <preview_image_thumb>yc1.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -1</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519008666</video_link>
+        <video_id>519008666</video_id>     
+    </ders> 
+  
+    <ders>
+        <code>yc2</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc2.jpg</preview_image>
+        <preview_image_thumb>yc2.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -2</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519009197</video_link>
+        <video_id>519009197</video_id>     
+    </ders> 
+      <ders>
+        <code>yc3</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc3.jpg</preview_image>
+        <preview_image_thumb>yc3.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -3</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519009675</video_link>
+        <video_id>519009675</video_id>     
+    </ders>
+        <ders>
+        <code>yc4</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc4.jpg</preview_image>
+        <preview_image_thumb>yc4.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -4</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519011405</video_link>
+        <video_id>519011405</video_id>     
+    </ders>
+        <ders>
+        <code>yc5</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc5.jpg</preview_image>
+        <preview_image_thumb>yc5.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -5</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519013413</video_link>
+        <video_id>519013413</video_id>     
+    </ders>
+          <ders>
+        <code>yc6</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc6.jpg</preview_image>
+        <preview_image_thumb>yc6.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -6</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519016149</video_link>
+        <video_id>519016149</video_id>     
+    </ders>
+            <ders>
+        <code>yc7</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc7.jpg</preview_image>
+        <preview_image_thumb>yc7.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -7</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519018955</video_link>
+        <video_id>519018955</video_id>     
+    </ders>
+              <ders>
+        <code>yc8</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc8.jpg</preview_image>
+        <preview_image_thumb>yc8.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -8</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519022009</video_link>
+        <video_id>519022009</video_id>     
+    </ders>
+                <ders>
+        <code>yc9</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc9.jpg</preview_image>
+        <preview_image_thumb>yc9.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -9</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519025035</video_link>
+        <video_id>519025035</video_id>     
+    </ders>
+                  <ders>
+        <code>yc10</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc10.jpg</preview_image>
+        <preview_image_thumb>yc10.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -10</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519025892</video_link>
+        <video_id>519025892</video_id>     
+    </ders>
+                    <ders>
+        <code>yc11</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc11.jpg</preview_image>
+        <preview_image_thumb>yc11.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -11</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519026849</video_link>
+        <video_id>519026849</video_id>     
+    </ders>
+                      <ders>
+        <code>yc11</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc11.jpg</preview_image>
+        <preview_image_thumb>yc11.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -11</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519026849</video_link>
+        <video_id>519026849</video_id>     
+    </ders>                   
+  <ders>
+        <code>yc12</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc12.jpg</preview_image>
+        <preview_image_thumb>yc12.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -12</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519027736</video_link>
+        <video_id>519027736</video_id>     
+    </ders>
+    <ders>
+        <code>yc13</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc13.jpg</preview_image>
+        <preview_image_thumb>yc13.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -13</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519028639</video_link>
+        <video_id>519028639</video_id>     
+    </ders>
+      <ders>
+        <code>yc14</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc14.jpg</preview_image>
+        <preview_image_thumb>yc14.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -14</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519029461</video_link>
+        <video_id>519029461</video_id>     
+    </ders>
+        <ders>
+        <code>yc15</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc15.jpg</preview_image>
+        <preview_image_thumb>yc15.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -15</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519030627</video_link>
+        <video_id>519030627</video_id>     
+    </ders>
+          <ders>
+        <code>yc16</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc16.jpg</preview_image>
+        <preview_image_thumb>yc16.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -16</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519031666</video_link>
+        <video_id>519031666</video_id>     
+    </ders>
+            <ders>
+        <code>yc17</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc17.jpg</preview_image>
+        <preview_image_thumb>yc17.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -17</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519032430</video_link>
+        <video_id>519032430</video_id>     
+    </ders>
+              <ders>
+        <code>yc18</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc18.jpg</preview_image>
+        <preview_image_thumb>yc18.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -18</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519033239</video_link>
+        <video_id>519033239</video_id>     
+    </ders>
+                <ders>
+        <code>yc19</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc19.jpg</preview_image>
+        <preview_image_thumb>yc19.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -19</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519034136</video_link>
+        <video_id>519034136</video_id>     
+    </ders>
+                  <ders>
+        <code>yc20</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc20.jpg</preview_image>
+        <preview_image_thumb>yc20.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -20</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519035099</video_link>
+        <video_id>519035099</video_id>     
+    </ders>
+                    <ders>
+        <code>yc21</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc21.jpg</preview_image>
+        <preview_image_thumb>yc21.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -21</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519035959</video_link>
+        <video_id>519035959</video_id>     
+    </ders>
+                      <ders>
+        <code>yc22</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc22.jpg</preview_image>
+        <preview_image_thumb>yc22.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -22</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519036826</video_link>
+        <video_id>519036826</video_id>     
+    </ders>
+                        <ders>
+        <code>yc23</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc23.jpg</preview_image>
+        <preview_image_thumb>yc23.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -23</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519037323</video_link>
+        <video_id>519037323</video_id>     
+    </ders>
+                          <ders>
+        <code>yc24</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc24.jpg</preview_image>
+        <preview_image_thumb>yc24.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -24</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519038097</video_link>
+        <video_id>519038097</video_id>     
+    </ders>
+                            <ders>
+        <code>yc25</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc25.jpg</preview_image>
+        <preview_image_thumb>yc25.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -25</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519038873</video_link>
+        <video_id>519038873</video_id>     
+    </ders>
+                              <ders>
+        <code>yc26</code>        
+        <academy>keman</academy>
+        <price_profile>F</price_profile>   
+        <preview_image>yc26.jpg</preview_image>
+        <preview_image_thumb>yc26.jpg</preview_image_thumb>
+        <title>Yay Çekme Alıştırması -26</title>
+        <short_description>Yay Çekme</short_description>
+        <long_description></long_description>
+        <pdf></pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/519039776</video_link>
+        <video_id>519039776</video_id>     
+    </ders>
     <ders>
         <code>k1</code>
         <academy>keman</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>k1.png</preview_image>
         <preview_image_thumb>k1.png</preview_image_thumb>
         <title>RE TELI 1. 2. VE 3. PARMAK EGZERSIZ</title>
@@ -3561,7 +3940,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
       <ders>
         <code>k2</code>
         <academy>keman</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>k2.png</preview_image>
         <preview_image_thumb>k2.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
@@ -3583,7 +3962,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
       <ders>
         <code>k3</code>
         <academy>keman</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>k3.png</preview_image>
         <preview_image_thumb>k1.png</preview_image_thumb>
         <title>LA TELI 1. 2. 3. PARMAK GECIS EGZERSIZ</title>
@@ -3605,7 +3984,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
       <ders>
         <code>k4</code>
         <academy>keman</academy>
-        <price_profile>P</price_profile>        
+        <price_profile>F</price_profile>        
         <preview_image>k4.png</preview_image>
         <preview_image_thumb>k4.png</preview_image_thumb>
         <title>RE TELINDE 1. 2. 3. PARMAK GECIS EGZERSIZ</title>
@@ -4299,10 +4678,11 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_link>https://vimeo.com/508962657</video_link>    
         <video_id>508962657</video_id>   
     </ders>  
+ 
   <ders>
         <code>ds2</code>        
         <academy>davul</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>ds2.png</preview_image>
         <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
         <title>STICKING EGZERSIZ</title>
@@ -4316,7 +4696,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
  <ders>
         <code>gs5</code>        
         <academy>gitar</academy>
-        <price_profile>P</price_profile>   
+        <price_profile>F</price_profile>   
         <preview_image>gs5.png</preview_image>
         <preview_image_thumb>gs5.png</preview_image_thumb>
         <title>JAZZY MAJOR BLUES</title>
