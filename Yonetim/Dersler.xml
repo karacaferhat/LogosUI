@@ -1835,7 +1835,22 @@
         <back_track>g131.wav</back_track>  
         <video_link>https://vimeo.com/507936521</video_link>
         <video_id>507936521</video_id>     
-    </ders>    
+    </ders>  
+      <ders>
+        <code>g132</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g132.png</preview_image>
+        <preview_image_thumb>g132.png</preview_image_thumb>
+        <title>KNOCKIN' ON HEAVENS DOOR SOLO 1</title>
+        <level>1</level>
+        <short_description>GUNS N' ROSES</short_description>
+        <long_description>Söz ve müziği Bob Dylan’a ait olan Guns N’ Roses düzenlemesi ve efsanevi gitarsit Slash’in yazdığı solonun 1. kısmını öğrenmekteyiz. Şarkının tonu Sol majör olmakla birlikte Slash bu soloda Sol majörün ilgili minörü olan Mi minör pentatonik ve Sol majör tonun 6. derecesi olan Mi aeolian kullanmaktadır. Fretboard üzerinde modların dağılımını düşünürsek Sol ionian La dorian etkisi de görmekteyiz. Aplikasyonda bu modların daha açıklayıcı videolarını da izleyebilirsiniz. Soloyu 6 farklı lick’e böldük. Her lick’I 65 BPM’de çaldık. Soloyu çalışmayı bitirdikten sonra mutlaka backing track üzerine çalmayı unutmayın. Bu solo arkasında davulun bass gitarın ve piyanonun etkisini daha iyi hissetmenizi sağlayıp gelişiminizi arttıracaktır.Çalışırken switchinizi en aşağı indirip köprü manyetiğini kullanmayı unutmayın. Amfinizin drive seçeneğini açabilir veya drive pedalı kullanabilirsiniz. Eğer mevcutsa reverb ve delay eklemek daha keyifli bir çalım sağlayabilir. Keyifli çalışmalar.</long_description>
+        <pdf>g132.pdf</pdf>     
+        <back_track>g132.wav</back_track>  
+        <video_link>https://vimeo.com/533572365</video_link>
+        <video_id>533572365</video_id>     
+    </ders>
   <ders>
         <code>sc1</code>        
         <academy>davul</academy>
