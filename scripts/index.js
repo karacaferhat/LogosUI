@@ -800,6 +800,7 @@ function showLesson(code) {
 
     var videoId = les.video_id;
     title.innerHTML = les.title;
+
     long_description.innerHTML = les.long_description;
     pdf.data = les.pdf;
     back_track.src = les.back_track;
