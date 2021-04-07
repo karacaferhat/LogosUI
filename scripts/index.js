@@ -917,6 +917,13 @@ function openHome() {
 }
 
 function showLive() {
+
+    var user_profile = getCookie("profile");
+    if (user_profile != "M") {
+        $('#paymantWarning').modal('show');
+        return;
+    }
+
     var Connect = new XMLHttpRequest();
     var xmlpath = "Yonetim/CanliYayin.xml";
     Connect.open("GET", xmlpath, false);
