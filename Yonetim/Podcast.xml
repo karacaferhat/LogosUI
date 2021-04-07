@@ -5,24 +5,5 @@
 		<link>519533592</link>
 		<aciklama>Podcast -1</aciklama>
 	</kaynak>
-	<kaynak>
-		<ad>Andy Timmons</ad>
-		<link>https://vimeo.com/519533592</link>
-		<aciklama>Podcast -2</aciklama>
-	</kaynak>
-	<kaynak>
-		<ad>Garry Moore</ad>
-		<link>524317069</link>
-		<aciklama>Podcast -3</aciklama>
-	</kaynak>
-	<kaynak>
-		<ad>John Bonham</ad>
-		<link>524317069</link>
-		<aciklama>Podcast -4</aciklama>
-	</kaynak>
-	<kaynak>
-		<ad>Nico Mcbrain</ad>
-		<link>524317069</link>
-		<aciklama>Podcast -5</aciklama>
-	</kaynak>
+	
 </root>
