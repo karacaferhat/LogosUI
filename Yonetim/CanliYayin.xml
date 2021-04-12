@@ -4,7 +4,7 @@
 		<baslik>YAYIN BAŞLIYOR</baslik>
 		<zaman>ÇOK YAKINDA</zaman>
 		<link>
-	         <iframe src="https://player.vimeo.com/video/531311789"  height="400" responsive="true" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
+	        <iframe src="https://vimeo.com/event/885746/embed" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 		</link>
 
 	</yayin>
