@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <intro>518967054</intro>
-	<gunun_videosu>524317069</gunun_videosu>
+	<gunun_videosu>507924463</gunun_videosu>
     <liste>
-               <son_yuklenen>g132</son_yuklenen> 
+              <son_yuklenen>g134</son_yuklenen>       
+	    <son_yuklenen>g133</son_yuklenen>    
+	    <son_yuklenen>g132</son_yuklenen> 
 	    <son_yuklenen>sc1</son_yuklenen>    
         <son_yuklenen>sc2</son_yuklenen> 
         <son_yuklenen>g123</son_yuklenen> 
@@ -11,8 +13,8 @@
         <son_yuklenen>gs5</son_yuklenen> 
         <son_yuklenen>g3</son_yuklenen> 
         <son_yuklenen>yc25</son_yuklenen> 
-        <son_yuklenen>yc26</son_yuklenen> 
-        <son_yuklenen>ks1</son_yuklenen> 
+      
+ 
 
     </liste>
     <liste>
