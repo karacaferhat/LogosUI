@@ -792,7 +792,7 @@ function showLesson(code) {
     $('#contentContainer').empty();
     $('#contentContainer').html(clone);
 
-  
+    $('#backbtn').attr("onclick", "openTab('"+ les.academy+"')");
     var title = document.getElementById("LessonTitle");
     var long_description = document.getElementById("LessonLongDescription");
     var pdf = document.getElementById("LessonPdf");

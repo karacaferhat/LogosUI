@@ -134,6 +134,7 @@ function initAkademi(akademi){
 function setAkademiTitle(doc) {
     var intro = doc.getElementsByTagName("title")[0];
     $('#akademiTitle').html(intro.textContent);
+   
 }
 function showAllLessons(akademi){
     var lessonsDoc = loadLessons(); 
