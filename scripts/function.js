@@ -147,7 +147,7 @@ function showAllLessons(akademi){
             var id = "lesson" + (i + 1);          
           
            
-            str = str + '<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc + '</span><span>' + les.short_description + '</span></div></a></div >';
+            str = str + '<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc + '</span><span><b>Level:</b>'+les.level +' - ' + les.short_description + '</span></div></a></div >';
            
             i = i + 1;
         }       
@@ -203,7 +203,8 @@ function getLessonInfo(node){
     var long_description= $(node).find("long_description").text();
     var pdf= akademipath+$(node).find("pdf").text();
     var back_track=akademipath+$(node).find("back_track").text();
-    var video_link= $(node).find("video_link").text();
+    var video_link = $(node).find("video_link").text();
+    var level = $(node).find("level").text();
     var video_id = $(node).find("video_id").text();
     var price_profile = $(node).find("price_profile").text();
     var url='lesson.html?lessoncode='+code;
@@ -223,7 +224,8 @@ function getLessonInfo(node){
         video_id: video_id,
         price_profile: price_profile,
         price_desc: price_desc,
-        url: url
+        url: url,
+        level: level
     }
     return lesson;
 
@@ -261,7 +263,7 @@ function GetPriceDesc(price_profile) {
 function showLastAdd(les, id) {
    
 
-    var str = '<a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc+'</span><span>'+les.short_description+'</span></div></a>';
+    var str = '<a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc+'</span><span>Level:'+les.level+' '+les.short_description+'</span></div></a>';
     var container=document.getElementById(id);
     container.innerHTML=str;
 
