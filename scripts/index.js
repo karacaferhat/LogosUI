@@ -829,6 +829,11 @@ function toggleOpen(sender) {
 }
 
 function openLib() {
+    var user_profile = getCookie("profile");
+    if (user_profile != "P" && user_profile != "M" ) {
+        $('#paymantWarning').modal('show');
+        return;
+    }
     var template = document.getElementById("lib");
     var clone = template.content.cloneNode(true);
     $('#contentContainer').empty();
