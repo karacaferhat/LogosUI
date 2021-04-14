@@ -220,7 +220,7 @@ body {
   display: inline-block;
   float: left;
   color: #000000;
-  padding: 10px 30px;
+  padding: 2% 2%;
   background-color: #eaeaea;
 }
 .tabsBtn a:first-child {
@@ -1513,18 +1513,16 @@ input[type="radio"] {
 
 .backbtn {
     display: inline-block;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #000000;
-    width: 100%;
-    color: #ffffff;
-    background-color: #e0be8e;
+    margin-bottom: 15px;    
+    width: 100%;    
     font-family: 'captureIT';
-    font-size: 25px;
+    font-size: 38px;
     line-height: 28px;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
     float: left;
-    color: #000000;
-    padding: 10px 30px;
+    color: #b88741;
+    padding: 2% 1%;
     width: 18%;
+    cursor:pointer;
 }
