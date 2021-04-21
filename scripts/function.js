@@ -148,7 +148,7 @@ function showAllLessons(akademi){
             var id = "lesson" + (i + 1);          
           
            
-            str = str + '<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc + '</span><span><b>Level:</b>'+les.level +' - ' + les.short_description + '</span></div></a></div >';
+            str = str + '<div id="lesson1" class="col-xl-3 col-lg-4 col-md-6 col-sm-6"><a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc + '</span><span><b>Seviye:</b>'+les.level +' - ' + les.short_description + '</span></div></a></div >';
            
             i = i + 1;
         }       
@@ -264,7 +264,7 @@ function GetPriceDesc(price_profile) {
 function showLastAdd(les, id) {
    
 
-    var str = '<a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc+'</span><span>Level:'+les.level+' '+les.short_description+'</span></div></a>';
+    var str = '<a  onclick="showLesson(\'' + les.code + '\');"><div class="left"><img src="' + les.preview_image + '"></div><div class="right"><span>' + les.title + '</span><span class="price_desc">' + les.price_desc+'</span><span>Seviye:'+les.level+' '+les.short_description+'</span></div></a>';
     var container=document.getElementById(id);
     container.innerHTML=str;
 
