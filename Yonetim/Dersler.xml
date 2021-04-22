@@ -4928,6 +4928,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>ds2.png</preview_image>
         <preview_image_thumb>ds2_thumb.png</preview_image_thumb>
         <title>STICKING EGZERSIZ</title>
+    <level>1</level>
         <short_description>Bateri Örnek Ders</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4942,6 +4943,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>gs5.png</preview_image>
         <preview_image_thumb>gs5.png</preview_image_thumb>
         <title>JAZZY MAJOR BLUES</title>
+   <level>5</level>
         <short_description>Elektro Gitar Örnek Ders</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4956,6 +4958,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>ks1.webp</preview_image>
         <preview_image_thumb>ks1.webp</preview_image_thumb>
         <title>MINUET SOL MAJÖR</title>
+    <level>8</level>
         <short_description>Klasik Keman Performans</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4970,6 +4973,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>fs1.png</preview_image>
         <preview_image_thumb>fs1.png</preview_image_thumb>
         <title>KLASIK FLUT PERFORMANS</title>
+      <level>7</level>
         <short_description>Koray İşlek</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4984,6 +4988,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>gs4_thumb.webp</preview_image>
         <preview_image_thumb>gs4_thumb.webp</preview_image_thumb>
         <title>SAM SMITH - DIAMONDS</title>
+      <level>6</level>
         <short_description>Serhan Doğrusözlü</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4998,6 +5003,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>gs3_thumb.webp</preview_image>
         <preview_image_thumb>gs3_thumb.webp</preview_image_thumb>
         <title>MODERN ROCK GITAR PERFORMANS</title>
+      <level>7</level>
         <short_description>Modern Rock Gitar Fikirleri</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -5012,6 +5018,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>gs2_thumb.webp</preview_image>
         <preview_image_thumb>gs2_thumb.webp</preview_image_thumb>
         <title>FUNK GITAR</title>
+      <level>7</level>
         <short_description>Justin Timberlake Michael Jackson - Love Never Felt So Good</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -5026,6 +5033,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>gs1_thumb.webp</preview_image>
         <preview_image_thumb>gs1_thumb.webp</preview_image_thumb>
         <title>POP-FUNK GITAR</title>
+      <level>8</level>
         <short_description>Işın Karaca - Hoşgörü</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -5040,6 +5048,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>ds1.png</preview_image>
         <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
         <title>FUNK DAVUL</title>
+      <level>5/level>
         <short_description>Modern Funk Davul Fikirleri</short_description>
         <long_description></long_description>
         <pdf></pdf>     
