@@ -5048,7 +5048,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>ds1.png</preview_image>
         <preview_image_thumb>ds_thumb.webp</preview_image_thumb>
         <title>FUNK DAVUL</title>
-      <level>5/level>
+    <level>5</level>
         <short_description>Modern Funk Davul Fikirleri</short_description>
         <long_description></long_description>
         <pdf></pdf>     
