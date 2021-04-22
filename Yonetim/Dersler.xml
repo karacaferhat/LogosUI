@@ -2864,6 +2864,7 @@
         <preview_image>cp1.png</preview_image>
         <preview_image_thumb>cp1_thumb.png</preview_image_thumb>
         <title>Re-Si ARASI CALISMA</title>
+         <level>1</level>
         <short_description>Re-Si ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş) ve noktalı ikilik (3 vuruş) notaların sürelerini sayarak çalalım. BİLGİ: Bir notanın sağ tarafına gelen nokta o notayı değerinin yarısı kadar arttırır</long_description>
         <pdf>cp1.pdf</pdf>     
@@ -2879,6 +2880,7 @@
         <preview_image>cp2.png</preview_image>
         <preview_image_thumb>cp2_thumb.png</preview_image_thumb>
         <title>Si-Re ARASI CALISMA</title>
+       <level>1</level>
         <short_description>Si-Re ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım.</long_description>
         <pdf>cp2.pdf</pdf>     
@@ -2893,6 +2895,7 @@
         <preview_image>cp3.png</preview_image>
         <preview_image_thumb>cp3_thumb.png</preview_image_thumb>
         <title>Sol-Mi ARASI CALISMA</title>
+       <level>1</level>
         <short_description>Sol-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım.</long_description>
         <pdf>cp3.pdf</pdf>     
@@ -2907,6 +2910,7 @@
         <preview_image>cp4.png</preview_image>
         <preview_image_thumb>cp4_thumb.png</preview_image_thumb>
         <title>Sol-Mi ARASI CALISMA</title>
+      <level>1</level>
         <short_description>Sol-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım.</long_description>
         <pdf>cp4.pdf</pdf>     
@@ -2921,6 +2925,7 @@
         <preview_image>cp5.png</preview_image>
         <preview_image_thumb>cp5_thumb.png</preview_image_thumb>
         <title>Do-Mi ARASI CALISMA</title>
+      <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım.</long_description>
         <pdf>cp5.pdf</pdf>     
@@ -2935,6 +2940,7 @@
         <preview_image>cp6.png</preview_image>
         <preview_image_thumb>cp6_thumb.png</preview_image_thumb>
         <title>DELILO CIFT EL Si-Mi ARASI CALISMA</title>
+      <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek ve portenin ikinci ve üçüncü aralıklarına birer nokta konularak yapılır ve bu şekle "Tekrar İşareti" diğer bir deyişle "Röpriz" adı verilir. Bu işaret, tekrar edilecek bölümün başına ve sonuna konulur. Bu terim kinci görüldüğü yerden ilk görüldüğü yere dönüleceğini, tekrar çalınacağını belirtir.
@@ -2951,6 +2957,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp7.png</preview_image>
         <preview_image_thumb>cp7_thumb.png</preview_image_thumb>
         <title>Mi-La ARASI CALISMA (ROPRIZ)</title>
+        <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -2969,6 +2976,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp8.png</preview_image>
         <preview_image_thumb>cp8_thumb.png</preview_image_thumb>
         <title>CIFT EL Do-La ARASI CALISMA</title>
+          <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -2987,6 +2995,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp9.png</preview_image>
         <preview_image_thumb>cp9_thumb.png</preview_image_thumb>
         <title>CIFT EL Si-Mi ARASI CALISMA TEKERLEME</title>
+            <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3005,6 +3014,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp10.png</preview_image>
         <preview_image_thumb>cp10_thumb.png</preview_image_thumb>
         <title>CIFT EL Si-Mi ARASI CALISMA TEKERLEME</title>
+              <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3023,6 +3033,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp11.png</preview_image>
         <preview_image_thumb>cp11_thumb.png</preview_image_thumb>
         <title>INGILIZ COCUK SARKISI TEK EL</title>
+                <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3041,6 +3052,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp12.png</preview_image>
         <preview_image_thumb>cp12_thumb.png</preview_image_thumb>
         <title>CIFT EL Mi-La ARASI CALISMA (KEKLIK)</title>
+                  <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3059,6 +3071,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp13.png</preview_image>
         <preview_image_thumb>cp13_thumb.png</preview_image_thumb>
         <title>CIFT EL Mi-La ARASI CALISMA (KEKLIK)</title>
+  <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 
@@ -3078,6 +3091,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp14.png</preview_image>
         <preview_image_thumb>cp14_thumb.png</preview_image_thumb>
         <title>Re-Sol ARASI CALISMA SUMM SUMM</title>
+    <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3096,6 +3110,7 @@ BİLGİ
         <preview_image>cp15.png</preview_image>
         <preview_image_thumb>cp15_thumb.png</preview_image_thumb>
         <title>Re-Sol ARASI CALISMA SUMM SUMM</title>
+      <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 
@@ -3115,6 +3130,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp16.png</preview_image>
         <preview_image_thumb>cp16_thumb.png</preview_image_thumb>
         <title>ALMAN COCUK SARKISI</title>
+        <level>1</level>
         <short_description>AMERIKAN HALK EZGISI Sol-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3133,6 +3149,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp17.png</preview_image>
         <preview_image_thumb>cp17_thumb.png</preview_image_thumb>
         <title>DAHA DUN ANNEMIZIN</title>
+          <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3151,6 +3168,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp18.png</preview_image>
         <preview_image_thumb>cp18_thumb.png</preview_image_thumb>
         <title>DING DIN DON</title>
+            <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3169,6 +3187,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp19.png</preview_image>
         <preview_image_thumb>cp19_thumb.png</preview_image_thumb>
         <title>FRANSIZ HALK SARKISI</title>
+              <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3187,6 +3206,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp20.png</preview_image>
         <preview_image_thumb>cp20_thumb.png</preview_image_thumb>
         <title>FRANSIZ COCUK EZGISI Fa-Mi ARASI CALISMA</title>
+                <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3205,6 +3225,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp21.png</preview_image>
         <preview_image_thumb>cp21.png</preview_image_thumb>
         <title>DOKUZUNCU SENFONI'DEN</title>
+    <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 
@@ -3226,6 +3247,7 @@ BİLİYOR MUYDUN ? L. V. Beethoven bu eseri yazdığında kulakları hiç duymuy
         <preview_image>cp22.png</preview_image>
         <preview_image_thumb>cp22.png</preview_image_thumb>
         <title>DOKUZUNCU SENFONI'DEN-2</title>
+    <level>1</level>
         <short_description>Do-Mi ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 
@@ -3247,6 +3269,7 @@ BİLİYOR MUYDUN ? L. V. Beethoven bu eseri yazdığında kulakları hiç duymuy
         <preview_image>cp23.png</preview_image>
         <preview_image_thumb>cp23.png</preview_image_thumb>
         <title>FA-FA ARASI CALISMA</title>
+    <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3264,6 +3287,7 @@ BİLGİ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çiz
         <preview_image>cp24.png</preview_image>
         <preview_image_thumb>cp24.png</preview_image_thumb>
         <title>Mi-La ARASI CALISMA (SAG EL HIZLANDIRMA)</title>
+      <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 DİKKAT! : Dörtlük (1 vuruş) ve ikilik (2 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3282,6 +3306,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp25.png</preview_image>
         <preview_image_thumb>cp25.png</preview_image_thumb>
         <title>SOL MAJOR GAM (FA#)</title>
+        <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. SOL notasından onun bir oktav ilerisindeki yine SOL notasına FA notalarını diyez basarak sıralı bir şekilde çaldığımız zaman (sol-la-si-do-re-mi-fa#-sol) bir oktavlık SOL MAJOR GAM I seslendirmiş oluruz. 
 BİLGİ
@@ -3301,6 +3326,7 @@ Sol major tonunda bir çalışma yapılacağı zaman donanımda (dizek başı) �
         <preview_image>cp26.png</preview_image>
         <preview_image_thumb>cp26.png</preview_image_thumb>
         <title>YENI DUNYA SENFONISINDEN (DOLAP)</title>
+          <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. SOL notasından onun bir oktav ilerisindeki yine SOL notasına FA notalarını diyez basarak sıralı bir şekilde çaldığımız zaman (sol-la-si-do-re-mi-fa#-sol) bir oktavlık SOL MAJOR GAM I seslendirmiş oluruz. 
 BİLGİ
@@ -3320,6 +3346,7 @@ Sol major tonunda bir çalışma yapılacağı zaman donanımda (dizek başı) �
         <preview_image>cp27.png</preview_image>
         <preview_image_thumb>cp27.png</preview_image_thumb>
         <title>CAN CAN POLKA (J. OFFEN BACH)</title>
+            <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. Dikkat edersen bu şarkı SOL notası ile başlayıp SOL notası ile bitiyor. Ayrıca bütün FA notaları DİYEZ! Bu Sol Majör tonunda bir şarkı. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve birlik (4 vuruş) notaların sürelerini sayarak çalalım.
@@ -3340,6 +3367,7 @@ BİLGİ
         <preview_image>cp28.png</preview_image>
         <preview_image_thumb>cp28.png</preview_image_thumb>
         <title>ALMAN COCUK SARKISI (CIFT EL HIZLANDIRMA)</title>
+              <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parma k numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. Dikkatli bakarsan eserin 8. Ölçüsünde ve yine eserin son ölçüsünde bir vuruşluk es var, saymayı unutma ;) 
 BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir).
@@ -3359,6 +3387,7 @@ Fa major tonunda bir çalışma yapılacağı zaman donanımda (dizek başı) �
         <preview_image>cp29.png</preview_image>
         <preview_image_thumb>cp29.png</preview_image_thumb>
         <title>AMERIKAN COCUK SARKISI</title>
+                <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. Dikkat edersen bu şarkı SOL notası ile bitiyor. Ayrıca bütün FA notaları DİYEZ! Bu Sol Majör tonunda bir şarkı. 
 DİKKAT! : Dörtlük (1 vuruş), ikilik (2 vuruş) ve noktalı ikilik (3 vuruş) notaların sürelerini sayarak çalalım. 
@@ -3377,6 +3406,7 @@ SUS İŞARETİ: Bir diğer ismi "Es" olan sus işareti; adından da anlaşıldı
         <preview_image>cp30.png</preview_image>
         <preview_image_thumb>cp30.png</preview_image_thumb>
         <title>FA MAJOR DIZI</title>
+                  <level>1</level>
         <short_description>FA-FA ARASI CALISMA</short_description>
         <long_description>FA MAJOR GAM
  BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir). FA notasından onun bir oktav ilerisindeki FA notasına Sİ notalarını BEMOL basarak sıralı bir şekilde çaldığımız zaman (fa-sol-la- sib -do-re-mi-fa) bir oktavlık FA MAJÖR GAM I seslendirmiş oluruz. FA MAJÖR GAMDA ‘ʼ Sİ ‘ʼ NOTASI YERİNE ‘ʼ Sİb ‘ʼ NOTASI VARDIR.
@@ -3393,6 +3423,7 @@ SUS İŞARETİ: Bir diğer ismi "Es" olan sus işareti; adından da anlaşıldı
         <preview_image>cp31.png</preview_image>
         <preview_image_thumb>cp31.png</preview_image_thumb>
         <title>INGILIZ COCUK SARKISI CIFT EL SENKRONIZASYONU</title>
+      <level>1</level>
         <short_description>INGILIZ COCUK SARKISI CIFT EL SENKRONIZASYONU</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. Dikkat edersen bu şarkıda bütün FA notaları DİYEZ! Bu şarkının son üç ölçüsünde aynı anda iki elini birden kullanman gerekiyor. Alt alta olan notlar aynı anda çalınır. Son ölçüdeki notaları ayrıca çalmıyoruz. Bir önceki ölçüdeki notalara bağlıyoruz. Çünkü burada daha önceki şarkılarımda da gördüğümüz ÇOĞALTMA BAĞI işareti var.
 
@@ -3410,6 +3441,7 @@ SUS İŞARETİ: Bir diğer ismi "Es" olan sus işareti; adından da anlaşıldı
         <preview_image>cp32.png</preview_image>
         <preview_image_thumb>cp32.png</preview_image_thumb>
         <title>AMERIKAN HALK SARKISI (CIFT EL HIZLANDIRMA)</title>
+        <level>1</level>
         <short_description>AMERIKAN HALK SARKISI (CIFT EL HIZLANDIRMA)</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. Dikkatli bakarsan ilk ölçünün 4 vuruş değil 2 vuruş olduğunu görürsün. Son ölçü bunu tamamlıyor. Buna EKSİK ÖLÇÜ denir. 
 DİKKAT! : Dörtlük (1 vuruş), noktalı ikilik (3 vuruş) ve birlik (4 vuruş) notalarınsürelerini sayarak çalalım. 
@@ -3428,6 +3460,7 @@ SUS İŞARETİ: Bir diğer ismi "Es" olan sus işareti; adından da anlaşıldı
         <preview_image>cp33.png</preview_image>
         <preview_image_thumb>cp33.png</preview_image_thumb>
         <title>CAMLAR ALTINDA HALK TURKUSU</title>
+          <level>1</level>
         <short_description>CAMLAR ALTINDA HALK TURKUSU</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir). 
@@ -3447,6 +3480,7 @@ Bu şarkının 7. - 8. Ölçülerinde ve son 2 ölçüsünde çoğaltma bağı v
         <preview_image>cp34.png</preview_image>
         <preview_image_thumb>cp34.png</preview_image_thumb>
         <title>LONDON BRIDGE STACATO CALISMASI</title>
+      <level>1</level>
         <short_description>LONDON BRIDGE STACATO CALISMASI</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir). 
@@ -3466,6 +3500,7 @@ STACCATO (STAKKATO) : Notalar kesik kesik, kısa kısa çalınırsa buna staccat
         <preview_image>cp35.png</preview_image>
         <preview_image_thumb>cp35.png</preview_image_thumb>
         <title>STACATO CALISMASI</title>
+      <level>1</level>
         <short_description>STACATO CALISMASI</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Sol anahtarına geçtiğimizde sağ elimizin birinci parmağını (fa anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sağ elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir). 
@@ -3485,6 +3520,7 @@ STACCATO (STAKKATO) : Notalar kesik kesik, kısa kısa çalınırsa buna staccat
         <preview_image>cp36.png</preview_image>
         <preview_image_thumb>cp36.png</preview_image_thumb>
         <title>KARA BASMA IZ OLUR(CIFT EL SENKRONIZASYONU)</title>
+      <level>1</level>
         <short_description>KARA BASMA IZ OLUR(CIFT EL SENKRONIZASYONU)</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi aynı anda kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz . Sol el (Fa anahtarı) parmaklarımızı sırasıyla tuşla yerleştiriyoruz. Fa anahtarlı kısımda DO notasını bastığımız parmağımızı havaya kaldırıyoruz. Bu çalışmada sol elimizin DO notasını kullanmayacağız. Bu şarkının her ölçüsünde aynı anda iki elini birden kullanman gerekiyor. Alt alta olan notlar aynı anda çalınır. Fa anahtarındaki her iki vuruşluk sol notasına sol anahtarındaki 2 vuruşluk ya da iki tane 1 vuruşluk nota denk geliyor. Bunları aynı anda çalmalıyız. 4. Ve 5. Ölçüdeki staccatoları unutma! 
 BİLGİ 
@@ -3503,6 +3539,7 @@ STACCATO (STAKKATO) : Notalar kesik kesik, kısa kısa çalınırsa buna staccat
         <preview_image>cp37.png</preview_image>
         <preview_image_thumb>cp37.png</preview_image_thumb>
         <title>MARRY'NIN KUCUK KUZUSU</title>
+      <level>1</level>
         <short_description>MARRY'NIN KUCUK KUZUSU</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi aynı anda kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz . Sol el (Fa anahtarı) parmaklarımızı sırasıyla tuşla yerleştiriyoruz. Fa anahtarlı kısımda DO notasını bastığımız parmağımızı havaya kaldırıyoruz. Bu çalışmada sol elimizin DO notasını kullanmayacağız. Bu şarkının her ölçüsünde aynı anda iki elini birden kullanman gerekiyor. Alt alta olan notlar aynı anda çalınır. Fa anahtarındaki her 4 vuruşluk notaya sol anahtarında birer ölçü içindeki notalar denk geliyor. Çalışmanın son ölçüsünde sol anahtarında üst üste olan do ve mi notalarını aynı anda basmamız gerekiyor.</long_description>
         <pdf>cp37.pdf</pdf>     
@@ -3517,6 +3554,7 @@ STACCATO (STAKKATO) : Notalar kesik kesik, kısa kısa çalınırsa buna staccat
         <preview_image>cp38.png</preview_image>
         <preview_image_thumb>cp38.png</preview_image_thumb>
         <title>BULBUL FA MAJOR-1</title>
+      <level>1</level>
         <short_description>BULBUL FA MAJOR-1</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir). 
@@ -3537,6 +3575,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp39.png</preview_image>
         <preview_image_thumb>cp39.png</preview_image_thumb>
         <title>BULBUL FA MAJOR-2</title>
+      <level>1</level>
         <short_description>BULBUL FA MAJOR-2</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi sırayla kullanacağız. Sağ elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz ve ilk ölçüyü verilen parmak numaralarına uygun çalıyoruz. Fa anahtarına geçtiğimizde sağ elimizin birinci parmağını (sol anahtarlı kısımda DO notasını bastığımız parmağımız) havaya kaldırıp sol elimizin birinci parmağını DO notasına yerleştiriyoruz. 
 BEMOL İşareti ( b ) : hangi notanın önüne gelirse o natayı yarım ses (piyanoda bir tuş geri kalınlaştırır (pestleştirir). 
@@ -3557,6 +3596,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp40.png</preview_image>
         <preview_image_thumb>cp40.png</preview_image_thumb>
         <title>DO MAJOR GAM</title>
+      <level>1</level>
         <short_description>DO MAJOR GAM</short_description>
         <long_description>DO notasından onun bir oktav ilerisindeki yine DO notasına sıralı bir şekilde çaldığımız zaman (do-re-mifa-sol-la-si-do) bir oktavlık DO MAJOR GAM I seslendirmiş oluruz. Sağ elimizin 1. Parmağı do notasından başlar. Do re mi notalarına sırasıyla 1.-2.-3. parmaklarımızla basarız. Fa notasına geçişte 1. Parmağımız 3. Parmağımızın altından geçerek basar. Sol elimizin 5. Parmağı do notasından başlar. Do re mi fa sol notalarına sırasıyla 1.-2.-3.-4.-5. parmaklarımızla basarız. La notasına geçişte 3. Parmağımız 1. Parmağımızın üstünden geçerek basar. Bu geçişte elimize ve bileğimizi yukarı aşağı - sağa sola hareket ettirmememiz gerek. Dolayısıyla 1. Parmağımız fa da iken diğer 2-3-4-5. Parmaklarımız sırasıyla sol la si do notalarında. Bir oktavlık do majör gam ı da öğrendik :)</long_description>
         <pdf>cp40.pdf</pdf>     
@@ -3571,6 +3611,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp41.png</preview_image>
         <preview_image_thumb>cp41.png</preview_image_thumb>
         <title>ELLER SERBEST LA NOTASI-1</title>
+      <level>1</level>
         <short_description>DO MAJOR GAM</short_description>
         <long_description>Bu şarkıdaki parmak numaraları çok önemli. Artık elin piyanonun üstünde rahatça dolaşabiliyor. Alışman için bu çalışma sadece sağ ele yazıldı. Çalışırken parmak numaralarına dikkat et.</long_description>
         <pdf>cp41.pdf</pdf>     
@@ -3585,6 +3626,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp42.png</preview_image>
         <preview_image_thumb>cp42.png</preview_image_thumb>
         <title>ELLER SERBEST LA NOTASI-2</title>
+      <level>1</level>
         <short_description>ELLER SERBEST LA NOTASI-2</short_description>
         <long_description>Bu şarkıdaki parmak numaraları çok önemli. Artık elin piyanonun üstünde rahatça dolaşabiliyor. Alışman için bu çalışma sadece sağ ele yazıldı. Çalışırken parmak numaralarına dikkat et.</long_description>
         <pdf>cp42.pdf</pdf>     
@@ -3599,6 +3641,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp43.png</preview_image>
         <preview_image_thumb>cp43.png</preview_image_thumb>
         <title>MINIK VALS SOL MAJOR</title>
+      <level>1</level>
         <short_description>MINIK VALS SOL MAJOR</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi aynı anda kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz . Sağ el (sol anahtarı) parmaklarımızı sırasıyla tuşla yerleştiriyoruz. Sol anahtarlı kısımda DO notasını bastığımız parmağımızı havaya kaldırıyoruz. Bu çalışmada sağ elimizin DO notasını kullanmayacağız. Bu şarkının her ölçüsünde aynı anda iki elini birden kullanman gerekiyor. Alt alta olan notlar aynı anda çalınır.</long_description>
         <pdf>cp43.pdf</pdf>     
@@ -3613,6 +3656,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp44.png</preview_image>
         <preview_image_thumb>cp44.png</preview_image_thumb>
         <title>Sol-Sol ARASI CALISMA</title>
+      <level>1</level>
         <short_description>Sol-Sol ARASI CALISMA</short_description>
         <long_description>Bu çalışmada sağ (sol anahtarı) ve sol (fa anahtarı) elimizi aynı anda kullanacağız. Sol elimizin Birinci parmağını ikili siyah tuşun önündeki DO notasına yerleştiriyoruz . Sağ el (sol anahtarı) parmaklarımızı sırasıyla tuşla yerleştiriyoruz. Sol anahtarlı kısımda DO notasını bastığımız parmağımızı havaya kaldırıyoruz. Bu çalışmada sağ elimizin DO notasını kullanmayacağız. Bu şarkının her ölçüsünde aynı anda iki elini birden kullanman gerekiyor. Alt alta olan notlar aynı anda çalınır. Fa anahtarındaki her 4 vuruşluk notaya sol anahtarında birer ölçü içindeki notalar denk geliyor. 
 De Capo all Fine 
@@ -3631,6 +3675,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>cp45.png</preview_image>
         <preview_image_thumb>cp45.png</preview_image_thumb>
         <title>YALANCI COBAN Do-La ARASI CALISMA</title>
+      <level>1</level>
         <short_description>YALANCI COBAN Do-La ARASI CALISMA</short_description>
         <long_description>Bu şarkıdaki parmak numaraları çok önemli. Artık elin piyanonun üstünde rahatça dolaşabiliyor.Çalışırken parmak numaralarına dikkat et.</long_description>
         <pdf>cp45.pdf</pdf>     
@@ -3645,6 +3690,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc1.jpg</preview_image>
         <preview_image_thumb>yc1.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -1</title>
+       <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description>1-Çalışırken metronoma iyice dikkat verilmelidir.
 2- Yayı eşiğe yakın tutmayınız, cızırtılı ses çıkmasına neden olur. 
@@ -3665,6 +3711,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc2.jpg</preview_image>
         <preview_image_thumb>yc2.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -2</title>
+      <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description>1-Çalışırken metronoma iyice dikkat verilmelidir.
 2- Yayı eşiğe yakın tutmayınız, cızırtılı ses çıkmasına neden olur. 
@@ -3684,6 +3731,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc3.jpg</preview_image>
         <preview_image_thumb>yc3.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -3</title>
+        <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description>1-Çalışırken metronoma iyice dikkat verilmelidir.
 2- Yayı eşiğe yakın tutmayınız, cızırtılı ses çıkmasına neden olur. 
@@ -3703,6 +3751,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc4.jpg</preview_image>
         <preview_image_thumb>yc4.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -4</title>
+          <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description>1-Çalışırken metronoma iyice dikkat verilmelidir.
 2- Yayı eşiğe yakın tutmayınız, cızırtılı ses çıkmasına neden olur. 
@@ -3722,6 +3771,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc5.jpg</preview_image>
         <preview_image_thumb>yc5.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -5</title>
+          <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description>1-Çalışırken metronoma iyice dikkat verilmelidir.
 2- Yayı eşiğe yakın tutmayınız, cızırtılı ses çıkmasına neden olur. 
@@ -3741,6 +3791,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc6.jpg</preview_image>
         <preview_image_thumb>yc6.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -6</title>
+            <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3755,6 +3806,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc7.jpg</preview_image>
         <preview_image_thumb>yc7.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -7</title>
+              <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3769,6 +3821,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc8.jpg</preview_image>
         <preview_image_thumb>yc8.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -8</title>
+                <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3783,6 +3836,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc9.jpg</preview_image>
         <preview_image_thumb>yc9.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -9</title>
+                  <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3797,6 +3851,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc10.jpg</preview_image>
         <preview_image_thumb>yc10.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -10</title>
+                    <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3811,6 +3866,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc11.jpg</preview_image>
         <preview_image_thumb>yc11.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -11</title>
+                      <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3825,6 +3881,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc11.jpg</preview_image>
         <preview_image_thumb>yc11.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -11</title>
+                        <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3839,6 +3896,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc12.jpg</preview_image>
         <preview_image_thumb>yc12.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -12</title>
+    <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3853,6 +3911,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc13.jpg</preview_image>
         <preview_image_thumb>yc13.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -13</title>
+      <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3867,6 +3926,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc14.jpg</preview_image>
         <preview_image_thumb>yc14.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -14</title>
+        <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3881,6 +3941,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc15.jpg</preview_image>
         <preview_image_thumb>yc15.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -15</title>
+          <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3895,6 +3956,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc16.jpg</preview_image>
         <preview_image_thumb>yc16.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -16</title>
+            <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3909,6 +3971,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc17.jpg</preview_image>
         <preview_image_thumb>yc17.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -17</title>
+              <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3923,6 +3986,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc18.jpg</preview_image>
         <preview_image_thumb>yc18.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -18</title>
+                <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3937,6 +4001,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc19.jpg</preview_image>
         <preview_image_thumb>yc19.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -19</title>
+                  <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3951,6 +4016,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc20.jpg</preview_image>
         <preview_image_thumb>yc20.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -20</title>
+                    <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3965,6 +4031,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc21.jpg</preview_image>
         <preview_image_thumb>yc21.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -21</title>
+                      <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3979,6 +4046,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc22.jpg</preview_image>
         <preview_image_thumb>yc22.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -22</title>
+                        <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -3993,6 +4061,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc23.jpg</preview_image>
         <preview_image_thumb>yc23.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -23</title>
+                          <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4007,6 +4076,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc24.jpg</preview_image>
         <preview_image_thumb>yc24.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -24</title>
+                            <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4021,6 +4091,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc25.jpg</preview_image>
         <preview_image_thumb>yc25.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -25</title>
+                              <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4035,6 +4106,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>yc26.jpg</preview_image>
         <preview_image_thumb>yc26.jpg</preview_image_thumb>
         <title>Yay Çekme Alıştırması -26</title>
+                                <level>1</level>
         <short_description>Yay Çekme</short_description>
         <long_description></long_description>
         <pdf></pdf>     
@@ -4049,6 +4121,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k1.png</preview_image>
         <preview_image_thumb>k1.png</preview_image_thumb>
         <title>RE TELI 1. 2. VE 3. PARMAK EGZERSIZ</title>
+      <level>2</level>
         <short_description>RE TELI</short_description>
         <long_description>RE TELİNDE PARMAK BASMA ÇALIŞMALARI
 ✅ La telindeki parmak basma şekli ile aynıdır.
@@ -4073,6 +4146,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k2.png</preview_image>
         <preview_image_thumb>k2.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>LA TELİNDE PARMAK BASMA ALIŞTIRMALARI
 ✅Sol bilek pozisyonu çok önemlidir. 
@@ -4095,6 +4169,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k3.png</preview_image>
         <preview_image_thumb>k1.png</preview_image_thumb>
         <title>LA TELI 1. 2. 3. PARMAK GECIS EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>LA TELİNDE PARMAK BASMA ALIŞTIRMALARI
 ✅Sol bilek pozisyonu çok önemlidir. 
@@ -4117,6 +4192,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k4.png</preview_image>
         <preview_image_thumb>k4.png</preview_image_thumb>
         <title>RE TELINDE 1. 2. 3. PARMAK GECIS EGZERSIZ</title>
+        <level>2</level>
         <short_description>RE TELI</short_description>
         <long_description>RE TELİNDE PARMAK BASMA ÇALIŞMALARI
 ✅ La telindeki parmak basma şekli ile aynıdır.
@@ -4141,6 +4217,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k5.png</preview_image>
         <preview_image_thumb>k5.png</preview_image_thumb>
         <title>LA TELINDE 1. VE 2. PARMAK EGZERSIZ </title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1. Ve 2. Parmak Alıştırması
 *Kullanılan alt yay, üst yay ve bütün yay terimlerine dikkat edin.
@@ -4159,6 +4236,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k6.png</preview_image>
         <preview_image_thumb>k6.png</preview_image_thumb>
         <title>LA TELI 1. VE 2. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1. Ve 2. Parmak Alıştırması 
 *Yay bağlarına dikkat edin.
@@ -4175,6 +4253,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k7.png</preview_image>
         <preview_image_thumb>k7.png</preview_image_thumb>
         <title>LA TELINDE 1. VE 2. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1. Ve 2. Parmak Alıştırması
 *Yay bağlarına ve alt yay üst yay kullanmaya özen gösteriniz.
@@ -4191,6 +4270,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k8.png</preview_image>
         <preview_image_thumb>k8.png</preview_image_thumb>
         <title>LA TELI 1. VE 2. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1. Ve 2. Parmak Alıştırması
 *Yay bağlarına ve alt yay üst yay kullanmaya özen gösteriniz.
@@ -4207,6 +4287,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k9.png</preview_image>
         <preview_image_thumb>k9.png</preview_image_thumb>
         <title>LA TELI 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2. Ve 3. Parmak Alıştırması
 *Sıradaki notamızı Re notası.
@@ -4227,6 +4308,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k10.png</preview_image>
         <preview_image_thumb>k10.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2. Ve 3. Parmak Alıştırması
 * 3. Parmağımız Do notasının hemen dibindedir.
@@ -4247,6 +4329,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k11.png</preview_image>
         <preview_image_thumb>k11.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2. Ve 3. Parmak Alıştırması
 * 3. Parmağımız Do notasının hemen dibindedir.
@@ -4267,6 +4350,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k12.png</preview_image>
         <preview_image_thumb>k12.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2. Ve 3. Parmak Alıştırması
 *3. Parmağımız Do notasının hemen dibindedir.
@@ -4287,6 +4371,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k13.png</preview_image>
         <preview_image_thumb>k13.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2. Ve 3. Parmak Alıştırması
 ✅Sol bileğini klavyeye yapıştırma.
@@ -4306,6 +4391,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k14.png</preview_image>
         <preview_image_thumb>k14.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1. Ve 2. Parmak Alıştırması
 *Birinci parmaktan hemen sonra arada mesafe olacak şekilde yerleştiriyoruz.
@@ -4327,6 +4413,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k15.png</preview_image>
         <preview_image_thumb>k15.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. VE 3. PARMAK EGZERSIZ</title>
+        <level>2</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 ✅4. Parmak Mİ notası.
@@ -4346,6 +4433,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k16.png</preview_image>
         <preview_image_thumb>k16.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+        <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 ✅4. Parmak Mİ notası.
@@ -4365,6 +4453,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k17.png</preview_image>
         <preview_image_thumb>k17.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+        <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 ✅4. Parmak Mİ notası.
@@ -4384,6 +4473,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k18.png</preview_image>
         <preview_image_thumb>k18.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+        <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 *4. Parmağınız basılıyken kalan 3 parmağınız da klavyede basılı olmalıdır. Parmaklar kalkmasın.
@@ -4404,6 +4494,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k19.png</preview_image>
         <preview_image_thumb>k19.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+        <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 *4. Parmağınız basılıyken kalan 3 parmağınız da klavyede basılı olmalıdır. Parmaklar kalkmasın.
@@ -4424,6 +4515,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k20.png</preview_image>
         <preview_image_thumb>k20.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 *Bütün yay kullanmaya özen gösteriniz.
@@ -4444,6 +4536,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k21.png</preview_image>
         <preview_image_thumb>k21.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 *Yay bağlarına dikkat edin.
@@ -4461,6 +4554,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k22.png</preview_image>
         <preview_image_thumb>k22.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>La Telinde 1.,2.,3. Ve 4. Parmak Alıştırması
 * Dolap mevcuttur, dikkat edin.
@@ -4481,6 +4575,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k23.png</preview_image>
         <preview_image_thumb>k23.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırmaları
 *Sağ kolunuzu fazla kaldırmayın.
@@ -4499,6 +4594,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k24.png</preview_image>
         <preview_image_thumb>k24.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 *Yay bağlarına ve sesleri düzgün basmaya dikkat edin.
@@ -4515,6 +4611,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k25.png</preview_image>
         <preview_image_thumb>k25.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 *Yay bağlarına ve sesleri düzgün basmaya dikkat edin.
@@ -4531,6 +4628,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k26.png</preview_image>
         <preview_image_thumb>k26.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>LA TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 *Yay bağlarına ve sesleri düzgün basmaya dikkat edin.
@@ -4547,6 +4645,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k27.png</preview_image>
         <preview_image_thumb>k27.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 ✅ Parmaklarınızı bastığınızda diğer parmakların yerinden kalkmamasına dikkat edin.
@@ -4564,6 +4663,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k28.png</preview_image>
         <preview_image_thumb>k28.png</preview_image_thumb>
         <title>LA TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 ✅ Parmaklarınızı bastığınızda diğer parmakların yerinden kalkmamasına dikkat edin.
@@ -4581,6 +4681,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k29.png</preview_image>
         <preview_image_thumb>k29.png</preview_image_thumb>
         <title>RE TELINDE 1. 2. 3. VE 4. PARMAK EGZERSIZ</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 ✅ Parmaklarınızı bastığınızda diğer parmakların yerinden kalkmamasına dikkat edin.
@@ -4599,6 +4700,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k30.png</preview_image>
         <preview_image_thumb>k30.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 ✅ 3 dörtlüğe bir yay kullanıyoruz.
@@ -4618,6 +4720,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k31.png</preview_image>
         <preview_image_thumb>k31.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Eş Zamanlı 4. Parmak ve La Boş Tel Çalışması
 ✅Re telinde 4. Parmağımız ile La boş tel aynıdır.
@@ -4636,6 +4739,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k32.png</preview_image>
         <preview_image_thumb>k32.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Alıştırmalar
 *Re telinde parmaklarınızın olduğu yerde kalsın.
@@ -4653,6 +4757,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k33.png</preview_image>
         <preview_image_thumb>k33.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Alıştırmalar
 *Re telinde parmaklarınızın olduğu yerde kalsın.
@@ -4671,6 +4776,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k34.png</preview_image>
         <preview_image_thumb>k34.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 *Re telinde parmaklarınızın olduğu yerde kalsın.
@@ -4689,6 +4795,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k35.png</preview_image>
         <preview_image_thumb>k35.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 *Re telinde parmaklarınızın olduğu yerde kalsın.
@@ -4708,6 +4815,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k36.png</preview_image>
         <preview_image_thumb>k36.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 
@@ -4728,6 +4836,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k37.png</preview_image>
         <preview_image_thumb>k37.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 *Alt yay, üst yay ve bütün yay kullanmaya özen gösteriniz.
@@ -4744,6 +4853,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k38.png</preview_image>
         <preview_image_thumb>k38.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re Telinde Parmak Basma Alıştırması
 ✅ Parmaklarınızı bastığınızda diğer parmakların yerinden kalkmamasına dikkat edin.
@@ -4764,6 +4874,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k39.png</preview_image>
         <preview_image_thumb>k39.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re ve La Telinde Alıştırmalar
 *Telden tele geçerken dikkat edin.
@@ -4781,6 +4892,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k40.png</preview_image>
         <preview_image_thumb>k40.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re ve La Telinde Alıştırmalar
 *Parmaklarınızı düzgün ayarlamaya dikkat edin.
@@ -4797,6 +4909,7 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <preview_image>k41.png</preview_image>
         <preview_image_thumb>k41.png</preview_image_thumb>
         <title>RE TELINDE PARMAK ALISTIRMASI</title>
+       <level>3</level>
         <short_description>RE TELI</short_description>
         <long_description>Re ve La Telinde Alıştırmalar
 *Aralıkları dikkatli okuyun.
