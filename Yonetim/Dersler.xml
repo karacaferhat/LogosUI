@@ -2203,6 +2203,7 @@
         <preview_image>r1.png</preview_image>
         <preview_image_thumb>r1_thumb.png</preview_image_thumb>
         <title>Tek Kick Çift Kick</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım.İlk dörtlükte tek kick varken (1. metronom vuruşu), 2. dörtlükte 1 ve 2. metronom vuruşunun üzerine gelen birer kick vardır. Bununla beraber bütün metronom vuruşlarının üzerine hi hat gelmelidir. 3. metronom vuruşlarına da trampet gelmektedir. Çalışma yapılırken çalıştığımız metronomun dışına çıkmamaya dikkat ediniz.</long_description>
         <pdf>r1.pdf</pdf>     
@@ -2217,6 +2218,7 @@
         <preview_image>r2.png</preview_image>
         <preview_image_thumb>r2_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 8LIK KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım.İlk dörtlükteki kick vuruşları 1.ve 4. metronom vuruşlarına denk gelmektedir. 2. dörtlükte 1.metronom vuruşunun üzerine gelen bir kick vardır. Bununla beraber bütün metronom vuruşlarının üzerine hi hat gelmektedir. 3. metronom vuruşlarına da trampet gelmektedir. Çalışma yapılırken çalıştığımız metronomun dışına çıkmamaya dikkat ediniz. Bu ritmin hissiyatında ilk trampet vuruşundan sonra gelen 2 kick vuruşunu doğru yere vurmak önemlidir.</long_description>
         <pdf>r2.pdf</pdf>     
@@ -2231,6 +2233,7 @@
         <preview_image>r3.png</preview_image>
         <preview_image_thumb>r3_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 8LIK KICK</title>
+       <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım.İlk dörtlükteki kick vuruşları 1.ve 4. metronom vuruşlarına denk gelmektedir. 2. dörtlükte 2.metronom vuruşunun üzerine gelen bir kick vardır. Bununla beraber bütün metronom vuruşlarının üzerine hi hat gelmektedir. 3. metronom vuruşlarına da trampet gelmektedir. Çalışma yapılırken çalıştığımız metronomun dışına çıkmamaya dikkat ediniz. Bu ritmin hissiyatında ilk trampet vuruşundan sonra gelen iki kick vuruşunun arasındaki boş hi hat vuruşunun doğru yere gelmesi önemlidir.</long_description>
         <pdf>r3.pdf</pdf>     
@@ -2245,6 +2248,7 @@
         <preview_image>r4.png</preview_image>
         <preview_image_thumb>r4_thumb.png</preview_image_thumb>
         <title>8LIK KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r4.pdf</pdf>     
@@ -2259,6 +2263,7 @@
         <preview_image>r5.png</preview_image>
         <preview_image_thumb>r5_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r5.pdf</pdf>     
@@ -2273,6 +2278,7 @@
         <preview_image>r6.png</preview_image>
         <preview_image_thumb>r6_thumb.png</preview_image_thumb>
         <title>TRAMPET ONCESI 16LIK KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r6.pdf</pdf>     
@@ -2287,6 +2293,7 @@
         <preview_image>r7.png</preview_image>
         <preview_image_thumb>r7_thumb.png</preview_image_thumb>
         <title>TRAMPET SONRASI 16LIK KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r7.pdf</pdf>     
@@ -2301,6 +2308,7 @@
         <preview_image>r8.png</preview_image>
         <preview_image_thumb>r8_thumb.webp</preview_image_thumb>
         <title>TRAMPET ONCESI VE SONRASI 16LIK KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 1 ve 3. vuruşlara kick 2 ve 4. vuruşlara trampet denk gelmektedir.</long_description>
         <pdf>r8.pdf</pdf>     
@@ -2315,6 +2323,7 @@
         <preview_image>r9.png</preview_image>
         <preview_image_thumb>r9_thumb.webp</preview_image_thumb>
         <title>16LIK ONCEDEN GELEN KICK</title>
+      <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Çalışırken trampet ve kick vuruşlarının metronmun tam üzerine geldiğine emin olalım. Bu çalışmalarda metrnomu 4lük baz alıp 8lik hi hatler kullanılmıştır. Bu şekilde metronomların arasına gelmiş olan hi hatler duyulmaktadır. Çalışmada 4. hi hat vuruşundan sonra ve tekrar 1. vuruşa denk gelen 16lık kickler vardır.Çalışmaya başlarken tek kick vuruşuyla başlayıp sürekli üstüne iki kick hissiyatı önemlidir. 16lık doğru yere vurmak duyumu güçlendirir. Bu yüzden çalışmaya başlarken metronomu olağanca düşük tutmak çok önemlidir.</long_description>
         <pdf>r9.pdf</pdf>     
@@ -2329,6 +2338,7 @@
         <preview_image>r10.png</preview_image>
         <preview_image_thumb>r10_thumb.webp</preview_image_thumb>
         <title>16LIK ONCEDEN KICK ILE TEK KICK CIFT KICK</title>
+    <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.</long_description>
         <pdf>r10.pdf</pdf>     
@@ -2343,6 +2353,7 @@
         <preview_image>r11.png</preview_image>
         <preview_image_thumb>r11_thumb.webp</preview_image_thumb>
         <title>2 TANE 16LIK KICK</title>
+     <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir..</long_description>
         <pdf>r11.pdf</pdf>     
@@ -2357,7 +2368,8 @@
         <preview_image>r14.png</preview_image>
         <preview_image_thumb>r14_thumb.webp</preview_image_thumb>
         <title>2 8LIK ARASI 16LIK VURUSLAR</title>
-        <short_description>ROCK RITIM</short_description>
+     <level>3</level>   
+     <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.16lık kick ve trampet  vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kick ve trampetleri doğru duyurmak önemlidir.</long_description>
         <pdf>r14.pdf</pdf>     
         <back_track>r14.wav</back_track>  
@@ -2371,7 +2383,8 @@
         <preview_image>r15.png</preview_image>
         <preview_image_thumb>r15_thumb.webp</preview_image_thumb>
         <title>8LIK ARASI 16LIK VURUSLAR</title>
-        <short_description>ROCK RITIM</short_description>
+     <level>3</level>   
+     <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.Egzersiz 14’teki çalışmada trampet aralarında iki kick varken bu çalışmada ilk iki trampet tek kick vardır.16lık kick ve trampet  vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kick ve trampetleri doğru duyurmak önemlidir..</long_description>
         <pdf>r15.pdf</pdf>     
         <back_track>r15.wav</back_track>  
@@ -2384,7 +2397,8 @@
         <price_profile>P</price_profile>        
         <preview_image>r16.png</preview_image>
         <preview_image_thumb>r16_thumb.webp</preview_image_thumb>
-        <title>8LIK TRAMPET VURUSLARI</title>
+     <level>3</level>   
+     <title>8LIK TRAMPET VURUSLARI</title>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada özellikle hi hat ve trampet vuruşlarının aynı andan gelmesinden dolayı geometrik olarak pozisyonunuzu iyi ayarlamanız gerekmektedir. Bunun dışında yüksek aksanları en başa ve en sona koymuş bulunmaktayız. </long_description>
         <pdf>r16.pdf</pdf>     
@@ -2399,7 +2413,8 @@
         <preview_image>r17.png</preview_image>
         <preview_image_thumb>r17_thumb.webp</preview_image_thumb>
         <title>HI-HAT ACMA KAPAMA</title>
-        <short_description>ROCK RITIM</short_description>
+     <level>4</level>   
+     <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi hat vuruş ve açılışlarının yerelerine dikkat edilmelidir. Gerekirse sadece hi hat açıp kapama tek başına çalışılmalıdır. Bu ritim aynı zamanda çoğu club ve pop parçasının ana ritmidir.Bir çok yerde karşımıza çıkar. Aynı zamanda bir çok parçanın üzerine bu ritmi çalışabilirsiniz.Metronom eşliğinde backing tracklerin üzerine çalışmayı unutmayalım. Keyifli çalışmalar.</long_description>
         <pdf>r17.pdf</pdf>     
         <back_track>r17.wav</back_track>  
@@ -2413,7 +2428,8 @@
         <preview_image>r18.png</preview_image>
         <preview_image_thumb>r18_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
-        <short_description>ROCK RITIM</short_description>
+     <level>3</level>   
+     <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada normalde ellerimizle uyguladığımız paradiddle egzersizini kick ve trampet olarak ritme uygulamış bulunmaktayız. Bu sebepten ötürü ilk önce kick ve trampet vuruşlarını çalışıp sonradan hi hat eklemek avantajınıza olabilir. Kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. </long_description>
         <pdf>r18.pdf</pdf>     
         <back_track>r18.wav</back_track>  
@@ -2427,6 +2443,7 @@
         <preview_image>r19.png</preview_image>
         <preview_image_thumb>r19_thumb.webp</preview_image_thumb>
         <title>OLCU SONU KICK TRAMPET ATAK</title>
+     <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada normalde ellerimizle uyguladığımız paradiddle egzersizini kick ve trampet olarak ritme uygulamış bulunmaktayız. Egzersiz 18’den tek farkı sol elle başlayan trampet vuruşu birinci vuruştur.İlk önce kick ve trampet vuruşlarını çalışıp sonradan hi hat eklemek avantajınıza olabilir. Kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.</long_description>
         <pdf>r19.pdf</pdf>     
@@ -2441,6 +2458,7 @@
         <preview_image>r20.png</preview_image>
         <preview_image_thumb>r20_thumb.webp</preview_image_thumb>
         <title>16LIK KICK VE TRAMPET</title>
+     <level>3</level>
         <short_description>4/4 Ritim Çalışması</short_description>
         <long_description>Bu çalışmada normalde ellerimizle uyguladığımız paradiddle egzersizini kick ve trampet olarak ritme uygulamış bulunmaktayız. Egzersiz 18 ve 19’dan tek farkı ritmin ilk vuruşunda paradiddle egzersizinin başlamasıdır.İlk önce kick ve trampet vuruşlarını çalışıp sonradan hi hat eklemek avantajınıza olabilir. Kick ve trampet vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir.</long_description>
         <pdf>r20.pdf</pdf>     
@@ -2455,6 +2473,7 @@
         <preview_image>r21.png</preview_image>
         <preview_image_thumb>r21_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
+     <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
         <pdf>r21.pdf</pdf>     
@@ -2469,6 +2488,7 @@
         <preview_image>r22.png</preview_image>
         <preview_image_thumb>r22_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI 16LIK KICK</title>
+    <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada kick vuruşlarının doğru yere geldiğini algılayabilmek için metronomu oldukça düşük tutarak tane tane çalışmak önemlidir. Kick vuruşlarının hatalı gelmesi, eğer bir müzik grubunda çalıyorsanız, gruptaki diğer müzisyenleri şaşırtabilir ve müziğin hatalı duyulmasına sebep olabilir. Bu yüzden 16lık kick vuruşlarını çalışırken doğru yere vurulduğundan emin olunmalıdır.Hi hatlerin ararlarına gelen 16lık kickleri doğru duyurmak önemlidir.</long_description>
         <pdf>r22.pdf</pdf>     
@@ -2483,6 +2503,7 @@
         <preview_image>r23.png</preview_image>
         <preview_image_thumb>r23_thumb.webp</preview_image_thumb>
         <title>16LIK HI-HAT</title>
+    <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada her metronoma dört hi-hat vuruşu denk gelmektedir. Bu egzersizde çalışırken metronoma özellikle dikkat edilmelidir.Backing tracklerin üzerine çalışarak rahatça geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r23.pdf</pdf>     
@@ -2497,6 +2518,7 @@
         <preview_image>r24.png</preview_image>
         <preview_image_thumb>r24_thumb.webp</preview_image_thumb>
         <title>TEK KICK CIFT KICK SHUFFLE</title>
+     <level>3</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir. Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r24.pdf</pdf>     
@@ -2511,6 +2533,7 @@
         <preview_image>r25.png</preview_image>
         <preview_image_thumb>r25_thumb.webp</preview_image_thumb>
         <title>TRAMPET ONCESI KICK</title>
+    <level>3</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu egzersizde hi-hat vuruşları shuffle ritmini yansıtan bir şekilde gitmektedir.Fakat özellikle bu çalışmalarda ellerimizi sabit bir şekilde ritme sabitleyip kicklere odaklanılmalıdır.Gerekirse yavaş çalışılmalıdır.Shuffle çalarken hi-hat vuruşlarının doğru yere gelmesi çok önemlidir. Backing tracklerin üzerine çalarak geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r25.pdf</pdf>     
@@ -2525,6 +2548,7 @@
         <preview_image>r26.png</preview_image>
         <preview_image_thumb>r26_thumb.webp</preview_image_thumb>
         <title>HI-HAT UCLEME</title>
+    <level>4</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu egzersizde sağ elimize özellikle dikkat etmeliyiz. Gerekirse düşük tempoda çalışarak dersteki gibi ritim boyu sabit 16lık giden bir hi-hat yürüyüşü gerçekleştirmeliyiz.Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r26.pdf</pdf>     
@@ -2539,6 +2563,7 @@
         <preview_image>r27.png</preview_image>
         <preview_image_thumb>r27_thumb.webp</preview_image_thumb>
         <title>BOSSA NOVA</title>
+      <level>5</level>
         <short_description>LATIN RITIM</short_description>
         <long_description>Bu çalışmada ilk önce kick ve trampeti çalışmalıyız sonra hi hat ve kick sonra hi hat ve trampet olarak üç farklı çalışma yapabiliriz. Bu şekilde çaldığımız toplu ritmi daha sağlıklı algılayabiliriz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r27.pdf</pdf>     
@@ -2553,6 +2578,7 @@
         <preview_image>r28.png</preview_image>
         <preview_image_thumb>r28_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI KICK</title>
+        <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada ilk 16lığa gelen kick vuruşunu çalışmaktayız. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r28.pdf</pdf>     
@@ -2567,6 +2593,7 @@
         <preview_image>r29.png</preview_image>
         <preview_image_thumb>r29_thumb.webp</preview_image_thumb>
         <title>8LIK KICK</title>
+          <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r29.pdf</pdf>     
@@ -2581,6 +2608,7 @@
         <preview_image>r30.png</preview_image>
         <preview_image_thumb>r30_thumb.webp</preview_image_thumb>
         <title>HI-HATLER ARASI KICK</title>
+          <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r30.pdf</pdf>     
@@ -2595,6 +2623,7 @@
         <preview_image>r31.png</preview_image>
         <preview_image_thumb>r31_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
+            <level>4</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r31.pdf</pdf>     
@@ -2609,6 +2638,7 @@
         <preview_image>r32.png</preview_image>
         <preview_image_thumb>r32_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
+              <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar</long_description>
         <pdf>r32.pdf</pdf>     
@@ -2623,6 +2653,7 @@
         <preview_image>r33.png</preview_image>
         <preview_image_thumb>r33_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
+                <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r33.pdf</pdf>     
@@ -2637,6 +2668,7 @@
         <preview_image>r34.png</preview_image>
         <preview_image_thumb>r34_thumb.webp</preview_image_thumb>
         <title>16LIK CIFT KICK</title>
+                  <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r34.pdf</pdf>     
@@ -2651,6 +2683,7 @@
         <preview_image>r35.png</preview_image>
         <preview_image_thumb>r35_thumb.webp</preview_image_thumb>
         <title>8LIK KICK</title>
+                    <level>2</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin ve trampetlerin üstüne denk  gelen kick vuruşlarını çalışmaktayız.8lik kick vuruşlarının doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar</long_description>
         <pdf>r35.pdf</pdf>     
@@ -2665,6 +2698,7 @@
         <preview_image>r36.png</preview_image>
         <preview_image_thumb>r36_thumb.webp</preview_image_thumb>
         <title>HI-HAT ARASI KICK</title>
+      <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada hi-hatlerin aralarına gelen kick vuruşlarını çalışmaktayız.16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r36.pdf</pdf>     
@@ -2679,6 +2713,7 @@
         <preview_image>r37.png</preview_image>
         <preview_image_thumb>r37_thumb.webp</preview_image_thumb>
         <title>3 16LIK KICKK</title>
+      <level>3</level>
         <short_description>ROCK RITIM</short_description>
         <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r37.pdf</pdf>     
@@ -2693,6 +2728,7 @@
         <preview_image>r38.png</preview_image>
         <preview_image_thumb>r38_thumb.webp</preview_image_thumb>
         <title>3 16LIK KICK</title>
+        <level>4</level>
         <short_description>METAL GROOVE</short_description>
         <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar.</long_description>
         <pdf>r38.pdf</pdf>     
@@ -2707,6 +2743,7 @@
         <preview_image>r39.png</preview_image>
         <preview_image_thumb>r39_thumb.webp</preview_image_thumb>
         <title>1 8LIK 2 16LIK KICK</title>
+          <level>3</level>
         <short_description>METAL GROOVE</short_description>
         <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r39.pdf</pdf>     
@@ -2721,6 +2758,7 @@
         <preview_image>r40.png</preview_image>
         <preview_image_thumb>r40_thumb.webp</preview_image_thumb>
         <title>2 16LIK KICK ONCESI KICK</title>
+            <level>3</level>
         <short_description>METAL GROOVE</short_description>
         <long_description>Bu çalışmada 16lık kick vuruşlarını çalışmaktayız.Aynı zamanda ard arda gelen kick vuruşlarında topuğumuzun havada olmasına dikkat etmeliyiz. 16lık vuruşların doğru yere geldiğinden emin olalım. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r40.pdf</pdf>     
@@ -2735,6 +2773,7 @@
         <preview_image>r41.png</preview_image>
         <preview_image_thumb>r41_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
+      <level>3</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu çalışmada shuffle ritmini sabit kicklerin üzerine çalmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r41.pdf</pdf>     
@@ -2749,6 +2788,7 @@
         <preview_image>r43.png</preview_image>
         <preview_image_thumb>r43_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
+    <level>4</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu çalışmada shuffle ritmini aralara gelen  kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r43.pdf</pdf>     
@@ -2763,6 +2803,7 @@
         <preview_image>r44.png</preview_image>
         <preview_image_thumb>r44_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
+      <level>4</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu çalışmada shuffle ritmini aralara gelen double kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r44.pdf</pdf>     
@@ -2777,6 +2818,7 @@
         <preview_image>r45.png</preview_image>
         <preview_image_thumb>r45_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
+        <level>4</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu çalışmada shuffle ritmini aralara gelen kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r45.pdf</pdf>     
@@ -2791,6 +2833,7 @@
         <preview_image>r46.png</preview_image>
         <preview_image_thumb>r46_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
+          <level>4</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu çalışmada shuffle ritmini aralara gelen double kicklerin üzerine çalışmaktayız. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r46.pdf</pdf>     
@@ -2806,6 +2849,7 @@
         <preview_image>r47.png</preview_image>
         <preview_image_thumb>r47_thumb.webp</preview_image_thumb>
         <title>SHUFFLE</title>
+          <level>4</level>
         <short_description>SHUFFLE GROOVE</short_description>
         <long_description>Bu çalışmada shuffle ritmini arka arkaya gelen kicklerin üzerine çalışmaktayız.Kickler yoğun olduğu için gerekirse yavaş çalışılmalıdır. Çalışmada hi-hat vuruşlarının doğru yere geldiğine dikkat etmeliyiz. Backing tracklerin üzerine çalışarak geliştirilebilir. Keyifli çalışmalar. </long_description>
         <pdf>r47.pdf</pdf>     
