@@ -1908,7 +1908,7 @@
         <short_description>REPERTUAR</short_description>
         <long_description></long_description>
         <pdf>ab1.pdf</pdf>     
-        <back_track></back_track>  
+        <back_track>ab1.mp3</back_track>  
         <video_link>https://vimeo.com/543304324</video_link>
         <video_id>543304324</video_id>     
     </ders>
@@ -1923,7 +1923,7 @@
         <short_description>TEKNIK</short_description>
         <long_description></long_description>
         <pdf>ab2.pdf</pdf>     
-        <back_track></back_track>  
+        <back_track>ab2.mp3</back_track>  
         <video_link>https://vimeo.com/543305563</video_link>
         <video_id>543305563</video_id>     
     </ders>
