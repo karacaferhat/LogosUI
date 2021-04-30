@@ -1896,6 +1896,37 @@
         <video_link>https://vimeo.com/536426590</video_link>
         <video_id>536426590</video_id>     
     </ders>
+     
+          <ders>
+        <code>ab1</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ab1.png</preview_image>
+        <preview_image_thumb>ab1.png</preview_image_thumb>
+        <title>I WISH</title>
+        <level>1</level>
+        <short_description>REPERTUAR</short_description>
+        <long_description></long_description>
+        <pdf>ab1.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/543304324</video_link>
+        <video_id>543304324</video_id>     
+    </ders>
+            <ders>
+        <code>ab2</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ab2.png</preview_image>
+        <preview_image_thumb>ab2.png</preview_image_thumb>
+        <title>SLAP BASS</title>
+        <level>1</level>
+        <short_description>TEKNIK</short_description>
+        <long_description></long_description>
+        <pdf>ab2.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/543305563</video_link>
+        <video_id>543305563</video_id>     
+    </ders>
   <ders>
         <code>sc1</code>        
         <academy>davul</academy>
