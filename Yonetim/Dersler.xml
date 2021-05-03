@@ -1942,6 +1942,21 @@
         <video_link>https://vimeo.com/543305563</video_link>
         <video_id>543305563</video_id>     
     </ders>
+              <ders>
+        <code>b1</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>b1.png</preview_image>
+        <preview_image_thumb>b1.png</preview_image_thumb>
+        <title>BASS</title>
+        <level>1</level>
+        <short_description>TEKNIK</short_description>
+        <long_description></long_description>
+        <pdf>b1.pdf</pdf>     
+        <back_track>b1.mp3</back_track>  
+        <video_link>https://vimeo.com/543831636</video_link>
+        <video_id>543831636</video_id>     
+    </ders>
   <ders>
         <code>sc1</code>        
         <academy>davul</academy>
