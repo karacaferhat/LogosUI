@@ -1928,6 +1928,11 @@
     </ders>
   
        <ders> 
+         <code>g138</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g138.png</preview_image>
+        
          <preview_image_thumb>g138.png</preview_image_thumb>
         <title>SEVEN NATION ARMY</title>
         <level>4</level>
@@ -1940,7 +1945,12 @@
         <video_id>546726101</video_id> 
 </ders>
   <ders>
-        <preview_image_thumb>g139.png</preview_image_thumb>
+        <code>g139</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g139.png</preview_image>
+        
+    <preview_image_thumb>g139.png</preview_image_thumb>
         <title>BILLIE JEAN</title>
         <level>4</level>
         <short_description>Riff</short_description>
@@ -1952,7 +1962,12 @@
         <video_id>546727963</video_id> 
 </ders>
   <ders>
-        <preview_image_thumb>g140.png</preview_image_thumb>
+        <code>g140</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g140.png</preview_image>
+        
+    <preview_image_thumb>g140.png</preview_image_thumb>
         <title>DO I WANNA KNOW</title>
         <level>4</level>
         <short_description>Riff</short_description>
@@ -1964,7 +1979,12 @@
         <video_id>546728975</video_id> 
 </ders>
   <ders>
-        <preview_image_thumb>g141.png</preview_image_thumb>
+        <code>g141</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g141.png</preview_image>
+      
+    <preview_image_thumb>g141.png</preview_image_thumb>
         <title>COME AS YOU ARE</title>
         <level>4</level>
         <short_description>Riff</short_description>
