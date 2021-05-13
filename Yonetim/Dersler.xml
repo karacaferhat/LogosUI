@@ -1413,96 +1413,7 @@
         <video_link>https://vimeo.com/505641784</video_link>
         <video_id>505641784</video_id>     
     </ders>    
-      <ders>
-        <code>g100</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g100.png</preview_image>
-        <preview_image_thumb>g100.png</preview_image_thumb>
-        <title>BLUES LICK -1</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Bu dersimizde birinci derece minör pentatonik diziye ait bir lick görmekteyiz. Slide olan notalardaki tartımlara dikkat edelim. Keyifli çalışmalar. </long_description>
-        <pdf>g100.pdf</pdf>     
-        <back_track>g100.wav</back_track>  
-        <video_link>https://vimeo.com/505643622</video_link>
-        <video_id>505643622</video_id>     
-    </ders>    
-      <ders>
-        <code>g101</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g101.png</preview_image>
-        <preview_image_thumb>g101.png</preview_image_thumb>
-        <title>BLUES LICK -2</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci derece minör pentatonik dizisine ait bir lick görmekteyiz. Hammer on ve pull oflara dikkat edelim. Backing track üzerine çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g101.pdf</pdf>     
-        <back_track>g101.wav</back_track>  
-        <video_link>https://vimeo.com/505645344</video_link>
-        <video_id>505645344</video_id>     
-    </ders>    
-      <ders>
-        <code>g102</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g102.png</preview_image>
-        <preview_image_thumb>g102.png</preview_image_thumb>
-        <title>BLUES LICK -3</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONIK</short_description>
-        <long_description>Birinci derece minör pentatonik dizisine ait bir lick görmekteyiz. Bandlerin doğru notaya çıkmasına  ve alt tellerdeki kurduğumuz ufak bareye dikkat edelim. Keyifli çalışmalar.</long_description>
-        <pdf>g102.pdf</pdf>     
-        <back_track>g102.wav</back_track>  
-        <video_link>https://vimeo.com/505647110</video_link>
-        <video_id>505647110</video_id>     
-    </ders>  
-        <ders>
-        <code>g103</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g103.png</preview_image>
-        <preview_image_thumb>g103.png</preview_image_thumb>
-        <title>BLUES LICK -4</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci minör pentatonik dizisine ait bir lick görmekteyiz. Tel atalayarak çalınan kısımlara dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g103.pdf</pdf>     
-        <back_track>g103.wav</back_track>  
-        <video_link>https://vimeo.com/505649109</video_link>
-        <video_id>505649109</video_id>     
-    </ders>  
-    <ders>
-        <code>g104</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g104.png</preview_image>
-        <preview_image_thumb>g104.png</preview_image_thumb>
-        <title>BLUES LICK -5</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci minör pentatonik dizisine ait bir lick görmekteyiz. Tel atalayarak çalınan kısımlara dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g104.pdf</pdf>     
-        <back_track>g104.wav</back_track>  
-        <video_link>https://vimeo.com/505651007</video_link>
-        <video_id>505651007</video_id>     
-    </ders>  
-    <ders>
-        <code>g105</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g105.png</preview_image>
-        <preview_image_thumb>g105.png</preview_image_thumb>
-        <title>BLUES LICK -6</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci minör pentatonik dizisine ait bir lick görmekteyiz. Tel atalayarak çalınan kısımlara dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g105.pdf</pdf>     
-        <back_track>g105.wav</back_track>  
-        <video_link>https://vimeo.com/505652779</video_link>
-        <video_id>505652779</video_id>     
-    </ders>   
+     
    
     <ders>
         <code>g107</code>        
@@ -1993,6 +1904,23 @@
     <video_link>https://vimeo.com/546725001</video_link>
         <video_id>546725001</video_id> 
 </ders>
+    <ders>
+        <code>g142</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g142.png</preview_image>
+      
+    <preview_image_thumb>g142.png</preview_image_thumb>
+        <title>5 BLUES LICK</title>
+        <level>1</level>
+        <short_description>COME AS YOU ARE Riff</short_description>
+          <long_description>Bu dersimizde birinci derece minör pentatonik diziye ait bir lick görmekteyiz. Slide olan notalardaki tartımlara dikkat edelim. Keyifli çalışmalar.</long_description>
+        <pdf>g142.pdf</pdf>     
+        <back_track>g142.mp3</back_track> 
+    <video_link>https://vimeo.com/548752439</video_link>
+        <video_id>548752439</video_id> 
+</ders>
+  
      
           <ders>
         <code>ab1</code>        
