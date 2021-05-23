@@ -1413,96 +1413,7 @@
         <video_link>https://vimeo.com/505641784</video_link>
         <video_id>505641784</video_id>     
     </ders>    
-      <ders>
-        <code>g100</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g100.png</preview_image>
-        <preview_image_thumb>g100.png</preview_image_thumb>
-        <title>BLUES LICK -1</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Bu dersimizde birinci derece minör pentatonik diziye ait bir lick görmekteyiz. Slide olan notalardaki tartımlara dikkat edelim. Keyifli çalışmalar. </long_description>
-        <pdf>g100.pdf</pdf>     
-        <back_track>g100.wav</back_track>  
-        <video_link>https://vimeo.com/505643622</video_link>
-        <video_id>505643622</video_id>     
-    </ders>    
-      <ders>
-        <code>g101</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g101.png</preview_image>
-        <preview_image_thumb>g101.png</preview_image_thumb>
-        <title>BLUES LICK -2</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci derece minör pentatonik dizisine ait bir lick görmekteyiz. Hammer on ve pull oflara dikkat edelim. Backing track üzerine çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g101.pdf</pdf>     
-        <back_track>g101.wav</back_track>  
-        <video_link>https://vimeo.com/505645344</video_link>
-        <video_id>505645344</video_id>     
-    </ders>    
-      <ders>
-        <code>g102</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g102.png</preview_image>
-        <preview_image_thumb>g102.png</preview_image_thumb>
-        <title>BLUES LICK -3</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONIK</short_description>
-        <long_description>Birinci derece minör pentatonik dizisine ait bir lick görmekteyiz. Bandlerin doğru notaya çıkmasına  ve alt tellerdeki kurduğumuz ufak bareye dikkat edelim. Keyifli çalışmalar.</long_description>
-        <pdf>g102.pdf</pdf>     
-        <back_track>g102.wav</back_track>  
-        <video_link>https://vimeo.com/505647110</video_link>
-        <video_id>505647110</video_id>     
-    </ders>  
-        <ders>
-        <code>g103</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g103.png</preview_image>
-        <preview_image_thumb>g103.png</preview_image_thumb>
-        <title>BLUES LICK -4</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci minör pentatonik dizisine ait bir lick görmekteyiz. Tel atalayarak çalınan kısımlara dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g103.pdf</pdf>     
-        <back_track>g103.wav</back_track>  
-        <video_link>https://vimeo.com/505649109</video_link>
-        <video_id>505649109</video_id>     
-    </ders>  
-    <ders>
-        <code>g104</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g104.png</preview_image>
-        <preview_image_thumb>g104.png</preview_image_thumb>
-        <title>BLUES LICK -5</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci minör pentatonik dizisine ait bir lick görmekteyiz. Tel atalayarak çalınan kısımlara dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g104.pdf</pdf>     
-        <back_track>g104.wav</back_track>  
-        <video_link>https://vimeo.com/505651007</video_link>
-        <video_id>505651007</video_id>     
-    </ders>  
-    <ders>
-        <code>g105</code>        
-        <academy>gitar</academy>
-        <price_profile>P</price_profile>   
-        <preview_image>g105.png</preview_image>
-        <preview_image_thumb>g105.png</preview_image_thumb>
-        <title>BLUES LICK -6</title>
-        <level>3</level>
-        <short_description>MİNÖR PENTATONİK</short_description>
-        <long_description>Birinci minör pentatonik dizisine ait bir lick görmekteyiz. Tel atalayarak çalınan kısımlara dikkat edelim. Backing tracklerin üzerine çalmaya çalışalım. 12 tonda çalmaya çalışalım. Keyifli çalışmalar.</long_description>
-        <pdf>g105.pdf</pdf>     
-        <back_track>g105.wav</back_track>  
-        <video_link>https://vimeo.com/505652779</video_link>
-        <video_id>505652779</video_id>     
-    </ders>   
+     
    
     <ders>
         <code>g107</code>        
@@ -1895,6 +1806,166 @@
         <back_track>g135.wav</back_track>  
         <video_link>https://vimeo.com/536426590</video_link>
         <video_id>536426590</video_id>     
+    </ders>
+            <ders>
+        <code>g136</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g136.png</preview_image>
+        <preview_image_thumb>g136.png</preview_image_thumb>
+        <title>SOL MİNÖR MODERN PHRASING</title>
+        <level>4</level>
+        <short_description>PHRASING</short_description>
+        <long_description>Bu dersimizde sol minör tonunda yazılmış farklı modern cümle parçaları ya da lick ler görmekteyiz. Sol minör dizisi sibemol ve mibemol arızalarını içermektedir . Bu diziden sol minör pentatonik dizisi oluşturduğumuzda tondan sibemol ve mibemol ü çıkarmamız gerekir. Modern müzikte minör dİzinin hem kendisine hem pentatonik şekline yer verilmektedir . Biz oluşturduğumuz partisyonda modern aralıklar ve legato hareketleri kullanmaya özen gösterdik aynı backing track üzerine Farklı cümleler oluşturabilirsiniz keyifli çalışmalar</long_description>
+        <pdf>g136.pdf</pdf>     
+        <back_track>g136.mp3</back_track>  
+        <video_link>https://vimeo.com/544668830</video_link>
+        <video_id>544668830</video_id>     
+    </ders>
+              <ders>
+        <code>g137</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g137.png</preview_image>
+        <preview_image_thumb>g137.png</preview_image_thumb>
+        <title>SANTANA SMOOTH</title>
+        <level>2</level>
+        <short_description>REPERTUAR</short_description>
+        <long_description>Bu dersimizde 1947 doğumlu Efsanevi gitarist Carlos Santana nın Rob Thomas grubuyla yaptığı 1999 çıkışlı “smooth” şarkısının intro solosunu incelemekteyiz. Solo da en çok dikkat etmemiz gereken nokta bending ler. Sesin tam yerine oturması için gücü hemen kesmemeliyiz. Teli çektiğimizde sesin uzaması için hafif bir vibrato uygulayabiliriz. Solonun armonisine gelirsek burada sol diyez notasının nasıl bir etnik sound oluşturduğunu iyi anlamamız gerekir . Bu intro solo da ve diğer sololarda Santana bol bol sol diyezli armonik minör ve minör pentatonik dizileri kullanmıştır. Keyifli çalışmalar</long_description>
+        <pdf>g137.pdf</pdf>     
+        <back_track>g137.mp3</back_track>  
+        <video_link>https://vimeo.com/545051584</video_link>
+        <video_id>545051584</video_id>     
+    </ders>
+  
+       <ders> 
+         <code>g138</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g138.png</preview_image>
+        
+         <preview_image_thumb>g138.png</preview_image_thumb>
+        <title>SEVEN NATION ARMY</title>
+        <level>2</level>
+        
+        <short_description>SEVEN NATION ARMY</short_description>
+        <long_description>Bu dersimizde ünlü Amerikalı grup white stripes ın grammy ödüllü şarkısı seven nation army yi incelemekteyiz. Bu şarkıda dikkat edilmesi gereken en önemli nokta zamanlamadır. Sürekli back track üzerine çalarak zamanlamanızı ve enstrüman hakimiyetinizi artırabilirsiniz. Şarkının nakarat kısımlarında slider kullanılmış ancak biz sahnede de çalabileceğiniZi ve slider I her zaman yanınızda taşıyamayacağınızı düşünerek oktav ve glisendo yu birleştirerek anlatmaya çalıştık. Gitar tonu olarak bu şarkıda drive + reverb + delay  kullanabilirsiniz. Grubunuzla çalarken switch i en alt pozisyonda kullanmanız gitar soundunu ön plana çıkartacaktır. Keyifli çalışmalar</long_description>
+        <pdf>g138.pdf</pdf>     
+        <back_track>g138.mp3</back_track>  
+         <video_link>https://vimeo.com/546859546</video_link>
+        <video_id>546859546</video_id> 
+</ders>
+  <ders>
+        <code>g139</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g139.png</preview_image>
+        
+    <preview_image_thumb>g139.png</preview_image_thumb>
+        <title>BILLIE JEAN</title>
+        <level>2</level>
+        <short_description>BILLIE JEAN Riff</short_description>
+       
+        <long_description>Bu dersimizde michael jackson ın en önemli şarkılarından biri olan billie jean in ana riff ini incelemekteyiz. Yapımını quincy jones un üstlendiği 1982 çıkışlı şarkının ana riff i aslen bas gitar riff i olmakla birlikte birçok gitarist tarafından sahne performansı sırasında bas gitara eşlik olarak kullanıldığı için uygulamamızda değinmek istedik . Bu riff çalınırken tona drive delay ve reverb katmak performansı daha eğlenceli hale getirebilir. Müzik formu olarak tipik bir 1 4 1 kadansı görmekteyiz. Bu yüzden kulak eğitimi olarak da oldukça yararlı bir rifftir. Keyifli çalışmalar</long_description>
+        <pdf>g139.pdf</pdf>     
+        <back_track>g139.mp3</back_track>  
+    <video_link>https://vimeo.com/546727963</video_link>
+        <video_id>546727963</video_id> 
+</ders>
+  <ders>
+        <code>g140</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g140.png</preview_image>
+        
+    <preview_image_thumb>g140.png</preview_image_thumb>
+        <title>DO I WANNA KNOW</title>
+        <level>2</level>
+        <short_description>DO I WANNA KNOW Riff</short_description>
+        <long_description>Bu dersimizde ünlü İngiliz indie rock grubu artic monkey s in “do I wanna know” adlı şarkısının intro riff ini inceleyeceğiz. Enstrüman hakimiyeti için içinde hammer on ve slide barındırdığından yararlı bir riff tir. Düşük metronom ile başlayıp hızlanırsanız keyifli hale gelecektir . Bu tarz grupların riff lerini çalarken gitar tonumuzun eq sunun orta frekanslarına daha fazla yüklenmemiz gerekir. Switch i orta pozisyonlarda tutmak daha lezzetli bir sound oluşturacaktır. Keyifli çalışmalar</long_description>
+        <pdf>g140.pdf</pdf>     
+        <back_track>g140.mp3</back_track>  
+    <video_link>https://vimeo.com/546728975</video_link>
+        <video_id>546728975</video_id> 
+</ders>
+  <ders>
+        <code>g141</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g141.png</preview_image>
+      
+    <preview_image_thumb>g141.png</preview_image_thumb>
+        <title>COME AS YOU ARE</title>
+        <level>2</level>
+        <short_description>COME AS YOU ARE Riff</short_description>
+          <long_description>Bu dersimizde Amerikalı efsanevi grunge grubu Nirvana nın “come as you are” adlı şarkısının intro riff ini incelemekteyiz. Bu riff i çalarken en çok dikkat etmemiz gereken konu kalın mi teli tuşesidir. Her enstrümanda tuşe , farklı anlamlandırılabilir ancak elektro gitarda bunu tele vuruş kuvveti olarak açıklayabiliriz. Gitarın kendine özgü entonasyon durumundan dolayı bu riffte kalın mi teline fazla kuvvet uygulamamalıyız diğer notalarla orantılı olmasına dikkat etmeliyiz. Ayrıca üst üste bindirerek çalma yani “let ring” olarak adlandırdığınız yerlere mutlaka dikkat etmeli parmaklarımızı mümkün olduğunca dik tutmalıyız. Keyifli çalışmalar</long_description>
+        <pdf>g141.pdf</pdf>     
+        <back_track>g141.mp3</back_track> 
+    <video_link>https://vimeo.com/546725001</video_link>
+        <video_id>546725001</video_id> 
+</ders>
+    <ders>
+        <code>g142</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g142.png</preview_image>
+      
+    <preview_image_thumb>g142.png</preview_image_thumb>
+        <title>5 BLUES LICK</title>
+        <level>1</level>
+        <short_description></short_description>
+          <long_description>Bu dersimizde birinci derece minör pentatonik diziye ait bir lick görmekteyiz. Slide olan notalardaki tartımlara dikkat edelim. Keyifli çalışmalar.</long_description>
+        <pdf>g142.pdf</pdf>     
+        <back_track>g142.mp3</back_track> 
+    <video_link>https://vimeo.com/548752439</video_link>
+        <video_id>548752439</video_id> 
+</ders>
+  
+     
+          <ders>
+        <code>ab1</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ab1.png</preview_image>
+        <preview_image_thumb>ab1.png</preview_image_thumb>
+        <title>I WISH</title>
+        <level>1</level>
+        <short_description>Riff</short_description>
+        <long_description>akıcı ve parmak pozisyonlarına dikkat ederek çalınız.  Her notayı aynı parmakla çalmayın. Groove da kalmaya dikkat edin</long_description>
+        <pdf>ab1.pdf</pdf>     
+        <back_track>ab1.mp3</back_track>  
+        <video_link>https://vimeo.com/543304324</video_link>
+        <video_id>543304324</video_id>     
+    </ders>
+            <ders>
+        <code>ab2</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>ab2.png</preview_image>
+        <preview_image_thumb>ab2.png</preview_image_thumb>
+        <title>SLAP BASS</title>
+        <level>1</level>
+        <short_description>TEKNIK</short_description>
+        <long_description>ritmik ve aynı time da kalarak çalın.  Tellere çok sert vurmayınız.  Ve parmaklarınızı kasmadan çalın. Slap çalarken daha çok ritmik bir enstrman çalıyor gibi düşünebilirsiniz bass gitarı</long_description>
+        <pdf>ab2.pdf</pdf>     
+        <back_track>ab2.mp3</back_track>  
+        <video_link>https://vimeo.com/543305563</video_link>
+        <video_id>543305563</video_id>     
+    </ders>
+              <ders>
+        <code>b1</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>b1.png</preview_image>
+        <preview_image_thumb>b1.png</preview_image_thumb>
+        <title>Bass Gitarda m3 M3</title>
+        <level>1</level>
+        <short_description>TEKNIK</short_description>
+        <long_description></long_description>
+        <pdf>b1.pdf</pdf>     
+        <back_track>b1.mp3</back_track>  
+        <video_link>https://vimeo.com/543831636</video_link>
+        <video_id>543831636</video_id>     
     </ders>
   <ders>
         <code>sc1</code>        
