@@ -1061,7 +1061,7 @@ function showPayform(price, productName) {
 
     if (productName == "Master") {
         academy = displayRadioValue('masterRadio');      
-        producId = "d59d1bb5-2560-4595-8fee-a42daf68b3ff";
+        producId = "2b3e913c-6abf-4dcd-816c-6fca53ae27d2";
     }
     if (academy == null) {
         ShowMessage("Lütfen enstruman seçiniz ");
