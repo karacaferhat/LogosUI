@@ -3769,7 +3769,22 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_link>https://vimeo.com/505439437</video_link>    
         <video_id>505439437</video_id>   
     </ders>  
-     <ders>
+    <ders>
+        <code>cp46</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp46.png</preview_image>
+        <preview_image_thumb>cp46.png</preview_image_thumb>
+        <title>f.beyer no.74 sol majör</title>
+      <level>6</level>
+        <short_description>f.beyer no.74 sol majör</short_description>
+        <long_description>Bu şarkıdaki parmak numaraları çok önemli. Artık elin piyanonun üstünde rahatça dolaşabiliyor.Çalışırken parmak numaralarına dikkat et.</long_description>
+        <pdf>cp46.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/668894717/video_link>    
+        <video_id>668894717/video_id>   
+    </ders> 
+    <ders>
         <code>yc1</code>        
         <academy>keman</academy>
         <price_profile>F</price_profile>   
