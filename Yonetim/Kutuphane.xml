@@ -55,5 +55,10 @@
 		<link>/content/media/kutuphane/godfather.pdf</link>
 		<aciklama>godfather</aciklama>
 	</kaynak>
+	 <kaynak>
+		<ad>Azat Turunç</ad>
+		<link>/content/media/kutuphane/sekvens1.pdf</link>
+		<aciklama>sekvens1</aciklama>
+	</kaynak>
 </root>
 
