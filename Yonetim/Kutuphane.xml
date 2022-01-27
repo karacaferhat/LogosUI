@@ -70,5 +70,10 @@
 		<link>/content/media/kutuphane/elektrogitar1.pdf</link>
 		<aciklama>elektro gitar 1.ders</aciklama>
 	</kaynak>
+	<kaynak>
+		<ad>Boran Gülten</ad>
+		<link>/content/media/kutuphane/bareliakorlar1.pdf</link>
+		<aciklama>majör bareli akorlar</aciklama>
+	</kaynak>
 </root>
 
