@@ -3817,6 +3817,21 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_id>668894717</video_id>   
     </ders> 
     <ders>
+        <code>cp47</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp47.png</preview_image>
+        <preview_image_thumb>cp47.png</preview_image_thumb>
+        <title>f.beyer no.13</title>
+      <level>2</level>
+        <short_description>f.beyer no.13</short_description>
+        <long_description>başlangıç seviyesi parmak artikülasyonu ve legato tekniği için çalıştığımız bir etüd.Sıralı giden parmaklar ile 1 vuruşluk ve 4 vuruşluk nota değerlerinin oturmasını sağlayan bir etüd.</long_description>
+        <pdf>cp47.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/674444923</video_link>    
+        <video_id>674444923</video_id>   
+    </ders> 
+    <ders>
         <code>yc1</code>        
         <academy>keman</academy>
         <price_profile>F</price_profile>   
