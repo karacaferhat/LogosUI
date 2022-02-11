@@ -1936,8 +1936,74 @@
     <video_link>https://vimeo.com/565219365</video_link>
         <video_id>565219365</video_id> 
 </ders>  
-     
-          <ders>
+     <ders>
+        <code>g144</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g144.png</preview_image>
+      
+    <preview_image_thumb>g144.png</preview_image_thumb>
+        <title>SEKVENS 1</title>
+        <level>3</level>
+        <short_description>Sekvens 1</short_description>
+          <long_description>Sekvens çalışırken pozisyon hakimiyetine çok dikkat etmeliyiz . Parmaklar dik basmalı ve elimiz klavyenin altına paralel olmalıdır. Daha sonra çalışacağımız tapping dersleri ve parmakların daha iyi esnemesi için kesinlikle öndeki parmakları kaldırmamalıyız. Hafif bir mute ile çalmak gitarın daha modern tınlamasını sağlayacaktır . Bunun dışında elimizi eşiğe yaslamamız daha kontrollü çalmamızı sağlayacaktır</long_description>
+        <pdf>g144.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/670125667</video_link>
+        <video_id>670125667</video_id> 
+</ders>  
+  <ders>
+        <code>g145</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g145.png</preview_image>
+      
+    <preview_image_thumb>g145.png</preview_image_thumb>
+        <title>GODFATHER</title>
+        <level>1</level>
+        <short_description>Gotfather</short_description>
+          <long_description>Bu dersimizde İtalyan besteci Nino Rota nın (1911-1979) efsanevi baba filmi için bestelediği godfather eserini inceleyeceğiz .Sol anahtarından hemen sonra gelen diyezin tüm şarkıyı etkilediğini unutmayınız. Diğer diyez ve bemollere dikkat ediniz. Diyezin sesi yarım ses incelttiğini (#) bemolün ise yarım ses kalınlaştırdığını  (b) unutmayınız .Diğer telleri susturmamak için parmaklarınızı dik basınız. Keyifli çalışmalar dileriz
+</long_description>
+        <pdf>g145.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/670171473</video_link>
+        <video_id>670171473</video_id> 
+  </ders>  
+  <ders>
+        <code>g146</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g146.png</preview_image>
+      
+    <preview_image_thumb>g146.png</preview_image_thumb>
+        <title>Kuvvet Egzersizi 1</title>
+        <level>1</level>
+        <short_description>Kuvvet Egzersizi 1</short_description>
+          <long_description>Kuvvet ve konumlama egzersizlerinde en çok dikkat edeceğimiz nokta klavyeye parmaklarımızın tam ucuyla basmamız gerektiğidir. İki perde demirinin tam ortasına basmalı ve arkadan baş parmağımız ile iyi dengelemeliyiz. Bileğimizi dik tutmalıyız . Alıştırmaları mümkün olduğunca metronom ile çalışmalıyız. Notaların 8lik olduğuna dikkat edelim . Alternatif penalama ile çalalım.
+</long_description>
+        <pdf>g146.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/674808886</video_link>
+        <video_id>674808886</video_id> 
+  </ders>  
+  <ders>
+        <code>g147</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g147.png</preview_image>
+      
+    <preview_image_thumb>g147.png</preview_image_thumb>
+        <title>Kuvvet Egzersizi 2</title>
+        <level>1</level>
+        <short_description>Kuvvet Egzersizi 2</short_description>
+          <long_description>Kuvvet ve konumlama egzersizlerinde en çok dikkat edeceğimiz nokta klavyeye parmaklarımızın tam ucuyla basmamız gerektiğidir. İki perde demirinin tam ortasına basmalı ve arkadan baş parmağımız ile iyi dengelemeliyiz. Bileğimizi dik tutmalıyız . Alıştırmaları mümkün olduğunca metronom ile çalışmalıyız. Notaların 8lik olduğuna dikkat edelim . Alternatif penalama ile çalalım.
+</long_description>
+        <pdf>g147.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/674807426</video_link>
+        <video_id>674807426</video_id> 
+  </ders>  
+  <ders>
         <code>ab1</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
@@ -3769,7 +3835,52 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_link>https://vimeo.com/505439437</video_link>    
         <video_id>505439437</video_id>   
     </ders>  
-     <ders>
+    <ders>
+        <code>cp46</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp46.png</preview_image>
+        <preview_image_thumb>cp46.png</preview_image_thumb>
+        <title>f.beyer no.74 sol majör</title>
+      <level>6</level>
+        <short_description>f.beyer no.74 sol majör</short_description>
+        <long_description>Bu şarkıdaki parmak numaraları çok önemli. Artık elin piyanonun üstünde rahatça dolaşabiliyor.Çalışırken parmak numaralarına dikkat et.</long_description>
+        <pdf>cp46.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/668894717</video_link>    
+        <video_id>668894717</video_id>   
+    </ders> 
+    <ders>
+        <code>cp47</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp47.png</preview_image>
+        <preview_image_thumb>cp47.png</preview_image_thumb>
+        <title>f.beyer no.13</title>
+      <level>2</level>
+        <short_description>f.beyer no.13</short_description>
+        <long_description>başlangıç seviyesi parmak artikülasyonu ve legato tekniği için çalıştığımız bir etüd.Sıralı giden parmaklar ile 1 vuruşluk ve 4 vuruşluk nota değerlerinin oturmasını sağlayan bir etüd.</long_description>
+        <pdf>cp47.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/674444923</video_link>    
+        <video_id>674444923</video_id>   
+    </ders> 
+    <ders>
+        <code>cp48</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp48.png</preview_image>
+        <preview_image_thumb>cp48.png</preview_image_thumb>
+        <title>f.beyer no.14</title>
+      <level>2</level>
+        <short_description>f.beyer no.14</short_description>
+        <long_description>Parmakları dik tutup her bir notayı tane tane basmaya özen gösterelim.Bir diğer notaya geçtiğimizde parmaklar basılı kalmasın.Piyanoda işaret parmağı ve baş parmağı yarım ay oluşturacak şekilde oval durmalı.</long_description>
+        <pdf>cp48.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/674442979</video_link>    
+        <video_id>674442979</video_id>   
+    </ders> 
+    <ders>
         <code>yc1</code>        
         <academy>keman</academy>
         <price_profile>F</price_profile>   

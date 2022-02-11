@@ -45,5 +45,75 @@
 		<link>/content/media/kutuphane/acdchellsbells.pdf</link>
 		<aciklama>Repertuar</aciklama>
 	</kaynak>
-	
+	<kaynak>
+		<ad>Nisa Hozer</ad>
+		<link>/content/media/kutuphane/fbeyerno74solmajor.pdf</link>
+		<aciklama>fbeyerno74</aciklama>
+	</kaynak>
+        <kaynak>
+		<ad>Nimet Eslem Başçı</ad>
+		<link>/content/media/kutuphane/godfather.pdf</link>
+		<aciklama>godfather</aciklama>
+	</kaynak>
+	 <kaynak>
+		<ad>Azat Turunç</ad>
+		<link>/content/media/kutuphane/sekvens1.pdf</link>
+		<aciklama>sekvens1</aciklama>
+	</kaynak>
+	 <kaynak>
+		<ad>Furkan Kınacı</ad>
+		<link>/content/media/kutuphane/tahtafoto.pdf</link>
+		<aciklama>26.01.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Furkan Kınacı</ad>
+		<link>/content/media/kutuphane/elektrogitar1.pdf</link>
+		<aciklama>elektro gitar 1.ders</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Boran Gülten</ad>
+		<link>/content/media/kutuphane/bareliakorlar1.pdf</link>
+		<aciklama>majör bareli akorlar</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Boran Gülten</ad>
+		<link>/content/media/kutuphane/bareliakorlar2.pdf</link>
+		<aciklama>minör bareli akorlar</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Mina Elçin Karakuş</ad>
+		<link>/content/media/kutuphane/mınanotlar.pdf</link>
+		<aciklama>25.01.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Boran Gülten</ad>
+		<link>/content/media/kutuphane/sekvens1.pdf</link>
+		<aciklama>31.01.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Neva Coşgun</ad>
+		<link>/content/media/kutuphane/nevacosgun.pdf</link>
+		<aciklama>04.02.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Deniz Akçı</ad>
+		<link>/content/media/kutuphane/denızakcı.pdf</link>
+		<aciklama>27.01.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Mina Elçin Karakuş</ad>
+		<link>/content/media/kutuphane/kuvvetegzersızlerı.pdf</link>
+		<aciklama>06.02.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Mina Elçin Karakuş</ad>
+		<link>/content/media/kutuphane/mınacalısmap.pdf</link>
+		<aciklama>09.02.2022</aciklama>
+	</kaynak>
+	<kaynak>
+		<ad>Furkan Kınacı</ad>
+		<link>/content/media/kutuphane/kuvvetegzersızlerı.pdf</link>
+		<aciklama>09.02.2022</aciklama>
+	</kaynak>
 </root>
+
