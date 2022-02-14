@@ -3928,6 +3928,22 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_link>https://vimeo.com/677156818</video_link>    
         <video_id>677156818</video_id>   
     </ders> 
+    <ders>
+        <code>cp50</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp50.png</preview_image>
+        <preview_image_thumb>cp50.png</preview_image_thumb>
+        <title>Dostluk Şarkısı</title>
+      <level>2</level>
+        <short_description>Dostluk Şarkısı</short_description>
+        <long_description>Bu dersimizde dostluk şarkısını çalacağız . Notaları doğru uzunlukta çalalım. Acele etmeyelim. Ellerimizin konumuna ve açısına dikkat edelim. Bir seferde tüm şarkıyı çalışmayalım . Şarkıyı bölümlere ayırarak çalışıp en sonunda birleştirelim. keyifli çalışmalar 
+</long_description>
+        <pdf>cp50.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/677184120</video_link>    
+        <video_id>677184120</video_id>   
+    </ders> 
   <ders>
         <code>yc1</code>        
         <academy>keman</academy>
