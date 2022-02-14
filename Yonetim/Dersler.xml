@@ -3914,6 +3914,21 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_id>674442979</video_id>   
     </ders> 
     <ders>
+        <code>cp49</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp49.png</preview_image>
+        <preview_image_thumb>cp49.png</preview_image_thumb>
+        <title>Do majör çalışma</title>
+      <level>2</level>
+        <short_description>Do majör çalışma</short_description>
+        <long_description>Parmakları dik tutup her bir notayı tane tane basmaya özen gösterelim.Bir diğer notaya geçtiğimizde parmaklar basılı kalmasın.Piyanoda işaret parmağı ve baş parmağı yarım ay oluşturacak şekilde oval durmalı.</long_description>
+        <pdf>cp49.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/677156818</video_link>    
+        <video_id>677156818</video_id>   
+    </ders> 
+  <ders>
         <code>yc1</code>        
         <academy>keman</academy>
         <price_profile>F</price_profile>   
