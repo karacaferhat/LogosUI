@@ -2139,6 +2139,22 @@
         <video_id>677674730</video_id> 
   </ders>
   <ders>
+        <code>g156</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g156.png</preview_image>
+      
+    <preview_image_thumb>g156.png</preview_image_thumb>
+        <title>Bend 1</title>
+        <level>2</level>
+        <short_description>Bend 1</short_description>
+          <long_description>Bend yaparken teli parmaklarımızın uçlarıyla kaldırdığımızdan emin olalım. Bend yapılacak notaya yüzük parmağımızı koyalım ve gücümüzü teli indirene kadar azaltmayalım. Önceki perdelere orta ve işaret parmağımızı koymamız bend’i daha kontrollü yapmamızı sağlayacaktır. Lütfen bu seviyede bend’lerde serçe parmağımızı kullanmayalım.</long_description>
+        <pdf>g156.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/681758586</video_link>
+        <video_id>681758586</video_id> 
+  </ders>
+  <ders>
         <code>ab1</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
