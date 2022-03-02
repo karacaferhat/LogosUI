@@ -4129,6 +4129,22 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_id>680747034</video_id>   
     </ders> 
   <ders>
+        <code>cp53</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp53.png</preview_image>
+        <preview_image_thumb>cp53.png</preview_image_thumb>
+        <title>Piyano Ders 1</title>
+      <level>1</level>
+        <short_description>Piyano Ders 1</short_description>
+        <long_description>Parçanın vuruşuna dikkat ederek çalalım.  Parmakların yeri değişmeyecek.  Do notasına baş parmağımızı yerleştirmeyi unutmayalım.  2 vuruşluk notaların süresine dikkat ederek çalışalım .
+</long_description>
+        <pdf>cp53.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/682842507</video_link>    
+        <video_id>682842507</video_id>   
+    </ders> 
+  <ders>
         <code>yc1</code>        
         <academy>keman</academy>
         <price_profile>F</price_profile>   
