@@ -2177,7 +2177,7 @@
         <price_profile>P</price_profile>   
         <preview_image>g158.png</preview_image>
       
-    <preview_image_thumb>g15.png</preview_image_thumb>
+    <preview_image_thumb>g158.png</preview_image_thumb>
         <title>Çav Bella</title>
         <level>1</level>
         <short_description>Çav Bella</short_description>
@@ -2187,6 +2187,23 @@
         <back_track></back_track> 
     <video_link>https://vimeo.com/682841827</video_link>
         <video_id>682841827</video_id> 
+  </ders>
+  <ders>
+        <code>g159</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g159.png</preview_image>
+      
+    <preview_image_thumb>g159.png</preview_image_thumb>
+        <title>Blues Çalışma</title>
+        <level>1</level>
+        <short_description>Blues Çalışma</short_description>
+          <long_description>Sırada eğlenceli bir Blues şarkısı var. Perdelere basarken doğru parmakları kullanmaya özen gösterelim. Şarkıyı ölçü ölçü çalışıp en son birleştirelim. Tel geçişlerinde acele etmeyelim ama zamanlamayı doğru yapmaya çalışalım. Keyifli çalışmalar 
+</long_description>
+        <pdf>g159.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/684227578</video_link>
+        <video_id>684227578</video_id> 
   </ders>
   <ders>
         <code>ab1</code>        
