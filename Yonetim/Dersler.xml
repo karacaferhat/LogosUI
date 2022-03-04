@@ -2206,6 +2206,22 @@
         <video_id>684227578</video_id> 
   </ders>
   <ders>
+        <code>g160</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g160.png</preview_image>
+      
+    <preview_image_thumb>g160.png</preview_image_thumb>
+        <title>Beni Yak 1</title>
+        <level>1</level>
+        <short_description>Beni Yak 1</short_description>
+          <long_description>Bu dersimizde Duman grubundan Beni Yak şarkısının temel melodisini görmekteyiz . Bu melodi hem elektro gitar hem de klasik gitarda çalınabilir. Keyifli çalışmalar</long_description>
+        <pdf>g160.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/684636146</video_link>
+        <video_id>684636146</video_id> 
+  </ders>
+  <ders>
         <code>ab1</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
