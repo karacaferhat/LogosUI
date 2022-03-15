@@ -2222,6 +2222,23 @@
         <video_id>684636146</video_id> 
   </ders>
   <ders>
+        <code>g161</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g161.png</preview_image>
+      
+    <preview_image_thumb>g161.png</preview_image_thumb>
+        <title>Uzun İnce Bir Yoldayım</title>
+        <level>1</level>
+        <short_description>Uzun İnce Bir Yoldayım</short_description>
+          <long_description>Bu dersimizde Aşık Veysel’in uzun ince bir yoldayım adlı efsanevi eserini incelemekteyiz. Gitarımızı perdeye basmadan çalarken diğer elimizin teli susturmadığından emin olalım. Perdelere dik basalım ve konumlamaya özen gösterelim. Penamızı çok sıkmayalım. Keyifli çalışmalar 
+</long_description>
+        <pdf>g161.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/688309016</video_link>
+        <video_id>688309016</video_id> 
+  </ders>
+  <ders>
         <code>ab1</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
