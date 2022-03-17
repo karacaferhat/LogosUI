@@ -2273,6 +2273,23 @@
         <video_id>688307536</video_id> 
   </ders>
   <ders>
+        <code>g164</code>        
+        <academy>gitar</academy>
+        <price_profile>P</price_profile>   
+        <preview_image>g164.png</preview_image>
+      
+    <preview_image_thumb>g164.png</preview_image_thumb>
+        <title>Gülpembe</title>
+        <level>1</level>
+        <short_description>Gülpembe</short_description>
+          <long_description>Bu dersimizde Barış Manço’nun Gülpembe adlı bestesini inceliyoruz. Bemol alan notalara dikkat edelim. Parmaklarımızı dik ve iki perde demirinin tam ortasına basalım. Çıkan seslerin net olmasına dikkat edelim. Nota sürelerine önem verelim. Keyifli çalışmalar 
+</long_description>
+        <pdf>g164.pdf</pdf>     
+        <back_track></back_track> 
+    <video_link>https://vimeo.com/688308127</video_link>
+        <video_id>688308127</video_id> 
+  </ders>
+  <ders>
         <code>ab1</code>        
         <academy>gitar</academy>
         <price_profile>P</price_profile>   
