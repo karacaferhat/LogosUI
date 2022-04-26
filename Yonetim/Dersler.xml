@@ -4375,6 +4375,22 @@ RÖPRİZ: Bu işaret, ölçü çizgisinin yanına kalın bir çizgi çizilerek v
         <video_id>694043947</video_id>   
     </ders>
   <ders>
+        <code>cp60</code>
+        <academy>piyano</academy>
+        <price_profile>P</price_profile>        
+        <preview_image>cp60.png</preview_image>
+        <preview_image_thumb>cp60.png</preview_image_thumb>
+        <title>Bonita</title>
+      <level>1</level>
+        <short_description>Bonita</short_description>
+        <long_description>Parmak pozisyonlarına dikkat edelim. Diğer notaya  geçerken parmakların basılı kalmamasına özen gösterelim. Parmakların dik bir şekilde tutulması gerekiyor.  Avucumuzda top varmış gibi düşünerek çalalım
+</long_description>
+        <pdf>cp60.pdf</pdf>     
+        <back_track></back_track>  
+        <video_link>https://vimeo.com/703250407</video_link>    
+        <video_id>703250407</video_id>   
+    </ders>
+  <ders>
         <code>yc1</code>        
         <academy>keman</academy>
         <price_profile>F</price_profile>   
